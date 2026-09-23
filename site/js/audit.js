@@ -76,11 +76,12 @@
       return;
     }
     var email = document.getElementById("email").value.trim();
+    var honey = document.getElementById("_honey").value.trim();
 
     fetch("/audit-api", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ url: url, email: email })
+      body: JSON.stringify({ url: url, email: email, _honey: honey })
     })
       .then(function (res) {
         if (!res.ok) throw new Error("api status " + res.status);
