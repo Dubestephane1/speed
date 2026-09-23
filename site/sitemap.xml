@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://speed.stephanedube.dev/</loc></url>
-  <url><loc>https://speed.stephanedube.dev/audit.html</loc></url>
-  <url><loc>https://speed.stephanedube.dev/how-it-works.html</loc></url>
-  <url><loc>https://speed.stephanedube.dev/blog.html</loc></url>
-  <url><loc>https://speed.stephanedube.dev/contact.html</loc></url>
-  <url><loc>https://speed.stephanedube.dev/blog/canadian-website-speed-test.html</loc></url>
-  <url><loc>https://speed.stephanedube.dev/blog/why-is-my-website-slow.html</loc></url>
-  <url><loc>https://speed.stephanedube.dev/blog/how-long-should-a-website-take-to-load.html</loc></url>
-  <url><loc>https://speed.stephanedube.dev/blog/website-speed-loses-customers.html</loc></url>
+  <url><loc>https://speed.stephanedube.dev/audit</loc></url>
+  <url><loc>https://speed.stephanedube.dev/how-it-works</loc></url>
+  <url><loc>https://speed.stephanedube.dev/blog</loc></url>
+  <url><loc>https://speed.stephanedube.dev/contact</loc></url>
+  <url><loc>https://speed.stephanedube.dev/blog/canadian-website-speed-test</loc></url>
+  <url><loc>https://speed.stephanedube.dev/blog/why-is-my-website-slow</loc></url>
+  <url><loc>https://speed.stephanedube.dev/blog/how-long-should-a-website-take-to-load</loc></url>
+  <url><loc>https://speed.stephanedube.dev/blog/website-speed-loses-customers</loc></url>
 </urlset>
