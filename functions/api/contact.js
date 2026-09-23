@@ -1,11 +1,11 @@
 // POST /contact-api — contact form -> email via Resend.
 // Env vars (Cloudflare Pages -> Settings -> Environment variables, all Encrypted):
 //   RESEND_KEY    required — Resend API key (free tier: 100 emails/day)
-//   CONTACT_FROM  optional — sender. Default uses Resend's shared domain so it
-//                            works before you verify a sending domain.
+//   CONTACT_FROM  optional — sender. Default sends from the verified domain
+//                            hello@stephanedube.dev (required once verified).
 //   CONTACT_TO    optional — delivery inbox. Default audit@stephanedube.dev
 
-const DEFAULT_FROM = 'Site Speed <onboarding@resend.dev>';
+const DEFAULT_FROM = 'Site Speed <hello@stephanedube.dev>';
 const DEFAULT_TO = 'audit@stephanedube.dev';
 
 export async function onRequestPost(context) {
