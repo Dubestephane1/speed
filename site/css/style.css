@@ -20,6 +20,7 @@ html { scroll-behavior: smooth; }
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   background: var(--bg);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='28'%3E%3Ccircle cx='2' cy='2' r='1.3' fill='%230a5f4f' opacity='0.13'/%3E%3C/svg%3E");
   color: var(--ink);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
@@ -49,10 +50,11 @@ body {
 .btn-small { padding: 7px 14px; font-size: 0.85rem; }
 
 /* Hero */
-.hero { padding: 72px 0 56px; text-align: center; background: linear-gradient(180deg, #f0f7f4 0%, var(--surface) 100%); border-bottom: 1px solid var(--border); }
+.hero { padding: 72px 0 56px; text-align: center; background: radial-gradient(1100px 480px at 50% -80%, rgba(10, 95, 79, 0.10), transparent 60%), linear-gradient(180deg, #f0f7f4 0%, var(--surface) 100%); border-bottom: 1px solid var(--border); }
 .hero-grid { display: grid; grid-template-columns: 1fr minmax(280px, 400px); gap: 48px; align-items: center; text-align: left; }
 .hero h1 { font-size: 2.6rem; line-height: 1.15; margin-bottom: 16px; }
 .hero-sub { font-size: 1.15rem; color: var(--muted); max-width: 640px; margin: 0 0 28px; }
+.hero-simple .hero-sub { margin: 0 auto 28px; }
 .hero-cta { display: flex; flex-direction: column; align-items: flex-start; gap: 12px; }
 .hero-note { color: var(--muted); font-size: 0.9rem; }
 .gauge-wrap { display: flex; justify-content: center; }
