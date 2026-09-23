@@ -18,6 +18,19 @@ export default {
     }
 
     // Static pages (index.html, audit.html, blog, css, js, ...)
-    return env.ASSETS.fetch(request);
+    try {
+      return await env.ASSETS.fetch(request);
+    } catch {
+      // Asset not found (or assets binding error) -> clean 404, never crash.
+      try {
+        const fallback = await env.ASSETS.fetch(new Request(new URL('/404.html', request.url)));
+        return new Response(fallback.body, {
+          status: 404,
+          headers: { 'Content-Type': 'text/html; charset=utf-8' },
+        });
+      } catch {
+        return new Response('404 — not found', { status: 404, headers: { 'Content-Type': 'text/plain; charset=utf-8' } });
+      }
+    }
   },
 };
