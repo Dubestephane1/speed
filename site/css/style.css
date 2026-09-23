@@ -55,6 +55,21 @@ body {
 .hero h1 { font-size: 2.6rem; line-height: 1.15; margin-bottom: 16px; }
 .hero-sub { font-size: 1.15rem; color: var(--muted); max-width: 640px; margin: 0 0 28px; }
 .hero-simple .hero-sub { margin: 0 auto 28px; }
+
+/* Hero corner glows — pure CSS, 0 KB. Revert: remove hero-glow-* classes from pages. */
+.hero { position: relative; }
+.hero > .container { position: relative; z-index: 1; }
+.hero::after {
+  content: ""; position: absolute; inset: 0; z-index: 0; pointer-events: none;
+  background:
+    radial-gradient(560px 300px at 92% -20%, var(--glow-a, transparent), transparent 70%),
+    radial-gradient(540px 300px at -8% 120%, var(--glow-b, transparent), transparent 70%);
+}
+.hero-glow-home    { --glow-a: rgba(10,95,79,0.15);  --glow-b: rgba(13,102,150,0.08); }
+.hero-glow-audit   { --glow-a: rgba(10,95,79,0.17);  --glow-b: rgba(13,102,150,0.10); }
+.hero-glow-how     { --glow-a: rgba(10,95,79,0.14);  --glow-b: rgba(178,106,0,0.08); }
+.hero-glow-blog    { --glow-a: rgba(10,95,79,0.13);  --glow-b: rgba(91,107,123,0.12); }
+.hero-glow-contact { --glow-a: rgba(10,95,79,0.16);  --glow-b: rgba(178,106,0,0.07); }
 .hero-cta { display: flex; flex-direction: column; align-items: flex-start; gap: 12px; }
 .hero-note { color: var(--muted); font-size: 0.9rem; }
 .gauge-wrap { display: flex; justify-content: center; }
