@@ -40,6 +40,8 @@ body {
 /* Buttons */
 .btn { display: inline-block; padding: 10px 18px; border-radius: 8px; text-decoration: none; font-weight: 700; font-size: 0.95rem; }
 .btn-primary { background: var(--accent); color: #fff; }
+/* nav button must stay white: .nav a (grey) has higher specificity than .btn-primary */
+.nav .btn { color: #fff; }
 .btn-primary:hover { background: var(--accent-dark); }
 .btn-outline { border: 1.5px solid var(--accent); color: var(--accent); }
 .btn-outline:hover { background: var(--accent); color: #fff; }
