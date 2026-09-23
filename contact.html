@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Site Speed</title>
+<meta name="description" content="Contact Site Speed: reply to your audit report, email directly, and get your exact fix list.">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/">speed.stephanedube.dev</a>
+    <nav class="nav" aria-label="Main">
+      <a href="/audit.html">Free audit</a>
+      <a href="/how-it-works.html">How it works</a>
+      <a href="/blog.html">Blog</a>
+      <a href="/contact.html">Contact</a>
+      <a class="btn btn-primary btn-small" href="/audit.html">Run my audit</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero" style="padding-bottom: 40px;">
+    <div class="container">
+      <h1>Contact</h1>
+      <p class="hero-sub">One person, real replies, no autoresponder maze.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container blog-layout">
+      <article class="article">
+        <h2>Send me a message</h2>
+        <p>Ran the audit? Replying to your report email is the fastest path. Otherwise, the form below goes to the same inbox — <a href="mailto:audit@stephanedube.dev">audit@stephanedube.dev</a>.</p>
+
+        <form id="contact-form" class="contact-form" novalidate>
+          <div class="form-row">
+            <label for="cf-name">Your name</label>
+            <input id="cf-name" name="name" type="text" required minlength="2" autocomplete="name" placeholder="Jane Doe">
+          </div>
+          <div class="form-row">
+            <label for="cf-email">Your email</label>
+            <input id="cf-email" name="email" type="email" required autocomplete="email" placeholder="jane@company.com">
+          </div>
+          <div class="form-row">
+            <label for="cf-url">Your website URL <span class="opt">(optional)</span></label>
+            <input id="cf-url" name="url" type="url" placeholder="https://your-site.com">
+          </div>
+          <div class="form-row">
+            <label for="cf-message">Message</label>
+            <textarea id="cf-message" name="message" rows="5" required minlength="10" placeholder="Tell me about your site and what feels slow."></textarea>
+          </div>
+          <p class="honey" aria-hidden="true"><label>Leave this field empty <input type="text" name="_honey" tabindex="-1" autocomplete="off"></label></p>
+          <button class="btn btn-primary" type="submit" id="cf-submit">Send message</button>
+          <p id="cf-status" class="form-status" role="status" hidden></p>
+        </form>
+
+        <h2>What to include</h2>
+        <ul>
+          <li>Your website URL</li>
+          <li>Your audit numbers (or just say "I ran the audit")</li>
+          <li>Anything specific: e.g., "we lose quotes online", "mobile load is terrible"</li>
+        </ul>
+        <p>I reply within a day, usually faster.</p>
+
+        <script>
+          (() => {
+            const form = document.getElementById('contact-form');
+            const status = document.getElementById('cf-status');
+            const btn = document.getElementById('cf-submit');
+            form.addEventListener('submit', async (e) => {
+              e.preventDefault();
+              status.hidden = true;
+              btn.disabled = true;
+              btn.textContent = 'Sending\u2026';
+              const data = Object.fromEntries(new FormData(form));
+              try {
+                const r = await fetch('/contact-api', {
+                  method: 'POST',
+                  headers: { 'Content-Type': 'application/json' },
+                  body: JSON.stringify(data),
+                });
+                const j = await r.json().catch(() => ({}));
+                if (r.ok && j.ok) {
+                  status.textContent = 'Message sent \u2014 I reply within a day, usually faster.';
+                  status.className = 'form-status ok';
+                  form.reset();
+                } else {
+                  status.textContent = (j && j.error) || 'Something went wrong. Try again, or email me directly.';
+                  status.className = 'form-status err';
+                }
+              } catch {
+                status.textContent = 'Could not reach the server. Try again, or email audit@stephanedube.dev.';
+                status.className = 'form-status err';
+              }
+              status.hidden = false;
+              btn.disabled = false;
+              btn.textContent = 'Send message';
+            });
+          })();
+        </script>
+      </article>
+      <div class="cta-box">
+        <p style="margin-bottom: 14px;">Haven't run your audit yet?</p>
+        <a class="btn btn-primary" href="/audit.html">Run my free audit</a>
+      </div>
+
+      <aside class="sidebar">
+        <div class="side-card side-cta">
+          <h3>Haven't run your audit yet?</h3>
+          <p>30 seconds, no account — get your score before you write.</p>
+          <a class="btn btn-primary" style="width:100%;text-align:center;" href="/audit.html">Run my free audit</a>
+        </div>
+        <div class="side-card">
+          <h3>What we fix</h3>
+          <ul class="side-list">
+            <li>Images too heavy for mobile</li>
+            <li>Scripts blocking the page</li>
+            <li>Server settings &amp; caching</li>
+          </ul>
+        </div>
+        <div class="side-card">
+          <h3>Keep reading</h3>
+          <ul class="side-list">
+            <li><a href="/blog/why-is-my-website-slow.html">Why is my website slow? (The 4 real reasons)</a></li>
+            <li><a href="/blog/how-long-should-a-website-take-to-load.html">How long should a website take to load?</a></li>
+            <li><a href="/blog/website-speed-loses-customers.html">Website speed loses customers: the numbers</a></li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <span>Site Speed — one-person service, real numbers, no redesigns.</span>
+    <span><a href="/contact.html">Contact</a> · <a href="/how-it-works.html">How it works</a> · <a href="/blog.html">Blog</a></span>
+  </div>
+</footer>
+</body>
+</html>

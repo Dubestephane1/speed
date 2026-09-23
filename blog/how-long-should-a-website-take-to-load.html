@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How long should a website take to load? — Site Speed blog</title>
+<meta name="description" content="The real targets: main content under 2.5 seconds (LCP), a page that stays stable (CLS), and instant response to taps (INP). What 'fast' actually means.">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/">speed.stephanedube.dev</a>
+    <nav class="nav" aria-label="Main">
+      <a href="/audit.html">Free audit</a>
+      <a href="/how-it-works.html">How it works</a>
+      <a href="/blog.html">Blog</a>
+      <a href="/contact.html">Contact</a>
+      <a class="btn btn-primary btn-small" href="/audit.html">Run my audit</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section>
+    <div class="container blog-layout">
+      <article class="article">
+        <h1>How long should a website take to load?</h1>
+        <span class="post-date">September 23, 2026 · 4 min read</span>
+
+        <p>Ask a web designer "how fast should my site be?" and you'll get a long story. Ask Google's own measurement, and you get three numbers that actually matter. Here they are, without the jargon.</p>
+
+        <h2>1. LCP — when does the main thing appear?</h2>
+        <p>Largest Contentful Paint (LCP) is the time until your page's main content shows up on a phone: your headline, your hero, your "call now" button. Google's target: <strong>under 2.5 seconds</strong>.</p>
+        <p>That's the number that hurt in my audits — local sites often sit at 8 to 23 seconds. That's not "a bit slow", it's a different universe.</p>
+
+        <h2>2. INP — how quickly does the page respond to taps?</h2>
+        <p>Interaction to Next Paint (INP) measures whether the page responds when a customer taps a menu, a button, a phone number. Target: <strong>under 200 milliseconds</strong>. If taps feel dead for a second, people assume the site is broken.</p>
+
+        <h2>3. CLS — does the page jump around?</h2>
+        <p>Cumulative Layout Shift (CLS) measures elements moving after load — images popping in, banners sliding down, buttons shifting right as you're about to tap. Target: <strong>under 0.1</strong>. Layout jump is a top reason people fat-finger the wrong option and leave.</p>
+
+        <h2>The score, explained in three bands</h2>
+        <ul>
+          <li><strong>90–100 (green):</strong> fast. This is the goal.</li>
+          <li><strong>50–89 (orange):</strong> workable but risky — under real phone conditions it usually feels slow.</li>
+          <li><strong>0–49 (red):</strong> this is where most local business sites actually sit. Customers are leaving.</li>
+        </ul>
+
+        <h2>"Green" is the finish line</h2>
+        <p>You don't need a perfect 100. Once you're green with LCP under 2.5s, your site is in the same bucket as the fastest sites Google sees — and that's what affects customers and rankings. The last few points aren't worth losing your analytics or your design.</p>
+
+        <div class="cta-box">
+          <p style="margin-bottom: 14px;"><strong>See where your site actually stands.</strong></p>
+          <a class="btn btn-primary" href="/audit.html">Run my free audit</a>
+        </div>
+      </article>
+
+      <aside class="sidebar">
+        <div class="side-card side-cta">
+          <h3>Is your site this slow?</h3>
+          <p>Get your real score and load time — free, 30 seconds, no account.</p>
+          <a class="btn btn-primary" style="width:100%;text-align:center;" href="/audit.html">Run my free audit</a>
+        </div>
+        <div class="side-card">
+          <h3>Keep reading</h3>
+          <ul class="side-list">
+            <li><a href="/blog/why-is-my-website-slow.html">Why is my website slow? (The 4 real reasons)</a></li>
+            <li class="current">How long should a website take to load?</li>
+            <li><a href="/blog/website-speed-loses-customers.html">Website speed loses customers: the numbers</a></li>
+          </ul>
+        </div>
+        <div class="side-card">
+          <h3>What we fix</h3>
+          <ul class="side-list">
+            <li>Images too heavy for mobile</li>
+            <li>Scripts blocking the page</li>
+            <li>Server settings &amp; caching</li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <span>Site Speed — one-person service, real numbers, no redesigns.</span>
+    <span><a href="/contact.html">Contact</a> · <a href="/how-it-works.html">How it works</a> · <a href="/blog.html">Blog</a></span>
+  </div>
+</footer>
+</body>
+</html>

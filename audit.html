@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Free website speed audit — Site Speed</title>
+<meta name="description" content="Run a free mobile speed audit: your real Google PageSpeed score, load time in seconds, and the top problems slowing your site down.">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/">speed.stephanedube.dev</a>
+    <nav class="nav" aria-label="Main">
+      <a href="/audit.html">Free audit</a>
+      <a href="/how-it-works.html">How it works</a>
+      <a href="/blog.html">Blog</a>
+      <a href="/contact.html">Contact</a>
+      <a class="btn btn-primary btn-small" href="/audit.html">Run my audit</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero" style="padding-bottom: 40px;">
+    <div class="container">
+      <h1>Free speed audit</h1>
+      <p class="hero-sub">The same mobile test Google uses to rank sites. Your score, your load time, your top problems — in 30 seconds.</p>
+    </div>
+  </section>
+
+  <section style="padding-top: 24px;">
+    <div class="container">
+      <div class="audit-box">
+        <form id="audit-form">
+          <label for="url">Your website URL</label>
+          <input type="url" id="url" name="url" placeholder="https://yourbusiness.com" required aria-required="true">
+          <label for="email">Your email (optional — for the full fix list)</label>
+          <input type="email" id="email" name="email" placeholder="you@company.com">
+          <button class="btn btn-primary" type="submit">Analyze my site</button>
+          <p class="form-note">Free · 30 seconds · no account · you keep the numbers</p>
+        </form>
+
+        <div id="result" class="result-box" role="status" aria-live="polite">
+          <p id="result-heading" class="error-tag"></p>
+          <div id="result-body"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <span>Site Speed — one-person service, real numbers, no redesigns.</span>
+    <span><a href="/contact.html">Contact</a> · <a href="/how-it-works.html">How it works</a> · <a href="/blog.html">Blog</a></span>
+  </div>
+</footer>
+
+<script src="/js/audit.js"></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Why is my website slow? (The 4 real reasons) — Site Speed blog</title>
+<meta name="description" content="The 4 most common reasons local business websites load slowly on phones: heavy images, render-blocking scripts, slow server response, and missing caching.">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/">speed.stephanedube.dev</a>
+    <nav class="nav" aria-label="Main">
+      <a href="/audit.html">Free audit</a>
+      <a href="/how-it-works.html">How it works</a>
+      <a href="/blog.html">Blog</a>
+      <a href="/contact.html">Contact</a>
+      <a class="btn btn-primary btn-small" href="/audit.html">Run my audit</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section>
+    <div class="container blog-layout">
+      <article class="article">
+        <h1>Why is my website slow? (The 4 real reasons)</h1>
+        <span class="post-date">September 23, 2026 · 4 min read</span>
+
+        <p>I run Google's mobile speed test on local business websites all week. Almost every one comes back under 50 out of 100 — with main content taking 8 to 23 seconds to appear on a phone.</p>
+        <p>And in nearly every case, the cause is one (or more) of these four things. Here they are in plain language.</p>
+
+        <h2>1. Images too heavy for mobile</h2>
+        <p>Your site probably shows the same photo files to a phone that it shows to a desktop — full resolution, full size. A 3 MB hero image that looks fine on a laptop is a 3-second download on a phone. Images are the single most common cause of slow sites I audit.</p>
+        <p><strong>Fix:</strong> serve smaller, compressed versions to phones, and lazy-load the images below the first screen.</p>
+
+        <h2>2. Scripts blocking the page</h2>
+        <p>Tracking pixels, analytics, chat widgets, font loaders, animation libraries — each one adds a request, and many of them force the browser to wait before showing anything. I regularly see sites load 40+ scripts before the first visible content.</p>
+        <p><strong>Fix:</strong> defer or remove the scripts that don't need to run immediately, and delay third-party widgets until after the page is visible.</p>
+
+        <h2>3. Slow server response</h2>
+        <p>Before a browser can show your page, your server has to answer the first request. On shared hosting with no caching, that answer alone can take several seconds. It shows up in the test as how long the browser waited with a blank screen.</p>
+        <p><strong>Fix:</strong> turn on page and browser caching, enable compression, and make sure the server keeps a fast copy of your pages ready.</p>
+
+        <h2>4. Caching turned off</h2>
+        <p>When a customer visits twice, the browser shouldn't re-download everything. If caching headers aren't set, every visit costs the full page weight again — images, scripts, CSS, everything. Returning visitors get the same slow experience as first-timers.</p>
+        <p><strong>Fix:</strong> set caching headers so static files are reused, and make sure your platform's built-in cache is on.</p>
+
+        <h2>How do you know which one it is?</h2>
+        <p>Don't guess. Run the same test Google uses (<a href="https://pagespeed.web.dev" rel="noopener">pagespeed.web.dev</a>), and the report names the specific files and requests that are slow. That list is the fix list.</p>
+
+        <div class="cta-box">
+          <p style="margin-bottom: 14px;"><strong>See your own numbers — and your fix list.</strong></p>
+          <a class="btn btn-primary" href="/audit.html">Run my free audit</a>
+        </div>
+      </article>
+
+      <aside class="sidebar">
+        <div class="side-card side-cta">
+          <h3>Is your site this slow?</h3>
+          <p>Get your real score and load time — free, 30 seconds, no account.</p>
+          <a class="btn btn-primary" style="width:100%;text-align:center;" href="/audit.html">Run my free audit</a>
+        </div>
+        <div class="side-card">
+          <h3>Keep reading</h3>
+          <ul class="side-list">
+            <li class="current">Why is my website slow? (The 4 real reasons)</li>
+            <li><a href="/blog/how-long-should-a-website-take-to-load.html">How long should a website take to load?</a></li>
+            <li><a href="/blog/website-speed-loses-customers.html">Website speed loses customers: the numbers</a></li>
+          </ul>
+        </div>
+        <div class="side-card">
+          <h3>What we fix</h3>
+          <ul class="side-list">
+            <li>Images too heavy for mobile</li>
+            <li>Scripts blocking the page</li>
+            <li>Server settings &amp; caching</li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <span>Site Speed — one-person service, real numbers, no redesigns.</span>
+    <span><a href="/contact.html">Contact</a> · <a href="/how-it-works.html">How it works</a> · <a href="/blog.html">Blog</a></span>
+  </div>
+</footer>
+</body>
+</html>

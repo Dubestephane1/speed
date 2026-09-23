@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://speed.stephanedube.dev/sitemap.xml
