@@ -2,3 +2,6 @@
 .env
 .dev.vars
 *.env.local
+
+# wrangler local state
+.wrangler/
