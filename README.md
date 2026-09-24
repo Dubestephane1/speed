@@ -11,6 +11,16 @@ Plain static HTML/CSS/JS — zero build step, zero frameworks, zero image reques
 - **SEO/social** — canonical, OG/Twitter cards, JSON-LD, branded `og-image.png`, `robots.txt`, `sitemap.xml` (extensionless URLs)
 - **Proof** — homepage shows real anonymized audits across Canada: 544+ sites tested, average 57/100, 45 cities (BC/QC/ON/MB examples)
 
+## Current verified stats (audit campaign, mobile / slow 4G)
+- **544+** unique Canadian business websites tested
+- **45** cities across Canada
+- **Average score: 57/100** (up-to-date union of every scored wave)
+- **20 sites reached green (90+)** — about 4% of sites
+- **189 sites scored under 50** — about 35%, the red zone on Google's scale
+- **Best: 99 · Worst: 8** (worst took ~40 s for main content on a phone)
+
+> Every number is the real Google PageSpeed mobile test (homepage, simulated phone, slow 4G) — never invented. See the blog post [I tested 544 Canadian websites](https://speed.stephanedube.dev/blog/canadian-website-speed-test) for the write-up.
+
 ## Pages
 - `/` — home: pain story, Canada-wide proof + stats, how it works, referral block
 - `/audit` — free audit form (URL + optional email) → live result via `/audit-api`
