@@ -9,13 +9,13 @@ Plain static HTML/CSS/JS — zero build step, zero frameworks, zero image reques
 - **Free mobile speed audit** — enter any URL, get a real Google PageSpeed Insights result (score, load time, fix hints) via `POST /audit-api`
 - **Contact form** — email via Resend via `POST /contact-api` (sending domain `stephanedube.dev` verified in Resend)
 - **SEO/social** — canonical, OG/Twitter cards, JSON-LD, branded `og-image.png`, `robots.txt`, `sitemap.xml` (extensionless URLs)
-- **Proof** — homepage shows real anonymized audits across Canada: 368+ sites tested, average 58/100, 13 cities (QC/MB/ON/BC examples)
+- **Proof** — homepage shows real anonymized audits across Canada: 544+ sites tested, average 57/100, 45 cities (BC/QC/ON/MB examples)
 
 ## Pages
 - `/` — home: pain story, Canada-wide proof + stats, how it works, referral block
 - `/audit` — free audit form (URL + optional email) → live result via `/audit-api`
 - `/how-it-works` — test → fix list → re-test
-- `/blog` + 4 posts (`/blog/*`), each with sidebar (CTA + related posts). Flagship: "I tested 368 Canadian websites"
+- `/blog` + 4 posts (`/blog/*`), each with sidebar (CTA + related posts). Flagship: "I tested 544 Canadian websites"
 - `/contact` — form via `/contact-api` (Resend) + direct-email fallback
 - URLs are extensionless (Cloudflare pretty URLs): `/audit`, `/blog/why-is-my-website-slow`, … (`/audit.html` variants also respond via 307 → 200)
 
