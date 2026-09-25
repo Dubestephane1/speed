@@ -16,7 +16,7 @@ Plain static HTML/CSS/JS — zero build step, zero frameworks, zero image reques
 - **46** cities across Canada
 - **Average score: 54.9/100** (up-to-date union of every scored wave)
 - **32 sites reached green (90+)** — about 4% of sites
-- **327 sites scored under 50** — about 41%, the red zone on Google's scale
+- **329 sites scored under 50** — about 42%, the red zone on Google's scale
 - **Best: 100 · Worst: 6**
 
 > Every number is the real Google PageSpeed mobile test (homepage, simulated phone, slow 4G) — never invented. See the blog post [I tested 788 Canadian websites](https://speed.stephanedube.dev/blog/canadian-website-speed-test) for the write-up.
