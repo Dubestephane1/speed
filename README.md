@@ -9,11 +9,11 @@ Plain static HTML/CSS/JS — zero build step, zero frameworks, zero image reques
 - **Free mobile speed audit** — enter any URL, get a real Google PageSpeed Insights result (score, load time, fix hints) via `POST /audit-api`
 - **Contact form** — email via Resend via `POST /contact-api` (sending domain `stephanedube.dev` verified in Resend)
 - **SEO/social** — canonical, OG/Twitter cards, JSON-LD, branded `og-image.png`, `robots.txt`, `sitemap.xml` (extensionless URLs)
-- **Proof** — homepage shows real anonymized audits across Canada: 788+ sites tested, average 54.9/100, 46 cities (BC/QC/ON/MB examples)
+- **Proof** — homepage shows real anonymized audits across Canada: 788+ sites tested, average 54.9/100, 50 cities (BC/QC/ON/MB examples)
 
 ## Current verified stats (audit campaign, mobile / slow 4G)
 - **788+** unique Canadian business websites tested
-- **46** cities across Canada
+- **50** cities across Canada
 - **Average score: 54.9/100** (up-to-date union of every scored wave)
 - **32 sites reached green (90+)** — about 4% of sites
 - **329 sites scored under 50** — about 42%, the red zone on Google's scale
