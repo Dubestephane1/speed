@@ -7,8 +7,9 @@
       <div class="stat"><span class="stat-num">{{scored}}</span><span class="stat-label">sites measured</span></div>
       <div class="stat"><span class="stat-num">{{avg}}/100</span><span class="stat-label">average score</span></div>
       <div class="stat"><span class="stat-num">{{red_pct}}%</span><span class="stat-label">score below {{red_max}}</span></div>
-      <div class="stat"><span class="stat-num">{{ranked_city_count}}</span><span class="stat-label">rankable cities</span></div>
-    </div>
+         <div class="stat"><span class="stat-num">{{ranked_city_count}}</span><span class="stat-label">rankable cities</span></div>
+      </div>
+      <p class="footer-note">{{attempted}} sites were tested; {{scored}} returned a usable score and {{failed}} could not be measured. Failed tests are counted separately and are never averaged in as zero.</p>
 
     <ul class="data-notes">
 {{global_notes}}

@@ -338,13 +338,21 @@ def li_lines(lines: list[str]) -> Raw:
 
 
 def country_cards(countries: list[dict]) -> Raw:
+    """One card per country on the hub.
+
+    The card component was designed for a single site's score ("8/100"), so
+    the score slot holds an actual average score -- not the site count, which
+    would read as a score out of 100.
+    """
     out = []
     for c in countries:
         out.append(
-            f'<div class="card"><div class="card-score">{c["scored"]}'
-            f'<span class="card-unit">/100 avg {c["avg"]}</span></div>'
-            f'<div class="card-lcp">{c["scored"]} measured sites · '
-            f'{len(c["ranked"])} rankable cities</div>'
+            f'<div class="card">'
+            f'<div class="card-score">{c["avg"]}'
+            f'<span class="card-unit">/100 average</span></div>'
+            f'<div class="card-lcp">{c["scored"]} sites measured · '
+            f'{len(c["ranked"])} city pages · {c["red"]} below 50 '
+            f'({c["red_pct"]}%)</div>'
             f'<div class="card-name"><a href="/countries/{c["slug"]}.html">'
             f'{e(c["label"])}</a></div></div>')
     return Raw("\n".join(out))
@@ -501,6 +509,7 @@ def render_index(agg: dict) -> str:
         sub=content("index.md", "Every number on this page is generated from the "
                                 "raw audit data. Nothing is typed by hand."),
         attempted=g["attempted"], scored=g["scored"], avg=g["avg"],
+        failed=g["failed"], fail_pct=g["fail_pct"],
         red_pct=g["red_pct"], green_pct=g["green_pct"],
         country_count=g["country_count"], city_count=g["city_count"],
         ranked_city_count=g["ranked_city_count"],
