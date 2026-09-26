@@ -4,13 +4,13 @@
   "red_max": 50,
   "green_min": 90,
   "global": {
-    "attempted": 1409,
-    "scored": 1367,
+    "attempted": 1508,
+    "scored": 1466,
     "failed": 42,
-    "avg": 57.0,
-    "median": 57,
-    "red": 494,
-    "green": 79,
+    "avg": 57.2,
+    "median": 57.0,
+    "red": 524,
+    "green": 89,
     "red_pct": 36,
     "green_pct": 6,
     "fail_pct": 3,
@@ -33,6 +33,7 @@
       "load_category": "",
       "error": "",
       "measured_at": "2026-09-21",
+      "multi_city": "no",
       "source_file": "toronto_scores.csv",
       "perf_i": 100
     },
@@ -55,6 +56,7 @@
       "load_category": "SLOW",
       "error": "",
       "measured_at": "2026-09-26",
+      "multi_city": "no",
       "source_file": "Phoenix_us_scores.csv",
       "perf_i": 4
     },
@@ -62,42 +64,42 @@
       {
         "niche": "hvac",
         "label": "HVAC",
-        "n": 269,
+        "n": 289,
         "avg": 60.2,
         "red_pct": 30,
-        "green_pct": 9
+        "green_pct": 8
       },
       {
         "niche": "optometrist",
         "label": "Optometry",
-        "n": 166,
-        "avg": 59.5,
-        "red_pct": 34,
+        "n": 186,
+        "avg": 59.9,
+        "red_pct": 32,
         "green_pct": 6
       },
       {
         "niche": "physio",
         "label": "Physiotherapy",
-        "n": 271,
+        "n": 290,
         "avg": 57.0,
         "red_pct": 38,
-        "green_pct": 6
+        "green_pct": 7
       },
       {
         "niche": "realtor",
         "label": "Real estate",
-        "n": 210,
-        "avg": 55.1,
-        "red_pct": 40,
-        "green_pct": 3
+        "n": 230,
+        "avg": 55.4,
+        "red_pct": 39,
+        "green_pct": 4
       },
       {
         "niche": "dental",
         "label": "Dental",
-        "n": 451,
-        "avg": 54.9,
+        "n": 471,
+        "avg": 55.3,
         "red_pct": 38,
-        "green_pct": 5
+        "green_pct": 6
       }
     ],
     "countries": [
@@ -134,6 +136,7 @@
           "load_category": "",
           "error": "",
           "measured_at": "2026-09-21",
+          "multi_city": "no",
           "source_file": "toronto_scores.csv",
           "perf_i": 100
         },
@@ -156,6 +159,7 @@
           "load_category": "FAST",
           "error": "",
           "measured_at": "2026-09-21",
+          "multi_city": "no",
           "source_file": "toronto_scores.csv",
           "perf_i": 8
         },
@@ -188,7 +192,7 @@
             "niche": "dental",
             "label": "Dental",
             "n": 351,
-            "avg": 53.9,
+            "avg": 54.0,
             "red_pct": 40,
             "green_pct": 5
           },
@@ -267,6 +271,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores3.csv",
               "perf_i": 97
             },
@@ -289,6 +294,7 @@
               "load_category": "SLOW",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "opt_data.csv",
               "perf_i": 22
             },
@@ -364,6 +370,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores4.csv",
               "perf_i": 92
             },
@@ -386,6 +393,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "opt_data.csv",
               "perf_i": 26
             },
@@ -461,6 +469,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-21",
+              "multi_city": "no",
               "source_file": "winnipeg_ps2.csv",
               "perf_i": 100
             },
@@ -483,6 +492,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "card_scores.csv",
               "perf_i": 16
             },
@@ -542,6 +552,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "gatineau_scores6.csv",
               "perf_i": 97
             },
@@ -564,6 +575,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "gatineau_scores2.csv",
               "perf_i": 27
             },
@@ -639,6 +651,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "opt_data.csv",
               "perf_i": 87
             },
@@ -661,6 +674,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores2.csv",
               "perf_i": 36
             },
@@ -728,6 +742,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores4.csv",
               "perf_i": 90
             },
@@ -750,6 +765,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 21
             },
@@ -808,6 +824,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "mississauga_scores.csv",
               "perf_i": 98
             },
@@ -830,6 +847,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "mississauga_scores.csv",
               "perf_i": 24
             },
@@ -843,10 +861,10 @@
           {
             "city": "Quebec",
             "slug": "quebec",
-            "n": 56,
-            "attempted": 59,
-            "avg": 56.6,
-            "median": 57.0,
+            "n": 57,
+            "attempted": 60,
+            "avg": 56.9,
+            "median": 57,
             "red": 18,
             "red_pct": 32,
             "green_pct": 0,
@@ -856,8 +874,8 @@
               {
                 "niche": "dental",
                 "label": "Dental",
-                "n": 45,
-                "avg": 59.0,
+                "n": 46,
+                "avg": 59.4,
                 "red_pct": 22,
                 "green_pct": 0
               },
@@ -897,6 +915,7 @@
               "load_category": "AVERAGE",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "quebec_scores.csv",
               "perf_i": 89
             },
@@ -919,12 +938,13 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "quebec_scores2.csv",
               "perf_i": 29
             },
             "commentary": [
-              "Average mobile performance score across 56 measured sites: 56.6/100.",
-              "Fastest industry measured here: Dental at 59.0/100 (n=45). Slowest: Physiotherapy at 47.5/100 (n=10).",
+              "Average mobile performance score across 57 measured sites: 56.9/100.",
+              "Fastest industry measured here: Dental at 59.4/100 (n=46). Slowest: Physiotherapy at 47.5/100 (n=10).",
               "Fastest site measured: centredentairestefoy.com at 89/100. Slowest: cliniquedentairegaudreaultmarquis.com at 29/100.",
               "32% of measured sites score below 50/100; 0% reach 90 or better."
             ]
@@ -994,6 +1014,7 @@
               "load_category": "FAST",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "opt_data.csv",
               "perf_i": 99
             },
@@ -1016,6 +1037,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-21",
+              "multi_city": "no",
               "source_file": "ottawa_scores2.csv",
               "perf_i": 17
             },
@@ -1075,6 +1097,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores5.csv",
               "perf_i": 96
             },
@@ -1097,6 +1120,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "sherbrooke_scores.csv",
               "perf_i": 32
             },
@@ -1156,6 +1180,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "longueuil_scores.csv",
               "perf_i": 91
             },
@@ -1178,6 +1203,7 @@
               "load_category": "AVERAGE",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "longueuil_scores.csv",
               "perf_i": 23
             },
@@ -1253,6 +1279,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-24",
+              "multi_city": "no",
               "source_file": "physio_scores1.csv",
               "perf_i": 98
             },
@@ -1275,6 +1302,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores4.csv",
               "perf_i": 10
             },
@@ -1342,6 +1370,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-24",
+              "multi_city": "no",
               "source_file": "physio_scores1.csv",
               "perf_i": 82
             },
@@ -1364,6 +1393,7 @@
               "load_category": "AVERAGE",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "opt_data.csv",
               "perf_i": 25
             },
@@ -1439,6 +1469,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-21",
+              "multi_city": "no",
               "source_file": "toronto_scores.csv",
               "perf_i": 100
             },
@@ -1461,6 +1492,7 @@
               "load_category": "FAST",
               "error": "",
               "measured_at": "2026-09-21",
+              "multi_city": "no",
               "source_file": "toronto_scores.csv",
               "perf_i": 8
             },
@@ -1512,6 +1544,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "blainville_scores.csv",
               "perf_i": 67
             },
@@ -1534,6 +1567,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "blainville_scores.csv",
               "perf_i": 26
             },
@@ -1585,6 +1619,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-24",
+              "multi_city": "no",
               "source_file": "physio_scores1.csv",
               "perf_i": 90
             },
@@ -1607,6 +1642,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-24",
+              "multi_city": "no",
               "source_file": "physio_scores1.csv",
               "perf_i": 31
             },
@@ -1681,6 +1717,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-21",
+              "multi_city": "no",
               "source_file": "edmonton_scores.csv",
               "perf_i": 94
             },
@@ -1703,6 +1740,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-21",
+              "multi_city": "no",
               "source_file": "edmonton_scores.csv",
               "perf_i": 16
             },
@@ -1786,6 +1824,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-21",
+              "multi_city": "no",
               "source_file": "vancouver_scores.csv",
               "perf_i": 85
             },
@@ -1808,6 +1847,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 8
             },
@@ -1883,6 +1923,7 @@
               "load_category": "FAST",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores3.csv",
               "perf_i": 96
             },
@@ -1905,6 +1946,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores3.csv",
               "perf_i": 21
             },
@@ -1980,6 +2022,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores4a.csv",
               "perf_i": 82
             },
@@ -2002,6 +2045,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-21",
+              "multi_city": "no",
               "source_file": "windsor_scores.csv",
               "perf_i": 12
             },
@@ -2061,6 +2105,7 @@
               "load_category": "AVERAGE",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores6.csv",
               "perf_i": 97
             },
@@ -2083,6 +2128,7 @@
               "load_category": "AVERAGE",
               "error": "",
               "measured_at": "2026-09-24",
+              "multi_city": "no",
               "source_file": "levis_realtor_scores.csv",
               "perf_i": 19
             },
@@ -2141,6 +2187,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-24",
+              "multi_city": "no",
               "source_file": "physio_scores1.csv",
               "perf_i": 71
             },
@@ -2163,6 +2210,7 @@
               "load_category": "AVERAGE",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "opt_data.csv",
               "perf_i": 33
             },
@@ -2213,6 +2261,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores5b.csv",
               "perf_i": 74
             },
@@ -2235,6 +2284,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores5b.csv",
               "perf_i": 74
             },
@@ -2284,6 +2334,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores2.csv",
               "perf_i": 71
             },
@@ -2306,6 +2357,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores2.csv",
               "perf_i": 71
             },
@@ -2363,6 +2415,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores5.csv",
               "perf_i": 96
             },
@@ -2385,6 +2438,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores5a.csv",
               "perf_i": 46
             },
@@ -2435,6 +2489,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 78
             },
@@ -2457,6 +2512,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 58
             },
@@ -2507,6 +2563,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 74
             },
@@ -2529,6 +2586,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 63
             },
@@ -2587,6 +2645,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores5a.csv",
               "perf_i": 96
             },
@@ -2609,6 +2668,7 @@
               "load_category": "SLOW",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores5.csv",
               "perf_i": 38
             },
@@ -2667,6 +2727,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores4a.csv",
               "perf_i": 80
             },
@@ -2689,6 +2750,7 @@
               "load_category": "AVERAGE",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores3.csv",
               "perf_i": 46
             },
@@ -2740,6 +2802,7 @@
               "load_category": "AVERAGE",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 63
             },
@@ -2762,6 +2825,7 @@
               "load_category": "AVERAGE",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 63
             },
@@ -2811,6 +2875,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 63
             },
@@ -2833,6 +2898,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 63
             },
@@ -2882,6 +2948,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores4.csv",
               "perf_i": 67
             },
@@ -2904,6 +2971,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores4.csv",
               "perf_i": 58
             },
@@ -2954,6 +3022,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores4.csv",
               "perf_i": 76
             },
@@ -2976,6 +3045,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores4.csv",
               "perf_i": 40
             },
@@ -3034,6 +3104,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores5a.csv",
               "perf_i": 96
             },
@@ -3056,6 +3127,7 @@
               "load_category": "SLOW",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores5a.csv",
               "perf_i": 28
             },
@@ -3106,6 +3178,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores4b.csv",
               "perf_i": 61
             },
@@ -3128,6 +3201,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores4b.csv",
               "perf_i": 61
             },
@@ -3177,6 +3251,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores5b.csv",
               "perf_i": 73
             },
@@ -3199,6 +3274,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores5b.csv",
               "perf_i": 45
             },
@@ -3249,6 +3325,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores5b.csv",
               "perf_i": 76
             },
@@ -3271,6 +3348,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores5b.csv",
               "perf_i": 44
             },
@@ -3321,6 +3399,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 58
             },
@@ -3343,6 +3422,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 58
             },
@@ -3392,6 +3472,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores5b.csv",
               "perf_i": 86
             },
@@ -3414,6 +3495,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores2.csv",
               "perf_i": 42
             },
@@ -3464,6 +3546,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores5b.csv",
               "perf_i": 57
             },
@@ -3486,6 +3569,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores5b.csv",
               "perf_i": 57
             },
@@ -3543,6 +3627,7 @@
               "load_category": "FAST",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores6.csv",
               "perf_i": 89
             },
@@ -3565,6 +3650,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores6.csv",
               "perf_i": 23
             },
@@ -3623,6 +3709,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores5a.csv",
               "perf_i": 72
             },
@@ -3645,6 +3732,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores5a.csv",
               "perf_i": 40
             },
@@ -3695,6 +3783,7 @@
               "load_category": "AVERAGE",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores4.csv",
               "perf_i": 56
             },
@@ -3717,6 +3806,7 @@
               "load_category": "AVERAGE",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores4.csv",
               "perf_i": 56
             },
@@ -3766,6 +3856,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores4b.csv",
               "perf_i": 69
             },
@@ -3788,6 +3879,7 @@
               "load_category": "AVERAGE",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores4b.csv",
               "perf_i": 37
             },
@@ -3838,6 +3930,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 55
             },
@@ -3860,6 +3953,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 55
             },
@@ -3909,6 +4003,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores5a.csv",
               "perf_i": 54
             },
@@ -3931,6 +4026,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores5a.csv",
               "perf_i": 54
             },
@@ -3988,6 +4084,7 @@
               "load_category": "SLOW",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 86
             },
@@ -4010,6 +4107,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores6.csv",
               "perf_i": 25
             },
@@ -4068,6 +4166,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores5.csv",
               "perf_i": 80
             },
@@ -4090,6 +4189,7 @@
               "load_category": "FAST",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "opt_data.csv",
               "perf_i": 33
             },
@@ -4141,6 +4241,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 53
             },
@@ -4163,6 +4264,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 53
             },
@@ -4220,6 +4322,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores4a.csv",
               "perf_i": 67
             },
@@ -4242,6 +4345,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores4a.csv",
               "perf_i": 35
             },
@@ -4292,6 +4396,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 62
             },
@@ -4314,6 +4419,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 42
             },
@@ -4364,6 +4470,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 65
             },
@@ -4386,6 +4493,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 38
             },
@@ -4444,6 +4552,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores4b.csv",
               "perf_i": 82
             },
@@ -4466,6 +4575,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "opt_data.csv",
               "perf_i": 28
             },
@@ -4516,6 +4626,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores5b.csv",
               "perf_i": 64
             },
@@ -4538,6 +4649,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores5b.csv",
               "perf_i": 41
             },
@@ -4588,6 +4700,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores4a.csv",
               "perf_i": 60
             },
@@ -4610,6 +4723,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores4a.csv",
               "perf_i": 29
             },
@@ -4660,6 +4774,7 @@
               "load_category": "AVERAGE",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores2.csv",
               "perf_i": 43
             },
@@ -4682,6 +4797,7 @@
               "load_category": "AVERAGE",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores2.csv",
               "perf_i": 43
             },
@@ -4731,6 +4847,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 49
             },
@@ -4753,6 +4870,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 36
             },
@@ -4803,6 +4921,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 40
             },
@@ -4825,6 +4944,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 40
             },
@@ -4874,6 +4994,7 @@
               "load_category": "AVERAGE",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 46
             },
@@ -4896,6 +5017,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 32
             },
@@ -4946,6 +5068,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "quebec_scores.csv",
               "perf_i": 47
             },
@@ -4968,6 +5091,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "quebec_scores.csv",
               "perf_i": 26
             },
@@ -5018,6 +5142,7 @@
               "load_category": "AVERAGE",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores2.csv",
               "perf_i": 38
             },
@@ -5040,6 +5165,7 @@
               "load_category": "AVERAGE",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores2.csv",
               "perf_i": 38
             },
@@ -5089,6 +5215,7 @@
               "load_category": "FAST",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 38
             },
@@ -5111,6 +5238,7 @@
               "load_category": "FAST",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 38
             },
@@ -5160,6 +5288,7 @@
               "load_category": "AVERAGE",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores2.csv",
               "perf_i": 37
             },
@@ -5182,6 +5311,7 @@
               "load_category": "AVERAGE",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores2.csv",
               "perf_i": 37
             },
@@ -5231,6 +5361,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores4b.csv",
               "perf_i": 37
             },
@@ -5253,6 +5384,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores4b.csv",
               "perf_i": 37
             },
@@ -5302,6 +5434,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores6.csv",
               "perf_i": 41
             },
@@ -5324,6 +5457,7 @@
               "load_category": "AVERAGE",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores6.csv",
               "perf_i": 33
             },
@@ -5374,6 +5508,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores4b.csv",
               "perf_i": 35
             },
@@ -5396,6 +5531,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores4b.csv",
               "perf_i": 35
             },
@@ -5445,6 +5581,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores5a.csv",
               "perf_i": 34
             },
@@ -5467,6 +5604,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores5a.csv",
               "perf_i": 34
             },
@@ -5516,6 +5654,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "quebec_scores.csv",
               "perf_i": 26
             },
@@ -5538,6 +5677,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "quebec_scores.csv",
               "perf_i": 26
             },
@@ -5587,6 +5727,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 32
             },
@@ -5609,6 +5750,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 18
             },
@@ -5685,6 +5827,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores3.csv",
               "perf_i": 97
             },
@@ -5707,6 +5850,7 @@
               "load_category": "SLOW",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "opt_data.csv",
               "perf_i": 22
             },
@@ -5782,6 +5926,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores4.csv",
               "perf_i": 92
             },
@@ -5804,6 +5949,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "opt_data.csv",
               "perf_i": 26
             },
@@ -5879,6 +6025,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-21",
+              "multi_city": "no",
               "source_file": "winnipeg_ps2.csv",
               "perf_i": 100
             },
@@ -5901,6 +6048,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "card_scores.csv",
               "perf_i": 16
             },
@@ -5960,6 +6108,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "gatineau_scores6.csv",
               "perf_i": 97
             },
@@ -5982,6 +6131,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "gatineau_scores2.csv",
               "perf_i": 27
             },
@@ -6057,6 +6207,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "opt_data.csv",
               "perf_i": 87
             },
@@ -6079,6 +6230,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores2.csv",
               "perf_i": 36
             },
@@ -6146,6 +6298,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores4.csv",
               "perf_i": 90
             },
@@ -6168,6 +6321,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 21
             },
@@ -6226,6 +6380,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "mississauga_scores.csv",
               "perf_i": 98
             },
@@ -6248,6 +6403,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "mississauga_scores.csv",
               "perf_i": 24
             },
@@ -6261,10 +6417,10 @@
           {
             "city": "Quebec",
             "slug": "quebec",
-            "n": 56,
-            "attempted": 59,
-            "avg": 56.6,
-            "median": 57.0,
+            "n": 57,
+            "attempted": 60,
+            "avg": 56.9,
+            "median": 57,
             "red": 18,
             "red_pct": 32,
             "green_pct": 0,
@@ -6274,8 +6430,8 @@
               {
                 "niche": "dental",
                 "label": "Dental",
-                "n": 45,
-                "avg": 59.0,
+                "n": 46,
+                "avg": 59.4,
                 "red_pct": 22,
                 "green_pct": 0
               },
@@ -6315,6 +6471,7 @@
               "load_category": "AVERAGE",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "quebec_scores.csv",
               "perf_i": 89
             },
@@ -6337,12 +6494,13 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "quebec_scores2.csv",
               "perf_i": 29
             },
             "commentary": [
-              "Average mobile performance score across 56 measured sites: 56.6/100.",
-              "Fastest industry measured here: Dental at 59.0/100 (n=45). Slowest: Physiotherapy at 47.5/100 (n=10).",
+              "Average mobile performance score across 57 measured sites: 56.9/100.",
+              "Fastest industry measured here: Dental at 59.4/100 (n=46). Slowest: Physiotherapy at 47.5/100 (n=10).",
               "Fastest site measured: centredentairestefoy.com at 89/100. Slowest: cliniquedentairegaudreaultmarquis.com at 29/100.",
               "32% of measured sites score below 50/100; 0% reach 90 or better."
             ]
@@ -6412,6 +6570,7 @@
               "load_category": "FAST",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "opt_data.csv",
               "perf_i": 99
             },
@@ -6434,6 +6593,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-21",
+              "multi_city": "no",
               "source_file": "ottawa_scores2.csv",
               "perf_i": 17
             },
@@ -6493,6 +6653,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores5.csv",
               "perf_i": 96
             },
@@ -6515,6 +6676,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "sherbrooke_scores.csv",
               "perf_i": 32
             },
@@ -6574,6 +6736,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "longueuil_scores.csv",
               "perf_i": 91
             },
@@ -6596,6 +6759,7 @@
               "load_category": "AVERAGE",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "longueuil_scores.csv",
               "perf_i": 23
             },
@@ -6671,6 +6835,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-24",
+              "multi_city": "no",
               "source_file": "physio_scores1.csv",
               "perf_i": 98
             },
@@ -6693,6 +6858,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores4.csv",
               "perf_i": 10
             },
@@ -6760,6 +6926,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-24",
+              "multi_city": "no",
               "source_file": "physio_scores1.csv",
               "perf_i": 82
             },
@@ -6782,6 +6949,7 @@
               "load_category": "AVERAGE",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "opt_data.csv",
               "perf_i": 25
             },
@@ -6857,6 +7025,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-21",
+              "multi_city": "no",
               "source_file": "toronto_scores.csv",
               "perf_i": 100
             },
@@ -6879,6 +7048,7 @@
               "load_category": "FAST",
               "error": "",
               "measured_at": "2026-09-21",
+              "multi_city": "no",
               "source_file": "toronto_scores.csv",
               "perf_i": 8
             },
@@ -6930,6 +7100,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "blainville_scores.csv",
               "perf_i": 67
             },
@@ -6952,6 +7123,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "blainville_scores.csv",
               "perf_i": 26
             },
@@ -7003,6 +7175,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-24",
+              "multi_city": "no",
               "source_file": "physio_scores1.csv",
               "perf_i": 90
             },
@@ -7025,6 +7198,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-24",
+              "multi_city": "no",
               "source_file": "physio_scores1.csv",
               "perf_i": 31
             },
@@ -7099,6 +7273,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-21",
+              "multi_city": "no",
               "source_file": "edmonton_scores.csv",
               "perf_i": 94
             },
@@ -7121,6 +7296,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-21",
+              "multi_city": "no",
               "source_file": "edmonton_scores.csv",
               "perf_i": 16
             },
@@ -7204,6 +7380,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-21",
+              "multi_city": "no",
               "source_file": "vancouver_scores.csv",
               "perf_i": 85
             },
@@ -7226,6 +7403,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 8
             },
@@ -7301,6 +7479,7 @@
               "load_category": "FAST",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores3.csv",
               "perf_i": 96
             },
@@ -7323,6 +7502,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores3.csv",
               "perf_i": 21
             },
@@ -7398,6 +7578,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores4a.csv",
               "perf_i": 82
             },
@@ -7420,6 +7601,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-21",
+              "multi_city": "no",
               "source_file": "windsor_scores.csv",
               "perf_i": 12
             },
@@ -7479,6 +7661,7 @@
               "load_category": "AVERAGE",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores6.csv",
               "perf_i": 97
             },
@@ -7501,6 +7684,7 @@
               "load_category": "AVERAGE",
               "error": "",
               "measured_at": "2026-09-24",
+              "multi_city": "no",
               "source_file": "levis_realtor_scores.csv",
               "perf_i": 19
             },
@@ -7559,6 +7743,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-24",
+              "multi_city": "no",
               "source_file": "physio_scores1.csv",
               "perf_i": 71
             },
@@ -7581,6 +7766,7 @@
               "load_category": "AVERAGE",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "opt_data.csv",
               "perf_i": 33
             },
@@ -7633,6 +7819,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores5b.csv",
               "perf_i": 74
             },
@@ -7655,6 +7842,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores5b.csv",
               "perf_i": 74
             },
@@ -7704,6 +7892,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores2.csv",
               "perf_i": 71
             },
@@ -7726,6 +7915,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores2.csv",
               "perf_i": 71
             },
@@ -7783,6 +7973,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores5.csv",
               "perf_i": 96
             },
@@ -7805,6 +7996,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores5a.csv",
               "perf_i": 46
             },
@@ -7855,6 +8047,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 78
             },
@@ -7877,6 +8070,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 58
             },
@@ -7927,6 +8121,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 74
             },
@@ -7949,6 +8144,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 63
             },
@@ -8007,6 +8203,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores5a.csv",
               "perf_i": 96
             },
@@ -8029,6 +8226,7 @@
               "load_category": "SLOW",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores5.csv",
               "perf_i": 38
             },
@@ -8087,6 +8285,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores4a.csv",
               "perf_i": 80
             },
@@ -8109,6 +8308,7 @@
               "load_category": "AVERAGE",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores3.csv",
               "perf_i": 46
             },
@@ -8160,6 +8360,7 @@
               "load_category": "AVERAGE",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 63
             },
@@ -8182,6 +8383,7 @@
               "load_category": "AVERAGE",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 63
             },
@@ -8231,6 +8433,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 63
             },
@@ -8253,6 +8456,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 63
             },
@@ -8302,6 +8506,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores4.csv",
               "perf_i": 67
             },
@@ -8324,6 +8529,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores4.csv",
               "perf_i": 58
             },
@@ -8374,6 +8580,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores4.csv",
               "perf_i": 76
             },
@@ -8396,6 +8603,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores4.csv",
               "perf_i": 40
             },
@@ -8454,6 +8662,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores5a.csv",
               "perf_i": 96
             },
@@ -8476,6 +8685,7 @@
               "load_category": "SLOW",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores5a.csv",
               "perf_i": 28
             },
@@ -8526,6 +8736,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores4b.csv",
               "perf_i": 61
             },
@@ -8548,6 +8759,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores4b.csv",
               "perf_i": 61
             },
@@ -8597,6 +8809,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores5b.csv",
               "perf_i": 73
             },
@@ -8619,6 +8832,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores5b.csv",
               "perf_i": 45
             },
@@ -8669,6 +8883,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores5b.csv",
               "perf_i": 76
             },
@@ -8691,6 +8906,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores5b.csv",
               "perf_i": 44
             },
@@ -8741,6 +8957,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 58
             },
@@ -8763,6 +8980,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 58
             },
@@ -8812,6 +9030,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores5b.csv",
               "perf_i": 86
             },
@@ -8834,6 +9053,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores2.csv",
               "perf_i": 42
             },
@@ -8884,6 +9104,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores5b.csv",
               "perf_i": 57
             },
@@ -8906,6 +9127,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores5b.csv",
               "perf_i": 57
             },
@@ -8963,6 +9185,7 @@
               "load_category": "FAST",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores6.csv",
               "perf_i": 89
             },
@@ -8985,6 +9208,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores6.csv",
               "perf_i": 23
             },
@@ -9043,6 +9267,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores5a.csv",
               "perf_i": 72
             },
@@ -9065,6 +9290,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores5a.csv",
               "perf_i": 40
             },
@@ -9115,6 +9341,7 @@
               "load_category": "AVERAGE",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores4.csv",
               "perf_i": 56
             },
@@ -9137,6 +9364,7 @@
               "load_category": "AVERAGE",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores4.csv",
               "perf_i": 56
             },
@@ -9186,6 +9414,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores4b.csv",
               "perf_i": 69
             },
@@ -9208,6 +9437,7 @@
               "load_category": "AVERAGE",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores4b.csv",
               "perf_i": 37
             },
@@ -9258,6 +9488,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 55
             },
@@ -9280,6 +9511,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 55
             },
@@ -9329,6 +9561,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores5a.csv",
               "perf_i": 54
             },
@@ -9351,6 +9584,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores5a.csv",
               "perf_i": 54
             },
@@ -9408,6 +9642,7 @@
               "load_category": "SLOW",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 86
             },
@@ -9430,6 +9665,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores6.csv",
               "perf_i": 25
             },
@@ -9488,6 +9724,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores5.csv",
               "perf_i": 80
             },
@@ -9510,6 +9747,7 @@
               "load_category": "FAST",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "opt_data.csv",
               "perf_i": 33
             },
@@ -9561,6 +9799,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 53
             },
@@ -9583,6 +9822,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 53
             },
@@ -9640,6 +9880,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores4a.csv",
               "perf_i": 67
             },
@@ -9662,6 +9903,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores4a.csv",
               "perf_i": 35
             },
@@ -9712,6 +9954,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 62
             },
@@ -9734,6 +9977,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 42
             },
@@ -9784,6 +10028,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 65
             },
@@ -9806,6 +10051,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 38
             },
@@ -9864,6 +10110,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores4b.csv",
               "perf_i": 82
             },
@@ -9886,6 +10133,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "opt_data.csv",
               "perf_i": 28
             },
@@ -9936,6 +10184,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores5b.csv",
               "perf_i": 64
             },
@@ -9958,6 +10207,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores5b.csv",
               "perf_i": 41
             },
@@ -10008,6 +10258,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores4a.csv",
               "perf_i": 60
             },
@@ -10030,6 +10281,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores4a.csv",
               "perf_i": 29
             },
@@ -10080,6 +10332,7 @@
               "load_category": "AVERAGE",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores2.csv",
               "perf_i": 43
             },
@@ -10102,6 +10355,7 @@
               "load_category": "AVERAGE",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores2.csv",
               "perf_i": 43
             },
@@ -10151,6 +10405,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 49
             },
@@ -10173,6 +10428,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 36
             },
@@ -10223,6 +10479,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 40
             },
@@ -10245,6 +10502,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 40
             },
@@ -10294,6 +10552,7 @@
               "load_category": "AVERAGE",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 46
             },
@@ -10316,6 +10575,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 32
             },
@@ -10366,6 +10626,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "quebec_scores.csv",
               "perf_i": 47
             },
@@ -10388,6 +10649,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "quebec_scores.csv",
               "perf_i": 26
             },
@@ -10438,6 +10700,7 @@
               "load_category": "AVERAGE",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores2.csv",
               "perf_i": 38
             },
@@ -10460,6 +10723,7 @@
               "load_category": "AVERAGE",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores2.csv",
               "perf_i": 38
             },
@@ -10509,6 +10773,7 @@
               "load_category": "FAST",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 38
             },
@@ -10531,6 +10796,7 @@
               "load_category": "FAST",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 38
             },
@@ -10580,6 +10846,7 @@
               "load_category": "AVERAGE",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores2.csv",
               "perf_i": 37
             },
@@ -10602,6 +10869,7 @@
               "load_category": "AVERAGE",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores2.csv",
               "perf_i": 37
             },
@@ -10651,6 +10919,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores4b.csv",
               "perf_i": 37
             },
@@ -10673,6 +10942,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores4b.csv",
               "perf_i": 37
             },
@@ -10722,6 +10992,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores6.csv",
               "perf_i": 41
             },
@@ -10744,6 +11015,7 @@
               "load_category": "AVERAGE",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "physio_scores6.csv",
               "perf_i": 33
             },
@@ -10794,6 +11066,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores4b.csv",
               "perf_i": 35
             },
@@ -10816,6 +11089,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores4b.csv",
               "perf_i": 35
             },
@@ -10865,6 +11139,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores5a.csv",
               "perf_i": 34
             },
@@ -10887,6 +11162,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "hvac_scores5a.csv",
               "perf_i": 34
             },
@@ -10936,6 +11212,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "quebec_scores.csv",
               "perf_i": 26
             },
@@ -10958,6 +11235,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-22",
+              "multi_city": "no",
               "source_file": "quebec_scores.csv",
               "perf_i": 26
             },
@@ -11007,6 +11285,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 32
             },
@@ -11029,6 +11308,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-23",
+              "multi_city": "no",
               "source_file": "realtor_scores.csv",
               "perf_i": 18
             },
@@ -11040,6 +11320,10 @@
           }
         ],
         "unmapped": 79,
+        "measurements": 911,
+        "multi_city": [
+          "clareo.ca"
+        ],
         "commentary": [
           "Average mobile performance score across 868 measured sites: 55.6/100.",
           "Fastest industry measured here: HVAC at 58.5/100 (n=169). Slowest: Optometry at 53.8/100 (n=66).",
@@ -11051,13 +11335,13 @@
         "country": "US",
         "slug": "united-states",
         "label": "United States",
-        "attempted": 499,
-        "scored": 499,
+        "attempted": 598,
+        "scored": 598,
         "failed": 0,
-        "avg": 59.3,
-        "median": 60,
-        "red": 159,
-        "green": 39,
+        "avg": 59.4,
+        "median": 60.0,
+        "red": 189,
+        "green": 49,
         "red_pct": 32,
         "green_pct": 8,
         "fail_pct": 0,
@@ -11080,6 +11364,7 @@
           "load_category": "FAST",
           "error": "",
           "measured_at": "2026-09-25",
+          "multi_city": "no",
           "source_file": "Chicago_us_scores.csv",
           "perf_i": 100
         },
@@ -11102,6 +11387,7 @@
           "load_category": "SLOW",
           "error": "",
           "measured_at": "2026-09-26",
+          "multi_city": "no",
           "source_file": "Phoenix_us_scores.csv",
           "perf_i": 4
         },
@@ -11109,42 +11395,42 @@
           {
             "niche": "optometrist",
             "label": "Optometry",
-            "n": 100,
-            "avg": 63.3,
-            "red_pct": 25,
+            "n": 120,
+            "avg": 63.2,
+            "red_pct": 23,
             "green_pct": 8
           },
           {
             "niche": "hvac",
             "label": "HVAC",
-            "n": 100,
-            "avg": 63.1,
-            "red_pct": 27,
-            "green_pct": 16
+            "n": 120,
+            "avg": 62.6,
+            "red_pct": 28,
+            "green_pct": 14
           },
           {
             "niche": "dental",
             "label": "Dental",
-            "n": 100,
-            "avg": 58.4,
+            "n": 120,
+            "avg": 59.1,
             "red_pct": 32,
-            "green_pct": 6
+            "green_pct": 8
           },
           {
             "niche": "physio",
             "label": "Physiotherapy",
-            "n": 99,
-            "avg": 56.7,
-            "red_pct": 34,
-            "green_pct": 5
+            "n": 118,
+            "avg": 56.6,
+            "red_pct": 36,
+            "green_pct": 6
           },
           {
             "niche": "realtor",
             "label": "Real estate",
-            "n": 100,
-            "avg": 55.0,
-            "red_pct": 41,
-            "green_pct": 4
+            "n": 120,
+            "avg": 55.5,
+            "red_pct": 39,
+            "green_pct": 5
           }
         ],
         "cities": [
@@ -11221,6 +11507,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "New York_us_scores.csv",
               "perf_i": 99
             },
@@ -11243,6 +11530,7 @@
               "load_category": "SLOW",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "New York_us_scores.csv",
               "perf_i": 8
             },
@@ -11251,6 +11539,113 @@
               "Fastest industry measured here: HVAC at 69.8/100 (n=20). Slowest: Physiotherapy at 55.8/100 (n=20).",
               "Fastest site measured: manhattannydentist.com at 99/100. Slowest: zendentistrynyc.com at 8/100.",
               "25% of measured sites score below 50/100; 10% reach 90 or better."
+            ]
+          },
+          {
+            "city": "Philadelphia",
+            "slug": "philadelphia",
+            "n": 100,
+            "attempted": 100,
+            "avg": 59.8,
+            "median": 57.5,
+            "red": 31,
+            "red_pct": 31,
+            "green_pct": 10,
+            "fail_pct": 0,
+            "rankable": true,
+            "niches": [
+              {
+                "niche": "optometrist",
+                "label": "Optometry",
+                "n": 20,
+                "avg": 63.1,
+                "red_pct": 15,
+                "green_pct": 5
+              },
+              {
+                "niche": "dental",
+                "label": "Dental",
+                "n": 20,
+                "avg": 62.8,
+                "red_pct": 35,
+                "green_pct": 20
+              },
+              {
+                "niche": "hvac",
+                "label": "HVAC",
+                "n": 20,
+                "avg": 60.4,
+                "red_pct": 30,
+                "green_pct": 5
+              },
+              {
+                "niche": "realtor",
+                "label": "Real estate",
+                "n": 20,
+                "avg": 58,
+                "red_pct": 30,
+                "green_pct": 10
+              },
+              {
+                "niche": "physio",
+                "label": "Physiotherapy",
+                "n": 20,
+                "avg": 54.8,
+                "red_pct": 45,
+                "green_pct": 10
+              }
+            ],
+            "best": {
+              "url": "dentistphiladelphia.com",
+              "country": "US",
+              "city": "Philadelphia",
+              "city_source": "row",
+              "niche": "dental",
+              "platform": "",
+              "perf": "99",
+              "a11y": "93",
+              "best_practices": "100",
+              "seo": "100",
+              "LCP_ms": "1801",
+              "CLS": "0",
+              "TBT_ms": "0",
+              "FCP_ms": "1374",
+              "bytes": "1410978",
+              "load_category": "",
+              "error": "",
+              "measured_at": "2026-09-26",
+              "multi_city": "no",
+              "source_file": "Philadelphia_us_scores.csv",
+              "perf_i": 99
+            },
+            "worst": {
+              "url": "strivephysicaltherapy.com",
+              "country": "US",
+              "city": "Philadelphia",
+              "city_source": "row",
+              "niche": "physio",
+              "platform": "",
+              "perf": "24",
+              "a11y": "93",
+              "best_practices": "96",
+              "seo": "100",
+              "LCP_ms": "12001",
+              "CLS": "0",
+              "TBT_ms": "1808",
+              "FCP_ms": "3751",
+              "bytes": "4698935",
+              "load_category": "AVERAGE",
+              "error": "",
+              "measured_at": "2026-09-26",
+              "multi_city": "no",
+              "source_file": "Philadelphia_us_scores.csv",
+              "perf_i": 24
+            },
+            "commentary": [
+              "Average mobile performance score across 100 measured sites: 59.8/100.",
+              "Fastest industry measured here: Optometry at 63.1/100 (n=20). Slowest: Physiotherapy at 54.8/100 (n=20).",
+              "Fastest site measured: dentistphiladelphia.com at 99/100. Slowest: strivephysicaltherapy.com at 24/100.",
+              "31% of measured sites score below 50/100; 10% reach 90 or better."
             ]
           },
           {
@@ -11326,6 +11721,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-26",
+              "multi_city": "no",
               "source_file": "Phoenix_us_scores.csv",
               "perf_i": 100
             },
@@ -11348,6 +11744,7 @@
               "load_category": "SLOW",
               "error": "",
               "measured_at": "2026-09-26",
+              "multi_city": "no",
               "source_file": "Phoenix_us_scores.csv",
               "perf_i": 4
             },
@@ -11431,6 +11828,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "Houston_us_scores.csv",
               "perf_i": 100
             },
@@ -11453,6 +11851,7 @@
               "load_category": "FAST",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "Houston_us_scores.csv",
               "perf_i": 28
             },
@@ -11536,6 +11935,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "Los Angeles_us_scores.csv",
               "perf_i": 100
             },
@@ -11558,6 +11958,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "Los Angeles_us_scores.csv",
               "perf_i": 24
             },
@@ -11571,10 +11972,10 @@
           {
             "city": "Chicago",
             "slug": "chicago",
-            "n": 99,
-            "attempted": 99,
+            "n": 100,
+            "attempted": 100,
             "avg": 55.5,
-            "median": 57,
+            "median": 57.0,
             "red": 38,
             "red_pct": 38,
             "green_pct": 6,
@@ -11600,10 +12001,10 @@
               {
                 "niche": "physio",
                 "label": "Physiotherapy",
-                "n": 19,
-                "avg": 56.5,
-                "red_pct": 32,
-                "green_pct": 11
+                "n": 20,
+                "avg": 56.3,
+                "red_pct": 30,
+                "green_pct": 10
               },
               {
                 "niche": "optometrist",
@@ -11641,6 +12042,7 @@
               "load_category": "FAST",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "Chicago_us_scores.csv",
               "perf_i": 100
             },
@@ -11663,11 +12065,12 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "Chicago_us_scores.csv",
               "perf_i": 6
             },
             "commentary": [
-              "Average mobile performance score across 99 measured sites: 55.5/100.",
+              "Average mobile performance score across 100 measured sites: 55.5/100.",
               "Fastest industry measured here: HVAC at 58.4/100 (n=20). Slowest: Real estate at 49.7/100 (n=20).",
               "Fastest site measured: puredentalspa.com at 100/100. Slowest: expediencehvac.com at 6/100.",
               "38% of measured sites score below 50/100; 6% reach 90 or better."
@@ -11748,6 +12151,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "New York_us_scores.csv",
               "perf_i": 99
             },
@@ -11770,6 +12174,7 @@
               "load_category": "SLOW",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "New York_us_scores.csv",
               "perf_i": 8
             },
@@ -11778,6 +12183,113 @@
               "Fastest industry measured here: HVAC at 69.8/100 (n=20). Slowest: Physiotherapy at 55.8/100 (n=20).",
               "Fastest site measured: manhattannydentist.com at 99/100. Slowest: zendentistrynyc.com at 8/100.",
               "25% of measured sites score below 50/100; 10% reach 90 or better."
+            ]
+          },
+          {
+            "city": "Philadelphia",
+            "slug": "philadelphia",
+            "n": 100,
+            "attempted": 100,
+            "avg": 59.8,
+            "median": 57.5,
+            "red": 31,
+            "red_pct": 31,
+            "green_pct": 10,
+            "fail_pct": 0,
+            "rankable": true,
+            "niches": [
+              {
+                "niche": "optometrist",
+                "label": "Optometry",
+                "n": 20,
+                "avg": 63.1,
+                "red_pct": 15,
+                "green_pct": 5
+              },
+              {
+                "niche": "dental",
+                "label": "Dental",
+                "n": 20,
+                "avg": 62.8,
+                "red_pct": 35,
+                "green_pct": 20
+              },
+              {
+                "niche": "hvac",
+                "label": "HVAC",
+                "n": 20,
+                "avg": 60.4,
+                "red_pct": 30,
+                "green_pct": 5
+              },
+              {
+                "niche": "realtor",
+                "label": "Real estate",
+                "n": 20,
+                "avg": 58,
+                "red_pct": 30,
+                "green_pct": 10
+              },
+              {
+                "niche": "physio",
+                "label": "Physiotherapy",
+                "n": 20,
+                "avg": 54.8,
+                "red_pct": 45,
+                "green_pct": 10
+              }
+            ],
+            "best": {
+              "url": "dentistphiladelphia.com",
+              "country": "US",
+              "city": "Philadelphia",
+              "city_source": "row",
+              "niche": "dental",
+              "platform": "",
+              "perf": "99",
+              "a11y": "93",
+              "best_practices": "100",
+              "seo": "100",
+              "LCP_ms": "1801",
+              "CLS": "0",
+              "TBT_ms": "0",
+              "FCP_ms": "1374",
+              "bytes": "1410978",
+              "load_category": "",
+              "error": "",
+              "measured_at": "2026-09-26",
+              "multi_city": "no",
+              "source_file": "Philadelphia_us_scores.csv",
+              "perf_i": 99
+            },
+            "worst": {
+              "url": "strivephysicaltherapy.com",
+              "country": "US",
+              "city": "Philadelphia",
+              "city_source": "row",
+              "niche": "physio",
+              "platform": "",
+              "perf": "24",
+              "a11y": "93",
+              "best_practices": "96",
+              "seo": "100",
+              "LCP_ms": "12001",
+              "CLS": "0",
+              "TBT_ms": "1808",
+              "FCP_ms": "3751",
+              "bytes": "4698935",
+              "load_category": "AVERAGE",
+              "error": "",
+              "measured_at": "2026-09-26",
+              "multi_city": "no",
+              "source_file": "Philadelphia_us_scores.csv",
+              "perf_i": 24
+            },
+            "commentary": [
+              "Average mobile performance score across 100 measured sites: 59.8/100.",
+              "Fastest industry measured here: Optometry at 63.1/100 (n=20). Slowest: Physiotherapy at 54.8/100 (n=20).",
+              "Fastest site measured: dentistphiladelphia.com at 99/100. Slowest: strivephysicaltherapy.com at 24/100.",
+              "31% of measured sites score below 50/100; 10% reach 90 or better."
             ]
           },
           {
@@ -11853,6 +12365,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-26",
+              "multi_city": "no",
               "source_file": "Phoenix_us_scores.csv",
               "perf_i": 100
             },
@@ -11875,6 +12388,7 @@
               "load_category": "SLOW",
               "error": "",
               "measured_at": "2026-09-26",
+              "multi_city": "no",
               "source_file": "Phoenix_us_scores.csv",
               "perf_i": 4
             },
@@ -11958,6 +12472,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "Houston_us_scores.csv",
               "perf_i": 100
             },
@@ -11980,6 +12495,7 @@
               "load_category": "FAST",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "Houston_us_scores.csv",
               "perf_i": 28
             },
@@ -12063,6 +12579,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "Los Angeles_us_scores.csv",
               "perf_i": 100
             },
@@ -12085,6 +12602,7 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "Los Angeles_us_scores.csv",
               "perf_i": 24
             },
@@ -12098,10 +12616,10 @@
           {
             "city": "Chicago",
             "slug": "chicago",
-            "n": 99,
-            "attempted": 99,
+            "n": 100,
+            "attempted": 100,
             "avg": 55.5,
-            "median": 57,
+            "median": 57.0,
             "red": 38,
             "red_pct": 38,
             "green_pct": 6,
@@ -12127,10 +12645,10 @@
               {
                 "niche": "physio",
                 "label": "Physiotherapy",
-                "n": 19,
-                "avg": 56.5,
-                "red_pct": 32,
-                "green_pct": 11
+                "n": 20,
+                "avg": 56.3,
+                "red_pct": 30,
+                "green_pct": 10
               },
               {
                 "niche": "optometrist",
@@ -12168,6 +12686,7 @@
               "load_category": "FAST",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "Chicago_us_scores.csv",
               "perf_i": 100
             },
@@ -12190,11 +12709,12 @@
               "load_category": "",
               "error": "",
               "measured_at": "2026-09-25",
+              "multi_city": "no",
               "source_file": "Chicago_us_scores.csv",
               "perf_i": 6
             },
             "commentary": [
-              "Average mobile performance score across 99 measured sites: 55.5/100.",
+              "Average mobile performance score across 100 measured sites: 55.5/100.",
               "Fastest industry measured here: HVAC at 58.4/100 (n=20). Slowest: Real estate at 49.7/100 (n=20).",
               "Fastest site measured: puredentalspa.com at 100/100. Slowest: expediencehvac.com at 6/100.",
               "38% of measured sites score below 50/100; 6% reach 90 or better."
@@ -12203,17 +12723,22 @@
         ],
         "sampling": [],
         "unmapped": 0,
+        "measurements": 600,
+        "multi_city": [
+          "athletico.com",
+          "atipt.com"
+        ],
         "commentary": [
-          "Average mobile performance score across 499 measured sites: 59.3/100.",
-          "Fastest industry measured here: Optometry at 63.3/100 (n=100). Slowest: Real estate at 55.0/100 (n=100).",
+          "Average mobile performance score across 598 measured sites: 59.4/100.",
+          "Fastest industry measured here: Optometry at 63.2/100 (n=120). Slowest: Real estate at 55.5/100 (n=120).",
           "Fastest site measured: puredentalspa.com at 100/100. Slowest: smiledentalclinics.com at 4/100.",
           "32% of measured sites score below 50/100; 8% reach 90 or better."
         ]
       }
     ],
     "country_count": 2,
-    "city_count": 74,
-    "ranked_city_count": 27,
+    "city_count": 75,
+    "ranked_city_count": 28,
     "best_city": {
       "city": "Hamilton",
       "slug": "hamilton",
@@ -12279,6 +12804,7 @@
         "load_category": "",
         "error": "",
         "measured_at": "2026-09-25",
+        "multi_city": "no",
         "source_file": "physio_scores3.csv",
         "perf_i": 97
       },
@@ -12301,6 +12827,7 @@
         "load_category": "SLOW",
         "error": "",
         "measured_at": "2026-09-25",
+        "multi_city": "no",
         "source_file": "opt_data.csv",
         "perf_i": 22
       },
@@ -12360,6 +12887,7 @@
         "load_category": "",
         "error": "",
         "measured_at": "2026-09-24",
+        "multi_city": "no",
         "source_file": "physio_scores1.csv",
         "perf_i": 71
       },
@@ -12382,6 +12910,7 @@
         "load_category": "AVERAGE",
         "error": "",
         "measured_at": "2026-09-25",
+        "multi_city": "no",
         "source_file": "opt_data.csv",
         "perf_i": 33
       },
@@ -12391,9 +12920,14 @@
         "85% of measured sites score below 50/100; 0% reach 90 or better."
       ]
     },
+    "multi_city_sites": [
+      "athletico.com",
+      "atipt.com",
+      "clareo.ca"
+    ],
     "commentary": [
-      "Average mobile performance score across 1367 measured sites: 57.0/100.",
-      "Fastest industry measured here: HVAC at 60.2/100 (n=269). Slowest: Dental at 54.9/100 (n=451).",
+      "Average mobile performance score across 1466 measured sites: 57.2/100.",
+      "Fastest industry measured here: HVAC at 60.2/100 (n=289). Slowest: Dental at 55.3/100 (n=471).",
       "Fastest site measured: drdentalclinics.ca at 100/100. Slowest: smiledentalclinics.com at 4/100.",
       "36% of measured sites score below 50/100; 6% reach 90 or better."
     ]

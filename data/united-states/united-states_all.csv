@@ -1,500 +1,601 @@
-url,country,city,city_source,niche,platform,perf,a11y,best_practices,seo,LCP_ms,CLS,TBT_ms,FCP_ms,bytes,load_category,error,measured_at,source_file
-atooth.com,US,Chicago,row,dental,,48,93,96,92,6226,0,645,4736,2903175,AVERAGE,,2026-09-25,Chicago_us_scores.csv
-chicagocosmeticdentalcare.com,US,Chicago,row,dental,,38,85,92,85,10964,0,1017,3277,5654942,,,2026-09-25,Chicago_us_scores.csv
-chicagodental312.com,US,Chicago,row,dental,unknown,60,89,92,100,15085,0,66,3306,4178810,,,2026-09-25,Chicago_us_scores.csv
-chicagofamilydental.com,US,Chicago,row,dental,unknown,87,87,73,100,3172,0,72,1850,1028218,,,2026-09-25,Chicago_us_scores.csv
-chicagoloopdentistry.com,US,Chicago,row,dental,unknown,70,87,96,92,3077,0,622,2402,2820768,,,2026-09-25,Chicago_us_scores.csv
-downtown-dental.com,US,Chicago,row,dental,,30,93,77,92,16654,0,1818,4481,6000271,AVERAGE,,2026-09-25,Chicago_us_scores.csv
-drflak.com,US,Chicago,row,dental,unknown,67,89,100,83,6348,0,44,1797,3209609,,,2026-09-25,Chicago_us_scores.csv
-drramybahu.com,US,Chicago,row,dental,unknown,88,100,100,100,3542,0,0,2124,1922966,,,2026-09-25,Chicago_us_scores.csv
-drsbloom.com,US,Chicago,row,dental,,64,86,96,100,7351,0,47,3601,1175026,,,2026-09-25,Chicago_us_scores.csv
-everdentalstudio.com,US,Chicago,row,dental,WordPress,54,91,96,92,3976,0,301,1651,677969,,,2026-09-25,Chicago_us_scores.csv
-impressionsdentalchicago.com,US,Chicago,row,dental,unknown,83,71,88,83,3084,0,0,2450,351711,,,2026-09-25,Chicago_us_scores.csv
-intheloopdentist.com,US,Chicago,row,dental,WordPress,51,78,77,85,4910,0,71,3871,10603681,,,2026-09-25,Chicago_us_scores.csv
-lakeviewdentalarts.com,US,Chicago,row,dental,Squarespace,36,92,100,100,17765,0,896,5416,3150252,,,2026-09-25,Chicago_us_scores.csv
-lincolnavedentalgroup.com,US,Chicago,row,dental,Wix,35,91,96,100,9585,0,1344,3159,5143907,,,2026-09-25,Chicago_us_scores.csv
-lpsdental.com,US,Chicago,row,dental,unknown,42,91,,100,5114,0,944,4212,2978269,SLOW,,2026-09-25,Chicago_us_scores.csv
-lvdachicago.com,US,Chicago,row,dental,WordPress,52,78,81,85,12252,0,232,7435,2332577,,,2026-09-25,Chicago_us_scores.csv
-parkwestfamilydental.com,US,Chicago,row,dental,WordPress,57,88,100,85,4143,0,34,4143,4789911,,,2026-09-25,Chicago_us_scores.csv
-premierdentistrychicago.com,US,Chicago,row,dental,WordPress,77,87,100,100,4264,0,284,1351,505557,,,2026-09-25,Chicago_us_scores.csv
-puredentalspa.com,US,Chicago,row,dental,,100,94,100,92,937,0,0,912,1027266,FAST,,2026-09-25,Chicago_us_scores.csv
-strobeldentistry.com,US,Chicago,row,dental,WordPress,17,85,96,100,8366,1,769,3225,12466523,,,2026-09-25,Chicago_us_scores.csv
-773hotcold.com,US,Chicago,row,hvac,WordPress,62,87,96,85,11510,0,79,2646,3868727,,,2026-09-25,Chicago_us_scores.csv
-alltemp.com,US,Chicago,row,hvac,WordPress,53,100,100,100,3123,0,2445,1998,1076438,AVERAGE,,2026-09-25,Chicago_us_scores.csv
-alwaysreadyrepair.com,US,Chicago,row,hvac,unknown,38,97,96,92,4727,0,2676,3527,20331743,AVERAGE,,2026-09-25,Chicago_us_scores.csv
-berniesheating.com,US,Chicago,row,hvac,unknown,91,96,92,100,1230,0,372,921,952606,,,2026-09-25,Chicago_us_scores.csv
-chicagocomforthvac.com,US,Chicago,row,hvac,WordPress,54,93,100,100,32393,0,150,6301,9827568,,,2026-09-25,Chicago_us_scores.csv
-chicagohvacrepairdr.com,US,Chicago,row,hvac,WordPress,70,84,96,85,2860,0,459,2709,4440713,,,2026-09-25,Chicago_us_scores.csv
-ecotemphvac.com,US,Chicago,row,hvac,WordPress,62,90,88,100,13981,0,408,1349,3522016,AVERAGE,,2026-09-25,Chicago_us_scores.csv
-englerheating.com,US,Chicago,row,hvac,,43,82,77,92,10951,0,147,5852,3142708,,,2026-09-25,Chicago_us_scores.csv
-enrights.com,US,Chicago,row,hvac,unknown,57,83,96,100,5614,0,456,1497,764720,,,2026-09-25,Chicago_us_scores.csv
-expediencehvac.com,US,Chicago,row,hvac,WordPress,6,75,88,100,61358,0,3424,3752,11828695,,,2026-09-25,Chicago_us_scores.csv
-firststarhvac.com,US,Chicago,row,hvac,unknown,65,95,96,100,8281,0,124,3305,1563113,,,2026-09-25,Chicago_us_scores.csv
-fivestar247.com,US,Chicago,row,hvac,,59,82,73,85,8101,0,231,3542,4573584,,,2026-09-25,Chicago_us_scores.csv
-flyplumbing.com,US,Chicago,row,hvac,unknown,67,91,96,85,5317,0,340,2694,2115266,FAST,,2026-09-25,Chicago_us_scores.csv
-fourseasonsheatingcooling.com,US,Chicago,row,hvac,WordPress,39,73,73,85,18285,0,238,2428,4907916,FAST,,2026-09-25,Chicago_us_scores.csv
-frontlineheatingcooling.com,US,Chicago,row,hvac,unknown,90,90,77,92,1258,0,319,1238,1402348,,,2026-09-25,Chicago_us_scores.csv
-jtrenergy.com,US,Chicago,row,hvac,,68,84,96,92,7584,0,220,1201,2526488,,,2026-09-25,Chicago_us_scores.csv
-myheroair.com,US,Chicago,row,hvac,unknown,48,86,100,100,10097,0,622,3155,4003149,,,2026-09-25,Chicago_us_scores.csv
-shavitz.com,US,Chicago,row,hvac,WordPress,79,85,100,100,3902,0,0,2855,959470,,,2026-09-25,Chicago_us_scores.csv
-southsuburbanheating.com,US,Chicago,row,hvac,,59,86,96,92,6376,0,329,1540,2078313,,,2026-09-25,Chicago_us_scores.csv
-sunsetheatingandairconditioning.com,US,Chicago,row,hvac,unknown,58,91,96,92,2908,0,7157,1803,4647496,,,2026-09-25,Chicago_us_scores.csv
-bigcityoptical.com,US,Chicago,row,optometrist,,23,87,73,85,7953,0,6934,3002,6730886,FAST,,2026-09-25,Chicago_us_scores.csv
-blinkfamilyeyecare.com,US,Chicago,row,optometrist,Wix,76,96,100,92,5816,0,1,2269,1345546,,,2026-09-25,Chicago_us_scores.csv
-chicagoarboreye.com,US,Chicago,row,optometrist,WordPress,70,91,100,92,4132,0,260,1677,2839645,FAST,,2026-09-25,Chicago_us_scores.csv
-customeyes2020.com,US,Chicago,row,optometrist,,35,81,92,92,15976,0,565,4120,2168581,FAST,,2026-09-25,Chicago_us_scores.csv
-deanoptical.com,US,Chicago,row,optometrist,WordPress,44,100,96,100,21748,0,783,2885,3088870,,,2026-09-25,Chicago_us_scores.csv
-dreyesee.com,US,Chicago,row,optometrist,,67,86,100,85,7266,0,135,2016,1393740,,,2026-09-25,Chicago_us_scores.csv
-eyespecialistsofillinois.com,US,Chicago,row,optometrist,,73,88,100,85,8554,0,86,1692,1281381,,,2026-09-25,Chicago_us_scores.csv
-forsiteoptical.com,US,Chicago,row,optometrist,,87,81,96,73,3185,0,0,3185,158880,,,2026-09-25,Chicago_us_scores.csv
-hydeparkoptometrists.com,US,Chicago,row,optometrist,,61,92,96,100,74417,0,192,2451,14882181,,,2026-09-25,Chicago_us_scores.csv
-lsqeyecare.com,US,Chicago,row,optometrist,unknown,64,83,96,82,12114,0,69,2914,2555331,,,2026-09-25,Chicago_us_scores.csv
-pilseneyecare.com,US,Chicago,row,optometrist,unknown,51,47,96,92,3203,0,5033,3203,1363414,,,2026-09-25,Chicago_us_scores.csv
-prismeyecareinc.com,US,Chicago,row,optometrist,unknown,69,91,69,100,2777,0,0,2368,597419,,,2026-09-25,Chicago_us_scores.csv
-rosineyecare.com,US,Chicago,row,optometrist,WordPress,28,82,92,85,19651,0,559,2733,6573925,SLOW,,2026-09-25,Chicago_us_scores.csv
-spencerseyecare.com,US,Chicago,row,optometrist,,74,93,85,92,7056,0,79,1675,5258027,,,2026-09-25,Chicago_us_scores.csv
-uptownfamilyvision.com,US,Chicago,row,optometrist,unknown,68,44,96,92,8041,0,49,2705,1585360,,,2026-09-25,Chicago_us_scores.csv
-villageeyecare.net,US,Chicago,row,optometrist,WordPress,42,76,92,92,21245,0,531,5049,3901786,SLOW,,2026-09-25,Chicago_us_scores.csv
-visionparkridge.com,US,Chicago,row,optometrist,WordPress,39,95,73,85,15152,0,274,7692,10301520,,,2026-09-25,Chicago_us_scores.csv
-weareyewear-chicago.com,US,Chicago,row,optometrist,,38,93,73,100,17977,0,1564,2008,4971349,,,2026-09-25,Chicago_us_scores.csv
-westloopeyecare.com,US,Chicago,row,optometrist,unknown,25,84,50,85,8622,0,644,3894,2125697,,,2026-09-25,Chicago_us_scores.csv
-wickerparkeyecenter.com,US,Chicago,row,optometrist,unknown,73,91,100,92,3268,0,171,3268,8409776,,,2026-09-25,Chicago_us_scores.csv
-atipt.com,US,Chicago,row,physio,WordPress,30,88,100,92,18903,0,4564,1854,8864710,AVERAGE,,2026-09-25,Chicago_us_scores.csv
-chicagophysicaltherapists.com,US,Chicago,row,physio,Squarespace,65,90,96,92,9349,0,170,2556,2171369,FAST,,2026-09-25,Chicago_us_scores.csv
-dynamic-pt.com,US,Chicago,row,physio,WordPress,54,98,100,92,12601,0,284,4585,2262925,,,2026-09-25,Chicago_us_scores.csv
-fyzicalchicago.com,US,Chicago,row,physio,WordPress,59,89,77,100,3826,0,788,1387,3123730,AVERAGE,,2026-09-25,Chicago_us_scores.csv
-impactphysicaltherapy.com,US,Chicago,row,physio,WordPress,70,94,96,92,4415,0,549,1246,7510088,AVERAGE,,2026-09-25,Chicago_us_scores.csv
-lakeshore-pt.com,US,Chicago,row,physio,WordPress,63,89,96,92,5626,0,322,2769,3772815,,,2026-09-25,Chicago_us_scores.csv
-lincolnparkpt.com,US,Chicago,row,physio,unknown,94,88,96,83,3018,0,41,932,526916,,,2026-09-25,Chicago_us_scores.csv
-movementphysicaltherapy.com,US,Chicago,row,physio,WordPress,62,80,100,85,11138,0,79,2878,2638089,,,2026-09-25,Chicago_us_scores.csv
-mpowerptchicago.com,US,Chicago,row,physio,Squarespace,36,89,73,100,9641,0,1713,3157,3576585,,,2026-09-25,Chicago_us_scores.csv
-muscleandjointphysicaltherapy.com,US,Chicago,row,physio,WordPress,44,92,96,92,8102,0,1084,2567,4256843,FAST,,2026-09-25,Chicago_us_scores.csv
-physiochicago.com,US,Chicago,row,physio,Squarespace,36,95,96,92,14175,0,1556,3453,3387145,AVERAGE,,2026-09-25,Chicago_us_scores.csv
-physiopartners.com,US,Chicago,row,physio,,65,90,92,100,7105,0,151,3147,1046866,AVERAGE,,2026-09-25,Chicago_us_scores.csv
-premierphysicaltherapy.com,US,Chicago,row,physio,unknown,28,83,100,85,17293,0,600,6444,2698338,AVERAGE,,2026-09-25,Chicago_us_scores.csv
-relivetherapy.com,US,Chicago,row,physio,WordPress,90,89,100,85,2564,0,158,2262,1406005,,,2026-09-25,Chicago_us_scores.csv
-rushpt.com,US,Chicago,row,physio,,60,92,96,100,11972,0,81,4351,2223323,FAST,,2026-09-25,Chicago_us_scores.csv
-slooppt.com,US,Chicago,row,physio,Squarespace,75,100,100,92,3643,0,343,2593,1706272,,,2026-09-25,Chicago_us_scores.csv
-unbrokenrehab.com,US,Chicago,row,physio,WordPress,25,83,96,100,5551,0,623,3789,6908069,,,2026-09-25,Chicago_us_scores.csv
-vividpt.com,US,Chicago,row,physio,unknown,56,95,96,82,15630,0,258,4273,4161510,,,2026-09-25,Chicago_us_scores.csv
-wlspine.com,US,Chicago,row,physio,,62,88,85,92,7642,0,288,2772,1160131,,,2026-09-25,Chicago_us_scores.csv
-benlalez.com,US,Chicago,row,realtor,,31,81,96,77,18322,0,1293,5650,3928091,,,2026-09-25,Chicago_us_scores.csv
-bradbrondyke.com,US,Chicago,row,realtor,Squarespace,36,95,77,100,10900,0,1012,4149,4271475,,,2026-09-25,Chicago_us_scores.csv
-carriemccormickre.com,US,Chicago,row,realtor,unknown,90,97,100,100,2929,0,0,2314,987615,SLOW,,2026-09-25,Chicago_us_scores.csv
-darbyzwagerman.com,US,Chicago,row,realtor,,47,83,77,92,12362,0,553,3139,7046032,,,2026-09-25,Chicago_us_scores.csv
-eswchicago.com,US,Chicago,row,realtor,unknown,32,83,96,92,7660,0,2634,3606,11042668,AVERAGE,,2026-09-25,Chicago_us_scores.csv
-jackiemack.com,US,Chicago,row,realtor,WordPress,44,78,73,92,15574,0,557,4623,17603088,SLOW,,2026-09-25,Chicago_us_scores.csv
-kaagehomes.com,US,Chicago,row,realtor,WordPress,66,89,92,92,16456,0,57,3317,4011818,,,2026-09-25,Chicago_us_scores.csv
-leighmarcus.com,US,Chicago,row,realtor,unknown,52,85,96,92,13564,0,389,3005,49847334,,,2026-09-25,Chicago_us_scores.csv
-mahachicagorealestate.com,US,Chicago,row,realtor,WordPress,37,81,77,77,5261,0,1683,4625,7351146,,,2026-09-25,Chicago_us_scores.csv
-markmanz.com,US,Chicago,row,realtor,unknown,78,72,96,83,3660,0,149,2735,1098088,FAST,,2026-09-25,Chicago_us_scores.csv
-mattlaricy.com,US,Chicago,row,realtor,unknown,55,76,96,85,12642,0,324,3306,9261743,AVERAGE,,2026-09-25,Chicago_us_scores.csv
-michaelscavogroup.com,US,Chicago,row,realtor,unknown,38,82,96,85,9378,0,1632,2292,3913127,,,2026-09-25,Chicago_us_scores.csv
-modernlivingwithkat.com,US,Chicago,row,realtor,Squarespace,29,92,73,100,13531,0,1807,3606,6656986,,,2026-09-25,Chicago_us_scores.csv
-mychicagobrokers.com,US,Chicago,row,realtor,WordPress,28,78,77,100,14500,0,2550,4586,6386566,,,2026-09-25,Chicago_us_scores.csv
-nataliiagabryk.com,US,Chicago,row,realtor,Wix,62,97,100,92,7914,0,7,4776,11063135,,,2026-09-25,Chicago_us_scores.csv
-oakparkexpert.com,US,Chicago,row,realtor,unknown,83,93,96,100,3591,0,216,1824,1677611,,,2026-09-25,Chicago_us_scores.csv
-preppyrealtor.com,US,Chicago,row,realtor,Squarespace,67,85,96,85,4882,0,293,2199,2844905,,,2026-09-25,Chicago_us_scores.csv
-romologroup.com,US,Chicago,row,realtor,unknown,39,79,73,77,24261,0,832,4071,10847786,,,2026-09-25,Chicago_us_scores.csv
-rubinabokhari.com,US,Chicago,row,realtor,,44,91,69,100,11506,0,639,3239,5454870,,,2026-09-25,Chicago_us_scores.csv
-sohailrealestate.com,US,Chicago,row,realtor,unknown,36,78,92,92,6602,0,1365,4952,13719507,,,2026-09-25,Chicago_us_scores.csv
-bellairedentalgroup.com,US,Houston,row,dental,unknown,77,100,100,92,5087,0,0,2562,5850923,,,2026-09-25,Houston_us_scores.csv
-brilliantdentalcare.com,US,Houston,row,dental,WordPress,80,94,96,85,4003,0,189,2457,949399,,,2026-09-25,Houston_us_scores.csv
-ddsforyou.com,US,Houston,row,dental,WordPress,87,96,92,100,2949,0,13,2445,1099161,,,2026-09-25,Houston_us_scores.csv
-dentistgalleria.com,US,Houston,row,dental,WordPress,30,89,54,92,14076,0,445,2307,7197927,,,2026-09-25,Houston_us_scores.csv
-designdentalmontrose.com,US,Houston,row,dental,unknown,71,87,96,85,7015,0,66,2256,1433879,,,2026-09-25,Houston_us_scores.csv
-downtownhoustondentist.com,US,Houston,row,dental,unknown,64,82,96,100,3279,0,104,2760,2798433,,,2026-09-25,Houston_us_scores.csv
-fariasdds.com,US,Houston,row,dental,WordPress,53,93,73,85,28834,0,425,1992,6278890,,,2026-09-25,Houston_us_scores.csv
-galleriahoustondentist.com,US,Houston,row,dental,,50,72,73,92,13726,0,426,3001,5924766,,,2026-09-25,Houston_us_scores.csv
-houstondental.com,US,Houston,row,dental,WordPress,38,84,54,85,4828,0,738,3789,6995695,,,2026-09-25,Houston_us_scores.csv
-houstondentistsatpostoak.com,US,Houston,row,dental,,37,78,69,85,19822,0,1030,3749,4073760,,,2026-09-25,Houston_us_scores.csv
-houstonheightsdentistry.com,US,Houston,row,dental,WordPress,36,87,73,92,7391,0,1397,2899,20060040,,,2026-09-25,Houston_us_scores.csv
-montrosedds.com,US,Houston,row,dental,unknown,30,84,73,100,8886,0,1221,2795,3158144,,,2026-09-25,Houston_us_scores.csv
-mydeardentist.net,US,Houston,row,dental,WordPress,53,87,96,100,4291,0,1007,2221,5765391,,,2026-09-25,Houston_us_scores.csv
-nabadental.com,US,Houston,row,dental,unknown,55,82,96,100,13213,0,204,3516,2294940,,,2026-09-25,Houston_us_scores.csv
-p-edental.com,US,Houston,row,dental,,55,97,96,100,4951,0,486,3601,4401361,,,2026-09-25,Houston_us_scores.csv
-sunrisedentalsmile.com,US,Houston,row,dental,unknown,44,87,96,100,3799,0,700,1758,2063489,SLOW,,2026-09-25,Houston_us_scores.csv
-swishsmiles.com,US,Houston,row,dental,unknown,28,99,100,92,10794,0,17154,4217,28058098,FAST,,2026-09-25,Houston_us_scores.csv
-thedentisthouston.com,US,Houston,row,dental,WordPress,60,80,96,100,13651,0,53,3305,3027871,,,2026-09-25,Houston_us_scores.csv
-uptownhoustonsmiles.com,US,Houston,row,dental,WordPress,46,100,100,92,33307,0,331,3011,12744419,,,2026-09-25,Houston_us_scores.csv
-westuniversitydentistry.com,US,Houston,row,dental,WordPress,34,79,77,85,46343,0,1032,5258,8795675,,,2026-09-25,Houston_us_scores.csv
-aircurrenthouston.com,US,Houston,row,hvac,WordPress,41,100,96,92,12536,0,970,2938,1589591,,,2026-09-25,Houston_us_scores.csv
-airdepot.com,US,Houston,row,hvac,WordPress,36,87,96,92,11626,0,2188,2556,6148583,,,2026-09-25,Houston_us_scores.csv
-airspecialist.com,US,Houston,row,hvac,unknown,67,96,100,100,6151,0,242,1963,5300355,FAST,,2026-09-25,Houston_us_scores.csv
-airtechofkaty.com,US,Houston,row,hvac,WordPress,39,85,96,92,5926,0,2860,2741,4514686,,,2026-09-25,Houston_us_scores.csv
-airtonheatingac.com,US,Houston,row,hvac,WordPress,79,91,96,100,3601,0,0,2735,852268,,,2026-09-25,Houston_us_scores.csv
-airtronicstx.com,US,Houston,row,hvac,,94,66,77,82,1877,0,0,1877,42759,,,2026-09-25,Houston_us_scores.csv
-aliefheatingandairconditioning.com,US,Houston,row,hvac,unknown,62,86,96,92,6192,0,291,1682,973679,,,2026-09-25,Houston_us_scores.csv
-americancomfortexperts.com,US,Houston,row,hvac,unknown,56,86,100,100,11096,0,237,5163,1558292,,,2026-09-25,Houston_us_scores.csv
-blitzproservices.com,US,Houston,row,hvac,WordPress,51,82,77,92,21526,0,329,5476,5095943,,,2026-09-25,Houston_us_scores.csv
-championandnash.com,US,Houston,row,hvac,unknown,72,91,100,92,1951,0,1050,1351,2514170,AVERAGE,,2026-09-25,Houston_us_scores.csv
-courtesyaconline.com,US,Houston,row,hvac,WordPress,32,96,96,100,9451,0,1605,4351,2368845,,,2026-09-25,Houston_us_scores.csv
-customcomfortair.com,US,Houston,row,hvac,WordPress,90,84,96,92,1694,0,0,1274,412884,,,2026-09-25,Houston_us_scores.csv
-grbmechanical.com,US,Houston,row,hvac,Wix,68,100,77,100,6186,0,234,2414,2282084,,,2026-09-25,Houston_us_scores.csv
-houston-airconditioning.com,US,Houston,row,hvac,unknown,87,86,100,100,3251,0,15,2705,349861,,,2026-09-25,Houston_us_scores.csv
-pmhvac.com,US,Houston,row,hvac,,96,96,100,100,1876,0,138,1221,1373187,,,2026-09-25,Houston_us_scores.csv
-rejoiceair.com,US,Houston,row,hvac,,62,85,96,100,7651,0,190,2739,2364629,,,2026-09-25,Houston_us_scores.csv
-royalairhouston.com,US,Houston,row,hvac,unknown,53,65,96,100,10787,0,418,3902,1754471,SLOW,,2026-09-25,Houston_us_scores.csv
-tamtotalair.com,US,Houston,row,hvac,,100,95,96,45,805,0,0,805,3416,,,2026-09-25,Houston_us_scores.csv
-terrysacandheating.com,US,Houston,row,hvac,WordPress,31,94,92,85,15027,0,1275,5343,5323771,SLOW,,2026-09-25,Houston_us_scores.csv
-titanhvachouston.com,US,Houston,row,hvac,WordPress,79,93,100,85,3603,0,12,3303,2555313,,,2026-09-25,Houston_us_scores.csv
-berkeleyeye.com,US,Houston,row,optometrist,,72,88,100,100,5571,0,0,2884,755207,FAST,,2026-09-25,Houston_us_scores.csv
-bettervisiontx.com,US,Houston,row,optometrist,unknown,63,92,100,100,7694,0,0,4428,1281165,,,2026-09-25,Houston_us_scores.csv
-clearlakeeye.com,US,Houston,row,optometrist,WordPress,57,92,96,92,8125,0,261,3305,1697801,,,2026-09-25,Houston_us_scores.csv
-clearlaketso.com,US,Houston,row,optometrist,unknown,92,43,100,92,2738,0,23,2580,842179,,,2026-09-25,Houston_us_scores.csv
-cypressvisionopto.com,US,Houston,row,optometrist,unknown,86,43,96,92,2881,0,143,2706,1454146,,,2026-09-25,Houston_us_scores.csv
-elitevisioncare.com,US,Houston,row,optometrist,unknown,69,46,100,92,6715,0,34,2677,902384,,,2026-09-25,Houston_us_scores.csv
-eyeeyedoc.com,US,Houston,row,optometrist,Wix,47,97,77,100,6003,0,1119,2853,3767890,FAST,,2026-09-25,Houston_us_scores.csv
-eyes-optics.com,US,Houston,row,optometrist,WordPress,71,80,96,100,9714,0,131,1571,2338902,,,2026-09-25,Houston_us_scores.csv
-eyesoncypress.com,US,Houston,row,optometrist,,58,96,100,100,7556,0,485,1925,935870,,,2026-09-25,Houston_us_scores.csv
-focalpointeyecaretx.com,US,Houston,row,optometrist,Squarespace,71,75,100,92,3559,0,439,3003,1055250,,,2026-09-25,Houston_us_scores.csv
-houstoneyepro.com,US,Houston,row,optometrist,,51,100,100,92,9217,0,886,2156,1178216,,,2026-09-25,Houston_us_scores.csv
-maxtonvisiongroup.com,US,Houston,row,optometrist,,79,83,85,92,4906,0,25,1783,1067174,,,2026-09-25,Houston_us_scores.csv
-memorialvision.com,US,Houston,row,optometrist,unknown,82,55,100,85,4177,0,14,2072,731978,,,2026-09-25,Houston_us_scores.csv
-pearlandeyecare.com,US,Houston,row,optometrist,,64,92,73,100,4032,0,477,3432,1485282,,,2026-09-25,Houston_us_scores.csv
-pearlandprofessionalvision.com,US,Houston,row,optometrist,,34,93,73,100,12864,0,3262,2024,4183256,,,2026-09-25,Houston_us_scores.csv
-seabrookeyecenter.com,US,Houston,row,optometrist,WordPress,38,100,100,100,9394,0,729,5862,2530626,,,2026-09-25,Houston_us_scores.csv
-tsowestpearland.com,US,Houston,row,optometrist,unknown,86,46,100,92,2748,0,205,2578,1385179,,,2026-09-25,Houston_us_scores.csv
-twenty20visioncenter.com,US,Houston,row,optometrist,WordPress,66,96,100,92,7500,0,81,2514,1338589,AVERAGE,,2026-09-25,Houston_us_scores.csv
-visioneyemax.com,US,Houston,row,optometrist,unknown,89,46,100,92,3199,0,0,2467,373643,,,2026-09-25,Houston_us_scores.csv
-visiongallerykaty.com,US,Houston,row,optometrist,unknown,87,43,96,92,3020,0,44,2734,1533030,,,2026-09-25,Houston_us_scores.csv
-action-pt.net,US,Houston,row,physio,,55,88,58,100,11889,0,211,4124,2281179,,,2026-09-25,Houston_us_scores.csv
-advancephysicaltherapy.com,US,Houston,row,physio,WordPress,37,91,96,100,7544,0,963,4425,9609166,SLOW,,2026-09-25,Houston_us_scores.csv
-amptrehab.com,US,Houston,row,physio,,65,85,100,92,8444,0,216,2272,2710042,,,2026-09-25,Houston_us_scores.csv
-apexrehab.com,US,Houston,row,physio,,67,82,100,92,6541,0,77,2724,3696680,,,2026-09-25,Houston_us_scores.csv
-bellairept.com,US,Houston,row,physio,WordPress,38,73,96,92,6751,1,188,2852,1613976,,,2026-09-25,Houston_us_scores.csv
-bulletproofpt.com,US,Houston,row,physio,Squarespace,38,97,100,100,16186,0,2603,2856,2764571,,,2026-09-25,Houston_us_scores.csv
-casephysicaltherapy.com,US,Houston,row,physio,,58,88,100,92,5701,0,792,1667,1890729,,,2026-09-25,Houston_us_scores.csv
-covenantphysicaltherapy.com,US,Houston,row,physio,unknown,37,92,100,91,8362,0,514,5252,1515861,,,2026-09-25,Houston_us_scores.csv
-elationpt.com,US,Houston,row,physio,Wix,65,96,96,92,8402,0,390,1866,3371234,FAST,,2026-09-25,Houston_us_scores.csv
-evolutiontherapyinmotion.com,US,Houston,row,physio,,89,93,96,100,3538,0,0,1849,1199487,,,2026-09-25,Houston_us_scores.csv
-houstonmedicalclinic.com,US,Houston,row,physio,Squarespace,69,96,100,85,8123,0,80,2339,1368364,,,2026-09-25,Houston_us_scores.csv
-jenniferkleinphysicaltherapy.com,US,Houston,row,physio,WordPress,40,88,100,92,14126,0,1289,2814,2437056,,,2026-09-25,Houston_us_scores.csv
-medcentertherapy.com,US,Houston,row,physio,,36,85,73,92,4501,0,2781,3678,11834937,,,2026-09-25,Houston_us_scores.csv
-mymotusphysio.com,US,Houston,row,physio,Wix,47,92,100,100,6678,0,584,3453,63022851,,,2026-09-25,Houston_us_scores.csv
-pione3rpt.com,US,Houston,row,physio,Squarespace,28,100,100,100,18632,0,2289,4578,3344602,,,2026-09-25,Houston_us_scores.csv
-properphysicaltherapy.com,US,Houston,row,physio,WordPress,72,86,96,85,4731,0,344,2011,1962338,,,2026-09-25,Houston_us_scores.csv
-resultspt.com,US,Houston,row,physio,WordPress,43,91,54,92,9123,0,819,4131,3195886,FAST,,2026-09-25,Houston_us_scores.csv
-revolvephysicaltherapy.com,US,Houston,row,physio,WordPress,46,96,96,92,21913,0,494,2617,6649650,,,2026-09-25,Houston_us_scores.csv
-starhoustonphysicaltherapy.com,US,Houston,row,physio,,69,80,100,92,6473,0,0,2589,4855143,,,2026-09-25,Houston_us_scores.csv
-unifypt.com,US,Houston,row,physio,,72,92,96,100,5582,0,84,2403,8738078,,,2026-09-25,Houston_us_scores.csv
-amyraper.com,US,Houston,row,realtor,,56,84,88,92,7526,0,234,3605,1669025,,,2026-09-25,Houston_us_scores.csv
-anjadrewes.com,US,Houston,row,realtor,unknown,85,88,96,92,3084,0,0,2184,1690418,,,2026-09-25,Houston_us_scores.csv
-blairrg.com,US,Houston,row,realtor,WordPress,49,78,58,92,4993,0,604,4016,20415083,AVERAGE,,2026-09-25,Houston_us_scores.csv
-christaburgess.com,US,Houston,row,realtor,unknown,79,83,100,100,3021,0,52,3021,3843264,,,2026-09-25,Houston_us_scores.csv
-citygroupproperties.com,US,Houston,row,realtor,,61,85,92,100,3451,0,811,2706,3781767,,,2026-09-25,Houston_us_scores.csv
-courtneyrobertsonrealtor.com,US,Houston,row,realtor,WordPress,31,70,58,85,10708,0,1211,5941,11693070,,,2026-09-25,Houston_us_scores.csv
-crrealtyco.com,US,Houston,row,realtor,unknown,54,100,100,92,6275,0,126,3324,5465749,,,2026-09-25,Houston_us_scores.csv
-haleygarciagroup.com,US,Houston,row,realtor,WordPress,51,87,92,92,13387,0,560,1417,8068684,,,2026-09-25,Houston_us_scores.csv
-houstonprimerealty.com,US,Houston,row,realtor,WordPress,94,88,92,100,2348,0,0,2186,384323,,,2026-09-25,Houston_us_scores.csv
-hshomeshouston.com,US,Houston,row,realtor,Wix,66,93,96,100,9420,0,24,3007,8984849,,,2026-09-25,Houston_us_scores.csv
-janetchavezrealtygroup.com,US,Houston,row,realtor,unknown,32,82,96,77,4237,0,923,3412,4025840,,,2026-09-25,Houston_us_scores.csv
-jdadamsonrealtor.com,US,Houston,row,realtor,unknown,48,84,96,85,19194,0,561,3263,4380390,,,2026-09-25,Houston_us_scores.csv
-kathyvcrosby.com,US,Houston,row,realtor,,51,91,77,85,5411,0,442,4694,4089998,,,2026-09-25,Houston_us_scores.csv
-laurenlaigle.com,US,Houston,row,realtor,unknown,63,84,92,91,20051,0,77,4531,8826628,,,2026-09-25,Houston_us_scores.csv
-natashacarrollrealty.com,US,Houston,row,realtor,unknown,43,84,77,100,5776,0,831,4126,7809135,,,2026-09-25,Houston_us_scores.csv
-prestigebyekta.com,US,Houston,row,realtor,WordPress,45,87,77,85,4629,0,1101,3883,4585762,,,2026-09-25,Houston_us_scores.csv
-realmpro.com,US,Houston,row,realtor,unknown,36,94,96,92,22173,0,1170,3936,23229506,SLOW,,2026-09-25,Houston_us_scores.csv
-tahira-syed.com,US,Houston,row,realtor,unknown,64,79,96,85,12500,0,138,3184,7799605,,,2026-09-25,Houston_us_scores.csv
-tammyreasellshomes.com,US,Houston,row,realtor,unknown,71,89,96,92,6726,0,113,935,1296336,,,2026-09-25,Houston_us_scores.csv
-tommyrulandproperties.com,US,Houston,row,realtor,unknown,78,84,96,92,5017,0,76,2269,711114,,,2026-09-25,Houston_us_scores.csv
-beverlyhillsdentist.com,US,Los Angeles,row,dental,unknown,68,79,100,85,6302,0,0,3039,1083183,,,2026-09-25,Los Angeles_us_scores.csv
-billdorfmandds.com,US,Los Angeles,row,dental,WordPress,49,97,96,92,6301,0,537,2556,2969929,AVERAGE,,2026-09-25,Los Angeles_us_scores.csv
-biosmilecenter.com,US,Los Angeles,row,dental,Wix,36,83,58,85,6477,0,1707,2855,4033805,,,2026-09-25,Los Angeles_us_scores.csv
-caldentalpasadena.com,US,Los Angeles,row,dental,unknown,29,97,54,100,7346,0,2184,5469,19745926,,,2026-09-25,Los Angeles_us_scores.csv
-carsonsdental.com,US,Los Angeles,row,dental,WordPress,68,90,96,100,5290,0,73,4384,980446,,,2026-09-25,Los Angeles_us_scores.csv
-dentalpracticepasadena.com,US,Los Angeles,row,dental,WordPress,38,87,77,92,18482,0,604,2623,2779846,,,2026-09-25,Los Angeles_us_scores.csv
-dentist.drhaber.net,US,Los Angeles,row,dental,,63,79,100,83,10542,0,0,3347,2644931,,,2026-09-25,Los Angeles_us_scores.csv
-drdallolmo.com,US,Los Angeles,row,dental,WordPress,52,66,96,85,11028,0,236,2707,2400731,,,2026-09-25,Los Angeles_us_scores.csv
-drhubler.com,US,Los Angeles,row,dental,,54,91,81,100,5438,0,110,1559,1055145,,,2026-09-25,Los Angeles_us_scores.csv
-holisticsmilesla.com,US,Los Angeles,row,dental,,89,95,88,92,2708,0,107,2708,1632007,,,2026-09-25,Los Angeles_us_scores.csv
-infinitedentalwellness.com,US,Los Angeles,row,dental,WordPress,99,96,100,100,1651,0,84,952,622132,,,2026-09-25,Los Angeles_us_scores.csv
-kathyzahedidds.com,US,Los Angeles,row,dental,,31,83,73,92,7501,0,875,5551,5385803,,,2026-09-25,Los Angeles_us_scores.csv
-losangelesdentistsgroup.com,US,Los Angeles,row,dental,WordPress,56,87,96,85,4651,0,630,3151,13877641,,,2026-09-25,Los Angeles_us_scores.csv
-pacificdentalcare.org,US,Los Angeles,row,dental,WordPress,52,91,73,83,3339,0,1243,3014,15225710,,,2026-09-25,Los Angeles_us_scores.csv
-pasadenadentalcare.net,US,Los Angeles,row,dental,Wix,75,92,100,100,2859,0,631,2708,2501504,,,2026-09-25,Los Angeles_us_scores.csv
-prestigedentalpasadena.com,US,Los Angeles,row,dental,unknown,63,96,96,100,9843,0,60,3181,1510956,,,2026-09-25,Los Angeles_us_scores.csv
-santamonicadentalarts.com,US,Los Angeles,row,dental,unknown,30,79,77,92,35265,0,1329,13356,32280863,,,2026-09-25,Los Angeles_us_scores.csv
-signaturesmilesdentalgroup.com,US,Los Angeles,row,dental,WordPress,62,92,96,92,3001,0,836,2558,28940211,,,2026-09-25,Los Angeles_us_scores.csv
-zadehdentistry.com,US,Los Angeles,row,dental,unknown,24,91,73,92,15900,0,594,10601,21311086,,,2026-09-25,Los Angeles_us_scores.csv
-zakhordental.com,US,Los Angeles,row,dental,WordPress,52,95,96,92,4566,0,1136,2735,1905238,,,2026-09-25,Los Angeles_us_scores.csv
-acplumbingheatingair.com,US,Los Angeles,row,hvac,WordPress,60,100,100,100,9188,0,116,4951,1847862,,,2026-09-25,Los Angeles_us_scores.csv
-affordableairla.com,US,Los Angeles,row,hvac,WordPress,48,86,100,100,6376,0,626,2756,2354937,FAST,,2026-09-25,Los Angeles_us_scores.csv
-aireserv.com,US,Los Angeles,row,hvac,,94,93,96,40,2428,0,201,765,909584,AVERAGE,,2026-09-25,Los Angeles_us_scores.csv
-aironeheatingandcoolinginc.com,US,Los Angeles,row,hvac,unknown,30,96,73,100,9981,0,1593,6156,6538497,,,2026-09-25,Los Angeles_us_scores.csv
-airtro.com,US,Los Angeles,row,hvac,,32,86,73,100,13851,0,2941,2753,2535715,AVERAGE,,2026-09-25,Los Angeles_us_scores.csv
-brodypennell.com,US,Los Angeles,row,hvac,WordPress,70,85,100,100,4739,0,55,2851,1080953,AVERAGE,,2026-09-25,Los Angeles_us_scores.csv
-bryantheatandair.com,US,Los Angeles,row,hvac,,85,85,100,100,2846,0,368,1663,738130,,,2026-09-25,Los Angeles_us_scores.csv
-calclimate.com,US,Los Angeles,row,hvac,unknown,98,96,100,100,2101,0,59,931,284821,,,2026-09-25,Los Angeles_us_scores.csv
-greenplanet-hvac.com,US,Los Angeles,row,hvac,WordPress,45,87,96,92,10389,0,798,2128,3942827,,,2026-09-25,Los Angeles_us_scores.csv
-heatingcoolingbeyond.com,US,Los Angeles,row,hvac,WordPress,69,89,96,100,6736,0,54,2752,18140134,,,2026-09-25,Los Angeles_us_scores.csv
-kahnair.com,US,Los Angeles,row,hvac,WordPress,32,82,73,100,8599,0,2353,3967,5669511,AVERAGE,,2026-09-25,Los Angeles_us_scores.csv
-laheatingairconditioning.com,US,Los Angeles,row,hvac,unknown,27,90,96,100,21962,0,2066,9303,6784179,,,2026-09-25,Los Angeles_us_scores.csv
-lahvaclc.com,US,Los Angeles,row,hvac,unknown,78,91,96,100,2416,0,544,1051,1512534,,,2026-09-25,Los Angeles_us_scores.csv
-lencohvac.com,US,Los Angeles,row,hvac,,84,97,100,100,3301,0,107,2294,1220175,,,2026-09-25,Los Angeles_us_scores.csv
-lionshvac.com,US,Los Angeles,row,hvac,,57,89,92,100,3526,0,2057,2858,1004409,AVERAGE,,2026-09-25,Los Angeles_us_scores.csv
-mightyserv.com,US,Los Angeles,row,hvac,,26,89,92,85,11176,0,8004,3155,9554624,AVERAGE,,2026-09-25,Los Angeles_us_scores.csv
-onewayair.com,US,Los Angeles,row,hvac,,66,86,100,85,7201,0,65,2589,1026874,,,2026-09-25,Los Angeles_us_scores.csv
-southbayhvac.com,US,Los Angeles,row,hvac,unknown,100,79,96,91,759,0,0,759,2329,,,2026-09-25,Los Angeles_us_scores.csv
-ventahvac.com,US,Los Angeles,row,hvac,unknown,71,94,100,100,4749,0,127,3606,423334,,,2026-09-25,Los Angeles_us_scores.csv
-zodiachvac.com,US,Los Angeles,row,hvac,WordPress,51,83,88,92,19006,0,267,5439,7309824,,,2026-09-25,Los Angeles_us_scores.csv
-clearchoiceoptometry.com,US,Los Angeles,row,optometrist,WordPress,36,84,96,92,16726,0,1177,3717,4379180,,,2026-09-25,Los Angeles_us_scores.csv
-culvercityoptometry.com,US,Los Angeles,row,optometrist,Weebly,63,98,96,100,6856,0,178,3796,913328,,,2026-09-25,Los Angeles_us_scores.csv
-delreyoptometry.com,US,Los Angeles,row,optometrist,WordPress,64,85,96,100,4365,0,497,2880,1503069,,,2026-09-25,Los Angeles_us_scores.csv
-drmarkchung.com,US,Los Angeles,row,optometrist,WordPress,43,89,92,100,7781,0,230,2881,1575007,,,2026-09-25,Los Angeles_us_scores.csv
-eapoptometry.com,US,Los Angeles,row,optometrist,,42,91,96,90,50345,0,522,8607,10532383,,,2026-09-25,Los Angeles_us_scores.csv
-eyelandoptometry.com,US,Los Angeles,row,optometrist,,72,89,81,92,8305,0,64,1801,5674586,,,2026-09-25,Los Angeles_us_scores.csv
-frameandsight.com,US,Los Angeles,row,optometrist,unknown,71,54,96,92,6114,0,0,2465,748902,,,2026-09-25,Los Angeles_us_scores.csv
-hollywoodoptometrist.com,US,Los Angeles,row,optometrist,,60,89,85,77,9695,0,311,2735,1400871,,,2026-09-25,Los Angeles_us_scores.csv
-hollywoodspectaclesoptical.com,US,Los Angeles,row,optometrist,unknown,62,90,96,92,2439,0,2361,1803,3290962,,,2026-09-25,Los Angeles_us_scores.csv
-lbvisioncenter.com,US,Los Angeles,row,optometrist,unknown,93,50,100,92,2362,0,76,2279,1353062,,,2026-09-25,Los Angeles_us_scores.csv
-longbeachoptometry.com,US,Los Angeles,row,optometrist,unknown,58,70,96,77,32167,0,204,3460,12134537,,,2026-09-25,Los Angeles_us_scores.csv
-longbeachvisioncare.com,US,Los Angeles,row,optometrist,WordPress,45,96,100,100,7897,0,585,4799,1580017,,,2026-09-25,Los Angeles_us_scores.csv
-maisonoptique.com,US,Los Angeles,row,optometrist,unknown,77,78,96,92,3529,0,176,3052,1298566,,,2026-09-25,Los Angeles_us_scores.csv
-oohlalaoptometry.com,US,Los Angeles,row,optometrist,unknown,60,89,100,85,4627,0,492,1840,1897707,,,2026-09-25,Los Angeles_us_scores.csv
-positiveeyeons.com,US,Los Angeles,row,optometrist,,78,72,96,92,4277,0,8,2102,763297,,,2026-09-25,Los Angeles_us_scores.csv
-sunsetoptometric.com,US,Los Angeles,row,optometrist,unknown,56,80,73,77,5095,0,381,1691,2178483,,,2026-09-25,Los Angeles_us_scores.csv
-torranceoptometry.com,US,Los Angeles,row,optometrist,WordPress,48,77,77,92,6977,0,573,2553,3362035,,,2026-09-25,Los Angeles_us_scores.csv
-visioncareoptometriccenter.com,US,Los Angeles,row,optometrist,,96,84,100,77,2165,0,88,1747,965602,,,2026-09-25,Los Angeles_us_scores.csv
-visionsource-blackstone.com,US,Los Angeles,row,optometrist,unknown,92,96,100,100,2813,0,31,1580,1781075,,,2026-09-25,Los Angeles_us_scores.csv
-wehovision.com,US,Los Angeles,row,optometrist,,54,86,73,85,8251,0,255,4058,1270711,,,2026-09-25,Los Angeles_us_scores.csv
-atlantispt.com,US,Los Angeles,row,physio,,65,77,100,85,12016,0,40,3158,2538114,,,2026-09-25,Los Angeles_us_scores.csv
-axispt.net,US,Los Angeles,row,physio,unknown,89,88,96,100,3226,0,184,958,1777749,,,2026-09-25,Los Angeles_us_scores.csv
-blakewellness.la,US,Los Angeles,row,physio,unknown,71,88,100,100,4562,0,2,3859,10021044,,,2026-09-25,Los Angeles_us_scores.csv
-dangpt.com,US,Los Angeles,row,physio,Squarespace,28,95,73,92,21317,0,3769,3752,8454513,,,2026-09-25,Los Angeles_us_scores.csv
-epcla.com,US,Los Angeles,row,physio,Squarespace,66,95,96,92,5908,0,64,4102,11026332,,,2026-09-25,Los Angeles_us_scores.csv
-evolutionphysicaltherapy.com,US,Los Angeles,row,physio,WordPress,69,69,96,100,4351,0,309,3040,1186228,SLOW,,2026-09-25,Los Angeles_us_scores.csv
-flexelitept.net,US,Los Angeles,row,physio,unknown,52,79,96,92,4129,0,1586,2708,11320505,,,2026-09-25,Los Angeles_us_scores.csv
-lennartzscherrpt.com,US,Los Angeles,row,physio,,48,77,96,92,8630,0,283,3792,1433423,,,2026-09-25,Los Angeles_us_scores.csv
-m3pt.com,US,Los Angeles,row,physio,,52,82,50,92,3153,0,2323,2891,5646888,,,2026-09-25,Los Angeles_us_scores.csv
-matrixptandwellness.com,US,Los Angeles,row,physio,Wix,69,91,100,92,6976,0,137,3053,1628869,,,2026-09-25,Los Angeles_us_scores.csv
-maven-pt.com,US,Los Angeles,row,physio,unknown,55,85,96,92,11209,0,384,3488,12425079,,,2026-09-25,Los Angeles_us_scores.csv
-modmovept.com,US,Los Angeles,row,physio,Wix,67,92,96,100,13967,0,120,3460,2826885,,,2026-09-25,Los Angeles_us_scores.csv
-motipt.com,US,Los Angeles,row,physio,unknown,67,61,100,85,7284,0,71,3075,2118202,AVERAGE,,2026-09-25,Los Angeles_us_scores.csv
-movementworks.com,US,Los Angeles,row,physio,,61,82,96,92,7787,0,76,2705,2469866,,,2026-09-25,Los Angeles_us_scores.csv
-physicaltherapyspecialists.com,US,Los Angeles,row,physio,,59,93,96,100,5252,0,347,2122,2555730,,,2026-09-25,Los Angeles_us_scores.csv
-ptmovementmedicine.la,US,Los Angeles,row,physio,,45,83,100,100,12165,0,538,3816,2516823,,,2026-09-25,Los Angeles_us_scores.csv
-revpt.com,US,Los Angeles,row,physio,unknown,76,96,100,100,3450,0,0,3354,1891291,,,2026-09-25,Los Angeles_us_scores.csv
-skyparkrehab.com,US,Los Angeles,row,physio,,92,90,100,85,2119,0,125,1680,1583175,,,2026-09-25,Los Angeles_us_scores.csv
-southlandpt.com,US,Los Angeles,row,physio,unknown,52,88,77,100,10966,0,379,3334,2647005,AVERAGE,,2026-09-25,Los Angeles_us_scores.csv
-sportsfitpt.com,US,Los Angeles,row,physio,,52,78,58,92,16789,0,480,2711,4310958,,,2026-09-25,Los Angeles_us_scores.csv
-aitansegal.com,US,Los Angeles,row,realtor,unknown,33,75,96,77,21619,0,2118,2859,11100731,,,2026-09-25,Los Angeles_us_scores.csv
-buysocalhomes.com,US,Los Angeles,row,realtor,unknown,47,86,96,85,10722,0,498,3921,6290283,,,2026-09-25,Los Angeles_us_scores.csv
-frankkenny.com,US,Los Angeles,row,realtor,unknown,27,76,96,77,52015,0,3247,4355,15084620,,,2026-09-25,Los Angeles_us_scores.csv
-heatherbellrealtor.com,US,Los Angeles,row,realtor,unknown,78,76,96,77,4009,0,100,3184,4387482,,,2026-09-25,Los Angeles_us_scores.csv
-homesbymonicahsu.com,US,Los Angeles,row,realtor,unknown,63,79,96,85,13490,0,137,3304,5028843,,,2026-09-25,Los Angeles_us_scores.csv
-homesbysong.com,US,Los Angeles,row,realtor,WordPress,39,81,54,77,4185,0,3196,3735,5461243,,,2026-09-25,Los Angeles_us_scores.csv
-homesbyteamluna.com,US,Los Angeles,row,realtor,unknown,52,83,92,92,7427,0,319,5402,7080342,,,2026-09-25,Los Angeles_us_scores.csv
-hossnouhi.com,US,Los Angeles,row,realtor,,99,94,96,91,1520,0,0,1520,69413,,,2026-09-25,Los Angeles_us_scores.csv
-jademillsestates.com,US,Los Angeles,row,realtor,unknown,56,85,96,85,15408,0,395,2256,16249737,SLOW,,2026-09-25,Los Angeles_us_scores.csv
-julietz.com,US,Los Angeles,row,realtor,WordPress,80,84,96,100,5251,0,0,1404,18264771,,,2026-09-25,Los Angeles_us_scores.csv
-kevintowner.com,US,Los Angeles,row,realtor,,30,88,54,100,21543,0,1486,5402,4774995,,,2026-09-25,Los Angeles_us_scores.csv
-markyusupov.com,US,Los Angeles,row,realtor,unknown,64,76,100,85,3305,0,704,3305,4120633,,,2026-09-25,Los Angeles_us_scores.csv
-mybeachteam.com,US,Los Angeles,row,realtor,unknown,40,95,96,92,24778,0,1141,1973,4365726,SLOW,,2026-09-25,Los Angeles_us_scores.csv
-ninkeydaltonproperties.com,US,Los Angeles,row,realtor,unknown,54,79,96,77,8187,0,353,3307,9220549,,,2026-09-25,Los Angeles_us_scores.csv
-pamelapunzalan.com,US,Los Angeles,row,realtor,WordPress,52,96,77,92,6303,0,736,2703,18053877,,,2026-09-25,Los Angeles_us_scores.csv
-sperantagroup.com,US,Los Angeles,row,realtor,unknown,76,79,96,77,3642,0,135,3491,3793631,,,2026-09-25,Los Angeles_us_scores.csv
-thealijack.com,US,Los Angeles,row,realtor,unknown,80,83,96,85,3456,0,89,3306,4701405,,,2026-09-25,Los Angeles_us_scores.csv
-tiffanyhu.com,US,Los Angeles,row,realtor,Squarespace,38,81,96,85,18776,0,709,8265,5114003,,,2026-09-25,Los Angeles_us_scores.csv
-trinarufo.com,US,Los Angeles,row,realtor,unknown,30,83,96,77,15167,0,2385,4067,3392346,,,2026-09-25,Los Angeles_us_scores.csv
-valeriefitzgerald.com,US,Los Angeles,row,realtor,,58,96,88,92,7801,0,276,3089,15917373,,,2026-09-25,Los Angeles_us_scores.csv
-allsmilesgd.com,US,New York,row,dental,WordPress,44,86,77,85,25499,0,436,6045,5169473,,,2026-09-25,New York_us_scores.csv
-baysidedentalartsny.com,US,New York,row,dental,WordPress,80,85,96,92,1139,0,567,1105,1308019,,,2026-09-25,New York_us_scores.csv
-brooklynchildrensdentist.com,US,New York,row,dental,unknown,39,88,96,92,9318,0,955,3931,4048093,FAST,,2026-09-25,New York_us_scores.csv
-brooklynheightsdental.com,US,New York,row,dental,unknown,68,83,77,85,5513,0,293,2473,8179434,AVERAGE,,2026-09-25,New York_us_scores.csv
-centredent.com,US,New York,row,dental,unknown,85,97,100,100,3015,0,301,1351,989616,,,2026-09-25,New York_us_scores.csv
-dentalmadeeasy.com,US,New York,row,dental,WordPress,59,85,100,92,5754,0,653,1687,1869939,AVERAGE,,2026-09-25,New York_us_scores.csv
-expertdentalnyc.com,US,New York,row,dental,WordPress,73,81,96,92,1804,0,733,1804,2831119,AVERAGE,,2026-09-25,New York_us_scores.csv
-formedental.com,US,New York,row,dental,unknown,70,81,96,100,4921,0,70,3962,1905903,,,2026-09-25,New York_us_scores.csv
-grandstreetdental.com,US,New York,row,dental,,52,78,96,85,19051,0,451,3844,7333501,SLOW,,2026-09-25,New York_us_scores.csv
-ismilefamily.com,US,New York,row,dental,Wix,45,92,100,100,4555,0,1744,3046,4330332,,,2026-09-25,New York_us_scores.csv
-jdental.co,US,New York,row,dental,WordPress,72,87,92,100,7982,0,153,1371,1002074,,,2026-09-25,New York_us_scores.csv
-kewgardensdentaloffice.com,US,New York,row,dental,unknown,56,96,100,92,7441,0,316,3096,1123733,,,2026-09-25,New York_us_scores.csv
-lavaandental.com,US,New York,row,dental,NexHealth,96,95,100,92,2723,0,0,948,459625,,,2026-09-25,New York_us_scores.csv
-manhattannydentist.com,US,New York,row,dental,unknown,99,98,100,100,1976,0,0,795,281680,,,2026-09-25,New York_us_scores.csv
-metropolitandentalcarenyc.com,US,New York,row,dental,,60,96,96,85,4221,0,545,3155,4215442,,,2026-09-25,New York_us_scores.csv
-smileworksnyc.com,US,New York,row,dental,,89,,,,2477,0.003,56,1501,628923,FAST,,2026-09-25,New York_us_scores.csv
-studiosmilesnyc.com,US,New York,row,dental,WordPress,67,86,92,100,2101,0,1371,1405,3329934,,,2026-09-25,New York_us_scores.csv
-thrivedentalny.com,US,New York,row,dental,NexHealth,77,96,92,92,4554,0,88,2964,3537810,,,2026-09-25,New York_us_scores.csv
-yrdental.com,US,New York,row,dental,,51,91,96,92,6901,0,710,2861,1424075,,,2026-09-25,New York_us_scores.csv
-zendentistrynyc.com,US,New York,row,dental,WordPress,8,90,96,77,36035,0,1082,7920,13190148,SLOW,,2026-09-25,New York_us_scores.csv
-123-hvac.com,US,New York,row,hvac,,98,95,96,36,792,0,0,792,1721,,,2026-09-25,New York_us_scores.csv
-212hvac.com,US,New York,row,hvac,WordPress,91,92,100,92,1884,0,347,942,10975867,AVERAGE,,2026-09-25,New York_us_scores.csv
-aajjhvac.com,US,New York,row,hvac,WordPress,65,97,96,100,5552,0,2,3159,2893710,,,2026-09-25,New York_us_scores.csv
-afgo.com,US,New York,row,hvac,,32,97,96,100,5776,0,872,2884,3979502,,,2026-09-25,New York_us_scores.csv
-americanhvac.nyc,US,New York,row,hvac,WordPress,61,100,96,92,7951,0,231,2564,15834354,,,2026-09-25,New York_us_scores.csv
-amtechairny.com,US,New York,row,hvac,unknown,71,86,96,92,6946,0,113,1562,1506219,,,2026-09-25,New York_us_scores.csv
-aristair.com,US,New York,row,hvac,,31,,,,4762,0.18,16957,2706,1298130,SLOW,,2026-09-25,New York_us_scores.csv
-bbcond.com,US,New York,row,hvac,WordPress,99,92,100,92,1880,0,0,1076,456630,,,2026-09-25,New York_us_scores.csv
-brownstoneheatingac.com,US,New York,row,hvac,unknown,84,91,100,100,2101,0,354,1666,955385,,,2026-09-25,New York_us_scores.csv
-callinghvac.com,US,New York,row,hvac,,73,79,96,91,4742,0,0,3200,1022104,,,2026-09-25,New York_us_scores.csv
-centralhvacservices.com,US,New York,row,hvac,unknown,70,57,100,91,4728,0,50,3724,708801,,,2026-09-25,New York_us_scores.csv
-clarkshvacbrooklyn.com,US,New York,row,hvac,unknown,84,88,96,100,2606,0,0,2531,5271520,,,2026-09-25,New York_us_scores.csv
-figliasons.com,US,New York,row,hvac,unknown,82,97,100,92,3348,0,0,3198,563800,,,2026-09-25,New York_us_scores.csv
-fixarnyc.com,US,New York,row,hvac,unknown,91,100,96,100,2812,0,4,2737,374081,,,2026-09-25,New York_us_scores.csv
-fusionrepair.com,US,New York,row,hvac,WordPress,50,93,92,100,4201,0,1126,3002,5237224,,,2026-09-25,New York_us_scores.csv
-goodwinhc.com,US,New York,row,hvac,unknown,49,,100,,4591,0.445,115,3679,2183839,SLOW,,2026-09-25,New York_us_scores.csv
-hvacnycpros.com,US,New York,row,hvac,unknown,69,77,92,100,6140,0,0,2576,1373816,,,2026-09-25,New York_us_scores.csv
-ny-hvac.com,US,New York,row,hvac,unknown,99,97,100,100,1342,0,0,1338,698337,,,2026-09-25,New York_us_scores.csv
-shepherdehc.com,US,New York,row,hvac,Wix,46,87,73,92,10127,0,679,3752,4608753,,,2026-09-25,New York_us_scores.csv
-tropical-aire.com,US,New York,row,hvac,WordPress,50,86,96,85,25726,0,484,2851,8908113,,,2026-09-25,New York_us_scores.csv
-ea-ny.com,US,New York,row,optometrist,NexHealth,83,94,100,83,3676,0,0,2734,583321,,,2026-09-25,New York_us_scores.csv
-eurooptica.com,US,New York,row,optometrist,Shopify,44,77,92,85,4679,0,2135,2338,37289555,FAST,,2026-09-25,New York_us_scores.csv
-eyedvisionoptical.com,US,New York,row,optometrist,unknown,74,96,100,100,18603,0,0,1801,5045192,,,2026-09-25,New York_us_scores.csv
-iandeyeoptometry.com,US,New York,row,optometrist,unknown,81,46,100,92,3525,0,6,3271,402656,,,2026-09-25,New York_us_scores.csv
-kingsbridgeeye.com,US,New York,row,optometrist,,66,81,81,92,3845,0,22,1702,990923,,,2026-09-25,New York_us_scores.csv
-konstantin.net,US,New York,row,optometrist,unknown,62,84,100,100,1593,0,1944,1593,8098545,SLOW,,2026-09-25,New York_us_scores.csv
-manhattanvisionassociates.com,US,New York,row,optometrist,,46,93,73,100,3712,0,2709,2022,4064041,FAST,,2026-09-25,New York_us_scores.csv
-megavisionbrooklyn.com,US,New York,row,optometrist,unknown,59,93,100,100,7434,0,205,3156,2149689,,,2026-09-25,New York_us_scores.csv
-muieyecare.com,US,New York,row,optometrist,unknown,91,78,96,92,2644,0,111,2254,2120530,,,2026-09-25,New York_us_scores.csv
-nyceyeandvisioncare.com,US,New York,row,optometrist,NexHealth,85,94,96,100,3265,0,44,2856,952265,,,2026-09-25,New York_us_scores.csv
-nynjoptometrist.com,US,New York,row,optometrist,WordPress,61,96,100,100,8415,0,339,1238,1006932,,,2026-09-25,New York_us_scores.csv
-parkslopeeye.com,US,New York,row,optometrist,,97,,,,2103,0,0,2103,166982,FAST,,2026-09-25,New York_us_scores.csv
-sunnysidevisioncenter.com,US,New York,row,optometrist,unknown,56,90,100,92,6481,0,180,4981,1743982,,,2026-09-25,New York_us_scores.csv
-thectrue.com,US,New York,row,optometrist,unknown,73,82,92,100,5387,0,5,2508,3609446,,,2026-09-25,New York_us_scores.csv
-usqeyecare.com,US,New York,row,optometrist,WordPress,43,88,96,77,12459,0,41,2358,4741821,SLOW,,2026-09-25,New York_us_scores.csv
-visionaryoptics.com,US,New York,row,optometrist,Shopify,73,98,92,100,18131,0,0,2118,4675708,FAST,,2026-09-25,New York_us_scores.csv
-visionny.net,US,New York,row,optometrist,WordPress,89,75,100,92,2506,0,0,2431,560704,,,2026-09-25,New York_us_scores.csv
-visiononpark.com,US,New York,row,optometrist,WordPress,69,97,100,92,3785,0,326,1272,1928490,,,2026-09-25,New York_us_scores.csv
-vistasiteeyecare.com,US,New York,row,optometrist,unknown,58,88,69,92,15489,0,319,1682,3053119,,,2026-09-25,New York_us_scores.csv
-vistasitekingsplaza.com,US,New York,row,optometrist,unknown,50,90,77,92,13036,0,530,3029,2131216,,,2026-09-25,New York_us_scores.csv
-activecarephysicaltherapy.com,US,New York,row,physio,,45,81,96,85,106071,0,493,3853,50732030,,,2026-09-25,New York_us_scores.csv
-brooklyn-physicaltherapy.com,US,New York,row,physio,WordPress,34,65,73,100,11256,0,721,2707,2858897,,,2026-09-25,New York_us_scores.csv
-brooklynphysicaltherapy.com,US,New York,row,physio,unknown,82,85,100,92,3322,0,0,3172,978837,SLOW,,2026-09-25,New York_us_scores.csv
-determinationphysicaltherapy.com,US,New York,row,physio,WordPress,40,85,73,100,12831,0,1184,1764,11246662,,,2026-09-25,New York_us_scores.csv
-excelpt.nyc,US,New York,row,physio,unknown,26,90,73,100,22452,0,2968,14494,12995253,,,2026-09-25,New York_us_scores.csv
-handsofhopeny.com,US,New York,row,physio,WordPress,73,96,92,100,7267,0,0,2318,1421910,AVERAGE,,2026-09-25,New York_us_scores.csv
-hdphysicaltherapy.com,US,New York,row,physio,WordPress,45,88,96,92,3484,0,1578,3184,3842566,SLOW,,2026-09-25,New York_us_scores.csv
-jamesfowlerpt.com,US,New York,row,physio,unknown,57,84,100,100,10728,0,116,4224,2813838,,,2026-09-25,New York_us_scores.csv
-manhattanptandpain.com,US,New York,row,physio,unknown,32,84,92,85,6838,0,867,5004,10820733,AVERAGE,,2026-09-25,New York_us_scores.csv
-movingforwardpt.nyc,US,New York,row,physio,unknown,62,89,100,100,7110,0,154,3006,5103581,,,2026-09-25,New York_us_scores.csv
-mptsm.com,US,New York,row,physio,,85,69,96,85,2879,0,198,2703,5480524,,,2026-09-25,New York_us_scores.csv
-msmpt.com,US,New York,row,physio,unknown,35,93,54,100,14062,0,330,1960,2026830,,,2026-09-25,New York_us_scores.csv
-nyppt.com,US,New York,row,physio,WordPress,70,95,96,100,4049,0,0,3974,827632,,,2026-09-25,New York_us_scores.csv
-omegaptny.com,US,New York,row,physio,unknown,96,100,100,100,2553,0,23,1701,5192039,,,2026-09-25,New York_us_scores.csv
-physicaltherapistsnyc.com,US,New York,row,physio,WordPress,70,88,96,100,5829,0,225,1260,3582369,AVERAGE,,2026-09-25,New York_us_scores.csv
-principalpt.com,US,New York,row,physio,WordPress,80,82,73,92,4367,0,145,1692,5036412,,,2026-09-25,New York_us_scores.csv
-ptofthecity.com,US,New York,row,physio,unknown,56,92,92,100,7434,0,481,3601,8464192,FAST,,2026-09-25,New York_us_scores.csv
-regoparkphysicaltherapy.com,US,New York,row,physio,WordPress,20,79,77,85,6378,0,1635,4916,31243409,,,2026-09-25,New York_us_scores.csv
-spearcenter.com,US,New York,row,physio,WordPress,54,97,96,100,2855,0,2060,2855,10693617,AVERAGE,,2026-09-25,New York_us_scores.csv
-vantagemedicalassociates.com,US,New York,row,physio,WordPress,54,80,96,100,6530,0,315,4657,5066925,FAST,,2026-09-25,New York_us_scores.csv
-bklynhometeam.com,US,New York,row,realtor,WordPress,38,68,100,85,21078,0,416,3161,5705205,,,2026-09-25,New York_us_scores.csv
-braithrealty.com,US,New York,row,realtor,,48,96,77,100,3601,0,2298,3005,5086168,,,2026-09-25,New York_us_scores.csv
-brianklewis.com,US,New York,row,realtor,WordPress,65,100,77,100,6411,0,140,3305,23354323,,,2026-09-25,New York_us_scores.csv
-cindygokay.com,US,New York,row,realtor,Squarespace,57,98,96,100,4356,0,640,2706,4391856,,,2026-09-25,New York_us_scores.csv
-claudialooi.com,US,New York,row,realtor,,89,95,100,92,2401,0,0,1364,6930984,,,2026-09-25,New York_us_scores.csv
-donnabradbury.com,US,New York,row,realtor,Wix,69,90,96,100,2632,0,1322,2406,2661710,,,2026-09-25,New York_us_scores.csv
-elliman.com,US,New York,row,realtor,unknown,28,93,92,100,13201,0,4592,2701,19551460,AVERAGE,,2026-09-25,New York_us_scores.csv
-franceskatzen.com,US,New York,row,realtor,unknown,59,91,92,85,14546,0,66,4313,7922469,,,2026-09-25,New York_us_scores.csv
-janekatznyc.com,US,New York,row,realtor,unknown,60,79,96,77,15834,0,178,3455,10796991,,,2026-09-25,New York_us_scores.csv
-kayla.serhant.com,US,New York,row,realtor,,62,,,,5170,0.002,426,3156,4523098,SLOW,,2026-09-25,New York_us_scores.csv
-kwnyc.com,US,New York,row,realtor,unknown,39,84,96,85,12058,0,884,3980,31709414,FAST,,2026-09-25,New York_us_scores.csv
-louisebeit.com,US,New York,row,realtor,,52,94,96,92,49711,0,181,49711,10037381,,,2026-09-25,New York_us_scores.csv
-massadahomes.com,US,New York,row,realtor,,79,54,85,92,3751,0,145,2882,2139801,,,2026-09-25,New York_us_scores.csv
-mrgnyc.com,US,New York,row,realtor,,61,,,,8927,0,0,4381,15470546,SLOW,,2026-09-25,New York_us_scores.csv
-natebrown.com,US,New York,row,realtor,unknown,31,86,73,85,8696,0,1509,4952,4348715,,,2026-09-25,New York_us_scores.csv
-queenshometeam.com,US,New York,row,realtor,WordPress,22,79,77,85,9976,0,7715,2856,21377999,FAST,,2026-09-25,New York_us_scores.csv
-rachelrealtynyc.com,US,New York,row,realtor,unknown,66,76,96,77,17784,0,140,2131,3760454,,,2026-09-25,New York_us_scores.csv
-realestateagentmanhattan.com,US,New York,row,realtor,WordPress,76,88,100,100,4052,0,65,2420,3391925,,,2026-09-25,New York_us_scores.csv
-realnyproperties.com,US,New York,row,realtor,unknown,68,81,96,92,5288,0,174,3494,7352257,AVERAGE,,2026-09-25,New York_us_scores.csv
-sharolnycrealtor.com,US,New York,row,realtor,unknown,61,85,96,85,6243,0,277,3305,31997201,,,2026-09-25,New York_us_scores.csv
-arcadiadentalgroup.com,US,Phoenix,row,dental,WordPress,69,82,96,85,8184,0,0,1874,1888514,,,2026-09-26,Phoenix_us_scores.csv
-arizonabiltmoredentistry.com,US,Phoenix,row,dental,WordPress,99,93,100,100,1876,0,92,968,3835312,AVERAGE,,2026-09-26,Phoenix_us_scores.csv
-atriumdental.net,US,Phoenix,row,dental,WordPress,89,93,96,100,3233,0,0,1860,17016883,,,2026-09-26,Phoenix_us_scores.csv
-bcrdentistry.com,US,Phoenix,row,dental,WordPress,41,94,92,92,6165,0,933,3194,14942921,,,2026-09-26,Phoenix_us_scores.csv
-biltmorecommonsdental.com,US,Phoenix,row,dental,,73,100,81,100,4750,0,36,2180,372678,,,2026-09-26,Phoenix_us_scores.csv
-centerpointdentalaz.com,US,Phoenix,row,dental,,61,82,96,85,10426,0,165,2883,2469236,,,2026-09-26,Phoenix_us_scores.csv
-centralvalleydentistry.com,US,Phoenix,row,dental,WordPress,58,100,100,100,13115,0,333,2863,2304688,SLOW,,2026-09-26,Phoenix_us_scores.csv
-clearskydentalcare.com,US,Phoenix,row,dental,WordPress,64,97,96,92,9186,0,120,3996,12657403,,,2026-09-26,Phoenix_us_scores.csv
-dentalimplantsphoenixaz.com,US,Phoenix,row,dental,WordPress,66,92,100,100,3520,0,104,3520,12031174,,,2026-09-26,Phoenix_us_scores.csv
-desertdentalaz.com,US,Phoenix,row,dental,unknown,85,79,81,85,2462,0,88,2289,1750329,,,2026-09-26,Phoenix_us_scores.csv
-northphoenixfamilydentistry.com,US,Phoenix,row,dental,unknown,40,95,77,92,6257,1,32,3161,7104908,,,2026-09-26,Phoenix_us_scores.csv
-phoenixcosmeticdentistryaz.com,US,Phoenix,row,dental,unknown,91,75,96,100,2602,0,0,2602,387778,,,2026-09-26,Phoenix_us_scores.csv
-phoenixdentalstudio.com,US,Phoenix,row,dental,WordPress,89,100,96,100,3574,0,69,918,436085,,,2026-09-26,Phoenix_us_scores.csv
-phoenixfamilydentistry.com,US,Phoenix,row,dental,WordPress,73,86,92,100,4731,0,14,3813,2788016,,,2026-09-26,Phoenix_us_scores.csv
-phoeniximplantclinic.com,US,Phoenix,row,dental,,40,85,69,85,23330,0,591,12261,16131435,,,2026-09-26,Phoenix_us_scores.csv
-phoenixvalleydental.com,US,Phoenix,row,dental,unknown,58,82,92,100,3606,0,10,3231,6157583,,,2026-09-26,Phoenix_us_scores.csv
-smilearcadia.com,US,Phoenix,row,dental,WordPress,56,96,96,92,11926,0,0,5888,18741068,,,2026-09-26,Phoenix_us_scores.csv
-smiledentalclinics.com,US,Phoenix,row,dental,,4,97,50,100,24224,0,2027,5638,7902687,SLOW,,2026-09-26,Phoenix_us_scores.csv
-sweettoothphoenix.com,US,Phoenix,row,dental,,79,82,96,85,4126,0,0,1955,1169319,,,2026-09-26,Phoenix_us_scores.csv
-yourazbraces.com,US,Phoenix,row,dental,,39,87,73,100,35109,0,722,4244,16255444,SLOW,,2026-09-26,Phoenix_us_scores.csv
-acprosolutions.com,US,Phoenix,row,hvac,Wix,85,91,77,92,3085,0,232,2708,2811029,,,2026-09-26,Phoenix_us_scores.csv
-arcticaircool.com,US,Phoenix,row,hvac,,55,78,96,100,9826,0,126,3001,1533489,,,2026-09-26,Phoenix_us_scores.csv
-dayandnightair.com,US,Phoenix,row,hvac,,63,90,92,92,7930,0,257,2460,991761,AVERAGE,,2026-09-26,Phoenix_us_scores.csv
-diamondacandheating.com,US,Phoenix,row,hvac,WordPress,44,87,92,92,15331,0,445,6397,3725501,,,2026-09-26,Phoenix_us_scores.csv
-goettl.com,US,Phoenix,row,hvac,,43,100,96,85,6706,0,1420,2581,4142646,AVERAGE,,2026-09-26,Phoenix_us_scores.csv
-heatingcoolingphoenix.com,US,Phoenix,row,hvac,WordPress,76,91,96,92,5552,0,70,1672,900785,,,2026-09-26,Phoenix_us_scores.csv
-heatwave-airconditioning.com,US,Phoenix,row,hvac,unknown,92,95,100,100,2587,0,0,2587,6412236,,,2026-09-26,Phoenix_us_scores.csv
-islandbreeze-ac.com,US,Phoenix,row,hvac,,54,93,92,100,15643,0,225,7351,2271242,,,2026-09-26,Phoenix_us_scores.csv
-larsonairaz.com,US,Phoenix,row,hvac,WordPress,21,81,96,92,5856,0,969,5106,2566560,SLOW,,2026-09-26,Phoenix_us_scores.csv
-myefficientair.com,US,Phoenix,row,hvac,WordPress,29,83,96,100,25464,0,1345,16303,11995236,,,2026-09-26,Phoenix_us_scores.csv
-parkerandsons.com,US,Phoenix,row,hvac,unknown,33,95,54,85,20955,0,1151,5359,5741957,SLOW,,2026-09-26,Phoenix_us_scores.csv
-phoenixheatingandairconditioning.com,US,Phoenix,row,hvac,WordPress,66,93,92,92,3718,0,497,2283,2554085,,,2026-09-26,Phoenix_us_scores.csv
-phoenixhvacairconditioning.com,US,Phoenix,row,hvac,unknown,97,89,100,100,2534,0,86,804,187565,,,2026-09-26,Phoenix_us_scores.csv
-phxairconditioningrepair.com,US,Phoenix,row,hvac,WordPress,76,95,100,100,4739,0,0,2739,376748,,,2026-09-26,Phoenix_us_scores.csv
-phxheatingcooling.net/phoenix-heater-repair,US,Phoenix,row,hvac,WordPress,63,93,96,100,4236,0,569,2463,2253811,,,2026-09-26,Phoenix_us_scores.csv
-phxmechanical.com,US,Phoenix,row,hvac,,87,81,74,73,3170,0,0,3170,158880,,,2026-09-26,Phoenix_us_scores.csv
-reeis.com/pages/phoenix-hvac-services,US,Phoenix,row,hvac,Shopify,40,95,81,92,5626,0,6689,2787,4068299,AVERAGE,,2026-09-26,Phoenix_us_scores.csv
-sunstatehvac.com,US,Phoenix,row,hvac,,86,95,88,100,2194,0,0,1987,574827,,,2026-09-26,Phoenix_us_scores.csv
-theacteam.com,US,Phoenix,row,hvac,unknown,53,85,96,92,9038,0,472,3485,1805987,,,2026-09-26,Phoenix_us_scores.csv
-yourphoenixhvac.com,US,Phoenix,row,hvac,WordPress,67,88,81,92,7241,0,20,2598,1321139,,,2026-09-26,Phoenix_us_scores.csv
-advancedeyecare.com,US,Phoenix,row,optometrist,,49,93,73,100,3269,0,2521,2745,5152656,,,2026-09-26,Phoenix_us_scores.csv
-arizonasvision.com,US,Phoenix,row,optometrist,WordPress,35,87,73,100,8701,0,1167,3539,4856541,SLOW,,2026-09-26,Phoenix_us_scores.csv
-avac2020.org,US,Phoenix,row,optometrist,,63,91,96,100,9157,0,38,3006,4978141,,,2026-09-26,Phoenix_us_scores.csv
-azlifetime.com,US,Phoenix,row,optometrist,WordPress,42,84,92,85,6405,1,80,2604,861066,,,2026-09-26,Phoenix_us_scores.csv
-camelbackeyecare.com,US,Phoenix,row,optometrist,,65,100,100,100,6945,0,446,1024,828267,,,2026-09-26,Phoenix_us_scores.csv
-centralphoenixeyecarepllc.com,US,Phoenix,row,optometrist,unknown,85,77,96,92,2276,0,284,964,1709472,,,2026-09-26,Phoenix_us_scores.csv
-chandlereye.com,US,Phoenix,row,optometrist,unknown,89,73,100,100,2402,0,1,2402,582761,,,2026-09-26,Phoenix_us_scores.csv
-chandlereyecenter.com,US,Phoenix,row,optometrist,WordPress,63,89,100,92,8251,0,10,2734,1597387,,,2026-09-26,Phoenix_us_scores.csv
-eastvalleyeye.com,US,Phoenix,row,optometrist,,47,79,52,92,7606,0,390,5310,9268995,SLOW,,2026-09-26,Phoenix_us_scores.csv
-envisioneyecareaz.com,US,Phoenix,row,optometrist,unknown,33,71,100,77,22298,0,296,4281,6700487,,,2026-09-26,Phoenix_us_scores.csv
-leeeyecarecenteraz.com,US,Phoenix,row,optometrist,unknown,57,86,77,85,10465,0,307,3410,3127800,,,2026-09-26,Phoenix_us_scores.csv
-northernaveeyecare.com,US,Phoenix,row,optometrist,,92,83,100,92,3085,0,1,1955,11738964,,,2026-09-26,Phoenix_us_scores.csv
-opticsaz.com,US,Phoenix,row,optometrist,WordPress,63,95,96,100,7651,0,17,2883,3993377,,,2026-09-26,Phoenix_us_scores.csv
-phoenixeyedocs.com,US,Phoenix,row,optometrist,WordPress,79,84,74,100,3331,0,0,2932,543228,,,2026-09-26,Phoenix_us_scores.csv
-phxeyecare.com,US,Phoenix,row,optometrist,unknown,69,67,100,92,4874,0,92,3221,896945,,,2026-09-26,Phoenix_us_scores.csv
-phxeyedoc.com,US,Phoenix,row,optometrist,Weebly,14,88,100,100,12939,0,1642,2134,2492381,,,2026-09-26,Phoenix_us_scores.csv
-phxeyedoctor.com,US,Phoenix,row,optometrist,WordPress,100,80,100,92,953,0,0,953,47807,,,2026-09-26,Phoenix_us_scores.csv
-tozereyecenter.com,US,Phoenix,row,optometrist,WordPress,65,85,74,85,5178,0,0,4803,13154854,FAST,,2026-09-26,Phoenix_us_scores.csv
-tvcarizona.com,US,Phoenix,row,optometrist,WordPress,56,81,96,100,4759,0,616,2539,1941204,,,2026-09-26,Phoenix_us_scores.csv
-valleyeyecareaz.com,US,Phoenix,row,optometrist,unknown,63,77,96,100,8627,0,38,2852,2486345,AVERAGE,,2026-09-26,Phoenix_us_scores.csv
-360physicaltherapy.com,US,Phoenix,row,physio,unknown,65,78,77,92,5101,0,52,3184,1087796,FAST,,2026-09-26,Phoenix_us_scores.csv
-ahwatukeept.com,US,Phoenix,row,physio,,100,81,74,36,1372,0,0,1372,13041,,,2026-09-26,Phoenix_us_scores.csv
-arrowheadpt.com,US,Phoenix,row,physio,,58,81,58,92,4088,0,745,2608,3581069,,,2026-09-26,Phoenix_us_scores.csv
-athletico.com,US,Phoenix,row,physio,WordPress,35,100,96,92,6594,0,445,3316,1845396,AVERAGE,,2026-09-26,Phoenix_us_scores.csv
-camelmed.com,US,Phoenix,row,physio,WordPress,59,94,96,92,23600,0,32,3901,3939268,AVERAGE,,2026-09-26,Phoenix_us_scores.csv
-deserthandandpt.com,US,Phoenix,row,physio,WordPress,62,86,96,100,12827,0,124,3340,2774617,AVERAGE,,2026-09-26,Phoenix_us_scores.csv
-endurancerehab.com,US,Phoenix,row,physio,WordPress,63,85,77,92,10876,0,0,3034,2564361,,,2026-09-26,Phoenix_us_scores.csv
-foothillsrehab.com,US,Phoenix,row,physio,,44,89,96,92,8534,0,1032,2901,4032801,AVERAGE,,2026-09-26,Phoenix_us_scores.csv
-fpspt.com,US,Phoenix,row,physio,,75,92,100,92,7126,0,60,1533,1071368,,,2026-09-26,Phoenix_us_scores.csv
-movementredefinedaz.com,US,Phoenix,row,physio,WordPress,41,87,96,92,27234,0,656,4514,6692038,AVERAGE,,2026-09-26,Phoenix_us_scores.csv
-mvpc.com/physical-therapy-phoenix,US,Phoenix,row,physio,Squarespace,27,98,96,100,21475,0,566,2871,4179451,AVERAGE,,2026-09-26,Phoenix_us_scores.csv
-onwardphysicaltherapy.com,US,Phoenix,row,physio,,81,93,96,40,1412,0,824,768,991455,SLOW,,2026-09-26,Phoenix_us_scores.csv
-orthopedicsportstherapy.com,US,Phoenix,row,physio,WordPress,69,85,96,92,7470,0,300,1235,1279554,,,2026-09-26,Phoenix_us_scores.csv
-osrphysicaltherapy.com,US,Phoenix,row,physio,WordPress,37,87,96,85,14584,0,1119,4951,3587142,SLOW,,2026-09-26,Phoenix_us_scores.csv
-preferredptaz.com,US,Phoenix,row,physio,unknown,51,85,54,92,17384,0,336,3002,2793147,,,2026-09-26,Phoenix_us_scores.csv
-rocpt.com,US,Phoenix,row,physio,Wix,54,84,100,100,3603,0,1585,2773,3748481,AVERAGE,,2026-09-26,Phoenix_us_scores.csv
-southmountainphysicaltherapy.com,US,Phoenix,row,physio,WordPress,60,95,73,85,5851,0,0,3013,5383440,,,2026-09-26,Phoenix_us_scores.csv
-spoonerpt.com,US,Phoenix,row,physio,,54,89,96,77,4576,0,921,2701,7996016,AVERAGE,,2026-09-26,Phoenix_us_scores.csv
-sw-specialists.com,US,Phoenix,row,physio,unknown,36,76,78,92,23741,0,259,11092,5225071,,,2026-09-26,Phoenix_us_scores.csv
-topsphysicaltherapy.com,US,Phoenix,row,physio,,48,77,96,85,41342,0,53,3755,8313463,,,2026-09-26,Phoenix_us_scores.csv
-azrealestateventures.org,US,Phoenix,row,realtor,unknown,80,65,74,92,3445,0,23,2820,973214,,,2026-09-26,Phoenix_us_scores.csv
-billynicholsaz.com,US,Phoenix,row,realtor,,65,89,77,100,5851,0,23,4365,1394199,,,2026-09-26,Phoenix_us_scores.csv
-bryantrealestatephoenix.com,US,Phoenix,row,realtor,Squarespace,33,89,96,100,7370,0,1353,4857,6016973,,,2026-09-26,Phoenix_us_scores.csv
-gluchgroup.com,US,Phoenix,row,realtor,,83,88,100,100,4411,0,108,1979,1503758,FAST,,2026-09-26,Phoenix_us_scores.csv
-jessicafowler.myrealtyonegroup.com,US,Phoenix,row,realtor,,32,73,92,85,12848,0,559,3007,5311488,,,2026-09-26,Phoenix_us_scores.csv
-joinrealtyexecutivesphoenix.com,US,Phoenix,row,realtor,unknown,55,65,81,83,6186,0,0,4001,6337496,AVERAGE,,2026-09-26,Phoenix_us_scores.csv
-kevindowneyazhomes.com,US,Phoenix,row,realtor,WordPress,35,88,73,92,18681,0,965,4868,8673464,,,2026-09-26,Phoenix_us_scores.csv
-mariasellsarizona.com,US,Phoenix,row,realtor,unknown,60,88,92,100,9152,0,48,4956,9635510,,,2026-09-26,Phoenix_us_scores.csv
-movingwithnicole.com,US,Phoenix,row,realtor,WordPress,56,86,100,85,17375,0,201,5396,2979285,,,2026-09-26,Phoenix_us_scores.csv
-phoenixarizonarealtor.com,US,Phoenix,row,realtor,,78,72,100,92,3898,0,91,3429,570214,,,2026-09-26,Phoenix_us_scores.csv
-phoenixhomecollective.com,US,Phoenix,row,realtor,WordPress,35,89,92,100,19841,0,713,2880,4971823,,,2026-09-26,Phoenix_us_scores.csv
-phoenixliving.com/agent/david-thayer,US,Phoenix,row,realtor,unknown,58,85,96,85,6835,0,260,3341,2447410,,,2026-09-26,Phoenix_us_scores.csv
-phxrealtygroup.com,US,Phoenix,row,realtor,unknown,47,70,96,92,7203,0,510,4354,17892446,,,2026-09-26,Phoenix_us_scores.csv
-phxrealtyservices.com,US,Phoenix,row,realtor,unknown,100,97,100,91,1525,0,0,1525,15636,,,2026-09-26,Phoenix_us_scores.csv
-phxregrp.com,US,Phoenix,row,realtor,unknown,66,89,96,100,3153,0,876,932,2353764,,,2026-09-26,Phoenix_us_scores.csv
-rachelholbert.myrealtyonegroup.com,US,Phoenix,row,realtor,,38,73,92,85,12961,0,1063,3008,4710366,,,2026-09-26,Phoenix_us_scores.csv
-rhouserealty.com,US,Phoenix,row,realtor,unknown,31,83,73,100,11573,0,2258,3183,9766799,,,2026-09-26,Phoenix_us_scores.csv
-sellingphoenixaz.net,US,Phoenix,row,realtor,unknown,60,83,92,92,5852,0,295,4802,10742936,,,2026-09-26,Phoenix_us_scores.csv
-stephenjones.myrealtyonegroup.com,US,Phoenix,row,realtor,,28,76,92,85,11122,0,755,3009,5323502,,,2026-09-26,Phoenix_us_scores.csv
-theriddlegroup.com,US,Phoenix,row,realtor,unknown,79,85,96,92,4749,0,0,2252,1008531,,,2026-09-26,Phoenix_us_scores.csv
+url,country,city,city_source,niche,platform,perf,a11y,best_practices,seo,LCP_ms,CLS,TBT_ms,FCP_ms,bytes,load_category,error,measured_at,multi_city,source_file
+atooth.com,US,Chicago,row,dental,,48,93,96,92,6226,0,645,4736,2903175,AVERAGE,,2026-09-25,no,Chicago_us_scores.csv
+chicagocosmeticdentalcare.com,US,Chicago,row,dental,,38,85,92,85,10964,0,1017,3277,5654942,,,2026-09-25,no,Chicago_us_scores.csv
+chicagodental312.com,US,Chicago,row,dental,unknown,60,89,92,100,15085,0,66,3306,4178810,,,2026-09-25,no,Chicago_us_scores.csv
+chicagofamilydental.com,US,Chicago,row,dental,unknown,87,87,73,100,3172,0,72,1850,1028218,,,2026-09-25,no,Chicago_us_scores.csv
+chicagoloopdentistry.com,US,Chicago,row,dental,unknown,70,87,96,92,3077,0,622,2402,2820768,,,2026-09-25,no,Chicago_us_scores.csv
+downtown-dental.com,US,Chicago,row,dental,,30,93,77,92,16654,0,1818,4481,6000271,AVERAGE,,2026-09-25,no,Chicago_us_scores.csv
+drflak.com,US,Chicago,row,dental,unknown,67,89,100,83,6348,0,44,1797,3209609,,,2026-09-25,no,Chicago_us_scores.csv
+drramybahu.com,US,Chicago,row,dental,unknown,88,100,100,100,3542,0,0,2124,1922966,,,2026-09-25,no,Chicago_us_scores.csv
+drsbloom.com,US,Chicago,row,dental,,64,86,96,100,7351,0,47,3601,1175026,,,2026-09-25,no,Chicago_us_scores.csv
+everdentalstudio.com,US,Chicago,row,dental,WordPress,54,91,96,92,3976,0,301,1651,677969,,,2026-09-25,no,Chicago_us_scores.csv
+impressionsdentalchicago.com,US,Chicago,row,dental,unknown,83,71,88,83,3084,0,0,2450,351711,,,2026-09-25,no,Chicago_us_scores.csv
+intheloopdentist.com,US,Chicago,row,dental,WordPress,51,78,77,85,4910,0,71,3871,10603681,,,2026-09-25,no,Chicago_us_scores.csv
+lakeviewdentalarts.com,US,Chicago,row,dental,Squarespace,36,92,100,100,17765,0,896,5416,3150252,,,2026-09-25,no,Chicago_us_scores.csv
+lincolnavedentalgroup.com,US,Chicago,row,dental,Wix,35,91,96,100,9585,0,1344,3159,5143907,,,2026-09-25,no,Chicago_us_scores.csv
+lpsdental.com,US,Chicago,row,dental,unknown,42,91,,100,5114,0,944,4212,2978269,SLOW,,2026-09-25,no,Chicago_us_scores.csv
+lvdachicago.com,US,Chicago,row,dental,WordPress,52,78,81,85,12252,0,232,7435,2332577,,,2026-09-25,no,Chicago_us_scores.csv
+parkwestfamilydental.com,US,Chicago,row,dental,WordPress,57,88,100,85,4143,0,34,4143,4789911,,,2026-09-25,no,Chicago_us_scores.csv
+premierdentistrychicago.com,US,Chicago,row,dental,WordPress,77,87,100,100,4264,0,284,1351,505557,,,2026-09-25,no,Chicago_us_scores.csv
+puredentalspa.com,US,Chicago,row,dental,,100,94,100,92,937,0,0,912,1027266,FAST,,2026-09-25,no,Chicago_us_scores.csv
+strobeldentistry.com,US,Chicago,row,dental,WordPress,17,85,96,100,8366,1,769,3225,12466523,,,2026-09-25,no,Chicago_us_scores.csv
+773hotcold.com,US,Chicago,row,hvac,WordPress,62,87,96,85,11510,0,79,2646,3868727,,,2026-09-25,no,Chicago_us_scores.csv
+alltemp.com,US,Chicago,row,hvac,WordPress,53,100,100,100,3123,0,2445,1998,1076438,AVERAGE,,2026-09-25,no,Chicago_us_scores.csv
+alwaysreadyrepair.com,US,Chicago,row,hvac,unknown,38,97,96,92,4727,0,2676,3527,20331743,AVERAGE,,2026-09-25,no,Chicago_us_scores.csv
+berniesheating.com,US,Chicago,row,hvac,unknown,91,96,92,100,1230,0,372,921,952606,,,2026-09-25,no,Chicago_us_scores.csv
+chicagocomforthvac.com,US,Chicago,row,hvac,WordPress,54,93,100,100,32393,0,150,6301,9827568,,,2026-09-25,no,Chicago_us_scores.csv
+chicagohvacrepairdr.com,US,Chicago,row,hvac,WordPress,70,84,96,85,2860,0,459,2709,4440713,,,2026-09-25,no,Chicago_us_scores.csv
+ecotemphvac.com,US,Chicago,row,hvac,WordPress,62,90,88,100,13981,0,408,1349,3522016,AVERAGE,,2026-09-25,no,Chicago_us_scores.csv
+englerheating.com,US,Chicago,row,hvac,,43,82,77,92,10951,0,147,5852,3142708,,,2026-09-25,no,Chicago_us_scores.csv
+enrights.com,US,Chicago,row,hvac,unknown,57,83,96,100,5614,0,456,1497,764720,,,2026-09-25,no,Chicago_us_scores.csv
+expediencehvac.com,US,Chicago,row,hvac,WordPress,6,75,88,100,61358,0,3424,3752,11828695,,,2026-09-25,no,Chicago_us_scores.csv
+firststarhvac.com,US,Chicago,row,hvac,unknown,65,95,96,100,8281,0,124,3305,1563113,,,2026-09-25,no,Chicago_us_scores.csv
+fivestar247.com,US,Chicago,row,hvac,,59,82,73,85,8101,0,231,3542,4573584,,,2026-09-25,no,Chicago_us_scores.csv
+flyplumbing.com,US,Chicago,row,hvac,unknown,67,91,96,85,5317,0,340,2694,2115266,FAST,,2026-09-25,no,Chicago_us_scores.csv
+fourseasonsheatingcooling.com,US,Chicago,row,hvac,WordPress,39,73,73,85,18285,0,238,2428,4907916,FAST,,2026-09-25,no,Chicago_us_scores.csv
+frontlineheatingcooling.com,US,Chicago,row,hvac,unknown,90,90,77,92,1258,0,319,1238,1402348,,,2026-09-25,no,Chicago_us_scores.csv
+jtrenergy.com,US,Chicago,row,hvac,,68,84,96,92,7584,0,220,1201,2526488,,,2026-09-25,no,Chicago_us_scores.csv
+myheroair.com,US,Chicago,row,hvac,unknown,48,86,100,100,10097,0,622,3155,4003149,,,2026-09-25,no,Chicago_us_scores.csv
+shavitz.com,US,Chicago,row,hvac,WordPress,79,85,100,100,3902,0,0,2855,959470,,,2026-09-25,no,Chicago_us_scores.csv
+southsuburbanheating.com,US,Chicago,row,hvac,,59,86,96,92,6376,0,329,1540,2078313,,,2026-09-25,no,Chicago_us_scores.csv
+sunsetheatingandairconditioning.com,US,Chicago,row,hvac,unknown,58,91,96,92,2908,0,7157,1803,4647496,,,2026-09-25,no,Chicago_us_scores.csv
+bigcityoptical.com,US,Chicago,row,optometrist,,23,87,73,85,7953,0,6934,3002,6730886,FAST,,2026-09-25,no,Chicago_us_scores.csv
+blinkfamilyeyecare.com,US,Chicago,row,optometrist,Wix,76,96,100,92,5816,0,1,2269,1345546,,,2026-09-25,no,Chicago_us_scores.csv
+chicagoarboreye.com,US,Chicago,row,optometrist,WordPress,70,91,100,92,4132,0,260,1677,2839645,FAST,,2026-09-25,no,Chicago_us_scores.csv
+customeyes2020.com,US,Chicago,row,optometrist,,35,81,92,92,15976,0,565,4120,2168581,FAST,,2026-09-25,no,Chicago_us_scores.csv
+deanoptical.com,US,Chicago,row,optometrist,WordPress,44,100,96,100,21748,0,783,2885,3088870,,,2026-09-25,no,Chicago_us_scores.csv
+dreyesee.com,US,Chicago,row,optometrist,,67,86,100,85,7266,0,135,2016,1393740,,,2026-09-25,no,Chicago_us_scores.csv
+eyespecialistsofillinois.com,US,Chicago,row,optometrist,,73,88,100,85,8554,0,86,1692,1281381,,,2026-09-25,no,Chicago_us_scores.csv
+forsiteoptical.com,US,Chicago,row,optometrist,,87,81,96,73,3185,0,0,3185,158880,,,2026-09-25,no,Chicago_us_scores.csv
+hydeparkoptometrists.com,US,Chicago,row,optometrist,,61,92,96,100,74417,0,192,2451,14882181,,,2026-09-25,no,Chicago_us_scores.csv
+lsqeyecare.com,US,Chicago,row,optometrist,unknown,64,83,96,82,12114,0,69,2914,2555331,,,2026-09-25,no,Chicago_us_scores.csv
+pilseneyecare.com,US,Chicago,row,optometrist,unknown,51,47,96,92,3203,0,5033,3203,1363414,,,2026-09-25,no,Chicago_us_scores.csv
+prismeyecareinc.com,US,Chicago,row,optometrist,unknown,69,91,69,100,2777,0,0,2368,597419,,,2026-09-25,no,Chicago_us_scores.csv
+rosineyecare.com,US,Chicago,row,optometrist,WordPress,28,82,92,85,19651,0,559,2733,6573925,SLOW,,2026-09-25,no,Chicago_us_scores.csv
+spencerseyecare.com,US,Chicago,row,optometrist,,74,93,85,92,7056,0,79,1675,5258027,,,2026-09-25,no,Chicago_us_scores.csv
+uptownfamilyvision.com,US,Chicago,row,optometrist,unknown,68,44,96,92,8041,0,49,2705,1585360,,,2026-09-25,no,Chicago_us_scores.csv
+villageeyecare.net,US,Chicago,row,optometrist,WordPress,42,76,92,92,21245,0,531,5049,3901786,SLOW,,2026-09-25,no,Chicago_us_scores.csv
+visionparkridge.com,US,Chicago,row,optometrist,WordPress,39,95,73,85,15152,0,274,7692,10301520,,,2026-09-25,no,Chicago_us_scores.csv
+weareyewear-chicago.com,US,Chicago,row,optometrist,,38,93,73,100,17977,0,1564,2008,4971349,,,2026-09-25,no,Chicago_us_scores.csv
+westloopeyecare.com,US,Chicago,row,optometrist,unknown,25,84,50,85,8622,0,644,3894,2125697,,,2026-09-25,no,Chicago_us_scores.csv
+wickerparkeyecenter.com,US,Chicago,row,optometrist,unknown,73,91,100,92,3268,0,171,3268,8409776,,,2026-09-25,no,Chicago_us_scores.csv
+athletico.com,US,Chicago,row,physio,WordPress,52,100,96,92,5736,0,65,2963,1845361,AVERAGE,,2026-09-25,yes,Chicago_us_scores.csv
+atipt.com,US,Chicago,row,physio,WordPress,30,88,100,92,18903,0,4564,1854,8864710,AVERAGE,,2026-09-25,yes,Chicago_us_scores.csv
+chicagophysicaltherapists.com,US,Chicago,row,physio,Squarespace,65,90,96,92,9349,0,170,2556,2171369,FAST,,2026-09-25,no,Chicago_us_scores.csv
+dynamic-pt.com,US,Chicago,row,physio,WordPress,54,98,100,92,12601,0,284,4585,2262925,,,2026-09-25,no,Chicago_us_scores.csv
+fyzicalchicago.com,US,Chicago,row,physio,WordPress,59,89,77,100,3826,0,788,1387,3123730,AVERAGE,,2026-09-25,no,Chicago_us_scores.csv
+impactphysicaltherapy.com,US,Chicago,row,physio,WordPress,70,94,96,92,4415,0,549,1246,7510088,AVERAGE,,2026-09-25,no,Chicago_us_scores.csv
+lakeshore-pt.com,US,Chicago,row,physio,WordPress,63,89,96,92,5626,0,322,2769,3772815,,,2026-09-25,no,Chicago_us_scores.csv
+lincolnparkpt.com,US,Chicago,row,physio,unknown,94,88,96,83,3018,0,41,932,526916,,,2026-09-25,no,Chicago_us_scores.csv
+movementphysicaltherapy.com,US,Chicago,row,physio,WordPress,62,80,100,85,11138,0,79,2878,2638089,,,2026-09-25,no,Chicago_us_scores.csv
+mpowerptchicago.com,US,Chicago,row,physio,Squarespace,36,89,73,100,9641,0,1713,3157,3576585,,,2026-09-25,no,Chicago_us_scores.csv
+muscleandjointphysicaltherapy.com,US,Chicago,row,physio,WordPress,44,92,96,92,8102,0,1084,2567,4256843,FAST,,2026-09-25,no,Chicago_us_scores.csv
+physiochicago.com,US,Chicago,row,physio,Squarespace,36,95,96,92,14175,0,1556,3453,3387145,AVERAGE,,2026-09-25,no,Chicago_us_scores.csv
+physiopartners.com,US,Chicago,row,physio,,65,90,92,100,7105,0,151,3147,1046866,AVERAGE,,2026-09-25,no,Chicago_us_scores.csv
+premierphysicaltherapy.com,US,Chicago,row,physio,unknown,28,83,100,85,17293,0,600,6444,2698338,AVERAGE,,2026-09-25,no,Chicago_us_scores.csv
+relivetherapy.com,US,Chicago,row,physio,WordPress,90,89,100,85,2564,0,158,2262,1406005,,,2026-09-25,no,Chicago_us_scores.csv
+rushpt.com,US,Chicago,row,physio,,60,92,96,100,11972,0,81,4351,2223323,FAST,,2026-09-25,no,Chicago_us_scores.csv
+slooppt.com,US,Chicago,row,physio,Squarespace,75,100,100,92,3643,0,343,2593,1706272,,,2026-09-25,no,Chicago_us_scores.csv
+unbrokenrehab.com,US,Chicago,row,physio,WordPress,25,83,96,100,5551,0,623,3789,6908069,,,2026-09-25,no,Chicago_us_scores.csv
+vividpt.com,US,Chicago,row,physio,unknown,56,95,96,82,15630,0,258,4273,4161510,,,2026-09-25,no,Chicago_us_scores.csv
+wlspine.com,US,Chicago,row,physio,,62,88,85,92,7642,0,288,2772,1160131,,,2026-09-25,no,Chicago_us_scores.csv
+benlalez.com,US,Chicago,row,realtor,,31,81,96,77,18322,0,1293,5650,3928091,,,2026-09-25,no,Chicago_us_scores.csv
+bradbrondyke.com,US,Chicago,row,realtor,Squarespace,36,95,77,100,10900,0,1012,4149,4271475,,,2026-09-25,no,Chicago_us_scores.csv
+carriemccormickre.com,US,Chicago,row,realtor,unknown,90,97,100,100,2929,0,0,2314,987615,SLOW,,2026-09-25,no,Chicago_us_scores.csv
+darbyzwagerman.com,US,Chicago,row,realtor,,47,83,77,92,12362,0,553,3139,7046032,,,2026-09-25,no,Chicago_us_scores.csv
+eswchicago.com,US,Chicago,row,realtor,unknown,32,83,96,92,7660,0,2634,3606,11042668,AVERAGE,,2026-09-25,no,Chicago_us_scores.csv
+jackiemack.com,US,Chicago,row,realtor,WordPress,44,78,73,92,15574,0,557,4623,17603088,SLOW,,2026-09-25,no,Chicago_us_scores.csv
+kaagehomes.com,US,Chicago,row,realtor,WordPress,66,89,92,92,16456,0,57,3317,4011818,,,2026-09-25,no,Chicago_us_scores.csv
+leighmarcus.com,US,Chicago,row,realtor,unknown,52,85,96,92,13564,0,389,3005,49847334,,,2026-09-25,no,Chicago_us_scores.csv
+mahachicagorealestate.com,US,Chicago,row,realtor,WordPress,37,81,77,77,5261,0,1683,4625,7351146,,,2026-09-25,no,Chicago_us_scores.csv
+markmanz.com,US,Chicago,row,realtor,unknown,78,72,96,83,3660,0,149,2735,1098088,FAST,,2026-09-25,no,Chicago_us_scores.csv
+mattlaricy.com,US,Chicago,row,realtor,unknown,55,76,96,85,12642,0,324,3306,9261743,AVERAGE,,2026-09-25,no,Chicago_us_scores.csv
+michaelscavogroup.com,US,Chicago,row,realtor,unknown,38,82,96,85,9378,0,1632,2292,3913127,,,2026-09-25,no,Chicago_us_scores.csv
+modernlivingwithkat.com,US,Chicago,row,realtor,Squarespace,29,92,73,100,13531,0,1807,3606,6656986,,,2026-09-25,no,Chicago_us_scores.csv
+mychicagobrokers.com,US,Chicago,row,realtor,WordPress,28,78,77,100,14500,0,2550,4586,6386566,,,2026-09-25,no,Chicago_us_scores.csv
+nataliiagabryk.com,US,Chicago,row,realtor,Wix,62,97,100,92,7914,0,7,4776,11063135,,,2026-09-25,no,Chicago_us_scores.csv
+oakparkexpert.com,US,Chicago,row,realtor,unknown,83,93,96,100,3591,0,216,1824,1677611,,,2026-09-25,no,Chicago_us_scores.csv
+preppyrealtor.com,US,Chicago,row,realtor,Squarespace,67,85,96,85,4882,0,293,2199,2844905,,,2026-09-25,no,Chicago_us_scores.csv
+romologroup.com,US,Chicago,row,realtor,unknown,39,79,73,77,24261,0,832,4071,10847786,,,2026-09-25,no,Chicago_us_scores.csv
+rubinabokhari.com,US,Chicago,row,realtor,,44,91,69,100,11506,0,639,3239,5454870,,,2026-09-25,no,Chicago_us_scores.csv
+sohailrealestate.com,US,Chicago,row,realtor,unknown,36,78,92,92,6602,0,1365,4952,13719507,,,2026-09-25,no,Chicago_us_scores.csv
+bellairedentalgroup.com,US,Houston,row,dental,unknown,77,100,100,92,5087,0,0,2562,5850923,,,2026-09-25,no,Houston_us_scores.csv
+brilliantdentalcare.com,US,Houston,row,dental,WordPress,80,94,96,85,4003,0,189,2457,949399,,,2026-09-25,no,Houston_us_scores.csv
+ddsforyou.com,US,Houston,row,dental,WordPress,87,96,92,100,2949,0,13,2445,1099161,,,2026-09-25,no,Houston_us_scores.csv
+dentistgalleria.com,US,Houston,row,dental,WordPress,30,89,54,92,14076,0,445,2307,7197927,,,2026-09-25,no,Houston_us_scores.csv
+designdentalmontrose.com,US,Houston,row,dental,unknown,71,87,96,85,7015,0,66,2256,1433879,,,2026-09-25,no,Houston_us_scores.csv
+downtownhoustondentist.com,US,Houston,row,dental,unknown,64,82,96,100,3279,0,104,2760,2798433,,,2026-09-25,no,Houston_us_scores.csv
+fariasdds.com,US,Houston,row,dental,WordPress,53,93,73,85,28834,0,425,1992,6278890,,,2026-09-25,no,Houston_us_scores.csv
+galleriahoustondentist.com,US,Houston,row,dental,,50,72,73,92,13726,0,426,3001,5924766,,,2026-09-25,no,Houston_us_scores.csv
+houstondental.com,US,Houston,row,dental,WordPress,38,84,54,85,4828,0,738,3789,6995695,,,2026-09-25,no,Houston_us_scores.csv
+houstondentistsatpostoak.com,US,Houston,row,dental,,37,78,69,85,19822,0,1030,3749,4073760,,,2026-09-25,no,Houston_us_scores.csv
+houstonheightsdentistry.com,US,Houston,row,dental,WordPress,36,87,73,92,7391,0,1397,2899,20060040,,,2026-09-25,no,Houston_us_scores.csv
+montrosedds.com,US,Houston,row,dental,unknown,30,84,73,100,8886,0,1221,2795,3158144,,,2026-09-25,no,Houston_us_scores.csv
+mydeardentist.net,US,Houston,row,dental,WordPress,53,87,96,100,4291,0,1007,2221,5765391,,,2026-09-25,no,Houston_us_scores.csv
+nabadental.com,US,Houston,row,dental,unknown,55,82,96,100,13213,0,204,3516,2294940,,,2026-09-25,no,Houston_us_scores.csv
+p-edental.com,US,Houston,row,dental,,55,97,96,100,4951,0,486,3601,4401361,,,2026-09-25,no,Houston_us_scores.csv
+sunrisedentalsmile.com,US,Houston,row,dental,unknown,44,87,96,100,3799,0,700,1758,2063489,SLOW,,2026-09-25,no,Houston_us_scores.csv
+swishsmiles.com,US,Houston,row,dental,unknown,28,99,100,92,10794,0,17154,4217,28058098,FAST,,2026-09-25,no,Houston_us_scores.csv
+thedentisthouston.com,US,Houston,row,dental,WordPress,60,80,96,100,13651,0,53,3305,3027871,,,2026-09-25,no,Houston_us_scores.csv
+uptownhoustonsmiles.com,US,Houston,row,dental,WordPress,46,100,100,92,33307,0,331,3011,12744419,,,2026-09-25,no,Houston_us_scores.csv
+westuniversitydentistry.com,US,Houston,row,dental,WordPress,34,79,77,85,46343,0,1032,5258,8795675,,,2026-09-25,no,Houston_us_scores.csv
+aircurrenthouston.com,US,Houston,row,hvac,WordPress,41,100,96,92,12536,0,970,2938,1589591,,,2026-09-25,no,Houston_us_scores.csv
+airdepot.com,US,Houston,row,hvac,WordPress,36,87,96,92,11626,0,2188,2556,6148583,,,2026-09-25,no,Houston_us_scores.csv
+airspecialist.com,US,Houston,row,hvac,unknown,67,96,100,100,6151,0,242,1963,5300355,FAST,,2026-09-25,no,Houston_us_scores.csv
+airtechofkaty.com,US,Houston,row,hvac,WordPress,39,85,96,92,5926,0,2860,2741,4514686,,,2026-09-25,no,Houston_us_scores.csv
+airtonheatingac.com,US,Houston,row,hvac,WordPress,79,91,96,100,3601,0,0,2735,852268,,,2026-09-25,no,Houston_us_scores.csv
+airtronicstx.com,US,Houston,row,hvac,,94,66,77,82,1877,0,0,1877,42759,,,2026-09-25,no,Houston_us_scores.csv
+aliefheatingandairconditioning.com,US,Houston,row,hvac,unknown,62,86,96,92,6192,0,291,1682,973679,,,2026-09-25,no,Houston_us_scores.csv
+americancomfortexperts.com,US,Houston,row,hvac,unknown,56,86,100,100,11096,0,237,5163,1558292,,,2026-09-25,no,Houston_us_scores.csv
+blitzproservices.com,US,Houston,row,hvac,WordPress,51,82,77,92,21526,0,329,5476,5095943,,,2026-09-25,no,Houston_us_scores.csv
+championandnash.com,US,Houston,row,hvac,unknown,72,91,100,92,1951,0,1050,1351,2514170,AVERAGE,,2026-09-25,no,Houston_us_scores.csv
+courtesyaconline.com,US,Houston,row,hvac,WordPress,32,96,96,100,9451,0,1605,4351,2368845,,,2026-09-25,no,Houston_us_scores.csv
+customcomfortair.com,US,Houston,row,hvac,WordPress,90,84,96,92,1694,0,0,1274,412884,,,2026-09-25,no,Houston_us_scores.csv
+grbmechanical.com,US,Houston,row,hvac,Wix,68,100,77,100,6186,0,234,2414,2282084,,,2026-09-25,no,Houston_us_scores.csv
+houston-airconditioning.com,US,Houston,row,hvac,unknown,87,86,100,100,3251,0,15,2705,349861,,,2026-09-25,no,Houston_us_scores.csv
+pmhvac.com,US,Houston,row,hvac,,96,96,100,100,1876,0,138,1221,1373187,,,2026-09-25,no,Houston_us_scores.csv
+rejoiceair.com,US,Houston,row,hvac,,62,85,96,100,7651,0,190,2739,2364629,,,2026-09-25,no,Houston_us_scores.csv
+royalairhouston.com,US,Houston,row,hvac,unknown,53,65,96,100,10787,0,418,3902,1754471,SLOW,,2026-09-25,no,Houston_us_scores.csv
+tamtotalair.com,US,Houston,row,hvac,,100,95,96,45,805,0,0,805,3416,,,2026-09-25,no,Houston_us_scores.csv
+terrysacandheating.com,US,Houston,row,hvac,WordPress,31,94,92,85,15027,0,1275,5343,5323771,SLOW,,2026-09-25,no,Houston_us_scores.csv
+titanhvachouston.com,US,Houston,row,hvac,WordPress,79,93,100,85,3603,0,12,3303,2555313,,,2026-09-25,no,Houston_us_scores.csv
+berkeleyeye.com,US,Houston,row,optometrist,,72,88,100,100,5571,0,0,2884,755207,FAST,,2026-09-25,no,Houston_us_scores.csv
+bettervisiontx.com,US,Houston,row,optometrist,unknown,63,92,100,100,7694,0,0,4428,1281165,,,2026-09-25,no,Houston_us_scores.csv
+clearlakeeye.com,US,Houston,row,optometrist,WordPress,57,92,96,92,8125,0,261,3305,1697801,,,2026-09-25,no,Houston_us_scores.csv
+clearlaketso.com,US,Houston,row,optometrist,unknown,92,43,100,92,2738,0,23,2580,842179,,,2026-09-25,no,Houston_us_scores.csv
+cypressvisionopto.com,US,Houston,row,optometrist,unknown,86,43,96,92,2881,0,143,2706,1454146,,,2026-09-25,no,Houston_us_scores.csv
+elitevisioncare.com,US,Houston,row,optometrist,unknown,69,46,100,92,6715,0,34,2677,902384,,,2026-09-25,no,Houston_us_scores.csv
+eyeeyedoc.com,US,Houston,row,optometrist,Wix,47,97,77,100,6003,0,1119,2853,3767890,FAST,,2026-09-25,no,Houston_us_scores.csv
+eyes-optics.com,US,Houston,row,optometrist,WordPress,71,80,96,100,9714,0,131,1571,2338902,,,2026-09-25,no,Houston_us_scores.csv
+eyesoncypress.com,US,Houston,row,optometrist,,58,96,100,100,7556,0,485,1925,935870,,,2026-09-25,no,Houston_us_scores.csv
+focalpointeyecaretx.com,US,Houston,row,optometrist,Squarespace,71,75,100,92,3559,0,439,3003,1055250,,,2026-09-25,no,Houston_us_scores.csv
+houstoneyepro.com,US,Houston,row,optometrist,,51,100,100,92,9217,0,886,2156,1178216,,,2026-09-25,no,Houston_us_scores.csv
+maxtonvisiongroup.com,US,Houston,row,optometrist,,79,83,85,92,4906,0,25,1783,1067174,,,2026-09-25,no,Houston_us_scores.csv
+memorialvision.com,US,Houston,row,optometrist,unknown,82,55,100,85,4177,0,14,2072,731978,,,2026-09-25,no,Houston_us_scores.csv
+pearlandeyecare.com,US,Houston,row,optometrist,,64,92,73,100,4032,0,477,3432,1485282,,,2026-09-25,no,Houston_us_scores.csv
+pearlandprofessionalvision.com,US,Houston,row,optometrist,,34,93,73,100,12864,0,3262,2024,4183256,,,2026-09-25,no,Houston_us_scores.csv
+seabrookeyecenter.com,US,Houston,row,optometrist,WordPress,38,100,100,100,9394,0,729,5862,2530626,,,2026-09-25,no,Houston_us_scores.csv
+tsowestpearland.com,US,Houston,row,optometrist,unknown,86,46,100,92,2748,0,205,2578,1385179,,,2026-09-25,no,Houston_us_scores.csv
+twenty20visioncenter.com,US,Houston,row,optometrist,WordPress,66,96,100,92,7500,0,81,2514,1338589,AVERAGE,,2026-09-25,no,Houston_us_scores.csv
+visioneyemax.com,US,Houston,row,optometrist,unknown,89,46,100,92,3199,0,0,2467,373643,,,2026-09-25,no,Houston_us_scores.csv
+visiongallerykaty.com,US,Houston,row,optometrist,unknown,87,43,96,92,3020,0,44,2734,1533030,,,2026-09-25,no,Houston_us_scores.csv
+action-pt.net,US,Houston,row,physio,,55,88,58,100,11889,0,211,4124,2281179,,,2026-09-25,no,Houston_us_scores.csv
+advancephysicaltherapy.com,US,Houston,row,physio,WordPress,37,91,96,100,7544,0,963,4425,9609166,SLOW,,2026-09-25,no,Houston_us_scores.csv
+amptrehab.com,US,Houston,row,physio,,65,85,100,92,8444,0,216,2272,2710042,,,2026-09-25,no,Houston_us_scores.csv
+apexrehab.com,US,Houston,row,physio,,67,82,100,92,6541,0,77,2724,3696680,,,2026-09-25,no,Houston_us_scores.csv
+bellairept.com,US,Houston,row,physio,WordPress,38,73,96,92,6751,1,188,2852,1613976,,,2026-09-25,no,Houston_us_scores.csv
+bulletproofpt.com,US,Houston,row,physio,Squarespace,38,97,100,100,16186,0,2603,2856,2764571,,,2026-09-25,no,Houston_us_scores.csv
+casephysicaltherapy.com,US,Houston,row,physio,,58,88,100,92,5701,0,792,1667,1890729,,,2026-09-25,no,Houston_us_scores.csv
+covenantphysicaltherapy.com,US,Houston,row,physio,unknown,37,92,100,91,8362,0,514,5252,1515861,,,2026-09-25,no,Houston_us_scores.csv
+elationpt.com,US,Houston,row,physio,Wix,65,96,96,92,8402,0,390,1866,3371234,FAST,,2026-09-25,no,Houston_us_scores.csv
+evolutiontherapyinmotion.com,US,Houston,row,physio,,89,93,96,100,3538,0,0,1849,1199487,,,2026-09-25,no,Houston_us_scores.csv
+houstonmedicalclinic.com,US,Houston,row,physio,Squarespace,69,96,100,85,8123,0,80,2339,1368364,,,2026-09-25,no,Houston_us_scores.csv
+jenniferkleinphysicaltherapy.com,US,Houston,row,physio,WordPress,40,88,100,92,14126,0,1289,2814,2437056,,,2026-09-25,no,Houston_us_scores.csv
+medcentertherapy.com,US,Houston,row,physio,,36,85,73,92,4501,0,2781,3678,11834937,,,2026-09-25,no,Houston_us_scores.csv
+mymotusphysio.com,US,Houston,row,physio,Wix,47,92,100,100,6678,0,584,3453,63022851,,,2026-09-25,no,Houston_us_scores.csv
+pione3rpt.com,US,Houston,row,physio,Squarespace,28,100,100,100,18632,0,2289,4578,3344602,,,2026-09-25,no,Houston_us_scores.csv
+properphysicaltherapy.com,US,Houston,row,physio,WordPress,72,86,96,85,4731,0,344,2011,1962338,,,2026-09-25,no,Houston_us_scores.csv
+resultspt.com,US,Houston,row,physio,WordPress,43,91,54,92,9123,0,819,4131,3195886,FAST,,2026-09-25,no,Houston_us_scores.csv
+revolvephysicaltherapy.com,US,Houston,row,physio,WordPress,46,96,96,92,21913,0,494,2617,6649650,,,2026-09-25,no,Houston_us_scores.csv
+starhoustonphysicaltherapy.com,US,Houston,row,physio,,69,80,100,92,6473,0,0,2589,4855143,,,2026-09-25,no,Houston_us_scores.csv
+unifypt.com,US,Houston,row,physio,,72,92,96,100,5582,0,84,2403,8738078,,,2026-09-25,no,Houston_us_scores.csv
+amyraper.com,US,Houston,row,realtor,,56,84,88,92,7526,0,234,3605,1669025,,,2026-09-25,no,Houston_us_scores.csv
+anjadrewes.com,US,Houston,row,realtor,unknown,85,88,96,92,3084,0,0,2184,1690418,,,2026-09-25,no,Houston_us_scores.csv
+blairrg.com,US,Houston,row,realtor,WordPress,49,78,58,92,4993,0,604,4016,20415083,AVERAGE,,2026-09-25,no,Houston_us_scores.csv
+christaburgess.com,US,Houston,row,realtor,unknown,79,83,100,100,3021,0,52,3021,3843264,,,2026-09-25,no,Houston_us_scores.csv
+citygroupproperties.com,US,Houston,row,realtor,,61,85,92,100,3451,0,811,2706,3781767,,,2026-09-25,no,Houston_us_scores.csv
+courtneyrobertsonrealtor.com,US,Houston,row,realtor,WordPress,31,70,58,85,10708,0,1211,5941,11693070,,,2026-09-25,no,Houston_us_scores.csv
+crrealtyco.com,US,Houston,row,realtor,unknown,54,100,100,92,6275,0,126,3324,5465749,,,2026-09-25,no,Houston_us_scores.csv
+haleygarciagroup.com,US,Houston,row,realtor,WordPress,51,87,92,92,13387,0,560,1417,8068684,,,2026-09-25,no,Houston_us_scores.csv
+houstonprimerealty.com,US,Houston,row,realtor,WordPress,94,88,92,100,2348,0,0,2186,384323,,,2026-09-25,no,Houston_us_scores.csv
+hshomeshouston.com,US,Houston,row,realtor,Wix,66,93,96,100,9420,0,24,3007,8984849,,,2026-09-25,no,Houston_us_scores.csv
+janetchavezrealtygroup.com,US,Houston,row,realtor,unknown,32,82,96,77,4237,0,923,3412,4025840,,,2026-09-25,no,Houston_us_scores.csv
+jdadamsonrealtor.com,US,Houston,row,realtor,unknown,48,84,96,85,19194,0,561,3263,4380390,,,2026-09-25,no,Houston_us_scores.csv
+kathyvcrosby.com,US,Houston,row,realtor,,51,91,77,85,5411,0,442,4694,4089998,,,2026-09-25,no,Houston_us_scores.csv
+laurenlaigle.com,US,Houston,row,realtor,unknown,63,84,92,91,20051,0,77,4531,8826628,,,2026-09-25,no,Houston_us_scores.csv
+natashacarrollrealty.com,US,Houston,row,realtor,unknown,43,84,77,100,5776,0,831,4126,7809135,,,2026-09-25,no,Houston_us_scores.csv
+prestigebyekta.com,US,Houston,row,realtor,WordPress,45,87,77,85,4629,0,1101,3883,4585762,,,2026-09-25,no,Houston_us_scores.csv
+realmpro.com,US,Houston,row,realtor,unknown,36,94,96,92,22173,0,1170,3936,23229506,SLOW,,2026-09-25,no,Houston_us_scores.csv
+tahira-syed.com,US,Houston,row,realtor,unknown,64,79,96,85,12500,0,138,3184,7799605,,,2026-09-25,no,Houston_us_scores.csv
+tammyreasellshomes.com,US,Houston,row,realtor,unknown,71,89,96,92,6726,0,113,935,1296336,,,2026-09-25,no,Houston_us_scores.csv
+tommyrulandproperties.com,US,Houston,row,realtor,unknown,78,84,96,92,5017,0,76,2269,711114,,,2026-09-25,no,Houston_us_scores.csv
+beverlyhillsdentist.com,US,Los Angeles,row,dental,unknown,68,79,100,85,6302,0,0,3039,1083183,,,2026-09-25,no,Los Angeles_us_scores.csv
+billdorfmandds.com,US,Los Angeles,row,dental,WordPress,49,97,96,92,6301,0,537,2556,2969929,AVERAGE,,2026-09-25,no,Los Angeles_us_scores.csv
+biosmilecenter.com,US,Los Angeles,row,dental,Wix,36,83,58,85,6477,0,1707,2855,4033805,,,2026-09-25,no,Los Angeles_us_scores.csv
+caldentalpasadena.com,US,Los Angeles,row,dental,unknown,29,97,54,100,7346,0,2184,5469,19745926,,,2026-09-25,no,Los Angeles_us_scores.csv
+carsonsdental.com,US,Los Angeles,row,dental,WordPress,68,90,96,100,5290,0,73,4384,980446,,,2026-09-25,no,Los Angeles_us_scores.csv
+dentalpracticepasadena.com,US,Los Angeles,row,dental,WordPress,38,87,77,92,18482,0,604,2623,2779846,,,2026-09-25,no,Los Angeles_us_scores.csv
+dentist.drhaber.net,US,Los Angeles,row,dental,,63,79,100,83,10542,0,0,3347,2644931,,,2026-09-25,no,Los Angeles_us_scores.csv
+drdallolmo.com,US,Los Angeles,row,dental,WordPress,52,66,96,85,11028,0,236,2707,2400731,,,2026-09-25,no,Los Angeles_us_scores.csv
+drhubler.com,US,Los Angeles,row,dental,,54,91,81,100,5438,0,110,1559,1055145,,,2026-09-25,no,Los Angeles_us_scores.csv
+holisticsmilesla.com,US,Los Angeles,row,dental,,89,95,88,92,2708,0,107,2708,1632007,,,2026-09-25,no,Los Angeles_us_scores.csv
+infinitedentalwellness.com,US,Los Angeles,row,dental,WordPress,99,96,100,100,1651,0,84,952,622132,,,2026-09-25,no,Los Angeles_us_scores.csv
+kathyzahedidds.com,US,Los Angeles,row,dental,,31,83,73,92,7501,0,875,5551,5385803,,,2026-09-25,no,Los Angeles_us_scores.csv
+losangelesdentistsgroup.com,US,Los Angeles,row,dental,WordPress,56,87,96,85,4651,0,630,3151,13877641,,,2026-09-25,no,Los Angeles_us_scores.csv
+pacificdentalcare.org,US,Los Angeles,row,dental,WordPress,52,91,73,83,3339,0,1243,3014,15225710,,,2026-09-25,no,Los Angeles_us_scores.csv
+pasadenadentalcare.net,US,Los Angeles,row,dental,Wix,75,92,100,100,2859,0,631,2708,2501504,,,2026-09-25,no,Los Angeles_us_scores.csv
+prestigedentalpasadena.com,US,Los Angeles,row,dental,unknown,63,96,96,100,9843,0,60,3181,1510956,,,2026-09-25,no,Los Angeles_us_scores.csv
+santamonicadentalarts.com,US,Los Angeles,row,dental,unknown,30,79,77,92,35265,0,1329,13356,32280863,,,2026-09-25,no,Los Angeles_us_scores.csv
+signaturesmilesdentalgroup.com,US,Los Angeles,row,dental,WordPress,62,92,96,92,3001,0,836,2558,28940211,,,2026-09-25,no,Los Angeles_us_scores.csv
+zadehdentistry.com,US,Los Angeles,row,dental,unknown,24,91,73,92,15900,0,594,10601,21311086,,,2026-09-25,no,Los Angeles_us_scores.csv
+zakhordental.com,US,Los Angeles,row,dental,WordPress,52,95,96,92,4566,0,1136,2735,1905238,,,2026-09-25,no,Los Angeles_us_scores.csv
+acplumbingheatingair.com,US,Los Angeles,row,hvac,WordPress,60,100,100,100,9188,0,116,4951,1847862,,,2026-09-25,no,Los Angeles_us_scores.csv
+affordableairla.com,US,Los Angeles,row,hvac,WordPress,48,86,100,100,6376,0,626,2756,2354937,FAST,,2026-09-25,no,Los Angeles_us_scores.csv
+aireserv.com,US,Los Angeles,row,hvac,,94,93,96,40,2428,0,201,765,909584,AVERAGE,,2026-09-25,no,Los Angeles_us_scores.csv
+aironeheatingandcoolinginc.com,US,Los Angeles,row,hvac,unknown,30,96,73,100,9981,0,1593,6156,6538497,,,2026-09-25,no,Los Angeles_us_scores.csv
+airtro.com,US,Los Angeles,row,hvac,,32,86,73,100,13851,0,2941,2753,2535715,AVERAGE,,2026-09-25,no,Los Angeles_us_scores.csv
+brodypennell.com,US,Los Angeles,row,hvac,WordPress,70,85,100,100,4739,0,55,2851,1080953,AVERAGE,,2026-09-25,no,Los Angeles_us_scores.csv
+bryantheatandair.com,US,Los Angeles,row,hvac,,85,85,100,100,2846,0,368,1663,738130,,,2026-09-25,no,Los Angeles_us_scores.csv
+calclimate.com,US,Los Angeles,row,hvac,unknown,98,96,100,100,2101,0,59,931,284821,,,2026-09-25,no,Los Angeles_us_scores.csv
+greenplanet-hvac.com,US,Los Angeles,row,hvac,WordPress,45,87,96,92,10389,0,798,2128,3942827,,,2026-09-25,no,Los Angeles_us_scores.csv
+heatingcoolingbeyond.com,US,Los Angeles,row,hvac,WordPress,69,89,96,100,6736,0,54,2752,18140134,,,2026-09-25,no,Los Angeles_us_scores.csv
+kahnair.com,US,Los Angeles,row,hvac,WordPress,32,82,73,100,8599,0,2353,3967,5669511,AVERAGE,,2026-09-25,no,Los Angeles_us_scores.csv
+laheatingairconditioning.com,US,Los Angeles,row,hvac,unknown,27,90,96,100,21962,0,2066,9303,6784179,,,2026-09-25,no,Los Angeles_us_scores.csv
+lahvaclc.com,US,Los Angeles,row,hvac,unknown,78,91,96,100,2416,0,544,1051,1512534,,,2026-09-25,no,Los Angeles_us_scores.csv
+lencohvac.com,US,Los Angeles,row,hvac,,84,97,100,100,3301,0,107,2294,1220175,,,2026-09-25,no,Los Angeles_us_scores.csv
+lionshvac.com,US,Los Angeles,row,hvac,,57,89,92,100,3526,0,2057,2858,1004409,AVERAGE,,2026-09-25,no,Los Angeles_us_scores.csv
+mightyserv.com,US,Los Angeles,row,hvac,,26,89,92,85,11176,0,8004,3155,9554624,AVERAGE,,2026-09-25,no,Los Angeles_us_scores.csv
+onewayair.com,US,Los Angeles,row,hvac,,66,86,100,85,7201,0,65,2589,1026874,,,2026-09-25,no,Los Angeles_us_scores.csv
+southbayhvac.com,US,Los Angeles,row,hvac,unknown,100,79,96,91,759,0,0,759,2329,,,2026-09-25,no,Los Angeles_us_scores.csv
+ventahvac.com,US,Los Angeles,row,hvac,unknown,71,94,100,100,4749,0,127,3606,423334,,,2026-09-25,no,Los Angeles_us_scores.csv
+zodiachvac.com,US,Los Angeles,row,hvac,WordPress,51,83,88,92,19006,0,267,5439,7309824,,,2026-09-25,no,Los Angeles_us_scores.csv
+clearchoiceoptometry.com,US,Los Angeles,row,optometrist,WordPress,36,84,96,92,16726,0,1177,3717,4379180,,,2026-09-25,no,Los Angeles_us_scores.csv
+culvercityoptometry.com,US,Los Angeles,row,optometrist,Weebly,63,98,96,100,6856,0,178,3796,913328,,,2026-09-25,no,Los Angeles_us_scores.csv
+delreyoptometry.com,US,Los Angeles,row,optometrist,WordPress,64,85,96,100,4365,0,497,2880,1503069,,,2026-09-25,no,Los Angeles_us_scores.csv
+drmarkchung.com,US,Los Angeles,row,optometrist,WordPress,43,89,92,100,7781,0,230,2881,1575007,,,2026-09-25,no,Los Angeles_us_scores.csv
+eapoptometry.com,US,Los Angeles,row,optometrist,,42,91,96,90,50345,0,522,8607,10532383,,,2026-09-25,no,Los Angeles_us_scores.csv
+eyelandoptometry.com,US,Los Angeles,row,optometrist,,72,89,81,92,8305,0,64,1801,5674586,,,2026-09-25,no,Los Angeles_us_scores.csv
+frameandsight.com,US,Los Angeles,row,optometrist,unknown,71,54,96,92,6114,0,0,2465,748902,,,2026-09-25,no,Los Angeles_us_scores.csv
+hollywoodoptometrist.com,US,Los Angeles,row,optometrist,,60,89,85,77,9695,0,311,2735,1400871,,,2026-09-25,no,Los Angeles_us_scores.csv
+hollywoodspectaclesoptical.com,US,Los Angeles,row,optometrist,unknown,62,90,96,92,2439,0,2361,1803,3290962,,,2026-09-25,no,Los Angeles_us_scores.csv
+lbvisioncenter.com,US,Los Angeles,row,optometrist,unknown,93,50,100,92,2362,0,76,2279,1353062,,,2026-09-25,no,Los Angeles_us_scores.csv
+longbeachoptometry.com,US,Los Angeles,row,optometrist,unknown,58,70,96,77,32167,0,204,3460,12134537,,,2026-09-25,no,Los Angeles_us_scores.csv
+longbeachvisioncare.com,US,Los Angeles,row,optometrist,WordPress,45,96,100,100,7897,0,585,4799,1580017,,,2026-09-25,no,Los Angeles_us_scores.csv
+maisonoptique.com,US,Los Angeles,row,optometrist,unknown,77,78,96,92,3529,0,176,3052,1298566,,,2026-09-25,no,Los Angeles_us_scores.csv
+oohlalaoptometry.com,US,Los Angeles,row,optometrist,unknown,60,89,100,85,4627,0,492,1840,1897707,,,2026-09-25,no,Los Angeles_us_scores.csv
+positiveeyeons.com,US,Los Angeles,row,optometrist,,78,72,96,92,4277,0,8,2102,763297,,,2026-09-25,no,Los Angeles_us_scores.csv
+sunsetoptometric.com,US,Los Angeles,row,optometrist,unknown,56,80,73,77,5095,0,381,1691,2178483,,,2026-09-25,no,Los Angeles_us_scores.csv
+torranceoptometry.com,US,Los Angeles,row,optometrist,WordPress,48,77,77,92,6977,0,573,2553,3362035,,,2026-09-25,no,Los Angeles_us_scores.csv
+visioncareoptometriccenter.com,US,Los Angeles,row,optometrist,,96,84,100,77,2165,0,88,1747,965602,,,2026-09-25,no,Los Angeles_us_scores.csv
+visionsource-blackstone.com,US,Los Angeles,row,optometrist,unknown,92,96,100,100,2813,0,31,1580,1781075,,,2026-09-25,no,Los Angeles_us_scores.csv
+wehovision.com,US,Los Angeles,row,optometrist,,54,86,73,85,8251,0,255,4058,1270711,,,2026-09-25,no,Los Angeles_us_scores.csv
+atlantispt.com,US,Los Angeles,row,physio,,65,77,100,85,12016,0,40,3158,2538114,,,2026-09-25,no,Los Angeles_us_scores.csv
+axispt.net,US,Los Angeles,row,physio,unknown,89,88,96,100,3226,0,184,958,1777749,,,2026-09-25,no,Los Angeles_us_scores.csv
+blakewellness.la,US,Los Angeles,row,physio,unknown,71,88,100,100,4562,0,2,3859,10021044,,,2026-09-25,no,Los Angeles_us_scores.csv
+dangpt.com,US,Los Angeles,row,physio,Squarespace,28,95,73,92,21317,0,3769,3752,8454513,,,2026-09-25,no,Los Angeles_us_scores.csv
+epcla.com,US,Los Angeles,row,physio,Squarespace,66,95,96,92,5908,0,64,4102,11026332,,,2026-09-25,no,Los Angeles_us_scores.csv
+evolutionphysicaltherapy.com,US,Los Angeles,row,physio,WordPress,69,69,96,100,4351,0,309,3040,1186228,SLOW,,2026-09-25,no,Los Angeles_us_scores.csv
+flexelitept.net,US,Los Angeles,row,physio,unknown,52,79,96,92,4129,0,1586,2708,11320505,,,2026-09-25,no,Los Angeles_us_scores.csv
+lennartzscherrpt.com,US,Los Angeles,row,physio,,48,77,96,92,8630,0,283,3792,1433423,,,2026-09-25,no,Los Angeles_us_scores.csv
+m3pt.com,US,Los Angeles,row,physio,,52,82,50,92,3153,0,2323,2891,5646888,,,2026-09-25,no,Los Angeles_us_scores.csv
+matrixptandwellness.com,US,Los Angeles,row,physio,Wix,69,91,100,92,6976,0,137,3053,1628869,,,2026-09-25,no,Los Angeles_us_scores.csv
+maven-pt.com,US,Los Angeles,row,physio,unknown,55,85,96,92,11209,0,384,3488,12425079,,,2026-09-25,no,Los Angeles_us_scores.csv
+modmovept.com,US,Los Angeles,row,physio,Wix,67,92,96,100,13967,0,120,3460,2826885,,,2026-09-25,no,Los Angeles_us_scores.csv
+motipt.com,US,Los Angeles,row,physio,unknown,67,61,100,85,7284,0,71,3075,2118202,AVERAGE,,2026-09-25,no,Los Angeles_us_scores.csv
+movementworks.com,US,Los Angeles,row,physio,,61,82,96,92,7787,0,76,2705,2469866,,,2026-09-25,no,Los Angeles_us_scores.csv
+physicaltherapyspecialists.com,US,Los Angeles,row,physio,,59,93,96,100,5252,0,347,2122,2555730,,,2026-09-25,no,Los Angeles_us_scores.csv
+ptmovementmedicine.la,US,Los Angeles,row,physio,,45,83,100,100,12165,0,538,3816,2516823,,,2026-09-25,no,Los Angeles_us_scores.csv
+revpt.com,US,Los Angeles,row,physio,unknown,76,96,100,100,3450,0,0,3354,1891291,,,2026-09-25,no,Los Angeles_us_scores.csv
+skyparkrehab.com,US,Los Angeles,row,physio,,92,90,100,85,2119,0,125,1680,1583175,,,2026-09-25,no,Los Angeles_us_scores.csv
+southlandpt.com,US,Los Angeles,row,physio,unknown,52,88,77,100,10966,0,379,3334,2647005,AVERAGE,,2026-09-25,no,Los Angeles_us_scores.csv
+sportsfitpt.com,US,Los Angeles,row,physio,,52,78,58,92,16789,0,480,2711,4310958,,,2026-09-25,no,Los Angeles_us_scores.csv
+aitansegal.com,US,Los Angeles,row,realtor,unknown,33,75,96,77,21619,0,2118,2859,11100731,,,2026-09-25,no,Los Angeles_us_scores.csv
+buysocalhomes.com,US,Los Angeles,row,realtor,unknown,47,86,96,85,10722,0,498,3921,6290283,,,2026-09-25,no,Los Angeles_us_scores.csv
+frankkenny.com,US,Los Angeles,row,realtor,unknown,27,76,96,77,52015,0,3247,4355,15084620,,,2026-09-25,no,Los Angeles_us_scores.csv
+heatherbellrealtor.com,US,Los Angeles,row,realtor,unknown,78,76,96,77,4009,0,100,3184,4387482,,,2026-09-25,no,Los Angeles_us_scores.csv
+homesbymonicahsu.com,US,Los Angeles,row,realtor,unknown,63,79,96,85,13490,0,137,3304,5028843,,,2026-09-25,no,Los Angeles_us_scores.csv
+homesbysong.com,US,Los Angeles,row,realtor,WordPress,39,81,54,77,4185,0,3196,3735,5461243,,,2026-09-25,no,Los Angeles_us_scores.csv
+homesbyteamluna.com,US,Los Angeles,row,realtor,unknown,52,83,92,92,7427,0,319,5402,7080342,,,2026-09-25,no,Los Angeles_us_scores.csv
+hossnouhi.com,US,Los Angeles,row,realtor,,99,94,96,91,1520,0,0,1520,69413,,,2026-09-25,no,Los Angeles_us_scores.csv
+jademillsestates.com,US,Los Angeles,row,realtor,unknown,56,85,96,85,15408,0,395,2256,16249737,SLOW,,2026-09-25,no,Los Angeles_us_scores.csv
+julietz.com,US,Los Angeles,row,realtor,WordPress,80,84,96,100,5251,0,0,1404,18264771,,,2026-09-25,no,Los Angeles_us_scores.csv
+kevintowner.com,US,Los Angeles,row,realtor,,30,88,54,100,21543,0,1486,5402,4774995,,,2026-09-25,no,Los Angeles_us_scores.csv
+markyusupov.com,US,Los Angeles,row,realtor,unknown,64,76,100,85,3305,0,704,3305,4120633,,,2026-09-25,no,Los Angeles_us_scores.csv
+mybeachteam.com,US,Los Angeles,row,realtor,unknown,40,95,96,92,24778,0,1141,1973,4365726,SLOW,,2026-09-25,no,Los Angeles_us_scores.csv
+ninkeydaltonproperties.com,US,Los Angeles,row,realtor,unknown,54,79,96,77,8187,0,353,3307,9220549,,,2026-09-25,no,Los Angeles_us_scores.csv
+pamelapunzalan.com,US,Los Angeles,row,realtor,WordPress,52,96,77,92,6303,0,736,2703,18053877,,,2026-09-25,no,Los Angeles_us_scores.csv
+sperantagroup.com,US,Los Angeles,row,realtor,unknown,76,79,96,77,3642,0,135,3491,3793631,,,2026-09-25,no,Los Angeles_us_scores.csv
+thealijack.com,US,Los Angeles,row,realtor,unknown,80,83,96,85,3456,0,89,3306,4701405,,,2026-09-25,no,Los Angeles_us_scores.csv
+tiffanyhu.com,US,Los Angeles,row,realtor,Squarespace,38,81,96,85,18776,0,709,8265,5114003,,,2026-09-25,no,Los Angeles_us_scores.csv
+trinarufo.com,US,Los Angeles,row,realtor,unknown,30,83,96,77,15167,0,2385,4067,3392346,,,2026-09-25,no,Los Angeles_us_scores.csv
+valeriefitzgerald.com,US,Los Angeles,row,realtor,,58,96,88,92,7801,0,276,3089,15917373,,,2026-09-25,no,Los Angeles_us_scores.csv
+allsmilesgd.com,US,New York,row,dental,WordPress,44,86,77,85,25499,0,436,6045,5169473,,,2026-09-25,no,New York_us_scores.csv
+baysidedentalartsny.com,US,New York,row,dental,WordPress,80,85,96,92,1139,0,567,1105,1308019,,,2026-09-25,no,New York_us_scores.csv
+brooklynchildrensdentist.com,US,New York,row,dental,unknown,39,88,96,92,9318,0,955,3931,4048093,FAST,,2026-09-25,no,New York_us_scores.csv
+brooklynheightsdental.com,US,New York,row,dental,unknown,68,83,77,85,5513,0,293,2473,8179434,AVERAGE,,2026-09-25,no,New York_us_scores.csv
+centredent.com,US,New York,row,dental,unknown,85,97,100,100,3015,0,301,1351,989616,,,2026-09-25,no,New York_us_scores.csv
+dentalmadeeasy.com,US,New York,row,dental,WordPress,59,85,100,92,5754,0,653,1687,1869939,AVERAGE,,2026-09-25,no,New York_us_scores.csv
+expertdentalnyc.com,US,New York,row,dental,WordPress,73,81,96,92,1804,0,733,1804,2831119,AVERAGE,,2026-09-25,no,New York_us_scores.csv
+formedental.com,US,New York,row,dental,unknown,70,81,96,100,4921,0,70,3962,1905903,,,2026-09-25,no,New York_us_scores.csv
+grandstreetdental.com,US,New York,row,dental,,52,78,96,85,19051,0,451,3844,7333501,SLOW,,2026-09-25,no,New York_us_scores.csv
+ismilefamily.com,US,New York,row,dental,Wix,45,92,100,100,4555,0,1744,3046,4330332,,,2026-09-25,no,New York_us_scores.csv
+jdental.co,US,New York,row,dental,WordPress,72,87,92,100,7982,0,153,1371,1002074,,,2026-09-25,no,New York_us_scores.csv
+kewgardensdentaloffice.com,US,New York,row,dental,unknown,56,96,100,92,7441,0,316,3096,1123733,,,2026-09-25,no,New York_us_scores.csv
+lavaandental.com,US,New York,row,dental,NexHealth,96,95,100,92,2723,0,0,948,459625,,,2026-09-25,no,New York_us_scores.csv
+manhattannydentist.com,US,New York,row,dental,unknown,99,98,100,100,1976,0,0,795,281680,,,2026-09-25,no,New York_us_scores.csv
+metropolitandentalcarenyc.com,US,New York,row,dental,,60,96,96,85,4221,0,545,3155,4215442,,,2026-09-25,no,New York_us_scores.csv
+smileworksnyc.com,US,New York,row,dental,,89,,,,2477,0.003,56,1501,628923,FAST,,2026-09-25,no,New York_us_scores.csv
+studiosmilesnyc.com,US,New York,row,dental,WordPress,67,86,92,100,2101,0,1371,1405,3329934,,,2026-09-25,no,New York_us_scores.csv
+thrivedentalny.com,US,New York,row,dental,NexHealth,77,96,92,92,4554,0,88,2964,3537810,,,2026-09-25,no,New York_us_scores.csv
+yrdental.com,US,New York,row,dental,,51,91,96,92,6901,0,710,2861,1424075,,,2026-09-25,no,New York_us_scores.csv
+zendentistrynyc.com,US,New York,row,dental,WordPress,8,90,96,77,36035,0,1082,7920,13190148,SLOW,,2026-09-25,no,New York_us_scores.csv
+123-hvac.com,US,New York,row,hvac,,98,95,96,36,792,0,0,792,1721,,,2026-09-25,no,New York_us_scores.csv
+212hvac.com,US,New York,row,hvac,WordPress,91,92,100,92,1884,0,347,942,10975867,AVERAGE,,2026-09-25,no,New York_us_scores.csv
+aajjhvac.com,US,New York,row,hvac,WordPress,65,97,96,100,5552,0,2,3159,2893710,,,2026-09-25,no,New York_us_scores.csv
+afgo.com,US,New York,row,hvac,,32,97,96,100,5776,0,872,2884,3979502,,,2026-09-25,no,New York_us_scores.csv
+americanhvac.nyc,US,New York,row,hvac,WordPress,61,100,96,92,7951,0,231,2564,15834354,,,2026-09-25,no,New York_us_scores.csv
+amtechairny.com,US,New York,row,hvac,unknown,71,86,96,92,6946,0,113,1562,1506219,,,2026-09-25,no,New York_us_scores.csv
+aristair.com,US,New York,row,hvac,,31,,,,4762,0.18,16957,2706,1298130,SLOW,,2026-09-25,no,New York_us_scores.csv
+bbcond.com,US,New York,row,hvac,WordPress,99,92,100,92,1880,0,0,1076,456630,,,2026-09-25,no,New York_us_scores.csv
+brownstoneheatingac.com,US,New York,row,hvac,unknown,84,91,100,100,2101,0,354,1666,955385,,,2026-09-25,no,New York_us_scores.csv
+callinghvac.com,US,New York,row,hvac,,73,79,96,91,4742,0,0,3200,1022104,,,2026-09-25,no,New York_us_scores.csv
+centralhvacservices.com,US,New York,row,hvac,unknown,70,57,100,91,4728,0,50,3724,708801,,,2026-09-25,no,New York_us_scores.csv
+clarkshvacbrooklyn.com,US,New York,row,hvac,unknown,84,88,96,100,2606,0,0,2531,5271520,,,2026-09-25,no,New York_us_scores.csv
+figliasons.com,US,New York,row,hvac,unknown,82,97,100,92,3348,0,0,3198,563800,,,2026-09-25,no,New York_us_scores.csv
+fixarnyc.com,US,New York,row,hvac,unknown,91,100,96,100,2812,0,4,2737,374081,,,2026-09-25,no,New York_us_scores.csv
+fusionrepair.com,US,New York,row,hvac,WordPress,50,93,92,100,4201,0,1126,3002,5237224,,,2026-09-25,no,New York_us_scores.csv
+goodwinhc.com,US,New York,row,hvac,unknown,49,,100,,4591,0.445,115,3679,2183839,SLOW,,2026-09-25,no,New York_us_scores.csv
+hvacnycpros.com,US,New York,row,hvac,unknown,69,77,92,100,6140,0,0,2576,1373816,,,2026-09-25,no,New York_us_scores.csv
+ny-hvac.com,US,New York,row,hvac,unknown,99,97,100,100,1342,0,0,1338,698337,,,2026-09-25,no,New York_us_scores.csv
+shepherdehc.com,US,New York,row,hvac,Wix,46,87,73,92,10127,0,679,3752,4608753,,,2026-09-25,no,New York_us_scores.csv
+tropical-aire.com,US,New York,row,hvac,WordPress,50,86,96,85,25726,0,484,2851,8908113,,,2026-09-25,no,New York_us_scores.csv
+ea-ny.com,US,New York,row,optometrist,NexHealth,83,94,100,83,3676,0,0,2734,583321,,,2026-09-25,no,New York_us_scores.csv
+eurooptica.com,US,New York,row,optometrist,Shopify,44,77,92,85,4679,0,2135,2338,37289555,FAST,,2026-09-25,no,New York_us_scores.csv
+eyedvisionoptical.com,US,New York,row,optometrist,unknown,74,96,100,100,18603,0,0,1801,5045192,,,2026-09-25,no,New York_us_scores.csv
+iandeyeoptometry.com,US,New York,row,optometrist,unknown,81,46,100,92,3525,0,6,3271,402656,,,2026-09-25,no,New York_us_scores.csv
+kingsbridgeeye.com,US,New York,row,optometrist,,66,81,81,92,3845,0,22,1702,990923,,,2026-09-25,no,New York_us_scores.csv
+konstantin.net,US,New York,row,optometrist,unknown,62,84,100,100,1593,0,1944,1593,8098545,SLOW,,2026-09-25,no,New York_us_scores.csv
+manhattanvisionassociates.com,US,New York,row,optometrist,,46,93,73,100,3712,0,2709,2022,4064041,FAST,,2026-09-25,no,New York_us_scores.csv
+megavisionbrooklyn.com,US,New York,row,optometrist,unknown,59,93,100,100,7434,0,205,3156,2149689,,,2026-09-25,no,New York_us_scores.csv
+muieyecare.com,US,New York,row,optometrist,unknown,91,78,96,92,2644,0,111,2254,2120530,,,2026-09-25,no,New York_us_scores.csv
+nyceyeandvisioncare.com,US,New York,row,optometrist,NexHealth,85,94,96,100,3265,0,44,2856,952265,,,2026-09-25,no,New York_us_scores.csv
+nynjoptometrist.com,US,New York,row,optometrist,WordPress,61,96,100,100,8415,0,339,1238,1006932,,,2026-09-25,no,New York_us_scores.csv
+parkslopeeye.com,US,New York,row,optometrist,,97,,,,2103,0,0,2103,166982,FAST,,2026-09-25,no,New York_us_scores.csv
+sunnysidevisioncenter.com,US,New York,row,optometrist,unknown,56,90,100,92,6481,0,180,4981,1743982,,,2026-09-25,no,New York_us_scores.csv
+thectrue.com,US,New York,row,optometrist,unknown,73,82,92,100,5387,0,5,2508,3609446,,,2026-09-25,no,New York_us_scores.csv
+usqeyecare.com,US,New York,row,optometrist,WordPress,43,88,96,77,12459,0,41,2358,4741821,SLOW,,2026-09-25,no,New York_us_scores.csv
+visionaryoptics.com,US,New York,row,optometrist,Shopify,73,98,92,100,18131,0,0,2118,4675708,FAST,,2026-09-25,no,New York_us_scores.csv
+visionny.net,US,New York,row,optometrist,WordPress,89,75,100,92,2506,0,0,2431,560704,,,2026-09-25,no,New York_us_scores.csv
+visiononpark.com,US,New York,row,optometrist,WordPress,69,97,100,92,3785,0,326,1272,1928490,,,2026-09-25,no,New York_us_scores.csv
+vistasiteeyecare.com,US,New York,row,optometrist,unknown,58,88,69,92,15489,0,319,1682,3053119,,,2026-09-25,no,New York_us_scores.csv
+vistasitekingsplaza.com,US,New York,row,optometrist,unknown,50,90,77,92,13036,0,530,3029,2131216,,,2026-09-25,no,New York_us_scores.csv
+activecarephysicaltherapy.com,US,New York,row,physio,,45,81,96,85,106071,0,493,3853,50732030,,,2026-09-25,no,New York_us_scores.csv
+brooklyn-physicaltherapy.com,US,New York,row,physio,WordPress,34,65,73,100,11256,0,721,2707,2858897,,,2026-09-25,no,New York_us_scores.csv
+brooklynphysicaltherapy.com,US,New York,row,physio,unknown,82,85,100,92,3322,0,0,3172,978837,SLOW,,2026-09-25,no,New York_us_scores.csv
+determinationphysicaltherapy.com,US,New York,row,physio,WordPress,40,85,73,100,12831,0,1184,1764,11246662,,,2026-09-25,no,New York_us_scores.csv
+excelpt.nyc,US,New York,row,physio,unknown,26,90,73,100,22452,0,2968,14494,12995253,,,2026-09-25,no,New York_us_scores.csv
+handsofhopeny.com,US,New York,row,physio,WordPress,73,96,92,100,7267,0,0,2318,1421910,AVERAGE,,2026-09-25,no,New York_us_scores.csv
+hdphysicaltherapy.com,US,New York,row,physio,WordPress,45,88,96,92,3484,0,1578,3184,3842566,SLOW,,2026-09-25,no,New York_us_scores.csv
+jamesfowlerpt.com,US,New York,row,physio,unknown,57,84,100,100,10728,0,116,4224,2813838,,,2026-09-25,no,New York_us_scores.csv
+manhattanptandpain.com,US,New York,row,physio,unknown,32,84,92,85,6838,0,867,5004,10820733,AVERAGE,,2026-09-25,no,New York_us_scores.csv
+movingforwardpt.nyc,US,New York,row,physio,unknown,62,89,100,100,7110,0,154,3006,5103581,,,2026-09-25,no,New York_us_scores.csv
+mptsm.com,US,New York,row,physio,,85,69,96,85,2879,0,198,2703,5480524,,,2026-09-25,no,New York_us_scores.csv
+msmpt.com,US,New York,row,physio,unknown,35,93,54,100,14062,0,330,1960,2026830,,,2026-09-25,no,New York_us_scores.csv
+nyppt.com,US,New York,row,physio,WordPress,70,95,96,100,4049,0,0,3974,827632,,,2026-09-25,no,New York_us_scores.csv
+omegaptny.com,US,New York,row,physio,unknown,96,100,100,100,2553,0,23,1701,5192039,,,2026-09-25,no,New York_us_scores.csv
+physicaltherapistsnyc.com,US,New York,row,physio,WordPress,70,88,96,100,5829,0,225,1260,3582369,AVERAGE,,2026-09-25,no,New York_us_scores.csv
+principalpt.com,US,New York,row,physio,WordPress,80,82,73,92,4367,0,145,1692,5036412,,,2026-09-25,no,New York_us_scores.csv
+ptofthecity.com,US,New York,row,physio,unknown,56,92,92,100,7434,0,481,3601,8464192,FAST,,2026-09-25,no,New York_us_scores.csv
+regoparkphysicaltherapy.com,US,New York,row,physio,WordPress,20,79,77,85,6378,0,1635,4916,31243409,,,2026-09-25,no,New York_us_scores.csv
+spearcenter.com,US,New York,row,physio,WordPress,54,97,96,100,2855,0,2060,2855,10693617,AVERAGE,,2026-09-25,no,New York_us_scores.csv
+vantagemedicalassociates.com,US,New York,row,physio,WordPress,54,80,96,100,6530,0,315,4657,5066925,FAST,,2026-09-25,no,New York_us_scores.csv
+bklynhometeam.com,US,New York,row,realtor,WordPress,38,68,100,85,21078,0,416,3161,5705205,,,2026-09-25,no,New York_us_scores.csv
+braithrealty.com,US,New York,row,realtor,,48,96,77,100,3601,0,2298,3005,5086168,,,2026-09-25,no,New York_us_scores.csv
+brianklewis.com,US,New York,row,realtor,WordPress,65,100,77,100,6411,0,140,3305,23354323,,,2026-09-25,no,New York_us_scores.csv
+cindygokay.com,US,New York,row,realtor,Squarespace,57,98,96,100,4356,0,640,2706,4391856,,,2026-09-25,no,New York_us_scores.csv
+claudialooi.com,US,New York,row,realtor,,89,95,100,92,2401,0,0,1364,6930984,,,2026-09-25,no,New York_us_scores.csv
+donnabradbury.com,US,New York,row,realtor,Wix,69,90,96,100,2632,0,1322,2406,2661710,,,2026-09-25,no,New York_us_scores.csv
+elliman.com,US,New York,row,realtor,unknown,28,93,92,100,13201,0,4592,2701,19551460,AVERAGE,,2026-09-25,no,New York_us_scores.csv
+franceskatzen.com,US,New York,row,realtor,unknown,59,91,92,85,14546,0,66,4313,7922469,,,2026-09-25,no,New York_us_scores.csv
+janekatznyc.com,US,New York,row,realtor,unknown,60,79,96,77,15834,0,178,3455,10796991,,,2026-09-25,no,New York_us_scores.csv
+kayla.serhant.com,US,New York,row,realtor,,62,,,,5170,0.002,426,3156,4523098,SLOW,,2026-09-25,no,New York_us_scores.csv
+kwnyc.com,US,New York,row,realtor,unknown,39,84,96,85,12058,0,884,3980,31709414,FAST,,2026-09-25,no,New York_us_scores.csv
+louisebeit.com,US,New York,row,realtor,,52,94,96,92,49711,0,181,49711,10037381,,,2026-09-25,no,New York_us_scores.csv
+massadahomes.com,US,New York,row,realtor,,79,54,85,92,3751,0,145,2882,2139801,,,2026-09-25,no,New York_us_scores.csv
+mrgnyc.com,US,New York,row,realtor,,61,,,,8927,0,0,4381,15470546,SLOW,,2026-09-25,no,New York_us_scores.csv
+natebrown.com,US,New York,row,realtor,unknown,31,86,73,85,8696,0,1509,4952,4348715,,,2026-09-25,no,New York_us_scores.csv
+queenshometeam.com,US,New York,row,realtor,WordPress,22,79,77,85,9976,0,7715,2856,21377999,FAST,,2026-09-25,no,New York_us_scores.csv
+rachelrealtynyc.com,US,New York,row,realtor,unknown,66,76,96,77,17784,0,140,2131,3760454,,,2026-09-25,no,New York_us_scores.csv
+realestateagentmanhattan.com,US,New York,row,realtor,WordPress,76,88,100,100,4052,0,65,2420,3391925,,,2026-09-25,no,New York_us_scores.csv
+realnyproperties.com,US,New York,row,realtor,unknown,68,81,96,92,5288,0,174,3494,7352257,AVERAGE,,2026-09-25,no,New York_us_scores.csv
+sharolnycrealtor.com,US,New York,row,realtor,unknown,61,85,96,85,6243,0,277,3305,31997201,,,2026-09-25,no,New York_us_scores.csv
+centercitydentists.com,US,Philadelphia,row,dental,unknown,36,93,92,100,11918,0,1555,3372,2981735,,,2026-09-26,no,Philadelphia_us_scores.csv
+centercityfamilydentist.com,US,Philadelphia,row,dental,unknown,27,93,69,100,29684,0,2233,22034,22921525,,,2026-09-26,no,Philadelphia_us_scores.csv
+centeronedentalphilly.com/about-us,US,Philadelphia,row,dental,WordPress,37,95,96,100,5673,0,140,4149,2247454,,,2026-09-26,no,Philadelphia_us_scores.csv
+cosmeticdentistphiladelphia.com,US,Philadelphia,row,dental,WordPress,43,83,92,92,7686,0,259,3095,13086234,,,2026-09-26,no,Philadelphia_us_scores.csv
+dagsmiles.com,US,Philadelphia,row,dental,WordPress,94,87,81,92,2850,0,0,1608,257388,AVERAGE,,2026-09-26,no,Philadelphia_us_scores.csv
+dentalartsofchestnuthill.com,US,Philadelphia,row,dental,,85,91,85,85,3154,0,288,1685,1474875,,,2026-09-26,no,Philadelphia_us_scores.csv
+dentistphiladelphia.com,US,Philadelphia,row,dental,,99,93,100,100,1801,0,0,1374,1410978,,,2026-09-26,no,Philadelphia_us_scores.csv
+frankforddentalcare.com,US,Philadelphia,row,dental,,86,93,96,40,2985,0,368,766,1103216,,,2026-09-26,no,Philadelphia_us_scores.csv
+mayfairfamilydentistry.com,US,Philadelphia,row,dental,unknown,65,79,96,82,8704,0,193,2914,2607438,,,2026-09-26,no,Philadelphia_us_scores.csv
+padentalgroup.com,US,Philadelphia,row,dental,unknown,50,91,100,92,16764,0,297,4259,3026225,,,2026-09-26,no,Philadelphia_us_scores.csv
+peradentistry.com,US,Philadelphia,row,dental,unknown,75,100,100,92,5851,0,79,1830,1095493,,,2026-09-26,no,Philadelphia_us_scores.csv
+philadelphiadental.com,US,Philadelphia,row,dental,unknown,95,95,96,92,1951,0,134,926,1521676,FAST,,2026-09-26,no,Philadelphia_us_scores.csv
+philafamilydentist.com,US,Philadelphia,row,dental,unknown,94,83,100,100,2777,0,43,1828,1105042,,,2026-09-26,no,Philadelphia_us_scores.csv
+phillydentistry.com,US,Philadelphia,row,dental,WordPress,33,94,65,92,26567,0,4108,2251,6912619,AVERAGE,,2026-09-26,no,Philadelphia_us_scores.csv
+rhawnhurstdental.com,US,Philadelphia,row,dental,WordPress,82,93,100,92,4691,0,72,1367,1185229,,,2026-09-26,no,Philadelphia_us_scores.csv
+southbroaddental.com,US,Philadelphia,row,dental,unknown,52,86,100,85,14200,0,280,6989,6852478,,,2026-09-26,no,Philadelphia_us_scores.csv
+southphillydental.net,US,Philadelphia,row,dental,Squarespace,56,99,96,92,11872,0,158,7680,2183479,,,2026-09-26,no,Philadelphia_us_scores.csv
+thephiladelphiadentist.com,US,Philadelphia,row,dental,,45,86,96,100,21854,0,393,10655,4420069,AVERAGE,,2026-09-26,no,Philadelphia_us_scores.csv
+westphillydentists.com,US,Philadelphia,row,dental,Wix,72,93,100,85,5327,0,127,3152,2839752,,,2026-09-26,no,Philadelphia_us_scores.csv
+whitmandental.com,US,Philadelphia,row,dental,unknown,30,83,96,100,10998,0,497,5352,2221822,,,2026-09-26,no,Philadelphia_us_scores.csv
+airchangeshvac.com,US,Philadelphia,row,hvac,unknown,74,82,81,100,6036,0,0,1581,1161998,,,2026-09-26,no,Philadelphia_us_scores.csv
+airmasterpa.com,US,Philadelphia,row,hvac,WordPress,72,97,100,92,4606,0,279,2011,2827977,,,2026-09-26,no,Philadelphia_us_scores.csv
+angelhvac.com,US,Philadelphia,row,hvac,WordPress,62,75,96,75,18322,0,221,2000,3801865,SLOW,,2026-09-26,no,Philadelphia_us_scores.csv
+billfrusco.com,US,Philadelphia,row,hvac,unknown,47,84,54,92,8327,0,757,1366,19964484,AVERAGE,,2026-09-26,no,Philadelphia_us_scores.csv
+bryansheatpa.com,US,Philadelphia,row,hvac,unknown,39,83,73,92,12561,0,696,9032,2147043,,,2026-09-26,no,Philadelphia_us_scores.csv
+comfyphilly.com,US,Philadelphia,row,hvac,unknown,60,94,92,92,6400,0,477,2230,2245961,,,2026-09-26,no,Philadelphia_us_scores.csv
+generation3electric.com,US,Philadelphia,row,hvac,,39,86,96,100,10605,0,1025,2308,4005082,AVERAGE,,2026-09-26,no,Philadelphia_us_scores.csv
+hollidayhvac.org,US,Philadelphia,row,hvac,WordPress,53,86,92,100,17476,0,238,3934,4452254,,,2026-09-26,no,Philadelphia_us_scores.csv
+hvacphillyinc.com,US,Philadelphia,row,hvac,unknown,83,95,100,100,3089,0,0,2420,453728,,,2026-09-26,no,Philadelphia_us_scores.csv
+mcclainshvac.com,US,Philadelphia,row,hvac,Squarespace,47,95,100,92,12324,0,568,3548,2140996,,,2026-09-26,no,Philadelphia_us_scores.csv
+mccorrycomfort.com,US,Philadelphia,row,hvac,unknown,69,92,96,100,6639,0,173,2881,882321,,,2026-09-26,no,Philadelphia_us_scores.csv
+petersassociateshvac.com,US,Philadelphia,row,hvac,,78,80,100,100,2855,0,397,2855,1765733,,,2026-09-26,no,Philadelphia_us_scores.csv
+phillyprohvac.com,US,Philadelphia,row,hvac,unknown,52,87,96,82,25170,0,0,25020,4094347,,,2026-09-26,no,Philadelphia_us_scores.csv
+pykhvacpa.com,US,Philadelphia,row,hvac,,98,55,88,73,1664,0,0,1664,41207,,,2026-09-26,no,Philadelphia_us_scores.csv
+rrmechanicalhvac.com,US,Philadelphia,row,hvac,WordPress,37,89,96,85,21431,0,1169,2702,5161277,,,2026-09-26,no,Philadelphia_us_scores.csv
+toranheating.com,US,Philadelphia,row,hvac,WordPress,41,96,96,100,8401,0,934,2855,3374195,,,2026-09-26,no,Philadelphia_us_scores.csv
+trustcoheatingandair.com,US,Philadelphia,row,hvac,unknown,56,85,100,100,7412,0,226,3202,1170502,,,2026-09-26,no,Philadelphia_us_scores.csv
+universalheatingandairconditioning.com,US,Philadelphia,row,hvac,unknown,67,89,100,92,8369,0,283,1964,1954670,,,2026-09-26,no,Philadelphia_us_scores.csv
+westpointhvac.us,US,Philadelphia,row,hvac,unknown,69,85,100,100,2735,0,0,2735,300815,,,2026-09-26,no,Philadelphia_us_scores.csv
+wfsmith.com,US,Philadelphia,row,hvac,,64,87,78,85,9114,0,224,2954,13692197,AVERAGE,,2026-09-26,no,Philadelphia_us_scores.csv
+chestnuthilleye.com,US,Philadelphia,row,optometrist,unknown,57,84,96,85,14081,0,128,4493,7050159,,,2026-09-26,no,Philadelphia_us_scores.csv
+drbrewerandassociates.com,US,Philadelphia,row,optometrist,unknown,88,54,96,92,2909,0,61,2883,328520,,,2026-09-26,no,Philadelphia_us_scores.csv
+drspageandward.com,US,Philadelphia,row,optometrist,unknown,60,82,100,100,11882,0,45,3332,1719526,,,2026-09-26,no,Philadelphia_us_scores.csv
+mayfairvisioncenter.com,US,Philadelphia,row,optometrist,,92,85,96,77,2267,0,236,1696,1353717,,,2026-09-26,no,Philadelphia_us_scores.csv
+modern-optometry.com,US,Philadelphia,row,optometrist,unknown,74,43,100,92,3989,0,28,3531,1425938,,,2026-09-26,no,Philadelphia_us_scores.csv
+mybrowneyecare.com,US,Philadelphia,row,optometrist,unknown,66,43,81,92,7754,0,108,2587,1791972,,,2026-09-26,no,Philadelphia_us_scores.csv
+nostalgiceyecare.com,US,Philadelphia,row,optometrist,Wix,35,96,77,100,7913,0,1517,3159,4747526,,,2026-09-26,no,Philadelphia_us_scores.csv
+optimavisioncenter.com,US,Philadelphia,row,optometrist,unknown,72,96,100,100,6101,0,0,2930,2558231,,,2026-09-26,no,Philadelphia_us_scores.csv
+philadelphia.refocuseyedoctors.com,US,Philadelphia,row,optometrist,WordPress,73,97,96,100,5201,0,228,1954,1589772,AVERAGE,,2026-09-26,no,Philadelphia_us_scores.csv
+phillyeye.com,US,Philadelphia,row,optometrist,WordPress,32,91,100,85,12500,0,488,2063,4339814,SLOW,,2026-09-26,no,Philadelphia_us_scores.csv
+phillyvisioncare.com,US,Philadelphia,row,optometrist,,54,89,78,100,21159,0,179,4922,3590732,,,2026-09-26,no,Philadelphia_us_scores.csv
+phillyvisioncenter.com,US,Philadelphia,row,optometrist,unknown,62,96,92,92,11317,0,74,2262,8666298,,,2026-09-26,no,Philadelphia_us_scores.csv
+pinevisioncare.com,US,Philadelphia,row,optometrist,,77,96,96,100,3383,0,358,2735,11597429,FAST,,2026-09-26,no,Philadelphia_us_scores.csv
+rittenhouseeyeassociates.com,US,Philadelphia,row,optometrist,WordPress,34,92,100,92,7156,1,485,1683,1292611,,,2026-09-26,no,Philadelphia_us_scores.csv
+shoaeye.com,US,Philadelphia,row,optometrist,WordPress,56,90,77,100,15194,0,407,1940,2254496,,,2026-09-26,no,Philadelphia_us_scores.csv
+southphillyoptical.com,US,Philadelphia,row,optometrist,Squarespace,54,83,77,92,7876,0,382,2885,2757081,,,2026-09-26,no,Philadelphia_us_scores.csv
+trendeyecare.com,US,Philadelphia,row,optometrist,,58,77,100,85,5707,0,31,1739,1136185,AVERAGE,,2026-09-26,no,Philadelphia_us_scores.csv
+visioeyecare.com,US,Philadelphia,row,optometrist,,82,100,96,92,3547,0,0,3322,305988,,,2026-09-26,no,Philadelphia_us_scores.csv
+visionopticspa.com,US,Philadelphia,row,optometrist,Wix,71,82,77,100,4291,0,403,2712,2605481,,,2026-09-26,no,Philadelphia_us_scores.csv
+whitmanfamilyeyecare.com,US,Philadelphia,row,optometrist,unknown,65,79,33,82,5461,0,0,4711,14104342,,,2026-09-26,no,Philadelphia_us_scores.csv
+aptphilly.com,US,Philadelphia,row,physio,WordPress,55,85,96,100,9758,0,580,2592,2476636,,,2026-09-26,no,Philadelphia_us_scores.csv
+atipt.com,US,Philadelphia,row,physio,WordPress,50,88,100,92,26765,0,376,4081,8484818,AVERAGE,,2026-09-26,yes,Philadelphia_us_scores.csv
+cloudlinept.com,US,Philadelphia,row,physio,Squarespace,33,89,96,100,12112,0,844,8263,3789712,FAST,,2026-09-26,no,Philadelphia_us_scores.csv
+get.duvelahealth.com,US,Philadelphia,row,physio,unknown,41,91,92,82,7202,0,686,3326,3382625,,,2026-09-26,no,Philadelphia_us_scores.csv
+harrisonphysicaltherapypa.com,US,Philadelphia,row,physio,unknown,83,96,96,100,4400,0,42,1812,606949,,,2026-09-26,no,Philadelphia_us_scores.csv
+hazelphysicaltherapy.com,US,Philadelphia,row,physio,Wix,64,95,77,100,8087,0,108,4163,2896602,,,2026-09-26,no,Philadelphia_us_scores.csv
+ivyrehab.com,US,Philadelphia,row,physio,,64,92,100,92,7059,0,88,4204,11065037,AVERAGE,,2026-09-26,no,Philadelphia_us_scores.csv
+lafortalezarehab.com,US,Philadelphia,row,physio,WordPress,69,82,92,100,6586,0,134,2664,2412801,,,2026-09-26,no,Philadelphia_us_scores.csv
+mobilitidept.com,US,Philadelphia,row,physio,Squarespace,47,92,96,100,11788,0,662,2788,3292814,,,2026-09-26,no,Philadelphia_us_scores.csv
+morethanmvmt.com,US,Philadelphia,row,physio,unknown,43,96,100,92,9728,0,941,3185,1402750,,,2026-09-26,no,Philadelphia_us_scores.csv
+novacare.com,US,Philadelphia,row,physio,,52,97,96,100,13119,0,416,3001,2462428,AVERAGE,,2026-09-26,no,Philadelphia_us_scores.csv
+optimalptgym.com,US,Philadelphia,row,physio,Squarespace,58,100,100,92,5027,0,644,2779,1955683,,,2026-09-26,no,Philadelphia_us_scores.csv
+oxfordrehab.com,US,Philadelphia,row,physio,,95,86,96,92,1950,0,0,1950,12477080,,,2026-09-26,no,Philadelphia_us_scores.csv
+pathtoperformancept.com,US,Philadelphia,row,physio,Wix,39,92,73,92,7610,0,1402,3008,6664158,FAST,,2026-09-26,no,Philadelphia_us_scores.csv
+premierphillypt.com,US,Philadelphia,row,physio,,58,77,74,85,7772,0,215,4024,1333450,,,2026-09-26,no,Philadelphia_us_scores.csv
+ptphiladelphia.com,US,Philadelphia,row,physio,unknown,99,91,96,100,1632,0,0,1136,401935,,,2026-09-26,no,Philadelphia_us_scores.csv
+restorethefloorpt.com/physical-therapy-philadelphia-pa,US,Philadelphia,row,physio,Wix,41,96,56,92,6512,0,820,3962,3716583,,,2026-09-26,no,Philadelphia_us_scores.csv
+strivephysicaltherapy.com,US,Philadelphia,row,physio,,24,93,96,100,12001,0,1808,3751,4698935,AVERAGE,,2026-09-26,no,Philadelphia_us_scores.csv
+vitalityphysicaltherapy.com,US,Philadelphia,row,physio,WordPress,47,93,74,92,10682,0,189,2919,1810928,,,2026-09-26,no,Philadelphia_us_scores.csv
+zarettrehab.com,US,Philadelphia,row,physio,WordPress,34,96,96,100,17776,0,1323,3602,6276900,,,2026-09-26,no,Philadelphia_us_scores.csv
+centercitycondos.com,US,Philadelphia,row,realtor,WordPress,32,90,77,100,13812,0,1120,12342,7382226,SLOW,,2026-09-26,no,Philadelphia_us_scores.csv
+centercityhomes.com,US,Philadelphia,row,realtor,unknown,68,86,96,85,5318,0,146,3668,896590,,,2026-09-26,no,Philadelphia_us_scores.csv
+centercitylistings.com,US,Philadelphia,row,realtor,unknown,76,84,78,82,2178,0,836,2048,1630156,,,2026-09-26,no,Philadelphia_us_scores.csv
+diversifiedrealtysolutions.com,US,Philadelphia,row,realtor,,55,83,96,92,15376,0,130,5191,4710855,,,2026-09-26,no,Philadelphia_us_scores.csv
+elfantwissahickon.com,US,Philadelphia,row,realtor,unknown,57,75,70,85,14976,0,161,4115,3892321,AVERAGE,,2026-09-26,no,Philadelphia_us_scores.csv
+fishtownre.com,US,Philadelphia,row,realtor,WordPress,52,70,96,69,48006,0,388,2933,16328336,,,2026-09-26,no,Philadelphia_us_scores.csv
+frankaltamuro.com,US,Philadelphia,row,realtor,WordPress,32,88,54,85,19391,0,1180,5108,8090235,,,2026-09-26,no,Philadelphia_us_scores.csv
+houwzer.com,US,Philadelphia,row,realtor,WordPress,99,88,100,100,2110,0,0,1143,843780,FAST,,2026-09-26,no,Philadelphia_us_scores.csv
+hvostalgroup.com,US,Philadelphia,row,realtor,unknown,91,87,96,92,3103,0,0,2193,600266,,,2026-09-26,no,Philadelphia_us_scores.csv
+intownreg.com,US,Philadelphia,row,realtor,unknown,43,90,96,85,15881,0,65,2125,3552838,,,2026-09-26,no,Philadelphia_us_scores.csv
+lylrealty.com,US,Philadelphia,row,realtor,unknown,76,86,96,100,5176,0,82,1104,3013511,,,2026-09-26,no,Philadelphia_us_scores.csv
+mainlinephillyhomes.com,US,Philadelphia,row,realtor,unknown,64,75,92,85,5701,0,212,2705,55667103,AVERAGE,,2026-09-26,no,Philadelphia_us_scores.csv
+mccannteam.com,US,Philadelphia,row,realtor,unknown,64,78,96,85,4361,0,371,3305,2583458,AVERAGE,,2026-09-26,no,Philadelphia_us_scores.csv
+mgcrealestategroup.com,US,Philadelphia,row,realtor,unknown,57,87,69,100,12826,0,102,7724,3007016,,,2026-09-26,no,Philadelphia_us_scores.csv
+phillyhomegirls.com,US,Philadelphia,row,realtor,Squarespace,30,88,96,85,24286,0,1449,7720,8905945,FAST,,2026-09-26,no,Philadelphia_us_scores.csv
+silvertonehomes.com,US,Philadelphia,row,realtor,WordPress,43,76,54,92,26718,0,693,3083,29739612,,,2026-09-26,no,Philadelphia_us_scores.csv
+southphillyrealestateteam.com,US,Philadelphia,row,realtor,,55,98,77,100,6878,0,652,2803,3520075,,,2026-09-26,no,Philadelphia_us_scores.csv
+thelibertygrouprealty.com,US,Philadelphia,row,realtor,unknown,61,83,100,83,6171,0,99,5093,1013222,,,2026-09-26,no,Philadelphia_us_scores.csv
+theobrienhomes.com,US,Philadelphia,row,realtor,,57,69,73,92,14344,0,166,4705,2556520,,,2026-09-26,no,Philadelphia_us_scores.csv
+volperealestateinc.com,US,Philadelphia,row,realtor,,48,80,88,92,12988,0,357,4077,3407414,,,2026-09-26,no,Philadelphia_us_scores.csv
+arcadiadentalgroup.com,US,Phoenix,row,dental,WordPress,69,82,96,85,8184,0,0,1874,1888514,,,2026-09-26,no,Phoenix_us_scores.csv
+arizonabiltmoredentistry.com,US,Phoenix,row,dental,WordPress,99,93,100,100,1876,0,92,968,3835312,AVERAGE,,2026-09-26,no,Phoenix_us_scores.csv
+atriumdental.net,US,Phoenix,row,dental,WordPress,89,93,96,100,3233,0,0,1860,17016883,,,2026-09-26,no,Phoenix_us_scores.csv
+bcrdentistry.com,US,Phoenix,row,dental,WordPress,41,94,92,92,6165,0,933,3194,14942921,,,2026-09-26,no,Phoenix_us_scores.csv
+biltmorecommonsdental.com,US,Phoenix,row,dental,,73,100,81,100,4750,0,36,2180,372678,,,2026-09-26,no,Phoenix_us_scores.csv
+centerpointdentalaz.com,US,Phoenix,row,dental,,61,82,96,85,10426,0,165,2883,2469236,,,2026-09-26,no,Phoenix_us_scores.csv
+centralvalleydentistry.com,US,Phoenix,row,dental,WordPress,58,100,100,100,13115,0,333,2863,2304688,SLOW,,2026-09-26,no,Phoenix_us_scores.csv
+clearskydentalcare.com,US,Phoenix,row,dental,WordPress,64,97,96,92,9186,0,120,3996,12657403,,,2026-09-26,no,Phoenix_us_scores.csv
+dentalimplantsphoenixaz.com,US,Phoenix,row,dental,WordPress,66,92,100,100,3520,0,104,3520,12031174,,,2026-09-26,no,Phoenix_us_scores.csv
+desertdentalaz.com,US,Phoenix,row,dental,unknown,85,79,81,85,2462,0,88,2289,1750329,,,2026-09-26,no,Phoenix_us_scores.csv
+northphoenixfamilydentistry.com,US,Phoenix,row,dental,unknown,40,95,77,92,6257,1,32,3161,7104908,,,2026-09-26,no,Phoenix_us_scores.csv
+phoenixcosmeticdentistryaz.com,US,Phoenix,row,dental,unknown,91,75,96,100,2602,0,0,2602,387778,,,2026-09-26,no,Phoenix_us_scores.csv
+phoenixdentalstudio.com,US,Phoenix,row,dental,WordPress,89,100,96,100,3574,0,69,918,436085,,,2026-09-26,no,Phoenix_us_scores.csv
+phoenixfamilydentistry.com,US,Phoenix,row,dental,WordPress,73,86,92,100,4731,0,14,3813,2788016,,,2026-09-26,no,Phoenix_us_scores.csv
+phoeniximplantclinic.com,US,Phoenix,row,dental,,40,85,69,85,23330,0,591,12261,16131435,,,2026-09-26,no,Phoenix_us_scores.csv
+phoenixvalleydental.com,US,Phoenix,row,dental,unknown,58,82,92,100,3606,0,10,3231,6157583,,,2026-09-26,no,Phoenix_us_scores.csv
+smilearcadia.com,US,Phoenix,row,dental,WordPress,56,96,96,92,11926,0,0,5888,18741068,,,2026-09-26,no,Phoenix_us_scores.csv
+smiledentalclinics.com,US,Phoenix,row,dental,,4,97,50,100,24224,0,2027,5638,7902687,SLOW,,2026-09-26,no,Phoenix_us_scores.csv
+sweettoothphoenix.com,US,Phoenix,row,dental,,79,82,96,85,4126,0,0,1955,1169319,,,2026-09-26,no,Phoenix_us_scores.csv
+yourazbraces.com,US,Phoenix,row,dental,,39,87,73,100,35109,0,722,4244,16255444,SLOW,,2026-09-26,no,Phoenix_us_scores.csv
+acprosolutions.com,US,Phoenix,row,hvac,Wix,85,91,77,92,3085,0,232,2708,2811029,,,2026-09-26,no,Phoenix_us_scores.csv
+arcticaircool.com,US,Phoenix,row,hvac,,55,78,96,100,9826,0,126,3001,1533489,,,2026-09-26,no,Phoenix_us_scores.csv
+dayandnightair.com,US,Phoenix,row,hvac,,63,90,92,92,7930,0,257,2460,991761,AVERAGE,,2026-09-26,no,Phoenix_us_scores.csv
+diamondacandheating.com,US,Phoenix,row,hvac,WordPress,44,87,92,92,15331,0,445,6397,3725501,,,2026-09-26,no,Phoenix_us_scores.csv
+goettl.com,US,Phoenix,row,hvac,,43,100,96,85,6706,0,1420,2581,4142646,AVERAGE,,2026-09-26,no,Phoenix_us_scores.csv
+heatingcoolingphoenix.com,US,Phoenix,row,hvac,WordPress,76,91,96,92,5552,0,70,1672,900785,,,2026-09-26,no,Phoenix_us_scores.csv
+heatwave-airconditioning.com,US,Phoenix,row,hvac,unknown,92,95,100,100,2587,0,0,2587,6412236,,,2026-09-26,no,Phoenix_us_scores.csv
+islandbreeze-ac.com,US,Phoenix,row,hvac,,54,93,92,100,15643,0,225,7351,2271242,,,2026-09-26,no,Phoenix_us_scores.csv
+larsonairaz.com,US,Phoenix,row,hvac,WordPress,21,81,96,92,5856,0,969,5106,2566560,SLOW,,2026-09-26,no,Phoenix_us_scores.csv
+myefficientair.com,US,Phoenix,row,hvac,WordPress,29,83,96,100,25464,0,1345,16303,11995236,,,2026-09-26,no,Phoenix_us_scores.csv
+parkerandsons.com,US,Phoenix,row,hvac,unknown,33,95,54,85,20955,0,1151,5359,5741957,SLOW,,2026-09-26,no,Phoenix_us_scores.csv
+phoenixheatingandairconditioning.com,US,Phoenix,row,hvac,WordPress,66,93,92,92,3718,0,497,2283,2554085,,,2026-09-26,no,Phoenix_us_scores.csv
+phoenixhvacairconditioning.com,US,Phoenix,row,hvac,unknown,97,89,100,100,2534,0,86,804,187565,,,2026-09-26,no,Phoenix_us_scores.csv
+phxairconditioningrepair.com,US,Phoenix,row,hvac,WordPress,76,95,100,100,4739,0,0,2739,376748,,,2026-09-26,no,Phoenix_us_scores.csv
+phxheatingcooling.net/phoenix-heater-repair,US,Phoenix,row,hvac,WordPress,63,93,96,100,4236,0,569,2463,2253811,,,2026-09-26,no,Phoenix_us_scores.csv
+phxmechanical.com,US,Phoenix,row,hvac,,87,81,74,73,3170,0,0,3170,158880,,,2026-09-26,no,Phoenix_us_scores.csv
+reeis.com/pages/phoenix-hvac-services,US,Phoenix,row,hvac,Shopify,40,95,81,92,5626,0,6689,2787,4068299,AVERAGE,,2026-09-26,no,Phoenix_us_scores.csv
+sunstatehvac.com,US,Phoenix,row,hvac,,86,95,88,100,2194,0,0,1987,574827,,,2026-09-26,no,Phoenix_us_scores.csv
+theacteam.com,US,Phoenix,row,hvac,unknown,53,85,96,92,9038,0,472,3485,1805987,,,2026-09-26,no,Phoenix_us_scores.csv
+yourphoenixhvac.com,US,Phoenix,row,hvac,WordPress,67,88,81,92,7241,0,20,2598,1321139,,,2026-09-26,no,Phoenix_us_scores.csv
+advancedeyecare.com,US,Phoenix,row,optometrist,,49,93,73,100,3269,0,2521,2745,5152656,,,2026-09-26,no,Phoenix_us_scores.csv
+arizonasvision.com,US,Phoenix,row,optometrist,WordPress,35,87,73,100,8701,0,1167,3539,4856541,SLOW,,2026-09-26,no,Phoenix_us_scores.csv
+avac2020.org,US,Phoenix,row,optometrist,,63,91,96,100,9157,0,38,3006,4978141,,,2026-09-26,no,Phoenix_us_scores.csv
+azlifetime.com,US,Phoenix,row,optometrist,WordPress,42,84,92,85,6405,1,80,2604,861066,,,2026-09-26,no,Phoenix_us_scores.csv
+camelbackeyecare.com,US,Phoenix,row,optometrist,,65,100,100,100,6945,0,446,1024,828267,,,2026-09-26,no,Phoenix_us_scores.csv
+centralphoenixeyecarepllc.com,US,Phoenix,row,optometrist,unknown,85,77,96,92,2276,0,284,964,1709472,,,2026-09-26,no,Phoenix_us_scores.csv
+chandlereye.com,US,Phoenix,row,optometrist,unknown,89,73,100,100,2402,0,1,2402,582761,,,2026-09-26,no,Phoenix_us_scores.csv
+chandlereyecenter.com,US,Phoenix,row,optometrist,WordPress,63,89,100,92,8251,0,10,2734,1597387,,,2026-09-26,no,Phoenix_us_scores.csv
+eastvalleyeye.com,US,Phoenix,row,optometrist,,47,79,52,92,7606,0,390,5310,9268995,SLOW,,2026-09-26,no,Phoenix_us_scores.csv
+envisioneyecareaz.com,US,Phoenix,row,optometrist,unknown,33,71,100,77,22298,0,296,4281,6700487,,,2026-09-26,no,Phoenix_us_scores.csv
+leeeyecarecenteraz.com,US,Phoenix,row,optometrist,unknown,57,86,77,85,10465,0,307,3410,3127800,,,2026-09-26,no,Phoenix_us_scores.csv
+northernaveeyecare.com,US,Phoenix,row,optometrist,,92,83,100,92,3085,0,1,1955,11738964,,,2026-09-26,no,Phoenix_us_scores.csv
+opticsaz.com,US,Phoenix,row,optometrist,WordPress,63,95,96,100,7651,0,17,2883,3993377,,,2026-09-26,no,Phoenix_us_scores.csv
+phoenixeyedocs.com,US,Phoenix,row,optometrist,WordPress,79,84,74,100,3331,0,0,2932,543228,,,2026-09-26,no,Phoenix_us_scores.csv
+phxeyecare.com,US,Phoenix,row,optometrist,unknown,69,67,100,92,4874,0,92,3221,896945,,,2026-09-26,no,Phoenix_us_scores.csv
+phxeyedoc.com,US,Phoenix,row,optometrist,Weebly,14,88,100,100,12939,0,1642,2134,2492381,,,2026-09-26,no,Phoenix_us_scores.csv
+phxeyedoctor.com,US,Phoenix,row,optometrist,WordPress,100,80,100,92,953,0,0,953,47807,,,2026-09-26,no,Phoenix_us_scores.csv
+tozereyecenter.com,US,Phoenix,row,optometrist,WordPress,65,85,74,85,5178,0,0,4803,13154854,FAST,,2026-09-26,no,Phoenix_us_scores.csv
+tvcarizona.com,US,Phoenix,row,optometrist,WordPress,56,81,96,100,4759,0,616,2539,1941204,,,2026-09-26,no,Phoenix_us_scores.csv
+valleyeyecareaz.com,US,Phoenix,row,optometrist,unknown,63,77,96,100,8627,0,38,2852,2486345,AVERAGE,,2026-09-26,no,Phoenix_us_scores.csv
+360physicaltherapy.com,US,Phoenix,row,physio,unknown,65,78,77,92,5101,0,52,3184,1087796,FAST,,2026-09-26,no,Phoenix_us_scores.csv
+ahwatukeept.com,US,Phoenix,row,physio,,100,81,74,36,1372,0,0,1372,13041,,,2026-09-26,no,Phoenix_us_scores.csv
+arrowheadpt.com,US,Phoenix,row,physio,,58,81,58,92,4088,0,745,2608,3581069,,,2026-09-26,no,Phoenix_us_scores.csv
+athletico.com,US,Phoenix,row,physio,WordPress,35,100,96,92,6594,0,445,3316,1845396,AVERAGE,,2026-09-26,yes,Phoenix_us_scores.csv
+camelmed.com,US,Phoenix,row,physio,WordPress,59,94,96,92,23600,0,32,3901,3939268,AVERAGE,,2026-09-26,no,Phoenix_us_scores.csv
+deserthandandpt.com,US,Phoenix,row,physio,WordPress,62,86,96,100,12827,0,124,3340,2774617,AVERAGE,,2026-09-26,no,Phoenix_us_scores.csv
+endurancerehab.com,US,Phoenix,row,physio,WordPress,63,85,77,92,10876,0,0,3034,2564361,,,2026-09-26,no,Phoenix_us_scores.csv
+foothillsrehab.com,US,Phoenix,row,physio,,44,89,96,92,8534,0,1032,2901,4032801,AVERAGE,,2026-09-26,no,Phoenix_us_scores.csv
+fpspt.com,US,Phoenix,row,physio,,75,92,100,92,7126,0,60,1533,1071368,,,2026-09-26,no,Phoenix_us_scores.csv
+movementredefinedaz.com,US,Phoenix,row,physio,WordPress,41,87,96,92,27234,0,656,4514,6692038,AVERAGE,,2026-09-26,no,Phoenix_us_scores.csv
+mvpc.com/physical-therapy-phoenix,US,Phoenix,row,physio,Squarespace,27,98,96,100,21475,0,566,2871,4179451,AVERAGE,,2026-09-26,no,Phoenix_us_scores.csv
+onwardphysicaltherapy.com,US,Phoenix,row,physio,,81,93,96,40,1412,0,824,768,991455,SLOW,,2026-09-26,no,Phoenix_us_scores.csv
+orthopedicsportstherapy.com,US,Phoenix,row,physio,WordPress,69,85,96,92,7470,0,300,1235,1279554,,,2026-09-26,no,Phoenix_us_scores.csv
+osrphysicaltherapy.com,US,Phoenix,row,physio,WordPress,37,87,96,85,14584,0,1119,4951,3587142,SLOW,,2026-09-26,no,Phoenix_us_scores.csv
+preferredptaz.com,US,Phoenix,row,physio,unknown,51,85,54,92,17384,0,336,3002,2793147,,,2026-09-26,no,Phoenix_us_scores.csv
+rocpt.com,US,Phoenix,row,physio,Wix,54,84,100,100,3603,0,1585,2773,3748481,AVERAGE,,2026-09-26,no,Phoenix_us_scores.csv
+southmountainphysicaltherapy.com,US,Phoenix,row,physio,WordPress,60,95,73,85,5851,0,0,3013,5383440,,,2026-09-26,no,Phoenix_us_scores.csv
+spoonerpt.com,US,Phoenix,row,physio,,54,89,96,77,4576,0,921,2701,7996016,AVERAGE,,2026-09-26,no,Phoenix_us_scores.csv
+sw-specialists.com,US,Phoenix,row,physio,unknown,36,76,78,92,23741,0,259,11092,5225071,,,2026-09-26,no,Phoenix_us_scores.csv
+topsphysicaltherapy.com,US,Phoenix,row,physio,,48,77,96,85,41342,0,53,3755,8313463,,,2026-09-26,no,Phoenix_us_scores.csv
+azrealestateventures.org,US,Phoenix,row,realtor,unknown,80,65,74,92,3445,0,23,2820,973214,,,2026-09-26,no,Phoenix_us_scores.csv
+billynicholsaz.com,US,Phoenix,row,realtor,,65,89,77,100,5851,0,23,4365,1394199,,,2026-09-26,no,Phoenix_us_scores.csv
+bryantrealestatephoenix.com,US,Phoenix,row,realtor,Squarespace,33,89,96,100,7370,0,1353,4857,6016973,,,2026-09-26,no,Phoenix_us_scores.csv
+gluchgroup.com,US,Phoenix,row,realtor,,83,88,100,100,4411,0,108,1979,1503758,FAST,,2026-09-26,no,Phoenix_us_scores.csv
+jessicafowler.myrealtyonegroup.com,US,Phoenix,row,realtor,,32,73,92,85,12848,0,559,3007,5311488,,,2026-09-26,no,Phoenix_us_scores.csv
+joinrealtyexecutivesphoenix.com,US,Phoenix,row,realtor,unknown,55,65,81,83,6186,0,0,4001,6337496,AVERAGE,,2026-09-26,no,Phoenix_us_scores.csv
+kevindowneyazhomes.com,US,Phoenix,row,realtor,WordPress,35,88,73,92,18681,0,965,4868,8673464,,,2026-09-26,no,Phoenix_us_scores.csv
+mariasellsarizona.com,US,Phoenix,row,realtor,unknown,60,88,92,100,9152,0,48,4956,9635510,,,2026-09-26,no,Phoenix_us_scores.csv
+movingwithnicole.com,US,Phoenix,row,realtor,WordPress,56,86,100,85,17375,0,201,5396,2979285,,,2026-09-26,no,Phoenix_us_scores.csv
+phoenixarizonarealtor.com,US,Phoenix,row,realtor,,78,72,100,92,3898,0,91,3429,570214,,,2026-09-26,no,Phoenix_us_scores.csv
+phoenixhomecollective.com,US,Phoenix,row,realtor,WordPress,35,89,92,100,19841,0,713,2880,4971823,,,2026-09-26,no,Phoenix_us_scores.csv
+phoenixliving.com/agent/david-thayer,US,Phoenix,row,realtor,unknown,58,85,96,85,6835,0,260,3341,2447410,,,2026-09-26,no,Phoenix_us_scores.csv
+phxrealtygroup.com,US,Phoenix,row,realtor,unknown,47,70,96,92,7203,0,510,4354,17892446,,,2026-09-26,no,Phoenix_us_scores.csv
+phxrealtyservices.com,US,Phoenix,row,realtor,unknown,100,97,100,91,1525,0,0,1525,15636,,,2026-09-26,no,Phoenix_us_scores.csv
+phxregrp.com,US,Phoenix,row,realtor,unknown,66,89,96,100,3153,0,876,932,2353764,,,2026-09-26,no,Phoenix_us_scores.csv
+rachelholbert.myrealtyonegroup.com,US,Phoenix,row,realtor,,38,73,92,85,12961,0,1063,3008,4710366,,,2026-09-26,no,Phoenix_us_scores.csv
+rhouserealty.com,US,Phoenix,row,realtor,unknown,31,83,73,100,11573,0,2258,3183,9766799,,,2026-09-26,no,Phoenix_us_scores.csv
+sellingphoenixaz.net,US,Phoenix,row,realtor,unknown,60,83,92,92,5852,0,295,4802,10742936,,,2026-09-26,no,Phoenix_us_scores.csv
+stephenjones.myrealtyonegroup.com,US,Phoenix,row,realtor,,28,76,92,85,11122,0,755,3009,5323502,,,2026-09-26,no,Phoenix_us_scores.csv
+theriddlegroup.com,US,Phoenix,row,realtor,unknown,79,85,96,92,4749,0,0,2252,1008531,,,2026-09-26,no,Phoenix_us_scores.csv

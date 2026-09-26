@@ -160,14 +160,34 @@ def host_of(row: dict) -> str:
     return re.sub(r"^www\.", "", row["url"])
 
 
+def distinct_urls(rows: list[dict]) -> list[dict]:
+    """One row per website, newest measurement wins.
+
+    A business with locations in several cities is measured once per city, so
+    the ledger has one row per (url, city). Country and world totals must not
+    count such a site twice, so they run over this list instead. City pages
+    keep using every row, because each city legitimately has its own
+    measurement of that site.
+    """
+    out: dict[str, dict] = {}
+    for r in rows:
+        prev = out.get(r["url"])
+        if prev is None or (r["measured_at"], r["source_file"]) >= (
+                prev["measured_at"], prev["source_file"]):
+            out[r["url"]] = r
+    return list(out.values())
+
+
 def build_aggregate() -> dict:
     """The single JSON aggregate every page is rendered from."""
     countries = []
     for slug in ("canada", "united-states"):
         rows = load_country(slug)
         country = rows[0]["country"] if rows else COUNTRY_LABEL[slug]
-        s = stats(rows)
-        table = niche_table(rows)
+        # totals count each website once ...
+        total_rows = distinct_urls(rows)
+        s = stats(total_rows)
+        table = niche_table(total_rows)
 
         cities = []
         by_city: dict[str, list[dict]] = {}
@@ -206,15 +226,20 @@ def build_aggregate() -> dict:
             "sampling": [c for c in cities if not c["rankable"]],
             # sites we could measure but could not place in a city: they are in
             # every country total, and the page has to say so out loud
-            "unmapped": s["attempted"] - sum(c["attempted"] for c in cities),
+            "unmapped": len({r["url"] for r in total_rows
+                             if r["city"] == "unknown"}),
+            "measurements": len(rows),
+            "multi_city": sorted({r["url"] for r in rows
+                                  if r.get("multi_city") == "yes"}),
             "commentary": commentary(s, table),
         })
 
     all_rows = []
     for slug in ("canada", "united-states"):
         all_rows += load_country(slug)
-    glob_s = stats(all_rows)
-    glob_table = niche_table(all_rows)
+    glob_rows = distinct_urls(all_rows)
+    glob_s = stats(glob_rows)
+    glob_table = niche_table(glob_rows)
     ranked_cities = [c for cc in countries for c in cc["ranked"]]
     best_city = max(ranked_cities, key=lambda c: c["avg"]) if ranked_cities else None
     worst_city = min(ranked_cities, key=lambda c: c["avg"]) if ranked_cities else None
@@ -233,6 +258,8 @@ def build_aggregate() -> dict:
             "ranked_city_count": len(ranked_cities),
             "best_city": best_city,
             "worst_city": worst_city,
+            "multi_city_sites": sorted({u for c in countries
+                                        for u in c["multi_city"]}),
             "commentary": commentary(glob_s, glob_table),
         },
     }
@@ -335,6 +362,24 @@ def sampling_rows(sampling: list[dict]) -> Raw:
 
 def li_lines(lines: list[str]) -> Raw:
     return Raw("\n".join(f"<li>{line}</li>" for line in lines))
+
+
+def multi_city_note(sites: list[str]) -> Raw:
+    """Explain the one-to-many case instead of letting it look like a bug.
+
+    A business with locations in two measured cities has one website, so it is
+    measured once per city. It appears in both city tables with that city's
+    own measurement, and is counted once in the country and world totals.
+    """
+    if not sites:
+        return Raw("")
+    shown = ", ".join(host_of({"url": u}) for u in sites[:6])
+    more = f" and {len(sites) - 6} more" if len(sites) > 6 else ""
+    return Raw(
+        f"<li>{len(sites)} {'business has' if len(sites) == 1 else 'businesses have'} "
+        f"locations in more than one measured city ({shown}{more}). One website "
+        f"means one measurement, but each city keeps its own result and every "
+        f"site is counted once in the totals above.</li>")
 
 
 def country_cards(countries: list[dict]) -> Raw:
@@ -517,6 +562,7 @@ def render_index(agg: dict) -> str:
         country_cards=country_cards(g["countries"]),
         global_niches=niche_rows(g["niches"]),
         best_city=g["best_city"], worst_city=g["worst_city"],
+        multi_city_note=multi_city_note(g["multi_city_sites"]),
     )
     return page("index.html", ctx)
 

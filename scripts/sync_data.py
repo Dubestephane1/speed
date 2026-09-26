@@ -39,7 +39,7 @@ HUGINN_US = r"D:\Docs\Huginn\data\us"
 OUT_COLUMNS = [
     "url", "country", "city", "city_source", "niche", "platform", "perf", "a11y",
     "best_practices", "seo", "LCP_ms", "CLS", "TBT_ms", "FCP_ms", "bytes",
-    "load_category", "error", "measured_at", "source_file",
+    "load_category", "error", "measured_at", "multi_city", "source_file",
 ]
 
 # ---------------------------------------------------------------------------
@@ -229,7 +229,7 @@ def load_research_map() -> dict[str, tuple[str, str]]:
     return out
 
 
-def collect() -> tuple[dict[str, dict], dict[str, tuple[str, str]]]:
+def collect() -> tuple[dict[tuple[str, str], dict], dict[str, tuple[str, str]]]:
     """Fold every source into {url: row}. Newest file wins on conflict."""
     url_map = load_url_map()
     research = load_research_map()
@@ -300,14 +300,29 @@ def collect() -> tuple[dict[str, dict], dict[str, tuple[str, str]]]:
                     "source_file": os.path.basename(path),
                     "_mtime": mtime,
                 }
-                prev = sites.get(u)
+                # Dedupe on (url, city), not url alone. A national brand can be
+                # measured in two city waves -- athletico.com is in both the
+                # Chicago and Phoenix files. Keying on url alone let the newer
+                # file win and silently deleted the site from the other city,
+                # which is how Chicago ended up on 99 sites instead of 100.
+                # One measurement per (url, city); the same site in two cities
+                # keeps both measurements and is flagged multi_city=yes.
+                key = (u, rec["city"])
+                prev = sites.get(key)
                 if prev is None or rec["_mtime"] >= prev["_mtime"]:
-                    sites[u] = rec
+                    sites[key] = rec
+
+    # flag sites measured in more than one city
+    city_count: dict[str, set[str]] = {}
+    for (_u, city) in sites:
+        city_count.setdefault(_u, set()).add(city)
+    for (u, _city), rec in sites.items():
+        rec["multi_city"] = "yes" if len(city_count[u]) > 1 else "no"
 
     return sites, url_map
 
 
-def write_outputs(sites: dict[str, dict], check_only: bool) -> None:
+def write_outputs(sites: dict[tuple[str, str], dict], check_only: bool) -> None:
     by_country: dict[str, list[dict]] = {}
     for rec in sites.values():
         by_country.setdefault(rec["country"], []).append(rec)
@@ -393,7 +408,8 @@ def main() -> None:
     args = ap.parse_args()
 
     sites, _url_map = collect()
-    print(f"unique urls collected: {len(sites)}")
+    print(f"measurements collected: {len(sites)} across "
+          f"{len({u for u, _city in sites})} distinct sites")
     write_outputs(sites, args.check)
 
 
