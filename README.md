@@ -12,22 +12,44 @@ Plain static HTML/CSS/JS — zero build step, zero frameworks, zero image reques
 - **Proof** — homepage shows real anonymized audits across Canada: 788+ sites tested, average 54.9/100, 50 cities (BC/QC/ON/MB examples)
 
 ## Current verified stats (audit campaign, mobile / slow 4G)
-- **788+** unique Canadian business websites tested
-- **50** cities across Canada
-- **Average score: 54.9/100** (up-to-date union of every scored wave)
-- **32 sites reached green (90+)** — about 4% of sites
-- **329 sites scored under 50** — about 42%, the red zone on Google's scale
-- **Best: 100 · Worst: 6**
+<!-- census:start - written by scripts/generate.py, do not edit by hand -->
+- **1466** business websites measured (Canada 868 · United States 598)
+- **75** cities with data, **28** with a published city page
+- **Average score: 57.2/100** (sites with a usable measurement only)
+- **524 sites scored under 50** — 36%, the red zone on Google's scale
+- **89 sites reached green (90+)** — 6% of sites
+- **Best: 100 · Worst: 4**
+- 1508 sites tested, 42 could not be measured and are counted separately, never averaged in as zero
+<!-- census:end -->
 
-> Every number is the real Google PageSpeed mobile test (homepage, simulated phone, slow 4G) — never invented. See the blog post [I tested 788 Canadian websites](https://speed.stephanedube.dev/blog/canadian-website-speed-test) for the write-up.
+> Every number is the real Google PageSpeed mobile test (homepage, simulated phone, slow 4G) — never invented. Raw CSVs are published next to the pages, and this block is generated: re-run `scripts/generate.py` after a new wave rather than typing figures here.
 
 ## Pages
 - `/` — home: pain story, Canada-wide proof + stats, how it works, referral block
+- `/speed-data/` — data hub: all countries, industries and city pages, plus raw CSV downloads
+- `/countries/*.html` · `/cities/*.html` — generated atlas pages (no hand-written numbers)
 - `/audit` — free audit form (URL + optional email) → live result via `/audit-api`
 - `/how-it-works` — test → fix list → re-test
 - `/blog` + 4 posts (`/blog/*`), each with sidebar (CTA + related posts). Flagship: "I tested 788 Canadian websites"
 - `/contact` — form via `/contact-api` (Resend) + direct-email fallback
 - URLs are extensionless (Cloudflare pretty URLs): `/audit`, `/blog/why-is-my-website-slow`, … (`/audit.html` variants also respond via 307 → 200)
+
+## Sampling design
+- **US city waves: exactly 20 sites per industry, 100 per city. No more, no less.** Checked by `scripts/check_wave_shape.py`, which exits non-zero on any deviation. This rule exists because the Chicago wave once published 99 sites after a URL measured in two city waves was deduped away from one of them, and nothing complained.
+- **Canada is a census, not a sample.** City counts are deliberately uneven (Toronto 90, Montreal 26): every site the outreach waves happened to measure is included, and 79 measured sites still have no known city (listed in `data/mapping_gaps.csv`).
+- A city earns a published page at 10+ scored sites. Below that it is listed as "sampling in progress" and never ranked.
+- A business with locations in two measured cities has one website, so it is measured once per city: it appears in both city tables with that city's own result and is counted once in the country and world totals.
+
+## Regenerating after a new wave
+```
+python scripts/sync_data.py        # fold wave CSVs into data/<country>/*_all.csv + mapping gaps
+python scripts/backfill_cities.py  # read footer addresses for sites no record knows (network reads only)
+python scripts/generate.py         # build/ staging — review here
+python scripts/check_links.py      # every internal link resolves
+python scripts/check_wave_shape.py # US waves still 20-per-niche / 100-per-city
+python scripts/generate.py --out site   # promote to the deployed tree
+```
+`scripts/generate.py --check` prints the aggregate and a drift report (what `site/index.html` claims vs what the data says) and writes nothing. Nothing in `site/` is hand-edited from here on.
 
 ## Structure
 ```

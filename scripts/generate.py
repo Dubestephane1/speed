@@ -697,6 +697,50 @@ def drift(agg: dict) -> None:
               f"cities {len(us['cities'])}")
 
 
+def update_readme(agg: dict) -> None:
+    """Rewrite the census block in README.md from the data.
+
+    The block used to be typed by hand and went stale on almost every wave,
+    which is what produced the run of "fix: stale 650->788" commits. It is
+    delimited by census:start / census:end markers and replaced wholesale.
+    """
+    path = os.path.join(REPO, "README.md")
+    if not os.path.exists(path):
+        return
+    with open(path, encoding="utf-8") as f:
+        text = f.read()
+    start, end = "<!-- census:start", "<!-- census:end -->"
+    if start not in text or end not in text:
+        return
+    g = agg["global"]
+    ca = next((c for c in g["countries"] if c["slug"] == "canada"), None)
+    us = next((c for c in g["countries"] if c["slug"] == "united-states"), None)
+    best = g["best"]["perf_i"] if g.get("best") else "-"
+    worst = g["worst"]["perf_i"] if g.get("worst") else "-"
+    block = "\n".join([
+        f"{start} - written by scripts/generate.py, do not edit by hand -->",
+        f"- **{g['scored']}** business websites measured"
+        + (f" (Canada {ca['scored']} · United States {us['scored']})"
+           if ca and us else ""),
+        f"- **{g['city_count']}** cities with data, "
+        f"**{g['ranked_city_count']}** with a published city page",
+        f"- **Average score: {g['avg']}/100** (sites with a usable measurement only)",
+        f"- **{g['red']} sites scored under {RED_MAX}** — {g['red_pct']}%, "
+        f"the red zone on Google's scale",
+        f"- **{g['green']} sites reached green ({GREEN_MIN}+)** — "
+        f"{g['green_pct']}% of sites",
+        f"- **Best: {best} · Worst: {worst}**",
+        f"- {g['attempted']} sites tested, {g['failed']} could not be measured "
+        f"and are counted separately, never averaged in as zero",
+        end,
+    ])
+    new = re.sub(re.escape(start) + r".*?" + re.escape(end), block, text, flags=re.S)
+    if new != text:
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(new)
+        print("  updated README.md census block")
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", default="build",
@@ -774,6 +818,7 @@ def main() -> None:
         print(f"  {w}")
     if len(written) > 12:
         print(f"  ... and {len(written) - 12} more")
+    update_readme(agg)
 
 
 if __name__ == "__main__":
