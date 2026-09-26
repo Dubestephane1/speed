@@ -4,12 +4,12 @@
   "red_max": 50,
   "green_min": 90,
   "global": {
-    "attempted": 1508,
-    "scored": 1466,
+    "attempted": 1510,
+    "scored": 1468,
     "failed": 42,
     "avg": 57.2,
     "median": 57.0,
-    "red": 524,
+    "red": 525,
     "green": 89,
     "red_pct": 36,
     "green_pct": 6,
@@ -80,8 +80,8 @@
       {
         "niche": "physio",
         "label": "Physiotherapy",
-        "n": 290,
-        "avg": 57.0,
+        "n": 292,
+        "avg": 56.9,
         "red_pct": 38,
         "green_pct": 7
       },
@@ -11335,12 +11335,12 @@
         "country": "US",
         "slug": "united-states",
         "label": "United States",
-        "attempted": 598,
-        "scored": 598,
+        "attempted": 600,
+        "scored": 600,
         "failed": 0,
         "avg": 59.4,
-        "median": 60.0,
-        "red": 189,
+        "median": 59.5,
+        "red": 190,
         "green": 49,
         "red_pct": 32,
         "green_pct": 8,
@@ -11363,7 +11363,7 @@
           "bytes": "1027266",
           "load_category": "FAST",
           "error": "",
-          "measured_at": "2026-09-25",
+          "measured_at": "2026-09-26",
           "multi_city": "no",
           "source_file": "Chicago_us_scores.csv",
           "perf_i": 100
@@ -11419,8 +11419,8 @@
           {
             "niche": "physio",
             "label": "Physiotherapy",
-            "n": 118,
-            "avg": 56.6,
+            "n": 120,
+            "avg": 56.4,
             "red_pct": 36,
             "green_pct": 6
           },
@@ -12002,7 +12002,7 @@
                 "niche": "physio",
                 "label": "Physiotherapy",
                 "n": 20,
-                "avg": 56.3,
+                "avg": 56.4,
                 "red_pct": 30,
                 "green_pct": 10
               },
@@ -12041,7 +12041,7 @@
               "bytes": "1027266",
               "load_category": "FAST",
               "error": "",
-              "measured_at": "2026-09-25",
+              "measured_at": "2026-09-26",
               "multi_city": "no",
               "source_file": "Chicago_us_scores.csv",
               "perf_i": 100
@@ -12064,7 +12064,7 @@
               "bytes": "11828695",
               "load_category": "",
               "error": "",
-              "measured_at": "2026-09-25",
+              "measured_at": "2026-09-26",
               "multi_city": "no",
               "source_file": "Chicago_us_scores.csv",
               "perf_i": 6
@@ -12646,7 +12646,7 @@
                 "niche": "physio",
                 "label": "Physiotherapy",
                 "n": 20,
-                "avg": 56.3,
+                "avg": 56.4,
                 "red_pct": 30,
                 "green_pct": 10
               },
@@ -12685,7 +12685,7 @@
               "bytes": "1027266",
               "load_category": "FAST",
               "error": "",
-              "measured_at": "2026-09-25",
+              "measured_at": "2026-09-26",
               "multi_city": "no",
               "source_file": "Chicago_us_scores.csv",
               "perf_i": 100
@@ -12708,7 +12708,7 @@
               "bytes": "11828695",
               "load_category": "",
               "error": "",
-              "measured_at": "2026-09-25",
+              "measured_at": "2026-09-26",
               "multi_city": "no",
               "source_file": "Chicago_us_scores.csv",
               "perf_i": 6
@@ -12724,12 +12724,9 @@
         "sampling": [],
         "unmapped": 0,
         "measurements": 600,
-        "multi_city": [
-          "athletico.com",
-          "atipt.com"
-        ],
+        "multi_city": [],
         "commentary": [
-          "Average mobile performance score across 598 measured sites: 59.4/100.",
+          "Average mobile performance score across 600 measured sites: 59.4/100.",
           "Fastest industry measured here: Optometry at 63.2/100 (n=120). Slowest: Real estate at 55.5/100 (n=120).",
           "Fastest site measured: puredentalspa.com at 100/100. Slowest: smiledentalclinics.com at 4/100.",
           "32% of measured sites score below 50/100; 8% reach 90 or better."
@@ -12921,12 +12918,10 @@
       ]
     },
     "multi_city_sites": [
-      "athletico.com",
-      "atipt.com",
       "clareo.ca"
     ],
     "commentary": [
-      "Average mobile performance score across 1466 measured sites: 57.2/100.",
+      "Average mobile performance score across 1468 measured sites: 57.2/100.",
       "Fastest industry measured here: HVAC at 60.2/100 (n=289). Slowest: Dental at 55.3/100 (n=471).",
       "Fastest site measured: drdentalclinics.ca at 100/100. Slowest: smiledentalclinics.com at 4/100.",
       "36% of measured sites score below 50/100; 6% reach 90 or better."
