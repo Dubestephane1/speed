@@ -1,0 +1,43 @@
+<section class="proof">
+  <div class="container">
+    <p class="breadcrumb"><a href="/">Speed data</a> / <a href="/countries/{{country_slug}}.html">{{country_label}}</a> / <strong>{{city}}</strong></p>
+    <h1>{{heading}}</h1>
+
+    <div class="stats">
+      <div class="stat"><span class="stat-num">{{avg}}/100</span><span class="stat-label">average score</span></div>
+      <div class="stat"><span class="stat-num">{{n}}</span><span class="stat-label">sites measured</span></div>
+      <div class="stat"><span class="stat-num">{{red_pct}}%</span><span class="stat-label">below {{red_max}}</span></div>
+      <div class="stat"><span class="stat-num">{{median}}</span><span class="stat-label">median score</span></div>
+    </div>
+
+    <ul class="data-notes">
+{{city_notes}}
+    </ul>
+
+    <h2>Industries in {{city}}</h2>
+    <table class="data-table">
+      <thead><tr><th>Industry</th><th class="num">Sites</th><th class="num">Average</th><th class="num">Below {{red_max}}</th><th class="num">{{green_min}}+</th></tr></thead>
+      <tbody>
+{{niche_rows}}
+      </tbody>
+    </table>
+
+    <h2>Extremes</h2>
+    <ul class="data-notes">
+      <li>Fastest site measured here: <strong>{{best_host}}</strong> at {{best_perf}}/100.</li>
+      <li>Slowest site measured here: <strong>{{worst_host}}</strong> at {{worst_perf}}/100.</li>
+      <li>{{attempted}} URLs were tested in total; {{fail_pct}}% returned no usable score and are left out of the averages.</li>
+    </ul>
+
+    <h2>Method</h2>
+    <ul class="data-notes">
+      <li>Google PageSpeed Insights <strong>mobile</strong> performance score, the test a customer on a phone actually hits.</li>
+      <li>One row per URL measured. Averages cover successful measurements only.</li>
+      <li>A city earns a page here once at least {{min_rankable}} of its sites returned a usable score.</li>
+    </ul>
+
+    <div class="center">
+      <a class="btn btn-primary" href="/audit">Check your own site</a>
+    </div>
+  </div>
+</section>

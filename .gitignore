@@ -5,3 +5,10 @@
 
 # wrangler local state
 .wrangler/
+# generated staging output (rendered pages are promoted to site/ on purpose)
+build/
+
+
+# python bytecode from the generator scripts
+__pycache__/
+*.pyc

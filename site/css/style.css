@@ -185,3 +185,49 @@ button[disabled] { opacity: .6; cursor: not-allowed; }
   .nav { gap: 12px; }
   .nav a:not(.btn) { display: none; }
 }
+/* ---- generated data pages (templates/*.html -> build|site) ------------- */
+/* Styles for the atlas: country pages, city pages, data tables. Kept here so
+   generated pages use the same design language as the hand-written ones.     */
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.25rem 0 2rem;
+  font-size: 0.97rem;
+}
+.data-table th,
+.data-table td {
+  padding: 0.6rem 0.75rem;
+  border-bottom: 1px solid #e3e9ef;
+  text-align: left;
+}
+.data-table thead th {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #5b6b7b;
+  border-bottom: 2px solid #cfd8e0;
+}
+.data-table tbody tr:hover { background: #f7fafc; }
+.data-table .num { text-align: right; font-variant-numeric: tabular-nums; }
+.data-table a { color: #0a5f4f; }
+
+.data-notes {
+  margin: 1.25rem 0 2rem;
+  padding-left: 1.15rem;
+  color: #35455a;
+}
+.data-notes li { margin-bottom: 0.5rem; }
+
+.breadcrumb {
+  font-size: 0.85rem;
+  color: #5b6b7b;
+  margin-bottom: 0.75rem;
+}
+.breadcrumb a { color: #0a5f4f; }
+
+.footer-note {
+  font-size: 0.8rem;
+  color: #5b6b7b;
+  padding-top: 0.5rem;
+}

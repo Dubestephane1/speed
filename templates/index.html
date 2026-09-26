@@ -1,0 +1,43 @@
+<section class="proof">
+  <div class="container">
+    <h1>{{heading}}</h1>
+    <p class="lead">{{sub}}</p>
+
+    <div class="stats">
+      <div class="stat"><span class="stat-num">{{scored}}</span><span class="stat-label">sites measured</span></div>
+      <div class="stat"><span class="stat-num">{{avg}}/100</span><span class="stat-label">average score</span></div>
+      <div class="stat"><span class="stat-num">{{red_pct}}%</span><span class="stat-label">score below {{red_max}}</span></div>
+      <div class="stat"><span class="stat-num">{{ranked_city_count}}</span><span class="stat-label">rankable cities</span></div>
+    </div>
+
+    <ul class="data-notes">
+{{global_notes}}
+    </ul>
+
+    <h2>Countries</h2>
+    <div class="cards">
+{{country_cards}}
+    </div>
+
+    <h2>Industry breakdown</h2>
+    <p class="lead">Average mobile performance score by industry, across all measured sites. Only industries with at least one successful measurement are listed.</p>
+    <table class="data-table">
+      <thead><tr><th>Industry</th><th class="num">Sites</th><th class="num">Average</th><th class="num">Below {{red_max}}</th><th class="num">{{green_min}}+</th></tr></thead>
+      <tbody>
+{{global_niches}}
+      </tbody>
+    </table>
+
+    <h2>How to read this</h2>
+    <ul class="data-notes">
+      <li>Scores are Google PageSpeed Insights <strong>mobile</strong> performance scores, the same test your customers hit on a phone.</li>
+      <li>A city is only ranked once at least {{min_rankable}} of its sites returned a usable score. Smaller samples are labelled, never ranked.</li>
+      <li>Averages cover sites with a successful measurement only. Failed tests are counted separately, never averaged in as zero.</li>
+      <li>Every country and city page links its raw CSV, so you can check the numbers yourself.</li>
+    </ul>
+
+    <div class="center">
+      <a class="btn btn-primary" href="/audit">Check your own site</a>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{title}}</title>
+<meta name="description" content="{{description}}">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Site Speed">
+<meta name="theme-color" content="#0a5f4f">
+<link rel="canonical" href="{{canonical}}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{canonical}}">
+<meta property="og:site_name" content="Site Speed">
+<meta property="og:locale" content="en_CA">
+<meta property="og:title" content="{{title}}">
+<meta property="og:description" content="{{description}}">
+<meta property="og:image" content="{{site}}/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{title}}">
+<meta name="twitter:description" content="{{description}}">
+<meta name="twitter:image" content="{{site}}/og-image.png">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/">speed.stephanedube.dev</a>
+    <nav class="nav" aria-label="Main">
+      <a href="/audit">Free audit</a>
+      <a href="/how-it-works">How it works</a>
+      <a href="/speed-data/">Speed data</a>
+      <a href="/blog">Blog</a>
+      <a href="/contact">Contact</a>
+      <a class="btn btn-primary btn-small" href="/audit">Run my audit</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+{{content}}
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <span>Site Speed — one-person service, real numbers, no redesigns.</span>
+    <span><a href="/">Speed data</a> · <a href="/contact">Contact</a> · <a href="/how-it-works">How it works</a> · <a href="/blog">Blog</a></span>
+  </div>
+  <div class="container footer-inner footer-note">
+    <span>Generated {{generated}} from the raw audit data. Every figure on this page is computed at build time — nothing is typed by hand.</span>
+  </div>
+</footer>
+</body>
+</html>

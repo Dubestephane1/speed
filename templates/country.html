@@ -1,0 +1,59 @@
+<section class="proof">
+  <div class="container">
+    <p class="breadcrumb"><a href="/">Speed data</a> / <strong>{{label}}</strong></p>
+    <h1>{{heading}}</h1>
+
+    <div class="stats">
+      <div class="stat"><span class="stat-num">{{scored}}</span><span class="stat-label">sites measured</span></div>
+      <div class="stat"><span class="stat-num">{{avg}}/100</span><span class="stat-label">average score</span></div>
+      <div class="stat"><span class="stat-num">{{red_pct}}%</span><span class="stat-label">below {{red_max}}</span></div>
+      <div class="stat"><span class="stat-num">{{ranked_count}}</span><span class="stat-label">rankable cities</span></div>
+    </div>
+
+    <ul class="data-notes">
+{{country_notes}}
+    </ul>
+
+    <h2>City ranking</h2>
+    <p class="lead">Cities with at least {{min_rankable}} measured sites, fastest average first. {{sampling_count}} further cities are still collecting samples and are listed below the ranking rather than guessed at.</p>
+    <table class="data-table">
+      <thead><tr><th class="num">#</th><th>City</th><th class="num">Sites</th><th class="num">Average</th><th class="num">Below {{red_max}}</th><th class="num">{{green_min}}+</th></tr></thead>
+      <tbody>
+{{city_rows}}
+      </tbody>
+    </table>
+
+    <h2>Industry breakdown</h2>
+    <table class="data-table">
+      <thead><tr><th>Industry</th><th class="num">Sites</th><th class="num">Average</th><th class="num">Below {{red_max}}</th><th class="num">{{green_min}}+</th></tr></thead>
+      <tbody>
+{{niche_rows}}
+      </tbody>
+    </table>
+
+    <h2>Sampling in progress</h2>
+    <p class="lead">These cities have measured sites but not yet enough for a fair ranking. They are shown so the coverage is honest, not to imply a result.</p>
+    <table class="data-table">
+      <thead><tr><th>City</th><th class="num">Scored</th><th class="num">Tested</th></tr></thead>
+      <tbody>
+{{sampling_rows}}
+      </tbody>
+    </table>
+
+    <p class="footer-note">{{unmapped}} of the {{attempted}} {{label}} sites tested could not be placed in a city, so they are counted in the country figures above but appear in no city table. Each one is listed in the raw CSV (<code>city</code> = <code>unknown</code>) so the gap is auditable rather than hidden.</p>
+
+    <h2>Extremes</h2>
+    <ul class="data-notes">
+      <li>Fastest site measured in {{label}}: <strong>{{best_host}}</strong> at {{best_perf}}/100.</li>
+      <li>Slowest site measured in {{label}}: <strong>{{worst_host}}</strong> at {{worst_perf}}/100.</li>
+    </ul>
+
+    <h2>Raw data</h2>
+    <p class="lead">Every measurement behind this page, one row per URL:</p>
+    <p><a class="btn btn-outline" href="/data/{{slug}}/{{slug}}_all.csv" download>Download {{slug}}_all.csv</a></p>
+
+    <div class="center">
+      <a class="btn btn-primary" href="/audit">Check your own site</a>
+    </div>
+  </div>
+</section>
