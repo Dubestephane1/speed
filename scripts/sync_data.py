@@ -74,6 +74,14 @@ SOURCES: list[tuple[str, str, str, str]] = [
     (os.path.join(ARCHIVE2, "realtor_wave_raw", "realtor_scores.csv"), "CA", "realtor", ""),
     (os.path.join(ARCHIVE2, "misc", "rn_ps.csv"), "CA", "dental", "Winnipeg"),
     (os.path.join(ARCHIVE, "opt_data.csv"), "CA", "optometrist", ""),
+    # ---- Canada: thin-city optometrist wave, 2026-09-26 --------------------
+    # 63 optometry clinics across 13 cities that had fewer than 10 measured
+    # sites, 44 of which had zero optometry sites. Optometry is the cheapest
+    # way to push a thin city over the 10-site ranking line, so this wave is
+    # aimed at ranking, not just at lead volume. Every row states its own city
+    # (city_source=row), so no filename city hint is needed. Measured with the
+    # full Lighthouse payload, not perf alone: generate.py filters on LCP_ms.
+    (r"D:\Docs\Huginn\data\ca_opt_thincity_measured.csv", "CA", "optometrist", ""),
     # ---- United States (clone output; city/country/niche already present) --
     (os.path.join(HUGINN_US, "*_us_scores.csv"), "US", "", ""),
 ]
