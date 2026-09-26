@@ -4,12 +4,12 @@
   "red_max": 50,
   "green_min": 90,
   "global": {
-    "attempted": 1772,
-    "scored": 1730,
+    "attempted": 1773,
+    "scored": 1731,
     "failed": 42,
     "avg": 57.5,
-    "median": 57.0,
-    "red": 612,
+    "median": 57,
+    "red": 613,
     "green": 110,
     "red_pct": 35,
     "green_pct": 6,
@@ -80,7 +80,7 @@
       {
         "niche": "physio",
         "label": "Physiotherapy",
-        "n": 331,
+        "n": 332,
         "avg": 57.0,
         "red_pct": 38,
         "green_pct": 6
@@ -11929,15 +11929,15 @@
         "country": "US",
         "slug": "united-states",
         "label": "United States",
-        "attempted": 799,
-        "scored": 799,
+        "attempted": 800,
+        "scored": 800,
         "failed": 0,
-        "avg": 59.5,
-        "median": 59,
-        "red": 256,
+        "avg": 59.4,
+        "median": 59.0,
+        "red": 257,
         "green": 68,
         "red_pct": 32,
-        "green_pct": 9,
+        "green_pct": 8,
         "fail_pct": 0,
         "best": {
           "url": "puredentalspa.com",
@@ -12013,9 +12013,9 @@
           {
             "niche": "physio",
             "label": "Physiotherapy",
-            "n": 159,
-            "avg": 56.8,
-            "red_pct": 35,
+            "n": 160,
+            "avg": 56.7,
+            "red_pct": 36,
             "green_pct": 6
           },
           {
@@ -12675,7 +12675,7 @@
             "slug": "columbus",
             "n": 100,
             "attempted": 100,
-            "avg": 59,
+            "avg": 59.0,
             "median": 57.0,
             "red": 38,
             "red_pct": 38,
@@ -12711,7 +12711,7 @@
                 "niche": "physio",
                 "label": "Physiotherapy",
                 "n": 20,
-                "avg": 56.0,
+                "avg": 55.9,
                 "red_pct": 40,
                 "green_pct": 5
               },
@@ -12771,7 +12771,7 @@
               "perf_i": 18
             },
             "commentary": [
-              "Average mobile performance score across 100 measured sites: 59/100.",
+              "Average mobile performance score across 100 measured sites: 59.0/100.",
               "Fastest industry measured here: Dental at 63.8/100 (n=20). Slowest: Real estate at 52.5/100 (n=20).",
               "Fastest site measured: comfortcrewohio.com at 99/100. Slowest: temperatureprocolumbus.com at 18/100.",
               "38% of measured sites score below 50/100; 8% reach 90 or better."
@@ -13533,7 +13533,7 @@
             "slug": "columbus",
             "n": 100,
             "attempted": 100,
-            "avg": 59,
+            "avg": 59.0,
             "median": 57.0,
             "red": 38,
             "red_pct": 38,
@@ -13569,7 +13569,7 @@
                 "niche": "physio",
                 "label": "Physiotherapy",
                 "n": 20,
-                "avg": 56.0,
+                "avg": 55.9,
                 "red_pct": 40,
                 "green_pct": 5
               },
@@ -13629,7 +13629,7 @@
               "perf_i": 18
             },
             "commentary": [
-              "Average mobile performance score across 100 measured sites: 59/100.",
+              "Average mobile performance score across 100 measured sites: 59.0/100.",
               "Fastest industry measured here: Dental at 63.8/100 (n=20). Slowest: Real estate at 52.5/100 (n=20).",
               "Fastest site measured: comfortcrewohio.com at 99/100. Slowest: temperatureprocolumbus.com at 18/100.",
               "38% of measured sites score below 50/100; 8% reach 90 or better."
@@ -13746,14 +13746,12 @@
         "sampling": [],
         "unmapped": 0,
         "measurements": 800,
-        "multi_city": [
-          "novacare.com"
-        ],
+        "multi_city": [],
         "commentary": [
-          "Average mobile performance score across 799 measured sites: 59.5/100.",
+          "Average mobile performance score across 800 measured sites: 59.4/100.",
           "Fastest industry measured here: Optometry at 62.5/100 (n=160). Slowest: Real estate at 56.5/100 (n=160).",
           "Fastest site measured: puredentalspa.com at 100/100. Slowest: smiledentalclinics.com at 4/100.",
-          "32% of measured sites score below 50/100; 9% reach 90 or better."
+          "32% of measured sites score below 50/100; 8% reach 90 or better."
         ]
       }
     ],
@@ -13942,11 +13940,10 @@
       ]
     },
     "multi_city_sites": [
-      "clareo.ca",
-      "novacare.com"
+      "clareo.ca"
     ],
     "commentary": [
-      "Average mobile performance score across 1730 measured sites: 57.5/100.",
+      "Average mobile performance score across 1731 measured sites: 57.5/100.",
       "Fastest industry measured here: HVAC at 60.2/100 (n=329). Slowest: Dental at 55.7/100 (n=511).",
       "Fastest site measured: drdentalclinics.ca at 100/100. Slowest: smiledentalclinics.com at 4/100.",
       "35% of measured sites score below 50/100; 6% reach 90 or better."

@@ -13,13 +13,13 @@ Plain static HTML/CSS/JS — zero build step, zero frameworks, zero image reques
 
 ## Current verified stats (audit campaign, mobile / slow 4G)
 <!-- census:start - written by scripts/generate.py, do not edit by hand -->
-- **1730** business websites measured (Canada 931 · United States 799)
+- **1731** business websites measured (Canada 931 · United States 800)
 - **80** cities with data, **37** with a published city page
 - **Average score: 57.5/100** (sites with a usable measurement only)
-- **612 sites scored under 50** — 35%, the red zone on Google's scale
+- **613 sites scored under 50** — 35%, the red zone on Google's scale
 - **110 sites reached green (90+)** — 6% of sites
 - **Best: 100 · Worst: 4**
-- 1772 sites tested, 42 could not be measured and are counted separately, never averaged in as zero
+- 1773 sites tested, 42 could not be measured and are counted separately, never averaged in as zero
 <!-- census:end -->
 
 > Every number is the real Google PageSpeed mobile test (homepage, simulated phone, slow 4G) — never invented. Raw CSVs are published next to the pages, and this block is generated: re-run `scripts/generate.py` after a new wave rather than typing figures here.
