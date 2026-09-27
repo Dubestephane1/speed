@@ -1,16 +1,16 @@
 {
-  "generated": "2026-09-26",
+  "generated": "2026-09-27",
   "min_rankable": 10,
   "red_max": 50,
   "green_min": 90,
   "global": {
-    "attempted": 1773,
-    "scored": 1731,
+    "attempted": 1873,
+    "scored": 1831,
     "failed": 42,
     "avg": 57.5,
     "median": 57,
-    "red": 613,
-    "green": 110,
+    "red": 644,
+    "green": 117,
     "red_pct": 35,
     "green_pct": 6,
     "fail_pct": 2,
@@ -64,23 +64,23 @@
       {
         "niche": "hvac",
         "label": "HVAC",
-        "n": 329,
-        "avg": 60.2,
-        "red_pct": 31,
-        "green_pct": 9
+        "n": 349,
+        "avg": 60.1,
+        "red_pct": 32,
+        "green_pct": 8
       },
       {
         "niche": "optometrist",
         "label": "Optometry",
-        "n": 289,
-        "avg": 59.3,
-        "red_pct": 33,
+        "n": 309,
+        "avg": 59.4,
+        "red_pct": 32,
         "green_pct": 6
       },
       {
         "niche": "physio",
         "label": "Physiotherapy",
-        "n": 332,
+        "n": 352,
         "avg": 57.0,
         "red_pct": 38,
         "green_pct": 6
@@ -88,18 +88,18 @@
       {
         "niche": "realtor",
         "label": "Real estate",
-        "n": 270,
-        "avg": 56.0,
-        "red_pct": 38,
-        "green_pct": 5
+        "n": 290,
+        "avg": 56.2,
+        "red_pct": 37,
+        "green_pct": 6
       },
       {
         "niche": "dental",
         "label": "Dental",
-        "n": 511,
-        "avg": 55.7,
-        "red_pct": 37,
-        "green_pct": 5
+        "n": 531,
+        "avg": 55.8,
+        "red_pct": 36,
+        "green_pct": 6
       }
     ],
     "countries": [
@@ -11929,37 +11929,37 @@
         "country": "US",
         "slug": "united-states",
         "label": "United States",
-        "attempted": 800,
-        "scored": 800,
+        "attempted": 900,
+        "scored": 900,
         "failed": 0,
-        "avg": 59.4,
+        "avg": 59.3,
         "median": 59.0,
-        "red": 257,
-        "green": 68,
+        "red": 288,
+        "green": 75,
         "red_pct": 32,
         "green_pct": 8,
         "fail_pct": 0,
         "best": {
-          "url": "puredentalspa.com",
+          "url": "charlottedentistry.com",
           "country": "US",
-          "city": "Chicago",
+          "city": "Charlotte",
           "city_source": "row",
           "niche": "dental",
           "platform": "",
           "perf": "100",
-          "a11y": "94",
+          "a11y": "96",
           "best_practices": "100",
-          "seo": "92",
-          "LCP_ms": "937",
+          "seo": "100",
+          "LCP_ms": "1425",
           "CLS": "0",
           "TBT_ms": "0",
-          "FCP_ms": "912",
-          "bytes": "1027266",
+          "FCP_ms": "1402",
+          "bytes": "1312382",
           "load_category": "FAST",
           "error": "",
-          "measured_at": "2026-09-26",
+          "measured_at": "2026-09-27",
           "multi_city": "no",
-          "source_file": "Chicago_us_scores.csv",
+          "source_file": "Charlotte_us_scores.csv",
           "perf_i": 100
         },
         "worst": {
@@ -11989,41 +11989,41 @@
           {
             "niche": "optometrist",
             "label": "Optometry",
-            "n": 160,
-            "avg": 62.5,
+            "n": 180,
+            "avg": 62.1,
             "red_pct": 26,
-            "green_pct": 9
+            "green_pct": 8
           },
           {
             "niche": "hvac",
             "label": "HVAC",
-            "n": 160,
-            "avg": 62.0,
-            "red_pct": 31,
-            "green_pct": 14
+            "n": 180,
+            "avg": 61.5,
+            "red_pct": 32,
+            "green_pct": 12
           },
           {
             "niche": "dental",
             "label": "Dental",
-            "n": 160,
-            "avg": 59.6,
+            "n": 180,
+            "avg": 59.3,
             "red_pct": 30,
             "green_pct": 8
           },
           {
             "niche": "physio",
             "label": "Physiotherapy",
-            "n": 160,
-            "avg": 56.7,
+            "n": 180,
+            "avg": 56.8,
             "red_pct": 36,
             "green_pct": 6
           },
           {
             "niche": "realtor",
             "label": "Real estate",
-            "n": 160,
-            "avg": 56.5,
-            "red_pct": 38,
+            "n": 180,
+            "avg": 56.7,
+            "red_pct": 37,
             "green_pct": 7
           }
         ],
@@ -12711,7 +12711,7 @@
                 "niche": "physio",
                 "label": "Physiotherapy",
                 "n": 20,
-                "avg": 55.9,
+                "avg": 56,
                 "red_pct": 40,
                 "green_pct": 5
               },
@@ -12742,7 +12742,7 @@
               "bytes": "16795",
               "load_category": "",
               "error": "",
-              "measured_at": "2026-09-26",
+              "measured_at": "2026-09-27",
               "multi_city": "no",
               "source_file": "Columbus_us_scores.csv",
               "perf_i": 99
@@ -12765,7 +12765,7 @@
               "bytes": "2510725",
               "load_category": "",
               "error": "",
-              "measured_at": "2026-09-26",
+              "measured_at": "2026-09-27",
               "multi_city": "no",
               "source_file": "Columbus_us_scores.csv",
               "perf_i": 18
@@ -12775,6 +12775,113 @@
               "Fastest industry measured here: Dental at 63.8/100 (n=20). Slowest: Real estate at 52.5/100 (n=20).",
               "Fastest site measured: comfortcrewohio.com at 99/100. Slowest: temperatureprocolumbus.com at 18/100.",
               "38% of measured sites score below 50/100; 8% reach 90 or better."
+            ]
+          },
+          {
+            "city": "Charlotte",
+            "slug": "charlotte",
+            "n": 100,
+            "attempted": 100,
+            "avg": 58.2,
+            "median": 58.5,
+            "red": 31,
+            "red_pct": 31,
+            "green_pct": 7,
+            "fail_pct": 0,
+            "rankable": true,
+            "niches": [
+              {
+                "niche": "optometrist",
+                "label": "Optometry",
+                "n": 20,
+                "avg": 59.5,
+                "red_pct": 25,
+                "green_pct": 5
+              },
+              {
+                "niche": "realtor",
+                "label": "Real estate",
+                "n": 20,
+                "avg": 58.9,
+                "red_pct": 25,
+                "green_pct": 10
+              },
+              {
+                "niche": "hvac",
+                "label": "HVAC",
+                "n": 20,
+                "avg": 58.2,
+                "red_pct": 40,
+                "green_pct": 0
+              },
+              {
+                "niche": "dental",
+                "label": "Dental",
+                "n": 20,
+                "avg": 57.4,
+                "red_pct": 30,
+                "green_pct": 15
+              },
+              {
+                "niche": "physio",
+                "label": "Physiotherapy",
+                "n": 20,
+                "avg": 56.9,
+                "red_pct": 35,
+                "green_pct": 5
+              }
+            ],
+            "best": {
+              "url": "charlottedentistry.com",
+              "country": "US",
+              "city": "Charlotte",
+              "city_source": "row",
+              "niche": "dental",
+              "platform": "",
+              "perf": "100",
+              "a11y": "96",
+              "best_practices": "100",
+              "seo": "100",
+              "LCP_ms": "1425",
+              "CLS": "0",
+              "TBT_ms": "0",
+              "FCP_ms": "1402",
+              "bytes": "1312382",
+              "load_category": "FAST",
+              "error": "",
+              "measured_at": "2026-09-27",
+              "multi_city": "no",
+              "source_file": "Charlotte_us_scores.csv",
+              "perf_i": 100
+            },
+            "worst": {
+              "url": "thelandmarksmile.com",
+              "country": "US",
+              "city": "Charlotte",
+              "city_source": "row",
+              "niche": "dental",
+              "platform": "WordPress",
+              "perf": "13",
+              "a11y": "74",
+              "best_practices": "73",
+              "seo": "85",
+              "LCP_ms": "16426",
+              "CLS": "0",
+              "TBT_ms": "1063",
+              "FCP_ms": "3613",
+              "bytes": "16732397",
+              "load_category": "SLOW",
+              "error": "",
+              "measured_at": "2026-09-27",
+              "multi_city": "no",
+              "source_file": "Charlotte_us_scores.csv",
+              "perf_i": 13
+            },
+            "commentary": [
+              "Average mobile performance score across 100 measured sites: 58.2/100.",
+              "Fastest industry measured here: Optometry at 59.5/100 (n=20). Slowest: Physiotherapy at 56.9/100 (n=20).",
+              "Fastest site measured: charlottedentistry.com at 100/100. Slowest: thelandmarksmile.com at 13/100.",
+              "31% of measured sites score below 50/100; 7% reach 90 or better."
             ]
           },
           {
@@ -13569,7 +13676,7 @@
                 "niche": "physio",
                 "label": "Physiotherapy",
                 "n": 20,
-                "avg": 55.9,
+                "avg": 56,
                 "red_pct": 40,
                 "green_pct": 5
               },
@@ -13600,7 +13707,7 @@
               "bytes": "16795",
               "load_category": "",
               "error": "",
-              "measured_at": "2026-09-26",
+              "measured_at": "2026-09-27",
               "multi_city": "no",
               "source_file": "Columbus_us_scores.csv",
               "perf_i": 99
@@ -13623,7 +13730,7 @@
               "bytes": "2510725",
               "load_category": "",
               "error": "",
-              "measured_at": "2026-09-26",
+              "measured_at": "2026-09-27",
               "multi_city": "no",
               "source_file": "Columbus_us_scores.csv",
               "perf_i": 18
@@ -13633,6 +13740,113 @@
               "Fastest industry measured here: Dental at 63.8/100 (n=20). Slowest: Real estate at 52.5/100 (n=20).",
               "Fastest site measured: comfortcrewohio.com at 99/100. Slowest: temperatureprocolumbus.com at 18/100.",
               "38% of measured sites score below 50/100; 8% reach 90 or better."
+            ]
+          },
+          {
+            "city": "Charlotte",
+            "slug": "charlotte",
+            "n": 100,
+            "attempted": 100,
+            "avg": 58.2,
+            "median": 58.5,
+            "red": 31,
+            "red_pct": 31,
+            "green_pct": 7,
+            "fail_pct": 0,
+            "rankable": true,
+            "niches": [
+              {
+                "niche": "optometrist",
+                "label": "Optometry",
+                "n": 20,
+                "avg": 59.5,
+                "red_pct": 25,
+                "green_pct": 5
+              },
+              {
+                "niche": "realtor",
+                "label": "Real estate",
+                "n": 20,
+                "avg": 58.9,
+                "red_pct": 25,
+                "green_pct": 10
+              },
+              {
+                "niche": "hvac",
+                "label": "HVAC",
+                "n": 20,
+                "avg": 58.2,
+                "red_pct": 40,
+                "green_pct": 0
+              },
+              {
+                "niche": "dental",
+                "label": "Dental",
+                "n": 20,
+                "avg": 57.4,
+                "red_pct": 30,
+                "green_pct": 15
+              },
+              {
+                "niche": "physio",
+                "label": "Physiotherapy",
+                "n": 20,
+                "avg": 56.9,
+                "red_pct": 35,
+                "green_pct": 5
+              }
+            ],
+            "best": {
+              "url": "charlottedentistry.com",
+              "country": "US",
+              "city": "Charlotte",
+              "city_source": "row",
+              "niche": "dental",
+              "platform": "",
+              "perf": "100",
+              "a11y": "96",
+              "best_practices": "100",
+              "seo": "100",
+              "LCP_ms": "1425",
+              "CLS": "0",
+              "TBT_ms": "0",
+              "FCP_ms": "1402",
+              "bytes": "1312382",
+              "load_category": "FAST",
+              "error": "",
+              "measured_at": "2026-09-27",
+              "multi_city": "no",
+              "source_file": "Charlotte_us_scores.csv",
+              "perf_i": 100
+            },
+            "worst": {
+              "url": "thelandmarksmile.com",
+              "country": "US",
+              "city": "Charlotte",
+              "city_source": "row",
+              "niche": "dental",
+              "platform": "WordPress",
+              "perf": "13",
+              "a11y": "74",
+              "best_practices": "73",
+              "seo": "85",
+              "LCP_ms": "16426",
+              "CLS": "0",
+              "TBT_ms": "1063",
+              "FCP_ms": "3613",
+              "bytes": "16732397",
+              "load_category": "SLOW",
+              "error": "",
+              "measured_at": "2026-09-27",
+              "multi_city": "no",
+              "source_file": "Charlotte_us_scores.csv",
+              "perf_i": 13
+            },
+            "commentary": [
+              "Average mobile performance score across 100 measured sites: 58.2/100.",
+              "Fastest industry measured here: Optometry at 59.5/100 (n=20). Slowest: Physiotherapy at 56.9/100 (n=20).",
+              "Fastest site measured: charlottedentistry.com at 100/100. Slowest: thelandmarksmile.com at 13/100.",
+              "31% of measured sites score below 50/100; 7% reach 90 or better."
             ]
           },
           {
@@ -13745,19 +13959,19 @@
         ],
         "sampling": [],
         "unmapped": 0,
-        "measurements": 800,
+        "measurements": 900,
         "multi_city": [],
         "commentary": [
-          "Average mobile performance score across 800 measured sites: 59.4/100.",
-          "Fastest industry measured here: Optometry at 62.5/100 (n=160). Slowest: Real estate at 56.5/100 (n=160).",
-          "Fastest site measured: puredentalspa.com at 100/100. Slowest: smiledentalclinics.com at 4/100.",
+          "Average mobile performance score across 900 measured sites: 59.3/100.",
+          "Fastest industry measured here: Optometry at 62.1/100 (n=180). Slowest: Real estate at 56.7/100 (n=180).",
+          "Fastest site measured: charlottedentistry.com at 100/100. Slowest: smiledentalclinics.com at 4/100.",
           "32% of measured sites score below 50/100; 8% reach 90 or better."
         ]
       }
     ],
     "country_count": 2,
-    "city_count": 80,
-    "ranked_city_count": 37,
+    "city_count": 81,
+    "ranked_city_count": 38,
     "best_city": {
       "city": "Hamilton",
       "slug": "hamilton",
@@ -13943,8 +14157,8 @@
       "clareo.ca"
     ],
     "commentary": [
-      "Average mobile performance score across 1731 measured sites: 57.5/100.",
-      "Fastest industry measured here: HVAC at 60.2/100 (n=329). Slowest: Dental at 55.7/100 (n=511).",
+      "Average mobile performance score across 1831 measured sites: 57.5/100.",
+      "Fastest industry measured here: HVAC at 60.1/100 (n=349). Slowest: Dental at 55.8/100 (n=531).",
       "Fastest site measured: drdentalclinics.ca at 100/100. Slowest: smiledentalclinics.com at 4/100.",
       "35% of measured sites score below 50/100; 6% reach 90 or better."
     ]
