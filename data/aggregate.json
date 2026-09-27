@@ -4,11 +4,11 @@
   "red_max": 50,
   "green_min": 90,
   "global": {
-    "attempted": 1873,
-    "scored": 1831,
-    "failed": 42,
+    "attempted": 1871,
+    "scored": 1830,
+    "failed": 41,
     "avg": 57.5,
-    "median": 57,
+    "median": 57.0,
     "red": 644,
     "green": 117,
     "red_pct": 35,
@@ -96,8 +96,8 @@
       {
         "niche": "dental",
         "label": "Dental",
-        "n": 531,
-        "avg": 55.8,
+        "n": 530,
+        "avg": 55.7,
         "red_pct": 36,
         "green_pct": 6
       }
@@ -107,11 +107,11 @@
         "country": "Canada",
         "slug": "canada",
         "label": "Canada",
-        "attempted": 973,
-        "scored": 931,
-        "failed": 42,
+        "attempted": 971,
+        "scored": 930,
+        "failed": 41,
         "avg": 55.7,
-        "median": 56,
+        "median": 56.0,
         "red": 356,
         "green": 42,
         "red_pct": 38,
@@ -199,8 +199,8 @@
           {
             "niche": "dental",
             "label": "Dental",
-            "n": 351,
-            "avg": 54.0,
+            "n": 350,
+            "avg": 53.9,
             "red_pct": 40,
             "green_pct": 5
           }
@@ -778,21 +778,21 @@
           {
             "city": "Gatineau",
             "slug": "gatineau",
-            "n": 22,
-            "attempted": 23,
-            "avg": 58.6,
-            "median": 57.5,
+            "n": 21,
+            "attempted": 21,
+            "avg": 58.4,
+            "median": 56,
             "red": 4,
-            "red_pct": 18,
+            "red_pct": 19,
             "green_pct": 5,
-            "fail_pct": 4,
+            "fail_pct": 0,
             "rankable": true,
             "niches": [
               {
                 "niche": "dental",
                 "label": "Dental",
-                "n": 17,
-                "avg": 61,
+                "n": 16,
+                "avg": 60.9,
                 "red_pct": 12,
                 "green_pct": 6
               },
@@ -852,10 +852,10 @@
               "perf_i": 27
             },
             "commentary": [
-              "Average mobile performance score across 22 measured sites: 58.6/100.",
-              "Fastest industry measured here: Dental at 61/100 (n=17). Slowest: Physiotherapy at 50.6/100 (n=5).",
+              "Average mobile performance score across 21 measured sites: 58.4/100.",
+              "Fastest industry measured here: Dental at 60.9/100 (n=16). Slowest: Physiotherapy at 50.6/100 (n=5).",
               "Fastest site measured: cliniquedentairedehull.com at 97/100. Slowest: perioclinik.ca at 27/100.",
-              "18% of measured sites score below 50/100; 5% reach 90 or better."
+              "19% of measured sites score below 50/100; 5% reach 90 or better."
             ]
           },
           {
@@ -1311,97 +1311,6 @@
             ]
           },
           {
-            "city": "Quebec",
-            "slug": "quebec",
-            "n": 57,
-            "attempted": 60,
-            "avg": 56.9,
-            "median": 57,
-            "red": 18,
-            "red_pct": 32,
-            "green_pct": 0,
-            "fail_pct": 5,
-            "rankable": true,
-            "niches": [
-              {
-                "niche": "dental",
-                "label": "Dental",
-                "n": 46,
-                "avg": 59.4,
-                "red_pct": 22,
-                "green_pct": 0
-              },
-              {
-                "niche": "physio",
-                "label": "Physiotherapy",
-                "n": 10,
-                "avg": 47.5,
-                "red_pct": 70,
-                "green_pct": 0
-              },
-              {
-                "niche": "optometrist",
-                "label": "Optometry",
-                "n": 1,
-                "avg": 36,
-                "red_pct": 100,
-                "green_pct": 0
-              }
-            ],
-            "best": {
-              "url": "centredentairestefoy.com",
-              "country": "Canada",
-              "city": "Quebec",
-              "city_source": "filename",
-              "niche": "dental",
-              "platform": "WordPress",
-              "perf": "89",
-              "a11y": "93",
-              "best_practices": "100",
-              "seo": "100",
-              "LCP_ms": "2826",
-              "CLS": "0",
-              "TBT_ms": "217",
-              "FCP_ms": "1955",
-              "bytes": "1013153",
-              "load_category": "AVERAGE",
-              "error": "",
-              "measured_at": "2026-09-22",
-              "multi_city": "no",
-              "source_file": "quebec_scores.csv",
-              "perf_i": 89
-            },
-            "worst": {
-              "url": "cliniquedentairegaudreaultmarquis.com",
-              "country": "Canada",
-              "city": "Quebec",
-              "city_source": "filename",
-              "niche": "dental",
-              "platform": "",
-              "perf": "29",
-              "a11y": "88",
-              "best_practices": "96",
-              "seo": "100",
-              "LCP_ms": "6338",
-              "CLS": "0",
-              "TBT_ms": "830",
-              "FCP_ms": "2652",
-              "bytes": "2854193",
-              "load_category": "",
-              "error": "",
-              "measured_at": "2026-09-22",
-              "multi_city": "no",
-              "source_file": "quebec_scores2.csv",
-              "perf_i": 29
-            },
-            "commentary": [
-              "Average mobile performance score across 57 measured sites: 56.9/100.",
-              "Fastest industry measured here: Dental at 59.4/100 (n=46). Slowest: Physiotherapy at 47.5/100 (n=10).",
-              "Fastest site measured: centredentairestefoy.com at 89/100. Slowest: cliniquedentairegaudreaultmarquis.com at 29/100.",
-              "32% of measured sites score below 50/100; 0% reach 90 or better."
-            ]
-          },
-          {
             "city": "Kamloops",
             "slug": "kamloops",
             "n": 14,
@@ -1747,6 +1656,97 @@
               "Fastest site measured: dentistesaintlambert.ca at 91/100. Slowest: clinique3601.com at 23/100.",
               "33% of measured sites score below 50/100; 4% reach 90 or better.",
               "1 of 28 tested URLs returned no usable score (4%) and are excluded from the averages."
+            ]
+          },
+          {
+            "city": "Quebec",
+            "slug": "quebec",
+            "n": 60,
+            "attempted": 63,
+            "avg": 55.3,
+            "median": 57.0,
+            "red": 22,
+            "red_pct": 37,
+            "green_pct": 0,
+            "fail_pct": 5,
+            "rankable": true,
+            "niches": [
+              {
+                "niche": "dental",
+                "label": "Dental",
+                "n": 49,
+                "avg": 57.3,
+                "red_pct": 29,
+                "green_pct": 0
+              },
+              {
+                "niche": "physio",
+                "label": "Physiotherapy",
+                "n": 10,
+                "avg": 47.5,
+                "red_pct": 70,
+                "green_pct": 0
+              },
+              {
+                "niche": "optometrist",
+                "label": "Optometry",
+                "n": 1,
+                "avg": 36,
+                "red_pct": 100,
+                "green_pct": 0
+              }
+            ],
+            "best": {
+              "url": "centredentairestefoy.com",
+              "country": "Canada",
+              "city": "Quebec",
+              "city_source": "filename",
+              "niche": "dental",
+              "platform": "WordPress",
+              "perf": "89",
+              "a11y": "93",
+              "best_practices": "100",
+              "seo": "100",
+              "LCP_ms": "2826",
+              "CLS": "0",
+              "TBT_ms": "217",
+              "FCP_ms": "1955",
+              "bytes": "1013153",
+              "load_category": "AVERAGE",
+              "error": "",
+              "measured_at": "2026-09-22",
+              "multi_city": "no",
+              "source_file": "quebec_scores.csv",
+              "perf_i": 89
+            },
+            "worst": {
+              "url": "cliniquedentaireqg.com",
+              "country": "Canada",
+              "city": "Quebec",
+              "city_source": "map",
+              "niche": "dental",
+              "platform": "WordPress",
+              "perf": "26",
+              "a11y": "89",
+              "best_practices": "100",
+              "seo": "100",
+              "LCP_ms": "10155",
+              "CLS": "0",
+              "TBT_ms": "403",
+              "FCP_ms": "3344",
+              "bytes": "2123618",
+              "load_category": "",
+              "error": "",
+              "measured_at": "2026-09-22",
+              "multi_city": "no",
+              "source_file": "quebec_scores.csv",
+              "perf_i": 26
+            },
+            "commentary": [
+              "Average mobile performance score across 60 measured sites: 55.3/100.",
+              "Fastest industry measured here: Dental at 57.3/100 (n=49). Slowest: Physiotherapy at 47.5/100 (n=10).",
+              "Fastest site measured: centredentairestefoy.com at 89/100. Slowest: cliniquedentaireqg.com at 26/100.",
+              "37% of measured sites score below 50/100; 0% reach 90 or better."
             ]
           },
           {
@@ -5325,80 +5325,6 @@
             ]
           },
           {
-            "city": "Québec",
-            "slug": "quebec",
-            "n": 4,
-            "attempted": 4,
-            "avg": 38.2,
-            "median": 40.0,
-            "red": 4,
-            "red_pct": 100,
-            "green_pct": 0,
-            "fail_pct": 0,
-            "rankable": false,
-            "niches": [
-              {
-                "niche": "dental",
-                "label": "Dental",
-                "n": 4,
-                "avg": 38.2,
-                "red_pct": 100,
-                "green_pct": 0
-              }
-            ],
-            "best": {
-              "url": "centredentaireprive.com",
-              "country": "Canada",
-              "city": "Québec",
-              "city_source": "map",
-              "niche": "dental",
-              "platform": "Squarespace",
-              "perf": "47",
-              "a11y": "92",
-              "best_practices": "74",
-              "seo": "100",
-              "LCP_ms": "17305",
-              "CLS": "0",
-              "TBT_ms": "413",
-              "FCP_ms": "7269",
-              "bytes": "2581143",
-              "load_category": "",
-              "error": "",
-              "measured_at": "2026-09-22",
-              "multi_city": "no",
-              "source_file": "quebec_scores.csv",
-              "perf_i": 47
-            },
-            "worst": {
-              "url": "cliniquedentaireqg.com",
-              "country": "Canada",
-              "city": "Québec",
-              "city_source": "map",
-              "niche": "dental",
-              "platform": "WordPress",
-              "perf": "26",
-              "a11y": "89",
-              "best_practices": "100",
-              "seo": "100",
-              "LCP_ms": "10155",
-              "CLS": "0",
-              "TBT_ms": "403",
-              "FCP_ms": "3344",
-              "bytes": "2123618",
-              "load_category": "",
-              "error": "",
-              "measured_at": "2026-09-22",
-              "multi_city": "no",
-              "source_file": "quebec_scores.csv",
-              "perf_i": 26
-            },
-            "commentary": [
-              "Average mobile performance score across 4 measured sites: 38.2/100.",
-              "Fastest site measured: centredentaireprive.com at 47/100. Slowest: cliniquedentaireqg.com at 26/100.",
-              "100% of measured sites score below 50/100; 0% reach 90 or better."
-            ]
-          },
-          {
             "city": "Bromont",
             "slug": "bromont",
             "n": 1,
@@ -6631,21 +6557,21 @@
           {
             "city": "Gatineau",
             "slug": "gatineau",
-            "n": 22,
-            "attempted": 23,
-            "avg": 58.6,
-            "median": 57.5,
+            "n": 21,
+            "attempted": 21,
+            "avg": 58.4,
+            "median": 56,
             "red": 4,
-            "red_pct": 18,
+            "red_pct": 19,
             "green_pct": 5,
-            "fail_pct": 4,
+            "fail_pct": 0,
             "rankable": true,
             "niches": [
               {
                 "niche": "dental",
                 "label": "Dental",
-                "n": 17,
-                "avg": 61,
+                "n": 16,
+                "avg": 60.9,
                 "red_pct": 12,
                 "green_pct": 6
               },
@@ -6705,10 +6631,10 @@
               "perf_i": 27
             },
             "commentary": [
-              "Average mobile performance score across 22 measured sites: 58.6/100.",
-              "Fastest industry measured here: Dental at 61/100 (n=17). Slowest: Physiotherapy at 50.6/100 (n=5).",
+              "Average mobile performance score across 21 measured sites: 58.4/100.",
+              "Fastest industry measured here: Dental at 60.9/100 (n=16). Slowest: Physiotherapy at 50.6/100 (n=5).",
               "Fastest site measured: cliniquedentairedehull.com at 97/100. Slowest: perioclinik.ca at 27/100.",
-              "18% of measured sites score below 50/100; 5% reach 90 or better."
+              "19% of measured sites score below 50/100; 5% reach 90 or better."
             ]
           },
           {
@@ -7164,97 +7090,6 @@
             ]
           },
           {
-            "city": "Quebec",
-            "slug": "quebec",
-            "n": 57,
-            "attempted": 60,
-            "avg": 56.9,
-            "median": 57,
-            "red": 18,
-            "red_pct": 32,
-            "green_pct": 0,
-            "fail_pct": 5,
-            "rankable": true,
-            "niches": [
-              {
-                "niche": "dental",
-                "label": "Dental",
-                "n": 46,
-                "avg": 59.4,
-                "red_pct": 22,
-                "green_pct": 0
-              },
-              {
-                "niche": "physio",
-                "label": "Physiotherapy",
-                "n": 10,
-                "avg": 47.5,
-                "red_pct": 70,
-                "green_pct": 0
-              },
-              {
-                "niche": "optometrist",
-                "label": "Optometry",
-                "n": 1,
-                "avg": 36,
-                "red_pct": 100,
-                "green_pct": 0
-              }
-            ],
-            "best": {
-              "url": "centredentairestefoy.com",
-              "country": "Canada",
-              "city": "Quebec",
-              "city_source": "filename",
-              "niche": "dental",
-              "platform": "WordPress",
-              "perf": "89",
-              "a11y": "93",
-              "best_practices": "100",
-              "seo": "100",
-              "LCP_ms": "2826",
-              "CLS": "0",
-              "TBT_ms": "217",
-              "FCP_ms": "1955",
-              "bytes": "1013153",
-              "load_category": "AVERAGE",
-              "error": "",
-              "measured_at": "2026-09-22",
-              "multi_city": "no",
-              "source_file": "quebec_scores.csv",
-              "perf_i": 89
-            },
-            "worst": {
-              "url": "cliniquedentairegaudreaultmarquis.com",
-              "country": "Canada",
-              "city": "Quebec",
-              "city_source": "filename",
-              "niche": "dental",
-              "platform": "",
-              "perf": "29",
-              "a11y": "88",
-              "best_practices": "96",
-              "seo": "100",
-              "LCP_ms": "6338",
-              "CLS": "0",
-              "TBT_ms": "830",
-              "FCP_ms": "2652",
-              "bytes": "2854193",
-              "load_category": "",
-              "error": "",
-              "measured_at": "2026-09-22",
-              "multi_city": "no",
-              "source_file": "quebec_scores2.csv",
-              "perf_i": 29
-            },
-            "commentary": [
-              "Average mobile performance score across 57 measured sites: 56.9/100.",
-              "Fastest industry measured here: Dental at 59.4/100 (n=46). Slowest: Physiotherapy at 47.5/100 (n=10).",
-              "Fastest site measured: centredentairestefoy.com at 89/100. Slowest: cliniquedentairegaudreaultmarquis.com at 29/100.",
-              "32% of measured sites score below 50/100; 0% reach 90 or better."
-            ]
-          },
-          {
             "city": "Kamloops",
             "slug": "kamloops",
             "n": 14,
@@ -7600,6 +7435,97 @@
               "Fastest site measured: dentistesaintlambert.ca at 91/100. Slowest: clinique3601.com at 23/100.",
               "33% of measured sites score below 50/100; 4% reach 90 or better.",
               "1 of 28 tested URLs returned no usable score (4%) and are excluded from the averages."
+            ]
+          },
+          {
+            "city": "Quebec",
+            "slug": "quebec",
+            "n": 60,
+            "attempted": 63,
+            "avg": 55.3,
+            "median": 57.0,
+            "red": 22,
+            "red_pct": 37,
+            "green_pct": 0,
+            "fail_pct": 5,
+            "rankable": true,
+            "niches": [
+              {
+                "niche": "dental",
+                "label": "Dental",
+                "n": 49,
+                "avg": 57.3,
+                "red_pct": 29,
+                "green_pct": 0
+              },
+              {
+                "niche": "physio",
+                "label": "Physiotherapy",
+                "n": 10,
+                "avg": 47.5,
+                "red_pct": 70,
+                "green_pct": 0
+              },
+              {
+                "niche": "optometrist",
+                "label": "Optometry",
+                "n": 1,
+                "avg": 36,
+                "red_pct": 100,
+                "green_pct": 0
+              }
+            ],
+            "best": {
+              "url": "centredentairestefoy.com",
+              "country": "Canada",
+              "city": "Quebec",
+              "city_source": "filename",
+              "niche": "dental",
+              "platform": "WordPress",
+              "perf": "89",
+              "a11y": "93",
+              "best_practices": "100",
+              "seo": "100",
+              "LCP_ms": "2826",
+              "CLS": "0",
+              "TBT_ms": "217",
+              "FCP_ms": "1955",
+              "bytes": "1013153",
+              "load_category": "AVERAGE",
+              "error": "",
+              "measured_at": "2026-09-22",
+              "multi_city": "no",
+              "source_file": "quebec_scores.csv",
+              "perf_i": 89
+            },
+            "worst": {
+              "url": "cliniquedentaireqg.com",
+              "country": "Canada",
+              "city": "Quebec",
+              "city_source": "map",
+              "niche": "dental",
+              "platform": "WordPress",
+              "perf": "26",
+              "a11y": "89",
+              "best_practices": "100",
+              "seo": "100",
+              "LCP_ms": "10155",
+              "CLS": "0",
+              "TBT_ms": "403",
+              "FCP_ms": "3344",
+              "bytes": "2123618",
+              "load_category": "",
+              "error": "",
+              "measured_at": "2026-09-22",
+              "multi_city": "no",
+              "source_file": "quebec_scores.csv",
+              "perf_i": 26
+            },
+            "commentary": [
+              "Average mobile performance score across 60 measured sites: 55.3/100.",
+              "Fastest industry measured here: Dental at 57.3/100 (n=49). Slowest: Physiotherapy at 47.5/100 (n=10).",
+              "Fastest site measured: centredentairestefoy.com at 89/100. Slowest: cliniquedentaireqg.com at 26/100.",
+              "37% of measured sites score below 50/100; 0% reach 90 or better."
             ]
           },
           {
@@ -11180,80 +11106,6 @@
             ]
           },
           {
-            "city": "Québec",
-            "slug": "quebec",
-            "n": 4,
-            "attempted": 4,
-            "avg": 38.2,
-            "median": 40.0,
-            "red": 4,
-            "red_pct": 100,
-            "green_pct": 0,
-            "fail_pct": 0,
-            "rankable": false,
-            "niches": [
-              {
-                "niche": "dental",
-                "label": "Dental",
-                "n": 4,
-                "avg": 38.2,
-                "red_pct": 100,
-                "green_pct": 0
-              }
-            ],
-            "best": {
-              "url": "centredentaireprive.com",
-              "country": "Canada",
-              "city": "Québec",
-              "city_source": "map",
-              "niche": "dental",
-              "platform": "Squarespace",
-              "perf": "47",
-              "a11y": "92",
-              "best_practices": "74",
-              "seo": "100",
-              "LCP_ms": "17305",
-              "CLS": "0",
-              "TBT_ms": "413",
-              "FCP_ms": "7269",
-              "bytes": "2581143",
-              "load_category": "",
-              "error": "",
-              "measured_at": "2026-09-22",
-              "multi_city": "no",
-              "source_file": "quebec_scores.csv",
-              "perf_i": 47
-            },
-            "worst": {
-              "url": "cliniquedentaireqg.com",
-              "country": "Canada",
-              "city": "Québec",
-              "city_source": "map",
-              "niche": "dental",
-              "platform": "WordPress",
-              "perf": "26",
-              "a11y": "89",
-              "best_practices": "100",
-              "seo": "100",
-              "LCP_ms": "10155",
-              "CLS": "0",
-              "TBT_ms": "403",
-              "FCP_ms": "3344",
-              "bytes": "2123618",
-              "load_category": "",
-              "error": "",
-              "measured_at": "2026-09-22",
-              "multi_city": "no",
-              "source_file": "quebec_scores.csv",
-              "perf_i": 26
-            },
-            "commentary": [
-              "Average mobile performance score across 4 measured sites: 38.2/100.",
-              "Fastest site measured: centredentaireprive.com at 47/100. Slowest: cliniquedentaireqg.com at 26/100.",
-              "100% of measured sites score below 50/100; 0% reach 90 or better."
-            ]
-          },
-          {
             "city": "Bromont",
             "slug": "bromont",
             "n": 1,
@@ -11914,13 +11766,11 @@
           }
         ],
         "unmapped": 79,
-        "measurements": 974,
-        "multi_city": [
-          "clareo.ca"
-        ],
+        "measurements": 971,
+        "multi_city": [],
         "commentary": [
-          "Average mobile performance score across 931 measured sites: 55.7/100.",
-          "Fastest industry measured here: HVAC at 58.5/100 (n=169). Slowest: Dental at 54.0/100 (n=351).",
+          "Average mobile performance score across 930 measured sites: 55.7/100.",
+          "Fastest industry measured here: HVAC at 58.5/100 (n=169). Slowest: Dental at 53.9/100 (n=350).",
           "Fastest site measured: drdentalclinics.ca at 100/100. Slowest: archerdental.ca at 8/100.",
           "38% of measured sites score below 50/100; 5% reach 90 or better."
         ]
@@ -13970,7 +13820,7 @@
       }
     ],
     "country_count": 2,
-    "city_count": 81,
+    "city_count": 80,
     "ranked_city_count": 38,
     "best_city": {
       "city": "Hamilton",
@@ -14153,12 +14003,10 @@
         "85% of measured sites score below 50/100; 0% reach 90 or better."
       ]
     },
-    "multi_city_sites": [
-      "clareo.ca"
-    ],
+    "multi_city_sites": [],
     "commentary": [
-      "Average mobile performance score across 1831 measured sites: 57.5/100.",
-      "Fastest industry measured here: HVAC at 60.1/100 (n=349). Slowest: Dental at 55.8/100 (n=531).",
+      "Average mobile performance score across 1830 measured sites: 57.5/100.",
+      "Fastest industry measured here: HVAC at 60.1/100 (n=349). Slowest: Dental at 55.7/100 (n=530).",
       "Fastest site measured: drdentalclinics.ca at 100/100. Slowest: smiledentalclinics.com at 4/100.",
       "35% of measured sites score below 50/100; 6% reach 90 or better."
     ]

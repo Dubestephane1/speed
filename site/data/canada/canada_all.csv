@@ -133,8 +133,6 @@ aylmerdentaire.ca,Canada,Gatineau,filename,dental,unknown,68,93,100,91,13490,0,0
 cdentairegatineau.com,Canada,Gatineau,filename,dental,WordPress,81,88,100,85,980,0,0,980,2670711,,,2026-09-22,no,gatineau_scores3.csv
 cdvo.ca,Canada,Gatineau,filename,dental,,63,69,100,92,8016,0,38,3636,1890249,,,2026-09-22,no,gatineau_scores6.csv
 centredentairenb.ca,Canada,Gatineau,filename,dental,WordPress,56,86,100,100,24185,0,2,4573,5777587,,,2026-09-22,no,gatineau_scores3.csv
-clareo.ca,Canada,Gatineau,filename,dental,WordPress,63,80,77,100,12882,0,0,2532,5927184,AVERAGE,,2026-09-22,yes,gatineau_scores5.csv
-clareo.ca/en/clinique/clareo-buckingham,Canada,Gatineau,filename,dental,,,,,,,,,,,,failed after retries,2026-09-22,no,gatineau_scores4.csv
 cliniquedentairedehull.com,Canada,Gatineau,filename,dental,,97,65,92,91,1531,0,0,1531,13552,,,2026-09-22,no,gatineau_scores6.csv
 cliniquedentairelpg.ca,Canada,Gatineau,filename,dental,unknown,51,82,96,83,14901,0,165,2745,2791338,,,2026-09-22,no,gatineau_scores.csv
 cliniquedentaireora.com,Canada,Gatineau,filename,dental,Squarespace,50,98,96,92,8755,0,551,3303,2197847,,,2026-09-22,no,gatineau_scores4.csv
@@ -516,7 +514,6 @@ centredesanteneuville.com,Canada,Quebec,filename,dental,unknown,72,67,100,92,679
 charlesbourgdentiste.com,Canada,Quebec,filename,dental,WordPress,65,91,92,92,9175,0,12,2703,2410130,,,2026-09-22,no,quebec_scores3.csv
 chezmondentiste.ca,Canada,Quebec,filename,dental,WordPress,59,90,100,92,12187,0,75,4552,2670986,,,2026-09-22,no,quebec_scores3.csv
 citedentairestaugustin.com,Canada,Quebec,filename,dental,unknown,70,91,100,92,5659,0,12,3633,4418668,,,2026-09-22,no,quebec_scores4.csv
-clareo.ca,Canada,Quebec,filename,dental,WordPress,77,80,77,100,3702,0,0,2577,5927569,AVERAGE,,2026-09-22,yes,quebec_scores3.csv
 cliniquebergeron.com,Canada,Quebec,filename,dental,WordPress,55,91,96,92,9700,0,0,7388,4602526,,,2026-09-22,no,quebec_scores.csv
 cliniquedentaireboischatel.com,Canada,Quebec,filename,dental,Wix,70,84,100,100,6480,0,135,3160,2706851,,,2026-09-22,no,quebec_scores5.csv
 cliniquedentairedeleglise.com,Canada,Quebec,filename,dental,unknown,75,59,77,91,5065,0,0,2963,706078,,,2026-09-22,no,quebec_scores.csv
@@ -552,10 +549,10 @@ kinatex.com/cliniques/saint-roch,Canada,Quebec,map,physio,WordPress,38,69,92,92,
 kinatex.com/cliniques/val-belair,Canada,Quebec,map,physio,WordPress,45,69,88,92,10132,0,909,1529,5261318,AVERAGE,,2026-09-25,no,physio_scores2.csv
 physio-osteoneufchatel.com,Canada,Quebec,map,physio,WordPress,65,96,100,85,8302,0,0,2264,3344825,,,2026-09-25,no,physio_scores2.csv
 physiocpcc.ca,Canada,Quebec,map,physio,Wix,78,88,100,92,4547,0,1,2867,3570843,,,2026-09-25,no,physio_scores2.csv
-centredentaireblanchette.ca,Canada,Québec,map,dental,WordPress,41,84,92,100,22184,0,656,4277,3667742,,,2026-09-22,no,quebec_scores.csv
-centredentaireprive.com,Canada,Québec,map,dental,Squarespace,47,92,74,100,17305,0,413,7269,2581143,,,2026-09-22,no,quebec_scores.csv
-cliniquedentairemaguire.com,Canada,Québec,map,dental,WordPress,39,89,96,100,7051,0,123,3012,1951188,,,2026-09-22,no,quebec_scores.csv
-cliniquedentaireqg.com,Canada,Québec,map,dental,WordPress,26,89,100,100,10155,0,403,3344,2123618,,,2026-09-22,no,quebec_scores.csv
+centredentaireblanchette.ca,Canada,Quebec,map,dental,WordPress,41,84,92,100,22184,0,656,4277,3667742,,,2026-09-22,no,quebec_scores.csv
+centredentaireprive.com,Canada,Quebec,map,dental,Squarespace,47,92,74,100,17305,0,413,7269,2581143,,,2026-09-22,no,quebec_scores.csv
+cliniquedentairemaguire.com,Canada,Quebec,map,dental,WordPress,39,89,96,100,7051,0,123,3012,1951188,,,2026-09-22,no,quebec_scores.csv
+cliniquedentaireqg.com,Canada,Quebec,map,dental,WordPress,26,89,100,100,10155,0,403,3344,2123618,,,2026-09-22,no,quebec_scores.csv
 expressplumbingandheating.ca,Canada,Red Deer,approved,hvac,WordPress,57,90,96,100,11571,0,247,3456,2655272,,,2026-09-22,no,hvac_scores5b.csv
 pipertheplumber.ca,Canada,Red Deer,map,hvac,,44,94,96,92,14965,0,673,2789,4200394,,,2026-09-22,no,hvac_scores5b.csv
 platinumplumbing.ca,Canada,Red Deer,research,hvac,unknown,76,92,100,91,4148,0,0,4148,328420,,,2026-09-22,no,hvac_scores5b.csv
