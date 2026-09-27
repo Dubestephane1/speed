@@ -14,7 +14,7 @@ Plain static HTML/CSS/JS — zero build step, zero frameworks, zero image reques
 ## Current verified stats (audit campaign, mobile / slow 4G)
 <!-- census:start - written by scripts/generate.py, do not edit by hand -->
 - **1830** business websites measured (Canada 930 · United States 900)
-- **80** cities with data, **38** with a published city page
+- **79** cities with data, **38** with a published city page
 - **Average score: 57.5/100** (sites with a usable measurement only)
 - **644 sites scored under 50** — 35%, the red zone on Google's scale
 - **117 sites reached green (90+)** — 6% of sites
