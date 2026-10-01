@@ -50,8 +50,7 @@
       '<div class="result-score ' + cls + '">' + data.score + '<span class="card-unit">/100</span></div>' +
       '<p class="result-meta">Main content on a phone loads in about <strong>' +
       data.lcp_sec + ' seconds</strong></p>' +
-      (issues ? '<strong>Top problems found:</strong><ul>' + issues + "</ul>" : "") +
-      '<p class="form-note" style="margin-top:14px;">Want the exact fix list with the load time to expect after each fix? Reply to the report email — it\'s free.</p>';
+      (issues ? '<strong>Top problems found:</strong><ul>' + issues + "</ul>" : "");
     result.className = "result-box visible";
   }
 
@@ -75,13 +74,12 @@
       showError("Please enter a valid URL (e.g. https://yourbusiness.com).");
       return;
     }
-    var email = document.getElementById("email").value.trim();
     var honey = document.getElementById("_honey").value.trim();
 
     fetch("/audit-api", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ url: url, email: email, _honey: honey })
+      body: JSON.stringify({ url: url, _honey: honey })
     })
       .then(function (res) {
         if (!res.ok) throw new Error("api status " + res.status);
