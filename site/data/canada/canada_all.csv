@@ -30,6 +30,8 @@ dentisteriedavinci.com,Canada,Blainville,filename,dental,Wix,43,97,73,100,6580,0
 dentistesblainville.com,Canada,Blainville,filename,dental,Wix,56,97,73,100,6479,0,406,2556,4085964,,,2026-09-22,no,blainville_scores2.csv
 eclipsedentisterie.com,Canada,Blainville,filename,dental,WordPress,58,91,73,100,5551,0,46,3946,1555508,,,2026-09-22,no,blainville_scores2.csv
 lumident.ca,Canada,Blainville,filename,dental,,53,85,77,100,17513,0,189,10347,2723073,,,2026-09-22,no,blainville_scores.csv
+rosemereclimatisationchauffage.com,Canada,Blainville,map,hvac,WordPress,37,81,73,100,10686,0,175,2703,6061536,,,2026-09-23,no,hvac_fr_scores4.csv
+thermo-stat.ca,Canada,Blainville,map,hvac,WordPress,44,92,81,92,18332,0,368,5161,10620500,,,2026-09-23,no,hvac_fr_scores4.csv
 kinatex.com/cliniques/boucherville,Canada,Boucherville,map,physio,WordPress,37,74,92,92,10137,0,2623,1555,5116219,AVERAGE,,2026-09-25,no,physio_scores2.csv
 kinatex.com/cliniques/bromont,Canada,Bromont,map,physio,WordPress,38,69,92,92,10113,0,1938,1543,5173929,AVERAGE,,2026-09-25,no,physio_scores2.csv
 kinatex.com/cliniques/brossard-dix30,Canada,Brossard,map,physio,WordPress,43,69,92,92,5201,0,2574,1538,5123856,AVERAGE,,2026-09-25,no,physio_scores2.csv
@@ -133,6 +135,8 @@ aylmerdentaire.ca,Canada,Gatineau,filename,dental,unknown,68,93,100,91,13490,0,0
 cdentairegatineau.com,Canada,Gatineau,filename,dental,WordPress,81,88,100,85,980,0,0,980,2670711,,,2026-09-22,no,gatineau_scores3.csv
 cdvo.ca,Canada,Gatineau,filename,dental,,63,69,100,92,8016,0,38,3636,1890249,,,2026-09-22,no,gatineau_scores6.csv
 centredentairenb.ca,Canada,Gatineau,filename,dental,WordPress,56,86,100,100,24185,0,2,4573,5777587,,,2026-09-22,no,gatineau_scores3.csv
+clareo.ca,Canada,Gatineau,filename,dental,WordPress,63,80,77,100,12882,0,0,2532,5927184,AVERAGE,,2026-09-22,yes,gatineau_scores5.csv
+clareo.ca/en/clinique/clareo-buckingham,Canada,Gatineau,filename,dental,,,,,,,,,,,,failed after retries,2026-09-22,no,gatineau_scores4.csv
 cliniquedentairedehull.com,Canada,Gatineau,filename,dental,,97,65,92,91,1531,0,0,1531,13552,,,2026-09-22,no,gatineau_scores6.csv
 cliniquedentairelpg.ca,Canada,Gatineau,filename,dental,unknown,51,82,96,83,14901,0,165,2745,2791338,,,2026-09-22,no,gatineau_scores.csv
 cliniquedentaireora.com,Canada,Gatineau,filename,dental,Squarespace,50,98,96,92,8755,0,551,3303,2197847,,,2026-09-22,no,gatineau_scores4.csv
@@ -498,12 +502,14 @@ cdgvf.com,Canada,Quebec,filename,dental,WordPress,57,71,96,77,4094,0,215,2589,13
 cdlacbeauport.com,Canada,Quebec,filename,dental,Wix,87,95,100,100,3024,0,182,2565,2821027,,,2026-09-22,no,quebec_scores.csv
 cdquartier.com,Canada,Quebec,filename,dental,,58,94,96,100,9329,0,224,2985,4016573,,,2026-09-22,no,quebec_scores.csv
 centredentairebeauport.com,Canada,Quebec,filename,dental,WordPress,81,86,100,92,4005,0,85,1531,1727879,AVERAGE,,2026-09-22,no,quebec_scores.csv
+centredentaireblanchette.ca,Canada,Quebec,map,dental,WordPress,41,84,92,100,22184,0,656,4277,3667742,,,2026-09-22,no,quebec_scores.csv
 centredentaireclaudiasirois.com,Canada,Quebec,filename,dental,WordPress,51,81,96,100,10425,0,421,3193,2448374,,,2026-09-22,no,quebec_scores.csv
 centredentairedelajacquescartier.com,Canada,Quebec,filename,dental,unknown,59,57,69,91,11410,0,0,6723,1739252,,,2026-09-22,no,quebec_scores4.csv
 centredentairelevislesrivieres.com,Canada,Quebec,filename,dental,WordPress,66,80,100,100,10822,0,236,1654,2154529,FAST,,2026-09-22,no,quebec_scores.csv
 centredentairelimoilou.ca,Canada,Quebec,filename,dental,Wix,65,95,100,100,5902,0,101,3186,2359421,,,2026-09-22,no,quebec_scores.csv
 centredentairepellanetlessard.com,Canada,Quebec,filename,dental,,43,97,96,100,6482,0,554,2791,2721469,,,2026-09-22,no,quebec_scores3.csv
 centredentairepierrebertrand.com,Canada,Quebec,filename,dental,WordPress,64,88,100,100,7310,0,0,2856,1458215,,,2026-09-22,no,quebec_scores2.csv
+centredentaireprive.com,Canada,Quebec,map,dental,Squarespace,47,92,74,100,17305,0,413,7269,2581143,,,2026-09-22,no,quebec_scores.csv
 centredentairesaintredempteur.com,Canada,Quebec,filename,dental,,,,,,,,,,,,failed after retries,2026-09-22,no,quebec_scores5.csv
 centredentairesn.com,Canada,Quebec,filename,dental,,61,94,96,100,4649,0,507,2484,2890518,,,2026-09-22,no,quebec_scores.csv
 centredentairestefoy.com,Canada,Quebec,filename,dental,WordPress,89,93,100,100,2826,0,217,1955,1013153,AVERAGE,,2026-09-22,no,quebec_scores.csv
@@ -514,6 +520,7 @@ centredesanteneuville.com,Canada,Quebec,filename,dental,unknown,72,67,100,92,679
 charlesbourgdentiste.com,Canada,Quebec,filename,dental,WordPress,65,91,92,92,9175,0,12,2703,2410130,,,2026-09-22,no,quebec_scores3.csv
 chezmondentiste.ca,Canada,Quebec,filename,dental,WordPress,59,90,100,92,12187,0,75,4552,2670986,,,2026-09-22,no,quebec_scores3.csv
 citedentairestaugustin.com,Canada,Quebec,filename,dental,unknown,70,91,100,92,5659,0,12,3633,4418668,,,2026-09-22,no,quebec_scores4.csv
+clareo.ca,Canada,Quebec,filename,dental,WordPress,77,80,77,100,3702,0,0,2577,5927569,AVERAGE,,2026-09-22,yes,quebec_scores3.csv
 cliniquebergeron.com,Canada,Quebec,filename,dental,WordPress,55,91,96,92,9700,0,0,7388,4602526,,,2026-09-22,no,quebec_scores.csv
 cliniquedentaireboischatel.com,Canada,Quebec,filename,dental,Wix,70,84,100,100,6480,0,135,3160,2706851,,,2026-09-22,no,quebec_scores5.csv
 cliniquedentairedeleglise.com,Canada,Quebec,filename,dental,unknown,75,59,77,91,5065,0,0,2963,706078,,,2026-09-22,no,quebec_scores.csv
@@ -521,7 +528,9 @@ cliniquedentairedgt.ca,Canada,Quebec,filename,dental,WordPress,64,88,73,100,3548
 cliniquedentairedubergerlessaules.ca,Canada,Quebec,filename,dental,unknown,79,75,92,83,5574,0,0,1531,1620741,,,2026-09-22,no,quebec_scores2.csv
 cliniquedentairegaudreaultmarquis.com,Canada,Quebec,filename,dental,,29,88,96,100,6338,0,830,2652,2854193,,,2026-09-22,no,quebec_scores2.csv
 cliniquedentairejulietremblay.com,Canada,Quebec,filename,dental,WordPress,69,86,92,92,5013,0,16,2218,1763570,,,2026-09-22,no,quebec_scores.csv
+cliniquedentairemaguire.com,Canada,Quebec,map,dental,WordPress,39,89,96,100,7051,0,123,3012,1951188,,,2026-09-22,no,quebec_scores.csv
 cliniquedentairemyrand.com,Canada,Quebec,filename,dental,,40,94,96,100,12524,0,618,9786,2749941,FAST,,2026-09-22,no,quebec_scores2.csv
+cliniquedentaireqg.com,Canada,Quebec,map,dental,WordPress,26,89,100,100,10155,0,403,3344,2123618,,,2026-09-22,no,quebec_scores.csv
 cliniquedentairest-augustin.com,Canada,Quebec,filename,dental,WordPress,36,87,100,92,8633,1,0,4276,1431147,,,2026-09-22,no,quebec_scores4.csv
 cliniquedeschutes.com,Canada,Quebec,filename,dental,WordPress,63,73,96,92,6001,0,189,3775,3320269,AVERAGE,,2026-09-22,no,quebec_scores.csv
 cliniquegaumond.com,Canada,Quebec,filename,dental,,,,,,,,,,,,failed after retries,2026-09-22,no,quebec_scores5.csv
@@ -538,6 +547,10 @@ larodentaire.ca/laro-lebourgneuf,Canada,Quebec,filename,dental,unknown,34,94,77,
 laserdentairegignac.com,Canada,Quebec,filename,dental,,51,100,96,100,4128,0,857,3319,2594988,,,2026-09-22,no,quebec_scores4.csv
 maclinik.ca,Canada,Quebec,filename,dental,,,,,,,,,,,,failed after retries,2026-09-22,no,quebec_scores.csv
 mesdents.net,Canada,Quebec,filename,dental,WordPress,72,83,81,77,3156,0,24,1655,413943,,,2026-09-22,no,quebec_scores.csv
+chauffageclimatisationquebec.ca,Canada,Quebec,domain_token,hvac,unknown,73,88,100,92,6040,0,26,2718,1115550,,,2026-09-23,no,hvac_fr_scores1.csv
+enviroconfort.com,Canada,Quebec,map,hvac,WordPress,43,92,77,100,8394,0,983,2199,1804788,FAST,,2026-09-23,no,hvac_fr_scores1.csv
+go.climatproquebec.ca,Canada,Quebec,map,hvac,unknown,40,87,100,100,9394,0,567,5119,3336140,FAST,,2026-09-23,no,hvac_fr_scores1.csv
+thermoclim.com,Canada,Quebec,map,hvac,WordPress,14,80,96,92,9315,0,988,7277,4278184,,,2026-09-23,no,hvac_fr_scores1.csv
 eye-am.ca,Canada,Quebec,row,optometrist,WordPress,36,85,96,100,8447,0,1291,3151,6622231,AVERAGE,,2026-09-25,no,opt_data.csv
 axophysio.com,Canada,Quebec,map,physio,WordPress,52,88,96,92,9179,0,435,3304,2097313,FAST,,2026-09-25,no,physio_scores2.csv
 kinatex.com/cliniques/beauport,Canada,Quebec,map,physio,WordPress,42,69,88,92,9967,0,1182,1528,5270672,AVERAGE,,2026-09-25,no,physio_scores2.csv
@@ -549,10 +562,6 @@ kinatex.com/cliniques/saint-roch,Canada,Quebec,map,physio,WordPress,38,69,92,92,
 kinatex.com/cliniques/val-belair,Canada,Quebec,map,physio,WordPress,45,69,88,92,10132,0,909,1529,5261318,AVERAGE,,2026-09-25,no,physio_scores2.csv
 physio-osteoneufchatel.com,Canada,Quebec,map,physio,WordPress,65,96,100,85,8302,0,0,2264,3344825,,,2026-09-25,no,physio_scores2.csv
 physiocpcc.ca,Canada,Quebec,map,physio,Wix,78,88,100,92,4547,0,1,2867,3570843,,,2026-09-25,no,physio_scores2.csv
-centredentaireblanchette.ca,Canada,Quebec,map,dental,WordPress,41,84,92,100,22184,0,656,4277,3667742,,,2026-09-22,no,quebec_scores.csv
-centredentaireprive.com,Canada,Quebec,map,dental,Squarespace,47,92,74,100,17305,0,413,7269,2581143,,,2026-09-22,no,quebec_scores.csv
-cliniquedentairemaguire.com,Canada,Quebec,map,dental,WordPress,39,89,96,100,7051,0,123,3012,1951188,,,2026-09-22,no,quebec_scores.csv
-cliniquedentaireqg.com,Canada,Quebec,map,dental,WordPress,26,89,100,100,10155,0,403,3344,2123618,,,2026-09-22,no,quebec_scores.csv
 expressplumbingandheating.ca,Canada,Red Deer,approved,hvac,WordPress,57,90,96,100,11571,0,247,3456,2655272,,,2026-09-22,no,hvac_scores5b.csv
 pipertheplumber.ca,Canada,Red Deer,map,hvac,,44,94,96,92,14965,0,673,2789,4200394,,,2026-09-22,no,hvac_scores5b.csv
 platinumplumbing.ca,Canada,Red Deer,research,hvac,unknown,76,92,100,91,4148,0,0,4148,328420,,,2026-09-22,no,hvac_scores5b.csv
@@ -571,6 +580,7 @@ docoptical.ca,Canada,Regina,row,optometrist,,59,0,0,0,12535,0.104,116,2707,18230
 goldeneyes-regina.ca,Canada,Regina,row,optometrist,,58,0,0,0,13649,0.031,100,3755,2248092,,,2026-09-26,no,ca_opt_thincity_measured.csv
 nexusvisioncentre.ca,Canada,Regina,row,optometrist,,56,0,0,0,13206,0.168,52,3315,35077797,,,2026-09-26,no,ca_opt_thincity_measured.csv
 outlookoptometry.com,Canada,Regina,row,optometrist,,74,0,0,0,4359,0.003,36,3156,12261798,,,2026-09-26,no,ca_opt_thincity_measured.csv
+chauffagefleurant.ca,Canada,Repentigny,map,hvac,WordPress,35,92,96,92,12345,0,1341,3152,5518326,,,2026-09-23,no,hvac_fr_scores2.csv
 jcastonguay.com,Canada,Rimouski,map,realtor,unknown,39,79,96,92,5262,1,5,4692,15527190,,,2026-09-23,no,realtor_scores.csv
 oliviersoucyimmobilierrimouski.com,Canada,Rimouski,map,realtor,WordPress,32,82,96,85,10064,0,1174,6989,6001356,,,2026-09-23,no,realtor_scores.csv
 viacapitalevendu.com/courtiers/david-boulianne-9150,Canada,Rimouski,map,realtor,,46,81,96,77,8306,0,632,3927,4925439,AVERAGE,,2026-09-23,no,realtor_scores.csv
@@ -604,6 +614,8 @@ cliniquedentaireducomplexe.ca,Canada,Sherbrooke,filename,dental,Wix,37,86,96,100
 cliniquedentairesimonroy.com,Canada,Sherbrooke,map,dental,WordPress,32,92,92,100,10651,0,1304,5854,4228943,,,2026-09-22,no,sherbrooke_scores.csv
 dentistesadc.com,Canada,Sherbrooke,filename,dental,WordPress,56,80,96,100,11651,0,57,9222,9293683,,,2026-09-22,no,sherbrooke_scores.csv
 dentistesherbrooke.ca,Canada,Sherbrooke,filename,dental,WordPress,47,93,100,100,14854,0,361,6346,6972826,,,2026-09-22,no,sherbrooke_scores.csv
+echangeurdair.com,Canada,Sherbrooke,map,hvac,WordPress,26,75,96,92,15752,0,900,4003,3241344,,,2026-09-23,no,hvac_fr_scores2.csv
+refrigerationmorin.com,Canada,Sherbrooke,map,hvac,Squarespace,43,98,96,100,22707,0,874,2706,6032517,,,2026-09-23,no,hvac_fr_scores7.csv
 actionsportphysio.com/en/physiotherapy-clinic-sherbrooke,Canada,Sherbrooke,map,physio,unknown,49,79,96,92,18575,0,684,2051,4712594,AVERAGE,,2026-09-24,no,physio_scores1.csv
 cliniquephysiosante.com,Canada,Sherbrooke,map,physio,WordPress,65,81,96,100,5218,0,71,3868,3153569,,,2026-09-24,no,physio_scores1.csv
 kinatex.com/cliniques/rock-forest,Canada,Sherbrooke,map,physio,WordPress,42,90,92,100,7351,0,2272,1543,4087598,AVERAGE,,2026-09-25,no,physio_scores2.csv
@@ -738,6 +750,8 @@ yongeandstclaireyecentre.com,Canada,Toronto,row,optometrist,unknown,68,81,96,92,
 yongecollegeoptometry.com,Canada,Toronto,row,optometrist,WordPress,62,85,96,92,8512,0,126,3042,1368759,AVERAGE,,2026-09-25,no,opt_data.csv
 kinatex.com/cliniques/markham,Canada,Toronto,map,physio,WordPress,40,83,92,100,6226,0,2685,2251,3897584,AVERAGE,,2026-09-25,no,physio_scores2.csv
 kinatex.com/cliniques/richmond-hill,Canada,Toronto,map,physio,WordPress,41,83,92,100,6376,0,2538,1558,3894608,AVERAGE,,2026-09-25,no,physio_scores2.csv
+climatisationtroisrivieres.com,Canada,Trois-Rivieres,map,hvac,WordPress,36,100,73,100,18871,0,1093,4182,3757374,FAST,,2026-09-23,no,hvac_fr_scores4.csv
+echangeurdairelite.ca,Canada,Trois-Rivieres,map,hvac,WordPress,35,82,96,92,12451,0,972,5402,4119837,SLOW,,2026-09-23,no,hvac_fr_scores4.csv
 chantalelaurendeauoptometriste.com,Canada,Trois-Rivieres,row,optometrist,WordPress,63,92,100,100,7067,0,95,2918,982526,,,2026-09-25,no,opt_data.csv
 doyle.ca/fr/boutiques/trois-rivieres,Canada,Trois-Rivieres,row,optometrist,unknown,33,82,92,100,16391,0,3798,2104,7239672,FAST,,2026-09-25,no,opt_data.csv
 visionera.ca,Canada,Trois-Rivieres,row,optometrist,Wix,40,92,100,100,7685,0,1133,3007,4173772,FAST,,2026-09-25,no,opt_data.csv
@@ -821,7 +835,6 @@ homebyrobynwilliams.com,Canada,Victoria,map,realtor,unknown,26,92,81,92,8861,0,5
 juliaismyagent.com,Canada,Victoria,map,realtor,unknown,39,64,100,77,10759,0,998,5235,6216163,,,2026-09-23,no,realtor_scores.csv
 livevictoriabc.ca,Canada,Victoria,domain_token,realtor,unknown,66,78,100,92,18299,0,142,2555,4714367,,,2026-09-23,no,realtor_scores.csv
 soldbyvictoria.com,Canada,Victoria,domain_token,realtor,unknown,66,91,100,85,14300,0,0,2800,9163115,,,2026-09-23,no,realtor_scores.csv
-realestate-whistler.com,Canada,Whistler,approved,realtor,unknown,53,66,100,85,30673,0,0,25722,6479961,,,2026-09-23,no,realtor_scores.csv
 allyearhvac.com,Canada,Waterloo,map,hvac,WordPress,46,95,96,100,4658,0,1426,2258,3267286,,,2026-09-22,no,hvac_scores4a.csv
 dunnheating.com,Canada,Waterloo,map,hvac,,35,74,54,92,10201,0,1690,3002,8012368,,,2026-09-22,no,hvac_scores4a.csv
 whitewayplumbing.ca,Canada,Waterloo,research,hvac,WordPress,67,87,96,92,3002,0,3,2552,8369995,,,2026-09-22,no,hvac_scores4a.csv
@@ -829,6 +842,7 @@ physiomira.com,Canada,Waterloo,map,physio,WordPress,61,92,96,92,7283,0,0,5858,16
 dorabergen.com,Canada,West Vancouver,approved,realtor,unknown,74,83,100,77,5480,0,71,2704,8703297,,,2026-09-23,no,realtor_scores.csv
 juliastauffer.ca,Canada,West Vancouver,approved,realtor,unknown,63,84,100,100,9077,0,52,3154,2898683,,,2026-09-23,no,realtor_scores.csv
 vanro.ca,Canada,West Vancouver,approved,realtor,unknown,67,79,96,85,9526,0,135,2887,13616226,,,2026-09-23,no,realtor_scores.csv
+realestate-whistler.com,Canada,Whistler,approved,realtor,unknown,53,66,100,85,30673,0,0,25722,6479961,,,2026-09-23,no,realtor_scores.csv
 whistlerforsale.com,Canada,Whistler,map,realtor,,38,73,96,77,9769,0,765,8689,17339371,FAST,,2026-09-23,no,realtor_scores.csv
 archwaydental.ca,Canada,Windsor,filename,dental,Squarespace,50,96,96,100,13175,0,577,2555,2059946,,,2026-09-21,no,windsor_scores.csv
 coscarelladentistry.com,Canada,Windsor,filename,dental,WordPress,41,88,96,85,3601,0,943,3058,4055261,SLOW,,2026-09-21,no,windsor_scores.csv
@@ -892,7 +906,10 @@ prairietrailphysio.ca,Canada,Winnipeg,map,physio,WordPress,47,79,100,92,5926,0,1
 sportandspinephysio.com,Canada,Winnipeg,map,physio,unknown,65,100,100,100,7365,0,35,4085,1540676,,,2026-09-25,no,physio_scores4.csv
 zenphysiotherapy.com,Canada,Winnipeg,map,physio,WordPress,73,88,100,92,4053,0,134,3184,4229872,SLOW,,2026-09-25,no,physio_scores4.csv
 a1plumbingandheating.ca,Canada,unknown,unmapped,hvac,Wix,71,97,100,100,6423,0,120,2869,1934553,,,2026-09-22,no,hvac_scores4b.csv
+acgmplomberiechauffage.com,Canada,unknown,unmapped,hvac,unknown,36,93,92,100,10387,0,1049,3596,15448271,FAST,,2026-09-23,no,hvac_fr_scores3.csv
 afmplumbingheating.com,Canada,unknown,unmapped,hvac,WordPress,90,96,100,92,2735,0,26,2735,3909304,AVERAGE,,2026-09-22,no,hvac_scores2.csv
+air-estrie.com,Canada,unknown,unmapped,hvac,,,,,,,,,,,,failed after retries,2026-09-23,no,hvac_fr_scores6.csv
+airsolutionconfort.com,Canada,unknown,unmapped,hvac,WordPress,32,95,100,100,7055,0,383,3086,3194338,,,2026-09-23,no,hvac_fr_scores5.csv
 bishopsplumbing.ca,Canada,unknown,unmapped,hvac,Wix,63,90,100,100,6452,0,351,3002,2984592,,,2026-09-22,no,hvac_scores4b.csv
 borderplumbingandheating.com,Canada,unknown,unmapped,hvac,WordPress,46,99,100,100,19876,0,569,3035,3885632,,,2026-09-22,no,hvac_scores4b.csv
 bridgeair.ca,Canada,unknown,unmapped,hvac,WordPress,56,87,100,92,10652,0,279,2706,1683245,,,2026-09-22,no,hvac_scores5b.csv
@@ -900,29 +917,49 @@ callbates.ca,Canada,unknown,unmapped,hvac,unknown,76,95,77,92,4085,0,0,3937,1667
 cambridgeplumbingandwaterconditioning.ca,Canada,unknown,unmapped,hvac,Wix,63,93,96,100,4802,0,315,3602,3154599,,,2026-09-22,no,hvac_scores4a.csv
 centennialplumbing.com,Canada,unknown,unmapped,hvac,,71,78,92,92,1867,0,1140,1111,4058755,,,2026-09-22,no,hvac_scores3.csv
 cjplumbingheating.ca,Canada,unknown,unmapped,hvac,unknown,65,81,100,100,8343,0,201,2436,1070636,AVERAGE,,2026-09-22,no,hvac_scores5b.csv
+climathermocpl.ca,Canada,unknown,unmapped,hvac,Wix,71,91,96,100,7460,0,68,2556,2205617,,,2026-09-23,no,hvac_fr_scores5.csv
+climatisation-chauffage-blainville.cshq.ca,Canada,unknown,unmapped,hvac,,58,87,100,91,3253,2,0,2889,862279,,,2026-09-23,no,hvac_fr_scores3.csv
+climatisationchauffageqc.com,Canada,unknown,unmapped,hvac,Wix,71,91,100,100,7536,0,1,2556,2394798,,,2026-09-23,no,hvac_fr_scores1.csv
+climatisationduplessis.com,Canada,unknown,unmapped,hvac,WordPress,63,100,96,100,4526,0,438,3263,2642617,,,2026-09-23,no,hvac_fr_scores5.csv
+climatisationexpress.ca,Canada,unknown,unmapped,hvac,unknown,93,95,78,92,2148,0,9,1674,205856,,,2026-09-23,no,hvac_fr_scores4.csv
+climatisationrepentigny.ca,Canada,unknown,unmapped,hvac,Wix,70,94,100,100,6433,0,212,2402,2027088,,,2026-09-23,no,hvac_fr_scores2.csv
+climatisationsp.com,Canada,unknown,unmapped,hvac,WordPress,57,81,96,92,19889,0,161,3425,3212823,,,2026-09-23,no,hvac_fr_scores1.csv
+climatisationstfrancois.com,Canada,unknown,unmapped,hvac,unknown,65,90,92,100,5101,0,8,3756,26026614,,,2026-09-23,no,hvac_fr_scores5.csv
+climatpro.ca,Canada,unknown,unmapped,hvac,WordPress,68,85,100,100,9601,0,118,1514,1675912,,,2026-09-23,no,hvac_fr_scores2.csv
+climxpert.ca,Canada,unknown,unmapped,hvac,Framer,77,92,100,100,3945,0,294,2745,1341860,,,2026-09-23,no,hvac_fr_scores2.csv
 clplumbing.ca,Canada,unknown,unmapped,hvac,Wix,65,93,77,92,6200,0,360,2428,2984282,,,2026-09-22,no,hvac_scores5b.csv
+cvf.ca,Canada,unknown,unmapped,hvac,unknown,91,87,78,100,2769,0,0,2769,185708,,,2026-09-23,no,hvac_fr_scores6.csv
 dawesnl.ca,Canada,unknown,unmapped,hvac,,,,,,,,,,,,failed after retries,2026-09-22,no,hvac_scores4b.csv
 delexplumbing.ca,Canada,unknown,unmapped,hvac,WordPress,88,91,100,100,3081,0,8,2046,389711,,,2026-09-22,no,hvac_scores3.csv
 donaldsonplumbingheating.ca,Canada,unknown,unmapped,hvac,Wix,77,87,100,100,4682,0,0,2255,1256147,,,2026-09-22,no,hvac_scores5a.csv
 downtownplumbing.ltd,Canada,unknown,unmapped,hvac,unknown,80,92,100,100,3764,0,0,3014,878206,,,2026-09-22,no,hvac_scores2.csv
 drainstreaminc.com,Canada,unknown,unmapped,hvac,Wix,69,95,100,100,5575,0,62,2707,1666569,,,2026-09-22,no,hvac_scores3.csv
 erplumbingsolutions.com,Canada,unknown,unmapped,hvac,,51,90,77,100,15132,0,432,2434,3954613,,,2026-09-22,no,hvac_scores4a.csv
+felteau.qc.ca,Canada,unknown,unmapped,hvac,unknown,58,92,100,100,8129,0,96,4794,6025168,,,2026-09-23,no,hvac_fr_scores7.csv
 fondasplumbing.com,Canada,unknown,unmapped,hvac,Wix,62,89,100,100,8215,0,321,3160,3139221,,,2026-09-22,no,hvac_scores5b.csv
 fortisheating.com,Canada,unknown,unmapped,hvac,WordPress,65,91,100,92,7576,0,215,1829,3433746,,,2026-09-22,no,hvac_scores5a.csv
 gomarshal.com,Canada,unknown,unmapped,hvac,WordPress,55,95,100,85,15079,0,153,3206,3261202,,,2026-09-22,no,hvac_scores4b.csv
 grantmechanicalinc.ca,Canada,unknown,unmapped,hvac,WordPress,67,92,100,100,7051,0,2,3006,1227052,,,2026-09-22,no,hvac_scores4a.csv
 grmechanical.ca,Canada,unknown,unmapped,hvac,Wix,74,84,96,100,4133,0,53,2460,1728249,,,2026-09-22,no,hvac_scores4b.csv
+groupevvs.com,Canada,unknown,unmapped,hvac,unknown,64,95,100,100,5482,0,181,2705,7187168,,,2026-09-23,no,hvac_fr_scores3.csv
 hammertownheatingandair.ca,Canada,unknown,unmapped,hvac,WordPress,51,63,77,85,9602,0,16,8402,2005269,,,2026-09-22,no,hvac_scores3.csv
 heatprobc.ca,Canada,unknown,unmapped,hvac,Wix,71,98,100,100,3049,0,564,1803,4664841,,,2026-09-22,no,hvac_scores5b.csv
 hesseybros.ca,Canada,unknown,unmapped,hvac,unknown,61,80,100,83,24156,0,84,3876,14061630,,,2026-09-22,no,hvac_scores4a.csv
 hubleysplumbing.ca,Canada,unknown,unmapped,hvac,Wix,79,91,100,100,3471,0,282,3017,2400704,,,2026-09-22,no,hvac_scores4b.csv
 huntsheating.com,Canada,unknown,unmapped,hvac,unknown,67,90,100,91,6827,0,13,1820,1429760,,,2026-09-22,no,hvac_scores2.csv
+hupperefrigeration.com,Canada,unknown,unmapped,hvac,WordPress,53,82,92,77,32780,0,162,9003,6536640,,,2026-09-23,no,hvac_fr_scores5.csv
+ifcclimatisation.com,Canada,unknown,unmapped,hvac,,77,92,100,100,5851,0,0,1501,2712676,,,2026-09-23,no,hvac_fr_scores4.csv
+jbexpair.ca,Canada,unknown,unmapped,hvac,WordPress,63,85,100,100,8177,0,0,3008,2018434,,,2026-09-23,no,hvac_fr_scores7.csv
 jbplumbingsk.ca,Canada,unknown,unmapped,hvac,unknown,72,100,100,85,8787,0,0,1834,2657472,,,2026-09-22,no,hvac_scores4b.csv
+jdsmultiservice.com,Canada,unknown,unmapped,hvac,unknown,97,97,96,100,2431,0,0,932,727704,,,2026-09-23,no,hvac_fr_scores2.csv
 kyromechanical.ca,Canada,unknown,unmapped,hvac,WordPress,58,85,96,92,18581,0,108,3821,3912494,,,2026-09-22,no,hvac_scores5a.csv
+lajoiecvac.com,Canada,unknown,unmapped,hvac,unknown,71,80,73,100,3903,0,130,3155,2676620,,,2026-09-23,no,hvac_fr_scores2.csv
 lamantiaheating.com,Canada,unknown,unmapped,hvac,unknown,70,94,96,92,6946,0,111,2696,4930605,,,2026-09-22,no,hvac_scores4a.csv
 legendaryplumbing.ca,Canada,unknown,unmapped,hvac,WordPress,74,86,100,85,5349,0,102,2085,1056342,,,2026-09-22,no,hvac_scores5b.csv
+leprohon.com,Canada,unknown,unmapped,hvac,,,,,,,,,,,,failed after retries,2026-09-23,no,hvac_fr_scores1.csv
 mckaysheating.ca,Canada,unknown,unmapped,hvac,unknown,96,86,92,100,2552,0,0,779,276989,,,2026-09-22,no,hvac_scores5a.csv
 opmechanical.ca,Canada,unknown,unmapped,hvac,unknown,59,85,92,100,7522,0,501,1969,4261096,AVERAGE,,2026-09-22,no,hvac_scores2.csv
+plomberiefg.ca,Canada,unknown,unmapped,hvac,unknown,98,71,78,91,1111,0,0,1111,77294,,,2026-09-23,no,hvac_fr_scores2.csv
 plumbersbc.ca,Canada,unknown,unmapped,hvac,unknown,66,96,100,100,5036,0,123,4001,545977,,,2026-09-22,no,hvac_scores2.csv
 reginaplumbing.net,Canada,unknown,unmapped,hvac,WordPress,56,95,100,92,7939,0,207,3947,3764391,AVERAGE,,2026-09-22,no,hvac_scores4b.csv
 roneyplumbingandheating.ca,Canada,unknown,unmapped,hvac,Wix,68,97,100,92,6770,0,158,3224,2212179,,,2026-09-22,no,hvac_scores5a.csv
@@ -932,7 +969,10 @@ serviceplusexperts.com,Canada,unknown,unmapped,hvac,Wix,61,93,100,92,7416,0,437,
 smdplumbing.ca,Canada,unknown,unmapped,hvac,WordPress,36,91,73,85,20985,0,782,9380,4719534,,,2026-09-22,no,hvac_scores5a.csv
 steveyoungplumbing.ca,Canada,unknown,unmapped,hvac,,54,89,92,92,13651,0,220,4245,2779019,,,2026-09-22,no,hvac_scores4a.csv
 synergyheatingandcooling.com,Canada,unknown,unmapped,hvac,unknown,51,66,73,92,24153,0,289,6448,4456675,,,2026-09-22,no,hvac_scores5a.csv
+techniclim.ca,Canada,unknown,unmapped,hvac,WordPress,66,91,100,92,8420,0,0,3477,1745448,,,2026-09-23,no,hvac_fr_scores2.csv
+thermobec.ca,Canada,unknown,unmapped,hvac,unknown,56,89,96,100,8316,0,218,5123,2006403,,,2026-09-23,no,hvac_fr_scores2.csv
 vandiermenandsonsheatingandairconditioning.ca/abbotsford-bc,Canada,unknown,unmapped,hvac,WordPress,37,85,92,100,17792,0,700,1502,3428204,,,2026-09-22,no,hvac_scores5b.csv
+ventilationhitech.com,Canada,unknown,unmapped,hvac,WordPress,34,73,73,100,39147,0,920,22076,7594086,,,2026-09-23,no,hvac_fr_scores5.csv
 andrewmilne.sutton.com/agent/106837/andrew-milne,Canada,unknown,unmapped,realtor,,62,87,96,92,5222,0,173,4022,2037696,,,2026-09-23,no,realtor_scores.csv
 anneliesecairns.com,Canada,unknown,unmapped,realtor,unknown,59,75,100,92,6639,0,222,3812,5318615,,,2026-09-23,no,realtor_scores.csv
 annelin.sutton.com/agent/92040/anne-lin,Canada,unknown,unmapped,realtor,,59,83,96,92,5141,0,267,4241,2973217,,,2026-09-23,no,realtor_scores.csv

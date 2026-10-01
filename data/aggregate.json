@@ -4,13 +4,13 @@
   "red_max": 50,
   "green_min": 90,
   "global": {
-    "attempted": 1871,
-    "scored": 1830,
-    "failed": 41,
+    "attempted": 1910,
+    "scored": 1866,
+    "failed": 44,
     "avg": 57.5,
     "median": 57.0,
-    "red": 644,
-    "green": 117,
+    "red": 657,
+    "green": 121,
     "red_pct": 35,
     "green_pct": 6,
     "fail_pct": 2,
@@ -64,10 +64,10 @@
       {
         "niche": "hvac",
         "label": "HVAC",
-        "n": 349,
-        "avg": 60.1,
+        "n": 384,
+        "avg": 59.8,
         "red_pct": 32,
-        "green_pct": 8
+        "green_pct": 9
       },
       {
         "niche": "optometrist",
@@ -96,8 +96,8 @@
       {
         "niche": "dental",
         "label": "Dental",
-        "n": 530,
-        "avg": 55.7,
+        "n": 531,
+        "avg": 55.8,
         "red_pct": 36,
         "green_pct": 6
       }
@@ -107,13 +107,13 @@
         "country": "Canada",
         "slug": "canada",
         "label": "Canada",
-        "attempted": 971,
-        "scored": 930,
-        "failed": 41,
-        "avg": 55.7,
+        "attempted": 1010,
+        "scored": 966,
+        "failed": 44,
+        "avg": 55.8,
         "median": 56.0,
-        "red": 356,
-        "green": 42,
+        "red": 369,
+        "green": 46,
         "red_pct": 38,
         "green_pct": 5,
         "fail_pct": 4,
@@ -167,10 +167,10 @@
           {
             "niche": "hvac",
             "label": "HVAC",
-            "n": 169,
-            "avg": 58.5,
-            "red_pct": 32,
-            "green_pct": 4
+            "n": 204,
+            "avg": 58.3,
+            "red_pct": 33,
+            "green_pct": 5
           },
           {
             "niche": "physio",
@@ -199,8 +199,8 @@
           {
             "niche": "dental",
             "label": "Dental",
-            "n": 350,
-            "avg": 53.9,
+            "n": 351,
+            "avg": 54.0,
             "red_pct": 40,
             "green_pct": 5
           }
@@ -778,21 +778,21 @@
           {
             "city": "Gatineau",
             "slug": "gatineau",
-            "n": 21,
-            "attempted": 21,
-            "avg": 58.4,
-            "median": 56,
+            "n": 22,
+            "attempted": 23,
+            "avg": 58.6,
+            "median": 57.5,
             "red": 4,
-            "red_pct": 19,
+            "red_pct": 18,
             "green_pct": 5,
-            "fail_pct": 0,
+            "fail_pct": 4,
             "rankable": true,
             "niches": [
               {
                 "niche": "dental",
                 "label": "Dental",
-                "n": 16,
-                "avg": 60.9,
+                "n": 17,
+                "avg": 61,
                 "red_pct": 12,
                 "green_pct": 6
               },
@@ -852,10 +852,10 @@
               "perf_i": 27
             },
             "commentary": [
-              "Average mobile performance score across 21 measured sites: 58.4/100.",
-              "Fastest industry measured here: Dental at 60.9/100 (n=16). Slowest: Physiotherapy at 50.6/100 (n=5).",
+              "Average mobile performance score across 22 measured sites: 58.6/100.",
+              "Fastest industry measured here: Dental at 61/100 (n=17). Slowest: Physiotherapy at 50.6/100 (n=5).",
               "Fastest site measured: cliniquedentairedehull.com at 97/100. Slowest: perioclinik.ca at 27/100.",
-              "19% of measured sites score below 50/100; 5% reach 90 or better."
+              "18% of measured sites score below 50/100; 5% reach 90 or better."
             ]
           },
           {
@@ -1493,89 +1493,6 @@
             ]
           },
           {
-            "city": "Sherbrooke",
-            "slug": "sherbrooke",
-            "n": 11,
-            "attempted": 11,
-            "avg": 56.1,
-            "median": 54,
-            "red": 5,
-            "red_pct": 45,
-            "green_pct": 9,
-            "fail_pct": 0,
-            "rankable": true,
-            "niches": [
-              {
-                "niche": "physio",
-                "label": "Physiotherapy",
-                "n": 6,
-                "avg": 65.2,
-                "red_pct": 33,
-                "green_pct": 17
-              },
-              {
-                "niche": "dental",
-                "label": "Dental",
-                "n": 5,
-                "avg": 45.2,
-                "red_pct": 60,
-                "green_pct": 0
-              }
-            ],
-            "best": {
-              "url": "pivot-physio.com",
-              "country": "Canada",
-              "city": "Sherbrooke",
-              "city_source": "map",
-              "niche": "physio",
-              "platform": "unknown",
-              "perf": "96",
-              "a11y": "95",
-              "best_practices": "100",
-              "seo": "100",
-              "LCP_ms": "2403",
-              "CLS": "0",
-              "TBT_ms": "0",
-              "FCP_ms": "1802",
-              "bytes": "257502",
-              "load_category": "",
-              "error": "",
-              "measured_at": "2026-09-25",
-              "multi_city": "no",
-              "source_file": "physio_scores5.csv",
-              "perf_i": 96
-            },
-            "worst": {
-              "url": "cliniquedentairesimonroy.com",
-              "country": "Canada",
-              "city": "Sherbrooke",
-              "city_source": "map",
-              "niche": "dental",
-              "platform": "WordPress",
-              "perf": "32",
-              "a11y": "92",
-              "best_practices": "92",
-              "seo": "100",
-              "LCP_ms": "10651",
-              "CLS": "0",
-              "TBT_ms": "1304",
-              "FCP_ms": "5854",
-              "bytes": "4228943",
-              "load_category": "",
-              "error": "",
-              "measured_at": "2026-09-22",
-              "multi_city": "no",
-              "source_file": "sherbrooke_scores.csv",
-              "perf_i": 32
-            },
-            "commentary": [
-              "Average mobile performance score across 11 measured sites: 56.1/100.",
-              "Fastest industry measured here: Physiotherapy at 65.2/100 (n=6). Slowest: Dental at 45.2/100 (n=5).",
-              "Fastest site measured: pivot-physio.com at 96/100. Slowest: cliniquedentairesimonroy.com at 32/100.",
-              "45% of measured sites score below 50/100; 9% reach 90 or better."
-            ]
-          },
-          {
             "city": "Longueuil",
             "slug": "longueuil",
             "n": 27,
@@ -1661,22 +1578,22 @@
           {
             "city": "Quebec",
             "slug": "quebec",
-            "n": 60,
-            "attempted": 63,
-            "avg": 55.3,
-            "median": 57.0,
-            "red": 22,
-            "red_pct": 37,
+            "n": 65,
+            "attempted": 68,
+            "avg": 54.9,
+            "median": 57,
+            "red": 25,
+            "red_pct": 38,
             "green_pct": 0,
-            "fail_pct": 5,
+            "fail_pct": 4,
             "rankable": true,
             "niches": [
               {
                 "niche": "dental",
                 "label": "Dental",
-                "n": 49,
-                "avg": 57.3,
-                "red_pct": 29,
+                "n": 50,
+                "avg": 57.7,
+                "red_pct": 28,
                 "green_pct": 0
               },
               {
@@ -1685,6 +1602,14 @@
                 "n": 10,
                 "avg": 47.5,
                 "red_pct": 70,
+                "green_pct": 0
+              },
+              {
+                "niche": "hvac",
+                "label": "HVAC",
+                "n": 4,
+                "avg": 42.5,
+                "red_pct": 75,
                 "green_pct": 0
               },
               {
@@ -1720,33 +1645,33 @@
               "perf_i": 89
             },
             "worst": {
-              "url": "cliniquedentaireqg.com",
+              "url": "thermoclim.com",
               "country": "Canada",
               "city": "Quebec",
               "city_source": "map",
-              "niche": "dental",
+              "niche": "hvac",
               "platform": "WordPress",
-              "perf": "26",
-              "a11y": "89",
-              "best_practices": "100",
-              "seo": "100",
-              "LCP_ms": "10155",
+              "perf": "14",
+              "a11y": "80",
+              "best_practices": "96",
+              "seo": "92",
+              "LCP_ms": "9315",
               "CLS": "0",
-              "TBT_ms": "403",
-              "FCP_ms": "3344",
-              "bytes": "2123618",
+              "TBT_ms": "988",
+              "FCP_ms": "7277",
+              "bytes": "4278184",
               "load_category": "",
               "error": "",
-              "measured_at": "2026-09-22",
+              "measured_at": "2026-09-23",
               "multi_city": "no",
-              "source_file": "quebec_scores.csv",
-              "perf_i": 26
+              "source_file": "hvac_fr_scores1.csv",
+              "perf_i": 14
             },
             "commentary": [
-              "Average mobile performance score across 60 measured sites: 55.3/100.",
-              "Fastest industry measured here: Dental at 57.3/100 (n=49). Slowest: Physiotherapy at 47.5/100 (n=10).",
-              "Fastest site measured: centredentairestefoy.com at 89/100. Slowest: cliniquedentaireqg.com at 26/100.",
-              "37% of measured sites score below 50/100; 0% reach 90 or better."
+              "Average mobile performance score across 65 measured sites: 54.9/100.",
+              "Fastest industry measured here: Dental at 57.7/100 (n=50). Slowest: Physiotherapy at 47.5/100 (n=10).",
+              "Fastest site measured: centredentairestefoy.com at 89/100. Slowest: thermoclim.com at 14/100.",
+              "38% of measured sites score below 50/100; 0% reach 90 or better."
             ]
           },
           {
@@ -2122,81 +2047,6 @@
             ]
           },
           {
-            "city": "Blainville",
-            "slug": "blainville",
-            "n": 10,
-            "attempted": 12,
-            "avg": 53.8,
-            "median": 57.0,
-            "red": 2,
-            "red_pct": 20,
-            "green_pct": 0,
-            "fail_pct": 17,
-            "rankable": true,
-            "niches": [
-              {
-                "niche": "dental",
-                "label": "Dental",
-                "n": 10,
-                "avg": 53.8,
-                "red_pct": 20,
-                "green_pct": 0
-              }
-            ],
-            "best": {
-              "url": "dentiste-blainville.com",
-              "country": "Canada",
-              "city": "Blainville",
-              "city_source": "filename",
-              "niche": "dental",
-              "platform": "unknown",
-              "perf": "67",
-              "a11y": "72",
-              "best_practices": "96",
-              "seo": "82",
-              "LCP_ms": "5594",
-              "CLS": "0",
-              "TBT_ms": "0",
-              "FCP_ms": "2627",
-              "bytes": "2929087",
-              "load_category": "",
-              "error": "",
-              "measured_at": "2026-09-22",
-              "multi_city": "no",
-              "source_file": "blainville_scores.csv",
-              "perf_i": 67
-            },
-            "worst": {
-              "url": "dentistedesjardins.com",
-              "country": "Canada",
-              "city": "Blainville",
-              "city_source": "map",
-              "niche": "dental",
-              "platform": "Squarespace",
-              "perf": "26",
-              "a11y": "95",
-              "best_practices": "96",
-              "seo": "92",
-              "LCP_ms": "11123",
-              "CLS": "0",
-              "TBT_ms": "689",
-              "FCP_ms": "6162",
-              "bytes": "2410349",
-              "load_category": "",
-              "error": "",
-              "measured_at": "2026-09-22",
-              "multi_city": "no",
-              "source_file": "blainville_scores.csv",
-              "perf_i": 26
-            },
-            "commentary": [
-              "Average mobile performance score across 10 measured sites: 53.8/100.",
-              "Fastest site measured: dentiste-blainville.com at 67/100. Slowest: dentistedesjardins.com at 26/100.",
-              "20% of measured sites score below 50/100; 0% reach 90 or better.",
-              "2 of 12 tested URLs returned no usable score (17%) and are excluded from the averages."
-            ]
-          },
-          {
             "city": "Laval",
             "slug": "laval",
             "n": 11,
@@ -2370,6 +2220,97 @@
             ]
           },
           {
+            "city": "Sherbrooke",
+            "slug": "sherbrooke",
+            "n": 13,
+            "attempted": 13,
+            "avg": 52.8,
+            "median": 49,
+            "red": 7,
+            "red_pct": 54,
+            "green_pct": 8,
+            "fail_pct": 0,
+            "rankable": true,
+            "niches": [
+              {
+                "niche": "physio",
+                "label": "Physiotherapy",
+                "n": 6,
+                "avg": 65.2,
+                "red_pct": 33,
+                "green_pct": 17
+              },
+              {
+                "niche": "dental",
+                "label": "Dental",
+                "n": 5,
+                "avg": 45.2,
+                "red_pct": 60,
+                "green_pct": 0
+              },
+              {
+                "niche": "hvac",
+                "label": "HVAC",
+                "n": 2,
+                "avg": 34.5,
+                "red_pct": 100,
+                "green_pct": 0
+              }
+            ],
+            "best": {
+              "url": "pivot-physio.com",
+              "country": "Canada",
+              "city": "Sherbrooke",
+              "city_source": "map",
+              "niche": "physio",
+              "platform": "unknown",
+              "perf": "96",
+              "a11y": "95",
+              "best_practices": "100",
+              "seo": "100",
+              "LCP_ms": "2403",
+              "CLS": "0",
+              "TBT_ms": "0",
+              "FCP_ms": "1802",
+              "bytes": "257502",
+              "load_category": "",
+              "error": "",
+              "measured_at": "2026-09-25",
+              "multi_city": "no",
+              "source_file": "physio_scores5.csv",
+              "perf_i": 96
+            },
+            "worst": {
+              "url": "echangeurdair.com",
+              "country": "Canada",
+              "city": "Sherbrooke",
+              "city_source": "map",
+              "niche": "hvac",
+              "platform": "WordPress",
+              "perf": "26",
+              "a11y": "75",
+              "best_practices": "96",
+              "seo": "92",
+              "LCP_ms": "15752",
+              "CLS": "0",
+              "TBT_ms": "900",
+              "FCP_ms": "4003",
+              "bytes": "3241344",
+              "load_category": "",
+              "error": "",
+              "measured_at": "2026-09-23",
+              "multi_city": "no",
+              "source_file": "hvac_fr_scores2.csv",
+              "perf_i": 26
+            },
+            "commentary": [
+              "Average mobile performance score across 13 measured sites: 52.8/100.",
+              "Fastest industry measured here: Physiotherapy at 65.2/100 (n=6). Slowest: Dental at 45.2/100 (n=5).",
+              "Fastest site measured: pivot-physio.com at 96/100. Slowest: echangeurdair.com at 26/100.",
+              "54% of measured sites score below 50/100; 8% reach 90 or better."
+            ]
+          },
+          {
             "city": "Vancouver",
             "slug": "vancouver",
             "n": 38,
@@ -2474,6 +2415,180 @@
               "Fastest industry measured here: Optometry at 60.5/100 (n=8). Slowest: Real estate at 47.8/100 (n=11).",
               "Fastest site measured: mydentistvancouver.ca at 85/100. Slowest: davidmalkin.com at 8/100.",
               "42% of measured sites score below 50/100; 0% reach 90 or better."
+            ]
+          },
+          {
+            "city": "Blainville",
+            "slug": "blainville",
+            "n": 12,
+            "attempted": 14,
+            "avg": 51.6,
+            "median": 54.5,
+            "red": 4,
+            "red_pct": 33,
+            "green_pct": 0,
+            "fail_pct": 14,
+            "rankable": true,
+            "niches": [
+              {
+                "niche": "dental",
+                "label": "Dental",
+                "n": 10,
+                "avg": 53.8,
+                "red_pct": 20,
+                "green_pct": 0
+              },
+              {
+                "niche": "hvac",
+                "label": "HVAC",
+                "n": 2,
+                "avg": 40.5,
+                "red_pct": 100,
+                "green_pct": 0
+              }
+            ],
+            "best": {
+              "url": "dentiste-blainville.com",
+              "country": "Canada",
+              "city": "Blainville",
+              "city_source": "filename",
+              "niche": "dental",
+              "platform": "unknown",
+              "perf": "67",
+              "a11y": "72",
+              "best_practices": "96",
+              "seo": "82",
+              "LCP_ms": "5594",
+              "CLS": "0",
+              "TBT_ms": "0",
+              "FCP_ms": "2627",
+              "bytes": "2929087",
+              "load_category": "",
+              "error": "",
+              "measured_at": "2026-09-22",
+              "multi_city": "no",
+              "source_file": "blainville_scores.csv",
+              "perf_i": 67
+            },
+            "worst": {
+              "url": "dentistedesjardins.com",
+              "country": "Canada",
+              "city": "Blainville",
+              "city_source": "map",
+              "niche": "dental",
+              "platform": "Squarespace",
+              "perf": "26",
+              "a11y": "95",
+              "best_practices": "96",
+              "seo": "92",
+              "LCP_ms": "11123",
+              "CLS": "0",
+              "TBT_ms": "689",
+              "FCP_ms": "6162",
+              "bytes": "2410349",
+              "load_category": "",
+              "error": "",
+              "measured_at": "2026-09-22",
+              "multi_city": "no",
+              "source_file": "blainville_scores.csv",
+              "perf_i": 26
+            },
+            "commentary": [
+              "Average mobile performance score across 12 measured sites: 51.6/100.",
+              "Fastest site measured: dentiste-blainville.com at 67/100. Slowest: dentistedesjardins.com at 26/100.",
+              "33% of measured sites score below 50/100; 0% reach 90 or better.",
+              "2 of 14 tested URLs returned no usable score (14%) and are excluded from the averages."
+            ]
+          },
+          {
+            "city": "Trois-Rivieres",
+            "slug": "trois-rivieres",
+            "n": 11,
+            "attempted": 12,
+            "avg": 50.2,
+            "median": 48,
+            "red": 6,
+            "red_pct": 55,
+            "green_pct": 0,
+            "fail_pct": 8,
+            "rankable": true,
+            "niches": [
+              {
+                "niche": "physio",
+                "label": "Physiotherapy",
+                "n": 6,
+                "avg": 57.5,
+                "red_pct": 33,
+                "green_pct": 0
+              },
+              {
+                "niche": "optometrist",
+                "label": "Optometry",
+                "n": 3,
+                "avg": 45.3,
+                "red_pct": 67,
+                "green_pct": 0
+              },
+              {
+                "niche": "hvac",
+                "label": "HVAC",
+                "n": 2,
+                "avg": 35.5,
+                "red_pct": 100,
+                "green_pct": 0
+              }
+            ],
+            "best": {
+              "url": "physio3r.com",
+              "country": "Canada",
+              "city": "Trois-Rivieres",
+              "city_source": "map",
+              "niche": "physio",
+              "platform": "Wix",
+              "perf": "80",
+              "a11y": "88",
+              "best_practices": "100",
+              "seo": "100",
+              "LCP_ms": "3386",
+              "CLS": "0",
+              "TBT_ms": "276",
+              "FCP_ms": "2707",
+              "bytes": "3182655",
+              "load_category": "",
+              "error": "",
+              "measured_at": "2026-09-25",
+              "multi_city": "no",
+              "source_file": "physio_scores5.csv",
+              "perf_i": 80
+            },
+            "worst": {
+              "url": "doyle.ca/fr/boutiques/trois-rivieres",
+              "country": "Canada",
+              "city": "Trois-Rivieres",
+              "city_source": "row",
+              "niche": "optometrist",
+              "platform": "unknown",
+              "perf": "33",
+              "a11y": "82",
+              "best_practices": "92",
+              "seo": "100",
+              "LCP_ms": "16391",
+              "CLS": "0",
+              "TBT_ms": "3798",
+              "FCP_ms": "2104",
+              "bytes": "7239672",
+              "load_category": "FAST",
+              "error": "",
+              "measured_at": "2026-09-25",
+              "multi_city": "no",
+              "source_file": "opt_data.csv",
+              "perf_i": 33
+            },
+            "commentary": [
+              "Average mobile performance score across 11 measured sites: 50.2/100.",
+              "Fastest site measured: physio3r.com at 80/100. Slowest: doyle.ca/fr/boutiques/trois-rivieres at 33/100.",
+              "55% of measured sites score below 50/100; 0% reach 90 or better.",
+              "1 of 12 tested URLs returned no usable score (8%) and are excluded from the averages."
             ]
           },
           {
@@ -4259,89 +4374,6 @@
             ]
           },
           {
-            "city": "Trois-Rivieres",
-            "slug": "trois-rivieres",
-            "n": 9,
-            "attempted": 10,
-            "avg": 53.4,
-            "median": 54,
-            "red": 4,
-            "red_pct": 44,
-            "green_pct": 0,
-            "fail_pct": 10,
-            "rankable": false,
-            "niches": [
-              {
-                "niche": "physio",
-                "label": "Physiotherapy",
-                "n": 6,
-                "avg": 57.5,
-                "red_pct": 33,
-                "green_pct": 0
-              },
-              {
-                "niche": "optometrist",
-                "label": "Optometry",
-                "n": 3,
-                "avg": 45.3,
-                "red_pct": 67,
-                "green_pct": 0
-              }
-            ],
-            "best": {
-              "url": "physio3r.com",
-              "country": "Canada",
-              "city": "Trois-Rivieres",
-              "city_source": "map",
-              "niche": "physio",
-              "platform": "Wix",
-              "perf": "80",
-              "a11y": "88",
-              "best_practices": "100",
-              "seo": "100",
-              "LCP_ms": "3386",
-              "CLS": "0",
-              "TBT_ms": "276",
-              "FCP_ms": "2707",
-              "bytes": "3182655",
-              "load_category": "",
-              "error": "",
-              "measured_at": "2026-09-25",
-              "multi_city": "no",
-              "source_file": "physio_scores5.csv",
-              "perf_i": 80
-            },
-            "worst": {
-              "url": "doyle.ca/fr/boutiques/trois-rivieres",
-              "country": "Canada",
-              "city": "Trois-Rivieres",
-              "city_source": "row",
-              "niche": "optometrist",
-              "platform": "unknown",
-              "perf": "33",
-              "a11y": "82",
-              "best_practices": "92",
-              "seo": "100",
-              "LCP_ms": "16391",
-              "CLS": "0",
-              "TBT_ms": "3798",
-              "FCP_ms": "2104",
-              "bytes": "7239672",
-              "load_category": "FAST",
-              "error": "",
-              "measured_at": "2026-09-25",
-              "multi_city": "no",
-              "source_file": "opt_data.csv",
-              "perf_i": 33
-            },
-            "commentary": [
-              "Average mobile performance score across 9 measured sites: 53.4/100.",
-              "Fastest site measured: physio3r.com at 80/100. Slowest: doyle.ca/fr/boutiques/trois-rivieres at 33/100.",
-              "44% of measured sites score below 50/100; 0% reach 90 or better.",
-              "1 of 10 tested URLs returned no usable score (10%) and are excluded from the averages."
-            ]
-          },
-          {
             "city": "Waterloo",
             "slug": "waterloo",
             "n": 4,
@@ -5692,6 +5724,79 @@
             ]
           },
           {
+            "city": "Repentigny",
+            "slug": "repentigny",
+            "n": 1,
+            "attempted": 1,
+            "avg": 35,
+            "median": 35,
+            "red": 1,
+            "red_pct": 100,
+            "green_pct": 0,
+            "fail_pct": 0,
+            "rankable": false,
+            "niches": [
+              {
+                "niche": "hvac",
+                "label": "HVAC",
+                "n": 1,
+                "avg": 35,
+                "red_pct": 100,
+                "green_pct": 0
+              }
+            ],
+            "best": {
+              "url": "chauffagefleurant.ca",
+              "country": "Canada",
+              "city": "Repentigny",
+              "city_source": "map",
+              "niche": "hvac",
+              "platform": "WordPress",
+              "perf": "35",
+              "a11y": "92",
+              "best_practices": "96",
+              "seo": "92",
+              "LCP_ms": "12345",
+              "CLS": "0",
+              "TBT_ms": "1341",
+              "FCP_ms": "3152",
+              "bytes": "5518326",
+              "load_category": "",
+              "error": "",
+              "measured_at": "2026-09-23",
+              "multi_city": "no",
+              "source_file": "hvac_fr_scores2.csv",
+              "perf_i": 35
+            },
+            "worst": {
+              "url": "chauffagefleurant.ca",
+              "country": "Canada",
+              "city": "Repentigny",
+              "city_source": "map",
+              "niche": "hvac",
+              "platform": "WordPress",
+              "perf": "35",
+              "a11y": "92",
+              "best_practices": "96",
+              "seo": "92",
+              "LCP_ms": "12345",
+              "CLS": "0",
+              "TBT_ms": "1341",
+              "FCP_ms": "3152",
+              "bytes": "5518326",
+              "load_category": "",
+              "error": "",
+              "measured_at": "2026-09-23",
+              "multi_city": "no",
+              "source_file": "hvac_fr_scores2.csv",
+              "perf_i": 35
+            },
+            "commentary": [
+              "Average mobile performance score across 1 measured sites: 35/100.",
+              "100% of measured sites score below 50/100; 0% reach 90 or better."
+            ]
+          },
+          {
             "city": "Durham",
             "slug": "durham",
             "n": 1,
@@ -6485,21 +6590,21 @@
           {
             "city": "Gatineau",
             "slug": "gatineau",
-            "n": 21,
-            "attempted": 21,
-            "avg": 58.4,
-            "median": 56,
+            "n": 22,
+            "attempted": 23,
+            "avg": 58.6,
+            "median": 57.5,
             "red": 4,
-            "red_pct": 19,
+            "red_pct": 18,
             "green_pct": 5,
-            "fail_pct": 0,
+            "fail_pct": 4,
             "rankable": true,
             "niches": [
               {
                 "niche": "dental",
                 "label": "Dental",
-                "n": 16,
-                "avg": 60.9,
+                "n": 17,
+                "avg": 61,
                 "red_pct": 12,
                 "green_pct": 6
               },
@@ -6559,10 +6664,10 @@
               "perf_i": 27
             },
             "commentary": [
-              "Average mobile performance score across 21 measured sites: 58.4/100.",
-              "Fastest industry measured here: Dental at 60.9/100 (n=16). Slowest: Physiotherapy at 50.6/100 (n=5).",
+              "Average mobile performance score across 22 measured sites: 58.6/100.",
+              "Fastest industry measured here: Dental at 61/100 (n=17). Slowest: Physiotherapy at 50.6/100 (n=5).",
               "Fastest site measured: cliniquedentairedehull.com at 97/100. Slowest: perioclinik.ca at 27/100.",
-              "19% of measured sites score below 50/100; 5% reach 90 or better."
+              "18% of measured sites score below 50/100; 5% reach 90 or better."
             ]
           },
           {
@@ -7200,89 +7305,6 @@
             ]
           },
           {
-            "city": "Sherbrooke",
-            "slug": "sherbrooke",
-            "n": 11,
-            "attempted": 11,
-            "avg": 56.1,
-            "median": 54,
-            "red": 5,
-            "red_pct": 45,
-            "green_pct": 9,
-            "fail_pct": 0,
-            "rankable": true,
-            "niches": [
-              {
-                "niche": "physio",
-                "label": "Physiotherapy",
-                "n": 6,
-                "avg": 65.2,
-                "red_pct": 33,
-                "green_pct": 17
-              },
-              {
-                "niche": "dental",
-                "label": "Dental",
-                "n": 5,
-                "avg": 45.2,
-                "red_pct": 60,
-                "green_pct": 0
-              }
-            ],
-            "best": {
-              "url": "pivot-physio.com",
-              "country": "Canada",
-              "city": "Sherbrooke",
-              "city_source": "map",
-              "niche": "physio",
-              "platform": "unknown",
-              "perf": "96",
-              "a11y": "95",
-              "best_practices": "100",
-              "seo": "100",
-              "LCP_ms": "2403",
-              "CLS": "0",
-              "TBT_ms": "0",
-              "FCP_ms": "1802",
-              "bytes": "257502",
-              "load_category": "",
-              "error": "",
-              "measured_at": "2026-09-25",
-              "multi_city": "no",
-              "source_file": "physio_scores5.csv",
-              "perf_i": 96
-            },
-            "worst": {
-              "url": "cliniquedentairesimonroy.com",
-              "country": "Canada",
-              "city": "Sherbrooke",
-              "city_source": "map",
-              "niche": "dental",
-              "platform": "WordPress",
-              "perf": "32",
-              "a11y": "92",
-              "best_practices": "92",
-              "seo": "100",
-              "LCP_ms": "10651",
-              "CLS": "0",
-              "TBT_ms": "1304",
-              "FCP_ms": "5854",
-              "bytes": "4228943",
-              "load_category": "",
-              "error": "",
-              "measured_at": "2026-09-22",
-              "multi_city": "no",
-              "source_file": "sherbrooke_scores.csv",
-              "perf_i": 32
-            },
-            "commentary": [
-              "Average mobile performance score across 11 measured sites: 56.1/100.",
-              "Fastest industry measured here: Physiotherapy at 65.2/100 (n=6). Slowest: Dental at 45.2/100 (n=5).",
-              "Fastest site measured: pivot-physio.com at 96/100. Slowest: cliniquedentairesimonroy.com at 32/100.",
-              "45% of measured sites score below 50/100; 9% reach 90 or better."
-            ]
-          },
-          {
             "city": "Longueuil",
             "slug": "longueuil",
             "n": 27,
@@ -7368,22 +7390,22 @@
           {
             "city": "Quebec",
             "slug": "quebec",
-            "n": 60,
-            "attempted": 63,
-            "avg": 55.3,
-            "median": 57.0,
-            "red": 22,
-            "red_pct": 37,
+            "n": 65,
+            "attempted": 68,
+            "avg": 54.9,
+            "median": 57,
+            "red": 25,
+            "red_pct": 38,
             "green_pct": 0,
-            "fail_pct": 5,
+            "fail_pct": 4,
             "rankable": true,
             "niches": [
               {
                 "niche": "dental",
                 "label": "Dental",
-                "n": 49,
-                "avg": 57.3,
-                "red_pct": 29,
+                "n": 50,
+                "avg": 57.7,
+                "red_pct": 28,
                 "green_pct": 0
               },
               {
@@ -7392,6 +7414,14 @@
                 "n": 10,
                 "avg": 47.5,
                 "red_pct": 70,
+                "green_pct": 0
+              },
+              {
+                "niche": "hvac",
+                "label": "HVAC",
+                "n": 4,
+                "avg": 42.5,
+                "red_pct": 75,
                 "green_pct": 0
               },
               {
@@ -7427,33 +7457,33 @@
               "perf_i": 89
             },
             "worst": {
-              "url": "cliniquedentaireqg.com",
+              "url": "thermoclim.com",
               "country": "Canada",
               "city": "Quebec",
               "city_source": "map",
-              "niche": "dental",
+              "niche": "hvac",
               "platform": "WordPress",
-              "perf": "26",
-              "a11y": "89",
-              "best_practices": "100",
-              "seo": "100",
-              "LCP_ms": "10155",
+              "perf": "14",
+              "a11y": "80",
+              "best_practices": "96",
+              "seo": "92",
+              "LCP_ms": "9315",
               "CLS": "0",
-              "TBT_ms": "403",
-              "FCP_ms": "3344",
-              "bytes": "2123618",
+              "TBT_ms": "988",
+              "FCP_ms": "7277",
+              "bytes": "4278184",
               "load_category": "",
               "error": "",
-              "measured_at": "2026-09-22",
+              "measured_at": "2026-09-23",
               "multi_city": "no",
-              "source_file": "quebec_scores.csv",
-              "perf_i": 26
+              "source_file": "hvac_fr_scores1.csv",
+              "perf_i": 14
             },
             "commentary": [
-              "Average mobile performance score across 60 measured sites: 55.3/100.",
-              "Fastest industry measured here: Dental at 57.3/100 (n=49). Slowest: Physiotherapy at 47.5/100 (n=10).",
-              "Fastest site measured: centredentairestefoy.com at 89/100. Slowest: cliniquedentaireqg.com at 26/100.",
-              "37% of measured sites score below 50/100; 0% reach 90 or better."
+              "Average mobile performance score across 65 measured sites: 54.9/100.",
+              "Fastest industry measured here: Dental at 57.7/100 (n=50). Slowest: Physiotherapy at 47.5/100 (n=10).",
+              "Fastest site measured: centredentairestefoy.com at 89/100. Slowest: thermoclim.com at 14/100.",
+              "38% of measured sites score below 50/100; 0% reach 90 or better."
             ]
           },
           {
@@ -7829,81 +7859,6 @@
             ]
           },
           {
-            "city": "Blainville",
-            "slug": "blainville",
-            "n": 10,
-            "attempted": 12,
-            "avg": 53.8,
-            "median": 57.0,
-            "red": 2,
-            "red_pct": 20,
-            "green_pct": 0,
-            "fail_pct": 17,
-            "rankable": true,
-            "niches": [
-              {
-                "niche": "dental",
-                "label": "Dental",
-                "n": 10,
-                "avg": 53.8,
-                "red_pct": 20,
-                "green_pct": 0
-              }
-            ],
-            "best": {
-              "url": "dentiste-blainville.com",
-              "country": "Canada",
-              "city": "Blainville",
-              "city_source": "filename",
-              "niche": "dental",
-              "platform": "unknown",
-              "perf": "67",
-              "a11y": "72",
-              "best_practices": "96",
-              "seo": "82",
-              "LCP_ms": "5594",
-              "CLS": "0",
-              "TBT_ms": "0",
-              "FCP_ms": "2627",
-              "bytes": "2929087",
-              "load_category": "",
-              "error": "",
-              "measured_at": "2026-09-22",
-              "multi_city": "no",
-              "source_file": "blainville_scores.csv",
-              "perf_i": 67
-            },
-            "worst": {
-              "url": "dentistedesjardins.com",
-              "country": "Canada",
-              "city": "Blainville",
-              "city_source": "map",
-              "niche": "dental",
-              "platform": "Squarespace",
-              "perf": "26",
-              "a11y": "95",
-              "best_practices": "96",
-              "seo": "92",
-              "LCP_ms": "11123",
-              "CLS": "0",
-              "TBT_ms": "689",
-              "FCP_ms": "6162",
-              "bytes": "2410349",
-              "load_category": "",
-              "error": "",
-              "measured_at": "2026-09-22",
-              "multi_city": "no",
-              "source_file": "blainville_scores.csv",
-              "perf_i": 26
-            },
-            "commentary": [
-              "Average mobile performance score across 10 measured sites: 53.8/100.",
-              "Fastest site measured: dentiste-blainville.com at 67/100. Slowest: dentistedesjardins.com at 26/100.",
-              "20% of measured sites score below 50/100; 0% reach 90 or better.",
-              "2 of 12 tested URLs returned no usable score (17%) and are excluded from the averages."
-            ]
-          },
-          {
             "city": "Laval",
             "slug": "laval",
             "n": 11,
@@ -8077,6 +8032,97 @@
             ]
           },
           {
+            "city": "Sherbrooke",
+            "slug": "sherbrooke",
+            "n": 13,
+            "attempted": 13,
+            "avg": 52.8,
+            "median": 49,
+            "red": 7,
+            "red_pct": 54,
+            "green_pct": 8,
+            "fail_pct": 0,
+            "rankable": true,
+            "niches": [
+              {
+                "niche": "physio",
+                "label": "Physiotherapy",
+                "n": 6,
+                "avg": 65.2,
+                "red_pct": 33,
+                "green_pct": 17
+              },
+              {
+                "niche": "dental",
+                "label": "Dental",
+                "n": 5,
+                "avg": 45.2,
+                "red_pct": 60,
+                "green_pct": 0
+              },
+              {
+                "niche": "hvac",
+                "label": "HVAC",
+                "n": 2,
+                "avg": 34.5,
+                "red_pct": 100,
+                "green_pct": 0
+              }
+            ],
+            "best": {
+              "url": "pivot-physio.com",
+              "country": "Canada",
+              "city": "Sherbrooke",
+              "city_source": "map",
+              "niche": "physio",
+              "platform": "unknown",
+              "perf": "96",
+              "a11y": "95",
+              "best_practices": "100",
+              "seo": "100",
+              "LCP_ms": "2403",
+              "CLS": "0",
+              "TBT_ms": "0",
+              "FCP_ms": "1802",
+              "bytes": "257502",
+              "load_category": "",
+              "error": "",
+              "measured_at": "2026-09-25",
+              "multi_city": "no",
+              "source_file": "physio_scores5.csv",
+              "perf_i": 96
+            },
+            "worst": {
+              "url": "echangeurdair.com",
+              "country": "Canada",
+              "city": "Sherbrooke",
+              "city_source": "map",
+              "niche": "hvac",
+              "platform": "WordPress",
+              "perf": "26",
+              "a11y": "75",
+              "best_practices": "96",
+              "seo": "92",
+              "LCP_ms": "15752",
+              "CLS": "0",
+              "TBT_ms": "900",
+              "FCP_ms": "4003",
+              "bytes": "3241344",
+              "load_category": "",
+              "error": "",
+              "measured_at": "2026-09-23",
+              "multi_city": "no",
+              "source_file": "hvac_fr_scores2.csv",
+              "perf_i": 26
+            },
+            "commentary": [
+              "Average mobile performance score across 13 measured sites: 52.8/100.",
+              "Fastest industry measured here: Physiotherapy at 65.2/100 (n=6). Slowest: Dental at 45.2/100 (n=5).",
+              "Fastest site measured: pivot-physio.com at 96/100. Slowest: echangeurdair.com at 26/100.",
+              "54% of measured sites score below 50/100; 8% reach 90 or better."
+            ]
+          },
+          {
             "city": "Vancouver",
             "slug": "vancouver",
             "n": 38,
@@ -8181,6 +8227,180 @@
               "Fastest industry measured here: Optometry at 60.5/100 (n=8). Slowest: Real estate at 47.8/100 (n=11).",
               "Fastest site measured: mydentistvancouver.ca at 85/100. Slowest: davidmalkin.com at 8/100.",
               "42% of measured sites score below 50/100; 0% reach 90 or better."
+            ]
+          },
+          {
+            "city": "Blainville",
+            "slug": "blainville",
+            "n": 12,
+            "attempted": 14,
+            "avg": 51.6,
+            "median": 54.5,
+            "red": 4,
+            "red_pct": 33,
+            "green_pct": 0,
+            "fail_pct": 14,
+            "rankable": true,
+            "niches": [
+              {
+                "niche": "dental",
+                "label": "Dental",
+                "n": 10,
+                "avg": 53.8,
+                "red_pct": 20,
+                "green_pct": 0
+              },
+              {
+                "niche": "hvac",
+                "label": "HVAC",
+                "n": 2,
+                "avg": 40.5,
+                "red_pct": 100,
+                "green_pct": 0
+              }
+            ],
+            "best": {
+              "url": "dentiste-blainville.com",
+              "country": "Canada",
+              "city": "Blainville",
+              "city_source": "filename",
+              "niche": "dental",
+              "platform": "unknown",
+              "perf": "67",
+              "a11y": "72",
+              "best_practices": "96",
+              "seo": "82",
+              "LCP_ms": "5594",
+              "CLS": "0",
+              "TBT_ms": "0",
+              "FCP_ms": "2627",
+              "bytes": "2929087",
+              "load_category": "",
+              "error": "",
+              "measured_at": "2026-09-22",
+              "multi_city": "no",
+              "source_file": "blainville_scores.csv",
+              "perf_i": 67
+            },
+            "worst": {
+              "url": "dentistedesjardins.com",
+              "country": "Canada",
+              "city": "Blainville",
+              "city_source": "map",
+              "niche": "dental",
+              "platform": "Squarespace",
+              "perf": "26",
+              "a11y": "95",
+              "best_practices": "96",
+              "seo": "92",
+              "LCP_ms": "11123",
+              "CLS": "0",
+              "TBT_ms": "689",
+              "FCP_ms": "6162",
+              "bytes": "2410349",
+              "load_category": "",
+              "error": "",
+              "measured_at": "2026-09-22",
+              "multi_city": "no",
+              "source_file": "blainville_scores.csv",
+              "perf_i": 26
+            },
+            "commentary": [
+              "Average mobile performance score across 12 measured sites: 51.6/100.",
+              "Fastest site measured: dentiste-blainville.com at 67/100. Slowest: dentistedesjardins.com at 26/100.",
+              "33% of measured sites score below 50/100; 0% reach 90 or better.",
+              "2 of 14 tested URLs returned no usable score (14%) and are excluded from the averages."
+            ]
+          },
+          {
+            "city": "Trois-Rivieres",
+            "slug": "trois-rivieres",
+            "n": 11,
+            "attempted": 12,
+            "avg": 50.2,
+            "median": 48,
+            "red": 6,
+            "red_pct": 55,
+            "green_pct": 0,
+            "fail_pct": 8,
+            "rankable": true,
+            "niches": [
+              {
+                "niche": "physio",
+                "label": "Physiotherapy",
+                "n": 6,
+                "avg": 57.5,
+                "red_pct": 33,
+                "green_pct": 0
+              },
+              {
+                "niche": "optometrist",
+                "label": "Optometry",
+                "n": 3,
+                "avg": 45.3,
+                "red_pct": 67,
+                "green_pct": 0
+              },
+              {
+                "niche": "hvac",
+                "label": "HVAC",
+                "n": 2,
+                "avg": 35.5,
+                "red_pct": 100,
+                "green_pct": 0
+              }
+            ],
+            "best": {
+              "url": "physio3r.com",
+              "country": "Canada",
+              "city": "Trois-Rivieres",
+              "city_source": "map",
+              "niche": "physio",
+              "platform": "Wix",
+              "perf": "80",
+              "a11y": "88",
+              "best_practices": "100",
+              "seo": "100",
+              "LCP_ms": "3386",
+              "CLS": "0",
+              "TBT_ms": "276",
+              "FCP_ms": "2707",
+              "bytes": "3182655",
+              "load_category": "",
+              "error": "",
+              "measured_at": "2026-09-25",
+              "multi_city": "no",
+              "source_file": "physio_scores5.csv",
+              "perf_i": 80
+            },
+            "worst": {
+              "url": "doyle.ca/fr/boutiques/trois-rivieres",
+              "country": "Canada",
+              "city": "Trois-Rivieres",
+              "city_source": "row",
+              "niche": "optometrist",
+              "platform": "unknown",
+              "perf": "33",
+              "a11y": "82",
+              "best_practices": "92",
+              "seo": "100",
+              "LCP_ms": "16391",
+              "CLS": "0",
+              "TBT_ms": "3798",
+              "FCP_ms": "2104",
+              "bytes": "7239672",
+              "load_category": "FAST",
+              "error": "",
+              "measured_at": "2026-09-25",
+              "multi_city": "no",
+              "source_file": "opt_data.csv",
+              "perf_i": 33
+            },
+            "commentary": [
+              "Average mobile performance score across 11 measured sites: 50.2/100.",
+              "Fastest site measured: physio3r.com at 80/100. Slowest: doyle.ca/fr/boutiques/trois-rivieres at 33/100.",
+              "55% of measured sites score below 50/100; 0% reach 90 or better.",
+              "1 of 12 tested URLs returned no usable score (8%) and are excluded from the averages."
             ]
           },
           {
@@ -9968,89 +10188,6 @@
             ]
           },
           {
-            "city": "Trois-Rivieres",
-            "slug": "trois-rivieres",
-            "n": 9,
-            "attempted": 10,
-            "avg": 53.4,
-            "median": 54,
-            "red": 4,
-            "red_pct": 44,
-            "green_pct": 0,
-            "fail_pct": 10,
-            "rankable": false,
-            "niches": [
-              {
-                "niche": "physio",
-                "label": "Physiotherapy",
-                "n": 6,
-                "avg": 57.5,
-                "red_pct": 33,
-                "green_pct": 0
-              },
-              {
-                "niche": "optometrist",
-                "label": "Optometry",
-                "n": 3,
-                "avg": 45.3,
-                "red_pct": 67,
-                "green_pct": 0
-              }
-            ],
-            "best": {
-              "url": "physio3r.com",
-              "country": "Canada",
-              "city": "Trois-Rivieres",
-              "city_source": "map",
-              "niche": "physio",
-              "platform": "Wix",
-              "perf": "80",
-              "a11y": "88",
-              "best_practices": "100",
-              "seo": "100",
-              "LCP_ms": "3386",
-              "CLS": "0",
-              "TBT_ms": "276",
-              "FCP_ms": "2707",
-              "bytes": "3182655",
-              "load_category": "",
-              "error": "",
-              "measured_at": "2026-09-25",
-              "multi_city": "no",
-              "source_file": "physio_scores5.csv",
-              "perf_i": 80
-            },
-            "worst": {
-              "url": "doyle.ca/fr/boutiques/trois-rivieres",
-              "country": "Canada",
-              "city": "Trois-Rivieres",
-              "city_source": "row",
-              "niche": "optometrist",
-              "platform": "unknown",
-              "perf": "33",
-              "a11y": "82",
-              "best_practices": "92",
-              "seo": "100",
-              "LCP_ms": "16391",
-              "CLS": "0",
-              "TBT_ms": "3798",
-              "FCP_ms": "2104",
-              "bytes": "7239672",
-              "load_category": "FAST",
-              "error": "",
-              "measured_at": "2026-09-25",
-              "multi_city": "no",
-              "source_file": "opt_data.csv",
-              "perf_i": 33
-            },
-            "commentary": [
-              "Average mobile performance score across 9 measured sites: 53.4/100.",
-              "Fastest site measured: physio3r.com at 80/100. Slowest: doyle.ca/fr/boutiques/trois-rivieres at 33/100.",
-              "44% of measured sites score below 50/100; 0% reach 90 or better.",
-              "1 of 10 tested URLs returned no usable score (10%) and are excluded from the averages."
-            ]
-          },
-          {
             "city": "Waterloo",
             "slug": "waterloo",
             "n": 4,
@@ -11401,6 +11538,79 @@
             ]
           },
           {
+            "city": "Repentigny",
+            "slug": "repentigny",
+            "n": 1,
+            "attempted": 1,
+            "avg": 35,
+            "median": 35,
+            "red": 1,
+            "red_pct": 100,
+            "green_pct": 0,
+            "fail_pct": 0,
+            "rankable": false,
+            "niches": [
+              {
+                "niche": "hvac",
+                "label": "HVAC",
+                "n": 1,
+                "avg": 35,
+                "red_pct": 100,
+                "green_pct": 0
+              }
+            ],
+            "best": {
+              "url": "chauffagefleurant.ca",
+              "country": "Canada",
+              "city": "Repentigny",
+              "city_source": "map",
+              "niche": "hvac",
+              "platform": "WordPress",
+              "perf": "35",
+              "a11y": "92",
+              "best_practices": "96",
+              "seo": "92",
+              "LCP_ms": "12345",
+              "CLS": "0",
+              "TBT_ms": "1341",
+              "FCP_ms": "3152",
+              "bytes": "5518326",
+              "load_category": "",
+              "error": "",
+              "measured_at": "2026-09-23",
+              "multi_city": "no",
+              "source_file": "hvac_fr_scores2.csv",
+              "perf_i": 35
+            },
+            "worst": {
+              "url": "chauffagefleurant.ca",
+              "country": "Canada",
+              "city": "Repentigny",
+              "city_source": "map",
+              "niche": "hvac",
+              "platform": "WordPress",
+              "perf": "35",
+              "a11y": "92",
+              "best_practices": "96",
+              "seo": "92",
+              "LCP_ms": "12345",
+              "CLS": "0",
+              "TBT_ms": "1341",
+              "FCP_ms": "3152",
+              "bytes": "5518326",
+              "load_category": "",
+              "error": "",
+              "measured_at": "2026-09-23",
+              "multi_city": "no",
+              "source_file": "hvac_fr_scores2.csv",
+              "perf_i": 35
+            },
+            "commentary": [
+              "Average mobile performance score across 1 measured sites: 35/100.",
+              "100% of measured sites score below 50/100; 0% reach 90 or better."
+            ]
+          },
+          {
             "city": "Durham",
             "slug": "durham",
             "n": 1,
@@ -11621,12 +11831,14 @@
             ]
           }
         ],
-        "unmapped": 79,
-        "measurements": 971,
-        "multi_city": [],
+        "unmapped": 105,
+        "measurements": 1011,
+        "multi_city": [
+          "clareo.ca"
+        ],
         "commentary": [
-          "Average mobile performance score across 930 measured sites: 55.7/100.",
-          "Fastest industry measured here: HVAC at 58.5/100 (n=169). Slowest: Dental at 53.9/100 (n=350).",
+          "Average mobile performance score across 966 measured sites: 55.8/100.",
+          "Fastest industry measured here: HVAC at 58.3/100 (n=204). Slowest: Dental at 54.0/100 (n=351).",
           "Fastest site measured: drdentalclinics.ca at 100/100. Slowest: archerdental.ca at 8/100.",
           "38% of measured sites score below 50/100; 5% reach 90 or better."
         ]
@@ -13676,8 +13888,8 @@
       }
     ],
     "country_count": 2,
-    "city_count": 79,
-    "ranked_city_count": 38,
+    "city_count": 80,
+    "ranked_city_count": 39,
     "best_city": {
       "city": "Hamilton",
       "slug": "hamilton",
@@ -13859,10 +14071,12 @@
         "85% of measured sites score below 50/100; 0% reach 90 or better."
       ]
     },
-    "multi_city_sites": [],
+    "multi_city_sites": [
+      "clareo.ca"
+    ],
     "commentary": [
-      "Average mobile performance score across 1830 measured sites: 57.5/100.",
-      "Fastest industry measured here: HVAC at 60.1/100 (n=349). Slowest: Dental at 55.7/100 (n=530).",
+      "Average mobile performance score across 1866 measured sites: 57.5/100.",
+      "Fastest industry measured here: HVAC at 59.8/100 (n=384). Slowest: Dental at 55.8/100 (n=531).",
       "Fastest site measured: drdentalclinics.ca at 100/100. Slowest: smiledentalclinics.com at 4/100.",
       "35% of measured sites score below 50/100; 6% reach 90 or better."
     ]

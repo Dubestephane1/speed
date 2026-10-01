@@ -56,7 +56,10 @@ OUT_COLUMNS = [
 SOURCES: list[tuple[str, str, str, str]] = [
     # ---- Canada: current working waves (Odin_Mod/tmp) ---------------------
     (os.path.join(ODIN_TMP, "physio_scores*.csv"), "CA", "physio", ""),
-    (os.path.join(ODIN_TMP, "hvac_scores*.csv"), "CA", "hvac", ""),
+    # hvac*_scores* (not hvac_scores*) so the French-language waves
+    # (hvac_fr_scores*.csv, 2026-09-23) are picked up too. The old literal
+    # glob silently skipped them, stranding 35 measured sites.
+    (os.path.join(ODIN_TMP, "hvac*_scores*.csv"), "CA", "hvac", ""),
     (os.path.join(ODIN_TMP, "realtor_scores.csv"), "CA", "realtor", ""),
     (os.path.join(ODIN_TMP, "toronto_batch2_scores.csv"), "CA", "dental", "Toronto"),
     # per-city dental waves (dentiste*.ca confirmed dental by reading rows)
@@ -131,6 +134,7 @@ CITY_TOKENS = {
     "guelph": "Guelph", "barrie": "Barrie", "peterborough": "Peterborough",
     "saintjohn": "Saint John", "moncton": "Moncton",
     "saguenay": "Saguenay", "thunderbay": "Thunder Bay",
+    "surrey": "Surrey", "troisrivieres": "Trois-Rivières",
     "steinbach": "Steinbach", "miramichi": "Miramichi",
     "charlottetown": "Charlottetown", "truro": "Truro",
     "summerside": "Summerside", "amherst": "Amherst",

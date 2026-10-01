@@ -13,13 +13,13 @@ Plain static HTML/CSS/JS — zero build step, zero frameworks, zero image reques
 
 ## Current verified stats (audit campaign, mobile / slow 4G)
 <!-- census:start - written by scripts/generate.py, do not edit by hand -->
-- **1830** business websites measured (Canada 930 · United States 900)
-- **79** cities with data, **38** with a published city page
+- **1866** business websites measured (Canada 966 · United States 900)
+- **80** cities with data, **39** with a published city page
 - **Average score: 57.5/100** (sites with a usable measurement only)
-- **644 sites scored under 50** — 35%, the red zone on Google's scale
-- **117 sites reached green (90+)** — 6% of sites
+- **657 sites scored under 50** — 35%, the red zone on Google's scale
+- **121 sites reached green (90+)** — 6% of sites
 - **Best: 100 · Worst: 4**
-- 1871 sites tested, 41 could not be measured and are counted separately, never averaged in as zero
+- 1910 sites tested, 44 could not be measured and are counted separately, never averaged in as zero
 <!-- census:end -->
 
 > Every number is the real Google PageSpeed mobile test (homepage, simulated phone, slow 4G) — never invented. Raw CSVs are published next to the pages, and this block is generated: re-run `scripts/generate.py` after a new wave rather than typing figures here.
@@ -28,7 +28,7 @@ Plain static HTML/CSS/JS — zero build step, zero frameworks, zero image reques
 - `/` — home: pain story, Canada-wide proof + stats, how it works, referral block
 - `/speed-data/` — data hub: all countries, industries and city pages, plus raw CSV downloads
 - `/countries/*.html` · `/cities/*.html` — generated atlas pages (no hand-written numbers)
-- `/audit` — free audit form (URL + optional email) → live result via `/audit-api`
+- `/audit` — free audit form (URL only, no email, no lead capture) → live result via `/audit-api`
 - `/how-it-works` — test → fix list → re-test
 - `/blog` + 4 posts (`/blog/*`), each with sidebar (CTA + related posts). Flagship: "I tested 788 Canadian websites"
 - `/contact` — form via `/contact-api` (Resend) + direct-email fallback
