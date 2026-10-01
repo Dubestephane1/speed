@@ -70,6 +70,12 @@ SOURCES: list[tuple[str, str, str, str]] = [
     (os.path.join(ODIN_TMP, "gatineau_scores*.csv"), "CA", "dental", "Gatineau"),
     (os.path.join(ODIN_TMP, "longueuil_scores*.csv"), "CA", "dental", "Longueuil"),
     (os.path.join(ODIN_TMP, "levis_realtor_scores.csv"), "CA", "realtor", "Levis"),
+    # ---- Canada: near-miss city wave, 2026-10-01 ---------------------------
+    # 40 sites across 6 cities that were one or two scored sites short of the
+    # 10-site ranking line (Kelowna, Trois-Rivieres, Red Deer, Surrey,
+    # Fredericton, Nanaimo). Spans four niches, so city AND niche are left ""
+    # here and read per-row from thincity_candidates1.csv via MAPPING_SOURCES.
+    (os.path.join(ODIN_TMP, "thincity_scores*.csv"), "CA", "", ""),
     # ---- Canada: archived waves (the missing ~111+ sites) -----------------
     (os.path.join(ARCHIVE2, "dental_wave_raw", "*.csv"), "CA", "dental", ""),
     (os.path.join(ARCHIVE2, "opt_wave_raw", "opt_scores.csv"), "CA", "optometrist", ""),
@@ -134,7 +140,9 @@ CITY_TOKENS = {
     "guelph": "Guelph", "barrie": "Barrie", "peterborough": "Peterborough",
     "saintjohn": "Saint John", "moncton": "Moncton",
     "saguenay": "Saguenay", "thunderbay": "Thunder Bay",
-    "surrey": "Surrey", "troisrivieres": "Trois-Rivières",
+    # unaccented, to match the existing "Trois-Rivieres" city key. An accented
+    # value here would create a second key that slugifies to the same page.
+    "surrey": "Surrey", "troisrivieres": "Trois-Rivieres",
     "steinbach": "Steinbach", "miramichi": "Miramichi",
     "charlottetown": "Charlottetown", "truro": "Truro",
     "summerside": "Summerside", "amherst": "Amherst",

@@ -125,9 +125,14 @@ revivept.ca,Canada,Edmonton,map,physio,,71,80,96,80,4844,0,0,4709,636134,SLOW,,2
 vertexphysio.ca,Canada,Edmonton,map,physio,WordPress,78,92,100,100,4383,0,13,2193,365706,,,2026-09-25,no,physio_scores3.csv
 riviera.nb.ca,Canada,Edmundston,research,realtor,unknown,63,86,92,92,6986,0,74,4507,999332,AVERAGE,,2026-09-23,no,realtor_scores.csv
 downtownoptometryclinic.com,Canada,Fredericton,row,optometrist,,32,0,0,0,9386,1,59,4920,2139991,,,2026-09-26,no,ca_opt_thincity_measured.csv
+drmacpherson.ca,Canada,Fredericton,map,optometrist,Squarespace,67,88,74,92,9299,0,227,2037,1540864,,,2026-10-01,no,thincity_scores1.csv
 hickeyoptometry.ca,Canada,Fredericton,row,optometrist,,56,0,0,0,14442,0,156,4265,2599528,,,2026-09-26,no,ca_opt_thincity_measured.csv
 spectrumvisionclinic.com,Canada,Fredericton,row,optometrist,,50,0,0,0,3976,0.799,218,2861,1234127,,,2026-09-26,no,ca_opt_thincity_measured.csv
+adicamassage.com,Canada,Fredericton,map,physio,Squarespace,51,94,96,92,13329,0,209,8988,6373044,FAST,,2026-10-01,no,thincity_scores1.csv
+advantage-physio.ca,Canada,Fredericton,map,physio,Wix,42,88,77,85,8213,0,1018,3101,3389795,,,2026-10-01,no,thincity_scores1.csv
+foundationhealthcentre.com,Canada,Fredericton,map,physio,Wix,79,87,100,100,4908,0,43,2418,1522979,,,2026-10-01,no,thincity_scores1.csv
 frederictonphysiotherapy.com,Canada,Fredericton,map,physio,WordPress,25,79,92,100,16000,0,383,3775,3425731,,,2026-09-25,no,physio_scores6.csv
+maxhealthfred.com,Canada,Fredericton,map,physio,Squarespace,45,95,96,100,11164,0,681,3231,5181469,AVERAGE,,2026-10-01,no,thincity_scores1.csv
 rangeofmotionphysio.ca,Canada,Fredericton,map,physio,,55,71,92,100,8791,0,537,2705,1976685,FAST,,2026-09-25,no,physio_scores6.csv
 frederictonhomes.com,Canada,Fredericton,map,realtor,,49,78,96,92,8026,0,56,2705,3186837,SLOW,,2026-09-23,no,realtor_scores.csv
 sellingfredericton.com,Canada,Fredericton,domain_token,realtor,unknown,86,82,96,100,3454,0,0,2404,3501706,SLOW,,2026-09-23,no,realtor_scores.csv
@@ -231,6 +236,14 @@ isightinfo.com,Canada,Kelowna,row,optometrist,,77,0,0,0,4357,0.002,122,3031,1511
 tutteyes.ca,Canada,Kelowna,row,optometrist,,56,0,0,0,9418,0,454,2294,3065359,,,2026-09-26,no,ca_opt_thincity_measured.csv
 visionfirst.ca,Canada,Kelowna,row,optometrist,,40,0,0,0,17957,0.15,816,2059,4090852,,,2026-09-26,no,ca_opt_thincity_measured.csv
 visionology.ca,Canada,Kelowna,row,optometrist,,41,0,0,0,18001,0.001,639,4501,8874437,,,2026-09-26,no,ca_opt_thincity_measured.csv
+karephysio.com,Canada,Kelowna,map,physio,unknown,66,67,100,83,3022,0,237,1683,2740271,,,2026-10-01,no,thincity_scores1.csv
+kelownaphysio.ca,Canada,Kelowna,map,physio,Wix,63,88,100,100,9086,0,0,4031,11764963,,,2026-10-01,no,thincity_scores1.csv
+kelownaphysiotherapy.com,Canada,Kelowna,map,physio,,70,93,100,100,8779,0,66,2555,1365142,,,2026-10-01,no,thincity_scores1.csv
+motionworxphysio.com,Canada,Kelowna,map,physio,,47,92,96,92,12376,0,666,3331,3894152,,,2026-10-01,no,thincity_scores1.csv
+movemed.ca,Canada,Kelowna,map,physio,Squarespace,65,95,100,92,6454,0,184,3004,2502792,,,2026-10-01,no,thincity_scores1.csv
+rutlandphysio.ca,Canada,Kelowna,map,physio,unknown,56,94,100,100,13413,0,192,6584,2397623,,,2026-10-01,no,thincity_scores1.csv
+suncityphysiotherapy.com,Canada,Kelowna,map,physio,WordPress,49,63,96,100,11476,0,284,2855,1899305,AVERAGE,,2026-10-01,no,thincity_scores1.csv
+threesixtyphysio.ca,Canada,Kelowna,map,physio,WordPress,66,86,100,100,8115,0,7,2581,1800397,,,2026-10-01,no,thincity_scores1.csv
 bsdhvac.com,Canada,Kingston,research,hvac,WordPress,57,92,100,92,9302,0,324,2295,3967675,,,2026-09-22,no,hvac_scores5a.csv
 ecmcorp.ca,Canada,Kingston,map,hvac,Squarespace,41,95,100,92,8794,0,588,5433,2760906,,,2026-09-22,no,hvac_scores5a.csv
 reinsheating.com,Canada,Kingston,map,hvac,unknown,35,88,88,91,16780,0,902,10852,6954164,AVERAGE,,2026-09-22,no,hvac_scores5a.csv
@@ -423,6 +436,14 @@ kinatex.com/cliniques/westmount,Canada,Montreal,map,physio,WordPress,41,83,92,10
 mvtplus.ca/plateau,Canada,Montreal,map,physio,Wix,40,85,73,100,4520,0,1552,4445,18583223,FAST,,2026-09-24,no,physio_scores1.csv
 physioplateau.com,Canada,Montreal,map,physio,,39,90,96,100,8026,0,970,3210,3220485,SLOW,,2026-09-24,no,physio_scores1.csv
 soluvie.ca,Canada,Montreal,map,physio,WordPress,67,96,100,100,7201,0,162,2155,1330979,,,2026-09-24,no,physio_scores1.csv
+countryclubdental.ca,Canada,Nanaimo,map,dental,Tymbrel,35,89,96,92,4554,0,826,2449,3580123,,,2026-10-01,no,thincity_scores1.csv
+dentistnanaimo.ca,Canada,Nanaimo,map,dental,,60,80,73,100,15613,0,99,3035,3229361,,,2026-10-01,no,thincity_scores1.csv
+downtownnanaimodentalgroup.com,Canada,Nanaimo,map,dental,WordPress,22,86,100,100,14911,0,617,3468,2751348,,,2026-10-01,no,thincity_scores1.csv
+nanaimodentalclinics.com,Canada,Nanaimo,map,dental,WordPress,45,84,92,85,17036,0,520,3872,8942604,,,2026-10-01,no,thincity_scores1.csv
+nanaimosmiles.com,Canada,Nanaimo,map,dental,WordPress,46,80,96,100,25014,0,380,11302,4293026,SLOW,,2026-10-01,no,thincity_scores1.csv
+northridgedental.ca,Canada,Nanaimo,map,dental,,15,85,96,92,15813,0,895,3456,3897960,,,2026-10-01,no,thincity_scores1.csv
+uplandsdental.com,Canada,Nanaimo,map,dental,WordPress,59,85,96,92,11177,0,206,2590,1879602,SLOW,,2026-10-01,no,thincity_scores1.csv
+wentworthdental.org,Canada,Nanaimo,map,dental,unknown,74,96,96,92,5594,0,26,3010,1069320,,,2026-10-01,no,thincity_scores1.csv
 drstanleyeng.com,Canada,Nanaimo,row,optometrist,,47,0,0,0,5156,0.003,896,4702,4133550,,,2026-09-26,no,ca_opt_thincity_measured.csv
 eyeplusclinic.ca,Canada,Nanaimo,row,optometrist,,39,0,0,0,6957,0,1123,3939,28804286,,,2026-09-26,no,ca_opt_thincity_measured.csv
 oceansideoptometryclinic.com,Canada,Nanaimo,row,optometrist,,39,0,0,0,5628,0.837,228,3757,2077028,,,2026-09-26,no,ca_opt_thincity_measured.csv
@@ -562,9 +583,16 @@ kinatex.com/cliniques/saint-roch,Canada,Quebec,map,physio,WordPress,38,69,92,92,
 kinatex.com/cliniques/val-belair,Canada,Quebec,map,physio,WordPress,45,69,88,92,10132,0,909,1529,5261318,AVERAGE,,2026-09-25,no,physio_scores2.csv
 physio-osteoneufchatel.com,Canada,Quebec,map,physio,WordPress,65,96,100,85,8302,0,0,2264,3344825,,,2026-09-25,no,physio_scores2.csv
 physiocpcc.ca,Canada,Quebec,map,physio,Wix,78,88,100,92,4547,0,1,2867,3570843,,,2026-09-25,no,physio_scores2.csv
+ariesairflo.com,Canada,Red Deer,map,hvac,WordPress,62,82,100,92,13120,0,113,4802,8995392,,,2026-10-01,no,thincity_scores1.csv
 expressplumbingandheating.ca,Canada,Red Deer,approved,hvac,WordPress,57,90,96,100,11571,0,247,3456,2655272,,,2026-09-22,no,hvac_scores5b.csv
+icsreddeer.com,Canada,Red Deer,map,hvac,unknown,95,83,96,83,2853,0,34,932,1011279,,,2026-10-01,no,thincity_scores1.csv
+mcmullens.ca,Canada,Red Deer,map,hvac,WordPress,99,81,96,100,1240,0,0,1217,1237019,,,2026-10-01,no,thincity_scores1.csv
 pipertheplumber.ca,Canada,Red Deer,map,hvac,,44,94,96,92,14965,0,673,2789,4200394,,,2026-09-22,no,hvac_scores5b.csv
 platinumplumbing.ca,Canada,Red Deer,research,hvac,unknown,76,92,100,91,4148,0,0,4148,328420,,,2026-09-22,no,hvac_scores5b.csv
+rtheatingandair.com,Canada,Red Deer,map,hvac,WordPress,44,80,96,92,15001,0,557,4674,4228257,,,2026-10-01,no,thincity_scores1.csv
+seerheating.com,Canada,Red Deer,map,hvac,unknown,50,96,100,100,7024,0,522,2724,3131973,,,2026-10-01,no,thincity_scores1.csv
+stannardhvac.ca,Canada,Red Deer,map,hvac,unknown,68,88,92,100,5026,0,64,3601,1492260,,,2026-10-01,no,thincity_scores1.csv
+techheating.com,Canada,Red Deer,map,hvac,WordPress,63,95,100,92,10502,0,117,3470,2212513,,,2026-10-01,no,thincity_scores1.csv
 alcoveeye.ca,Canada,Red Deer,row,optometrist,,69,0,0,0,6221,0.006,71,3646,1875052,,,2026-09-26,no,ca_opt_thincity_measured.csv
 doctorseyecare.ab.ca,Canada,Red Deer,row,optometrist,,62,0,0,0,6226,0,180,3306,2472600,,,2026-09-26,no,ca_opt_thincity_measured.csv
 eyewearexpertsreddeer.ca,Canada,Red Deer,row,optometrist,,74,0,0,0,6024,0.041,86,2082,946595,,,2026-09-26,no,ca_opt_thincity_measured.csv
@@ -635,13 +663,19 @@ witherellplumbing.com,Canada,Sudbury,research,hvac,WordPress,61,92,100,100,5458,
 eyedoctorsudbury.com,Canada,Sudbury,row,optometrist,,66,0,0,0,5860,0.136,0,2446,835245,,,2026-09-26,no,ca_opt_thincity_measured.csv
 sudburyvisioncentre.com,Canada,Sudbury,row,optometrist,,69,0,0,0,4309,0.02,298,4005,2977172,,,2026-09-26,no,ca_opt_thincity_measured.csv
 suttonsudbury.com,Canada,Sudbury,domain_token,realtor,unknown,62,79,100,77,7320,0,44,3156,4787643,,,2026-09-23,no,realtor_scores.csv
+alliedphysio.ca,Canada,Surrey,map,physio,WordPress,72,98,100,92,5712,0,279,1051,1241540,AVERAGE,,2026-10-01,no,thincity_scores1.csv
 allprophysio.ca,Canada,Surrey,map,physio,unknown,66,95,92,100,5574,0,0,3924,1032160,,,2026-09-25,no,physio_scores4.csv
 arkaphysiotherapy.ca,Canada,Surrey,map,physio,,76,100,100,100,3902,0,196,3302,1898422,,,2026-09-25,no,physio_scores4.csv
 kinggeorgephysio.com,Canada,Surrey,map,physio,WordPress,40,83,73,92,6994,0,814,4252,4284970,,,2026-09-25,no,physio_scores4.csv
 legendphysiosurrey.com,Canada,Surrey,map,physio,unknown,69,88,77,100,5730,0,18,2722,1742142,,,2026-09-25,no,physio_scores4.csv
+physiomoves.com,Canada,Surrey,map,physio,unknown,69,87,96,92,2687,0,188,1417,969239,FAST,,2026-10-01,no,thincity_scores1.csv
+prokureclinic.com,Canada,Surrey,map,physio,unknown,90,96,96,100,2771,0,14,2771,7943948,,,2026-10-01,no,thincity_scores1.csv
 regenesisphysiotherapy.ca,Canada,Surrey,map,physio,unknown,67,81,100,100,6248,0,135,2979,1010781,,,2026-09-25,no,physio_scores4.csv
 revitalizephysioclinic.ca,Canada,Surrey,map,physio,WordPress,47,74,73,92,4740,0,817,3194,11234238,,,2026-09-25,no,physio_scores4.csv
+reviverehab.ca,Canada,Surrey,map,physio,unknown,81,96,100,100,4205,0,70,1983,546666,FAST,,2026-10-01,no,thincity_scores1.csv
 scottsdalephysiotherapy.ca,Canada,Surrey,map,physio,WordPress,74,92,100,100,1654,0,0,1152,635129,,,2026-09-25,no,physio_scores4.csv
+surreyphysio.ca,Canada,Surrey,map,physio,WordPress,70,95,100,92,4282,0,538,1051,1451264,,,2026-10-01,no,thincity_scores1.csv
+surreyphysiotherapy.com,Canada,Surrey,map,physio,Wix,44,90,96,100,8710,0,669,3161,3869871,,,2026-10-01,no,thincity_scores1.csv
 bruinsplumbing.com,Canada,Sylvan Lake,research,hvac,WordPress,57,95,96,92,6573,0,635,2251,2247454,,,2026-09-22,no,hvac_scores5b.csv
 123-dental.com,Canada,Toronto,filename,dental,Wix,39,87,100,85,8403,0,1170,3453,4929054,AVERAGE,,2026-09-21,no,toronto_scores.csv
 4thfloordental.com,Canada,Toronto,filename,dental,WordPress,58,80,92,85,4430,0,895,2558,3925500,,,2026-09-21,no,toronto_scores.csv
@@ -750,6 +784,12 @@ yongeandstclaireyecentre.com,Canada,Toronto,row,optometrist,unknown,68,81,96,92,
 yongecollegeoptometry.com,Canada,Toronto,row,optometrist,WordPress,62,85,96,92,8512,0,126,3042,1368759,AVERAGE,,2026-09-25,no,opt_data.csv
 kinatex.com/cliniques/markham,Canada,Toronto,map,physio,WordPress,40,83,92,100,6226,0,2685,2251,3897584,AVERAGE,,2026-09-25,no,physio_scores2.csv
 kinatex.com/cliniques/richmond-hill,Canada,Toronto,map,physio,WordPress,41,83,92,100,6376,0,2538,1558,3894608,AVERAGE,,2026-09-25,no,physio_scores2.csv
+centredentairebeauclair.com,Canada,Trois-Rivieres,map,dental,WordPress,63,87,96,92,7607,0,246,1572,3221057,AVERAGE,,2026-10-01,no,thincity_scores1.csv
+cliniquedentairepointedulac.ca,Canada,Trois-Rivieres,map,dental,Tymbrel,49,97,96,100,11032,0,497,2561,2684043,,,2026-10-01,no,thincity_scores1.csv
+dentisteslarochelachance.com,Canada,Trois-Rivieres,map,dental,Wix,76,100,100,100,4896,0,104,2708,2266765,,,2026-10-01,no,thincity_scores1.csv
+lecentredentaire3r.com,Canada,Trois-Rivieres,map,dental,Wix,62,93,100,100,5059,0,543,2795,2703539,,,2026-10-01,no,thincity_scores1.csv
+mondentistetr.com,Canada,Trois-Rivieres,map,dental,unknown,81,88,92,92,4676,0,94,966,537148,,,2026-10-01,no,thincity_scores1.csv
+sourisalavie.com,Canada,Trois-Rivieres,map,dental,WordPress,83,96,96,85,3005,0,104,3005,1547622,,,2026-10-01,no,thincity_scores1.csv
 climatisationtroisrivieres.com,Canada,Trois-Rivieres,map,hvac,WordPress,36,100,73,100,18871,0,1093,4182,3757374,FAST,,2026-09-23,no,hvac_fr_scores4.csv
 echangeurdairelite.ca,Canada,Trois-Rivieres,map,hvac,WordPress,35,82,96,92,12451,0,972,5402,4119837,SLOW,,2026-09-23,no,hvac_fr_scores4.csv
 chantalelaurendeauoptometriste.com,Canada,Trois-Rivieres,row,optometrist,WordPress,63,92,100,100,7067,0,95,2918,982526,,,2026-09-25,no,opt_data.csv
