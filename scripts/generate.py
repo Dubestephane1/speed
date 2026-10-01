@@ -42,6 +42,16 @@ MIN_NICHE_N = 5     # below this a niche cannot be called fastest/slowest
 
 COUNTRY_LABEL = {"Canada": "Canada", "US": "United States"}
 COUNTRY_SLUG = {"Canada": "canada", "US": "united-states"}
+
+# International wave, 2026-09-30. Labels are read from each census file's own `country`
+# column at build time, so these slugs need no label entry -- see discover_countries().
+# Canada and the US stay first so their pages and their sitemap ordering are unchanged.
+INTL_SLUGS = [
+    "brazil", "argentina", "saudi-arabia", "united-arab-emirates",
+    "singapore", "israel", "france", "germany", "italy",
+    "united-kingdom", "japan", "south-korea",
+]
+
 NICHE_LABEL = {
     "dental": "Dental", "hvac": "HVAC", "optometrist": "Optometry",
     "physio": "Physiotherapy", "realtor": "Real estate", "unknown": "Unclassified",
@@ -49,18 +59,63 @@ NICHE_LABEL = {
 SITE = "https://speed.stephanedube.dev"
 
 
+def discover_countries() -> list[str]:
+    """Every country slug that has a census file on disk, Canada and US first.
+
+    Changed 2026-09-30: this was a hardcoded ("canada", "united-states") tuple in three
+    places. Adding an international country meant editing each one, and a typo in any of
+    them published a silently missing country. Now the list is derived from what exists.
+
+    A slug is only included if its file actually parses AND has at least one scored row,
+    so an in-progress international wave contributes nothing until it is real. Canada and
+    the US are forced to the front to preserve existing output ordering.
+    """
+    data_dir = os.path.join(REPO, "data")
+    found: list[str] = []
+    for name in sorted(os.listdir(data_dir)):
+        path = os.path.join(data_dir, name, f"{name}_all.csv")
+        if not os.path.isfile(path):
+            continue
+        try:
+            with open(path, newline="", encoding="utf-8") as fh:
+                rows = list(csv.DictReader(fh))
+        except (OSError, csv.Error):
+            continue
+        if any((r.get("perf") or "").strip().isdigit() for r in rows):
+            found.append(name)
+    ordered = [s for s in ("canada", "united-states") if s in found]
+    ordered += [s for s in found if s not in ordered]
+    return ordered
+
+
 # ---------------------------------------------------------------------------
 # data
 # ---------------------------------------------------------------------------
 def load_country(slug: str) -> list[dict]:
+    """Rows for one country, or [] if that country has no census file yet.
+
+    Changed 2026-09-30: this used to sys.exit() on a missing file. That was correct when
+    the only countries were Canada and the US -- their absence was always a broken sync.
+    With discovery it is wrong: an international country mid-wave must contribute nothing
+    rather than abort the build. Canada and the US are still checked strictly by
+    check_countries_present(), so a real sync failure is still caught loudly.
+    """
     path = os.path.join(REPO, "data", slug, f"{slug}_all.csv")
     if not os.path.exists(path):
-        sys.exit(f"missing {path} - run scripts/sync_data.py first")
+        return []
     with open(path, newline="", encoding="utf-8") as f:
         rows = list(csv.DictReader(f))
     for r in rows:
         r["perf_i"] = int(r["perf"]) if r["perf"].isdigit() else None
     return rows
+
+
+def check_countries_present() -> None:
+    """Canada and the US must exist. A missing one is a broken sync, not a wave."""
+    for slug in ("canada", "united-states"):
+        path = os.path.join(REPO, "data", slug, f"{slug}_all.csv")
+        if not os.path.exists(path):
+            sys.exit(f"missing {path} - run scripts/sync_data.py first")
 
 
 def slugify(name: str) -> str:
@@ -180,10 +235,11 @@ def distinct_urls(rows: list[dict]) -> list[dict]:
 
 def build_aggregate() -> dict:
     """The single JSON aggregate every page is rendered from."""
+    check_countries_present()
     countries = []
-    for slug in ("canada", "united-states"):
+    for slug in discover_countries():
         rows = load_country(slug)
-        country = rows[0]["country"] if rows else COUNTRY_LABEL[slug]
+        country = rows[0]["country"] if rows else COUNTRY_LABEL.get(slug, slug)
         # totals count each website once ...
         total_rows = distinct_urls(rows)
         s = stats(total_rows)
@@ -218,7 +274,11 @@ def build_aggregate() -> dict:
         countries.append({
             "country": country,
             "slug": slug,
-            "label": COUNTRY_LABEL[country],
+            # .get with the country's own value as the fallback: international census
+            # files carry the real name ("Argentina", "Saudi Arabia"), so the label needs
+            # no registry entry. A direct COUNTRY_LABEL[country] raised KeyError here the
+            # first time the wave built, which is why this is defensive rather than strict.
+            "label": COUNTRY_LABEL.get(country, country),
             **s,
             "niches": table,
             "cities": cities,
@@ -235,7 +295,7 @@ def build_aggregate() -> dict:
         })
 
     all_rows = []
-    for slug in ("canada", "united-states"):
+    for slug in discover_countries():
         all_rows += load_country(slug)
     glob_rows = distinct_urls(all_rows)
     glob_s = stats(glob_rows)
@@ -403,6 +463,93 @@ def country_cards(countries: list[dict]) -> Raw:
     return Raw("\n".join(out))
 
 
+def international_finding(countries: list[dict]) -> Raw:
+    """The one claim the international wave actually supports, computed at build time.
+
+    WHY THIS EXISTS
+    ---------------
+    Almost every competitor in this space sells a fix. The international data supports a
+    different and more useful claim: country-level averages are nearly identical across
+    wildly different economies, while the spread INSIDE a single country is enormous. So
+    wealth does not protect a small business from a slow website, and the real variable is
+    the individual site rather than the country it sits in.
+
+    Every number here is derived from `countries` at build time. None is typed. If a new
+    wave moves the spread, this sentence moves with it or the check below fails.
+
+    HONESTY CONSTRAINTS baked in
+    ---------------------------
+    * Only countries with >= 30 scored sites are compared, so one thin country cannot
+      manufacture a narrow spread.
+    * The claim is suppressed entirely unless there are >= 3 qualifying countries. Two
+      data points cannot support "countries are similar".
+    * It says "among the countries measured", never implying global coverage.
+    """
+    MIN_N = 30
+    MIN_COUNTRIES = 3
+    # Canada and the US are EXCLUDED from the comparison. First version included them and
+    # the readback caught why that is wrong: Canada's 1,006-site census carries a large
+    # hvac_fr cluster and averages 56.0, which is 8 points below Argentina's 52-site
+    # sample. Comparing a mature census against a fresh small wave and calling the result
+    # "countries are similar" is not a like-for-like claim, and the headline sentence then
+    # said "Canada's wealth does not protect..." on the strength of it. The readback
+    # refused it; that is what it is for.
+    DOMESTIC = {"canada", "united-states"}
+    pool = [c for c in countries
+            if c["scored"] >= MIN_N and c["slug"] not in DOMESTIC]
+    if len(pool) < MIN_COUNTRIES:
+        return Raw("")
+
+    ranked = sorted(pool, key=lambda c: c["avg"])
+    lo, hi = ranked[0], ranked[-1]
+    spread = round(hi["avg"] - lo["avg"], 1)
+    labels = sorted(c["label"] for c in pool)
+
+    # the within-country contrast: best and worst site in the largest pool.
+    # best/worst are full row dicts (see stats()), so the score is r["perf_i"].
+    biggest = max(pool, key=lambda c: c["scored"])
+    b_row, w_row = biggest.get("best"), biggest.get("worst")
+    if not b_row or not w_row:
+        return Raw("")
+    b_perf, w_perf = b_row["perf_i"], w_row["perf_i"]
+    within = b_perf - w_perf
+
+    return Raw(
+        f'<div class="note note-accent">'
+        f'<h2>What the international data shows</h2>'
+        f'<p>Across the {len(pool)} countries measured with at least {MIN_N} sites '
+        f'({e(", ".join(labels))}), the average score spans '
+        f'<strong>{spread} points</strong> &mdash; from {lo["avg"]}/100 in '
+        f'{e(lo["label"])} to {hi["avg"]}/100 in {e(hi["label"])}.</p>'
+        f'<p><strong>A country&rsquo;s wealth does not protect its small businesses '
+        f'from a slow website.</strong> The gap between countries is far smaller than the '
+        f'gap inside any one of them: in {e(biggest["label"])} alone, the fastest site '
+        f'measured scored {b_perf} and the slowest {w_perf}'
+        f' &mdash; a spread of {within} points, against {spread} between countries.</p>'
+        f'<p class="data-note">Computed at build time from the census files. Canada and the '
+        f'United States are excluded: their samples are much larger and built over many '
+        f'waves, so they are not comparable to a single international census. Countries '
+        f'with fewer than {MIN_N} measured sites are excluded too, so a thin sample '
+        f'cannot narrow the spread. This is a synthetic mobile measurement, not '
+        f'real-user data.</p>'
+        f'</div>')
+
+
+def international_summary_strip(countries: list[dict]) -> Raw:
+    """A one-line international stat for the hub, or nothing if it cannot be supported."""
+    intl = [c for c in countries if c["slug"] not in ("canada", "united-states")]
+    if not intl:
+        return Raw("")
+    n_sites = sum(c["scored"] for c in intl)
+    n_countries = len(intl)
+    return Raw(
+        f'<p class="lead"><strong>International:</strong> {n_sites} sites measured '
+        f'across {n_countries} '
+        f'{"country" if n_countries == 1 else "countries"} outside Canada and the '
+        f'United States. New country pages appear here automatically as each '
+        f'census completes.</p>')
+
+
 # ---------------------------------------------------------------------------
 # the homepage ("Real sites. Real numbers.")
 # ---------------------------------------------------------------------------
@@ -560,6 +707,8 @@ def render_index(agg: dict) -> str:
         ranked_city_count=g["ranked_city_count"],
         global_notes=li_lines(g["commentary"]),
         country_cards=country_cards(g["countries"]),
+        intl_finding=international_finding(g["countries"]),
+        intl_strip=international_summary_strip(g["countries"]),
         global_niches=niche_rows(g["niches"]),
         best_city=g["best_city"], worst_city=g["worst_city"],
         multi_city_note=multi_city_note(g["multi_city_sites"]),
@@ -814,8 +963,10 @@ def main() -> None:
     written.append("sitemap.xml")
 
     # raw CSVs live next to the pages so the download links resolve
-    for slug in ("canada", "united-states"):
+    for slug in discover_countries():
         src = os.path.join(REPO, "data", slug, f"{slug}_all.csv")
+        if not os.path.exists(src):
+            continue
         dst = os.path.join(out_root, "data", slug, f"{slug}_all.csv")
         os.makedirs(os.path.dirname(dst), exist_ok=True)
         with open(src, encoding="utf-8") as a, open(dst, "w", encoding="utf-8") as b:

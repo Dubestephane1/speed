@@ -4,16 +4,16 @@
   "red_max": 50,
   "green_min": 90,
   "global": {
-    "attempted": 1950,
-    "scored": 1906,
-    "failed": 44,
-    "avg": 57.6,
-    "median": 58.0,
-    "red": 669,
-    "green": 124,
-    "red_pct": 35,
+    "attempted": 2181,
+    "scored": 2123,
+    "failed": 58,
+    "avg": 58.2,
+    "median": 58,
+    "red": 714,
+    "green": 143,
+    "red_pct": 34,
     "green_pct": 7,
-    "fail_pct": 2,
+    "fail_pct": 3,
     "best": {
       "url": "drdentalclinics.ca",
       "country": "Canada",
@@ -64,41 +64,41 @@
       {
         "niche": "hvac",
         "label": "HVAC",
-        "n": 391,
-        "avg": 60.0,
-        "red_pct": 32,
+        "n": 430,
+        "avg": 60.6,
+        "red_pct": 30,
         "green_pct": 9
       },
       {
         "niche": "optometrist",
         "label": "Optometry",
-        "n": 310,
-        "avg": 59.4,
+        "n": 349,
+        "avg": 59.6,
         "red_pct": 32,
         "green_pct": 6
       },
       {
         "niche": "physio",
         "label": "Physiotherapy",
-        "n": 370,
-        "avg": 57.3,
-        "red_pct": 37,
+        "n": 413,
+        "avg": 57.8,
+        "red_pct": 35,
         "green_pct": 6
       },
       {
         "niche": "realtor",
         "label": "Real estate",
-        "n": 290,
-        "avg": 56.2,
-        "red_pct": 37,
-        "green_pct": 6
+        "n": 340,
+        "avg": 57.5,
+        "red_pct": 34,
+        "green_pct": 7
       },
       {
         "niche": "dental",
         "label": "Dental",
-        "n": 545,
-        "avg": 55.8,
-        "red_pct": 37,
+        "n": 591,
+        "avg": 56.2,
+        "red_pct": 36,
         "green_pct": 6
       }
     ],
@@ -13939,11 +13939,1287 @@
           "Fastest site measured: charlottedentistry.com at 100/100. Slowest: smiledentalclinics.com at 4/100.",
           "32% of measured sites score below 50/100; 8% reach 90 or better."
         ]
+      },
+      {
+        "country": "Argentina",
+        "slug": "argentina",
+        "label": "Argentina",
+        "attempted": 60,
+        "scored": 52,
+        "failed": 8,
+        "avg": 64.1,
+        "median": 62.5,
+        "red": 6,
+        "green": 2,
+        "red_pct": 12,
+        "green_pct": 4,
+        "fail_pct": 13,
+        "best": {
+          "url": "https://ehodontologia.com/",
+          "country": "Argentina",
+          "city": "Buenos Aires",
+          "city_source": "harvest",
+          "niche": "dental",
+          "platform": "unknown",
+          "perf": "99",
+          "a11y": "91",
+          "best_practices": "100",
+          "seo": "100",
+          "LCP_ms": "1516",
+          "CLS": "0",
+          "TBT_ms": "110",
+          "FCP_ms": "937",
+          "bytes": "702480",
+          "render_blocking": "",
+          "load_category": "FAST",
+          "error": "",
+          "perf_i": 99
+        },
+        "worst": {
+          "url": "https://www.scorpios.com.ar/",
+          "country": "Argentina",
+          "city": "Buenos Aires",
+          "city_source": "harvest",
+          "niche": "realtor",
+          "platform": "unknown",
+          "perf": "30",
+          "a11y": "84",
+          "best_practices": "73",
+          "seo": "92",
+          "LCP_ms": "29312",
+          "CLS": "0",
+          "TBT_ms": "627",
+          "FCP_ms": "3482",
+          "bytes": "6101261",
+          "render_blocking": "",
+          "load_category": "",
+          "error": "",
+          "perf_i": 30
+        },
+        "niches": [
+          {
+            "niche": "dental",
+            "label": "Dental",
+            "n": 13,
+            "avg": 68.8,
+            "red_pct": 15,
+            "green_pct": 8
+          },
+          {
+            "niche": "hvac",
+            "label": "HVAC",
+            "n": 10,
+            "avg": 67.9,
+            "red_pct": 0,
+            "green_pct": 0
+          },
+          {
+            "niche": "optometrist",
+            "label": "Optometry",
+            "n": 9,
+            "avg": 65.4,
+            "red_pct": 11,
+            "green_pct": 0
+          },
+          {
+            "niche": "realtor",
+            "label": "Real estate",
+            "n": 11,
+            "avg": 60,
+            "red_pct": 9,
+            "green_pct": 9
+          },
+          {
+            "niche": "physio",
+            "label": "Physiotherapy",
+            "n": 9,
+            "avg": 56.6,
+            "red_pct": 22,
+            "green_pct": 0
+          }
+        ],
+        "cities": [
+          {
+            "city": "Buenos Aires",
+            "slug": "buenos-aires",
+            "n": 52,
+            "attempted": 60,
+            "avg": 64.1,
+            "median": 62.5,
+            "red": 6,
+            "red_pct": 12,
+            "green_pct": 4,
+            "fail_pct": 13,
+            "rankable": true,
+            "niches": [
+              {
+                "niche": "dental",
+                "label": "Dental",
+                "n": 13,
+                "avg": 68.8,
+                "red_pct": 15,
+                "green_pct": 8
+              },
+              {
+                "niche": "hvac",
+                "label": "HVAC",
+                "n": 10,
+                "avg": 67.9,
+                "red_pct": 0,
+                "green_pct": 0
+              },
+              {
+                "niche": "optometrist",
+                "label": "Optometry",
+                "n": 9,
+                "avg": 65.4,
+                "red_pct": 11,
+                "green_pct": 0
+              },
+              {
+                "niche": "realtor",
+                "label": "Real estate",
+                "n": 11,
+                "avg": 60,
+                "red_pct": 9,
+                "green_pct": 9
+              },
+              {
+                "niche": "physio",
+                "label": "Physiotherapy",
+                "n": 9,
+                "avg": 56.6,
+                "red_pct": 22,
+                "green_pct": 0
+              }
+            ],
+            "best": {
+              "url": "https://ehodontologia.com/",
+              "country": "Argentina",
+              "city": "Buenos Aires",
+              "city_source": "harvest",
+              "niche": "dental",
+              "platform": "unknown",
+              "perf": "99",
+              "a11y": "91",
+              "best_practices": "100",
+              "seo": "100",
+              "LCP_ms": "1516",
+              "CLS": "0",
+              "TBT_ms": "110",
+              "FCP_ms": "937",
+              "bytes": "702480",
+              "render_blocking": "",
+              "load_category": "FAST",
+              "error": "",
+              "perf_i": 99
+            },
+            "worst": {
+              "url": "https://www.scorpios.com.ar/",
+              "country": "Argentina",
+              "city": "Buenos Aires",
+              "city_source": "harvest",
+              "niche": "realtor",
+              "platform": "unknown",
+              "perf": "30",
+              "a11y": "84",
+              "best_practices": "73",
+              "seo": "92",
+              "LCP_ms": "29312",
+              "CLS": "0",
+              "TBT_ms": "627",
+              "FCP_ms": "3482",
+              "bytes": "6101261",
+              "render_blocking": "",
+              "load_category": "",
+              "error": "",
+              "perf_i": 30
+            },
+            "commentary": [
+              "Average mobile performance score across 52 measured sites: 64.1/100.",
+              "Fastest industry measured here: Dental at 68.8/100 (n=13). Slowest: Physiotherapy at 56.6/100 (n=9).",
+              "Fastest site measured: https://ehodontologia.com/ at 99/100. Slowest: https://www.scorpios.com.ar/ at 30/100.",
+              "12% of measured sites score below 50/100; 4% reach 90 or better."
+            ]
+          }
+        ],
+        "ranked": [
+          {
+            "city": "Buenos Aires",
+            "slug": "buenos-aires",
+            "n": 52,
+            "attempted": 60,
+            "avg": 64.1,
+            "median": 62.5,
+            "red": 6,
+            "red_pct": 12,
+            "green_pct": 4,
+            "fail_pct": 13,
+            "rankable": true,
+            "niches": [
+              {
+                "niche": "dental",
+                "label": "Dental",
+                "n": 13,
+                "avg": 68.8,
+                "red_pct": 15,
+                "green_pct": 8
+              },
+              {
+                "niche": "hvac",
+                "label": "HVAC",
+                "n": 10,
+                "avg": 67.9,
+                "red_pct": 0,
+                "green_pct": 0
+              },
+              {
+                "niche": "optometrist",
+                "label": "Optometry",
+                "n": 9,
+                "avg": 65.4,
+                "red_pct": 11,
+                "green_pct": 0
+              },
+              {
+                "niche": "realtor",
+                "label": "Real estate",
+                "n": 11,
+                "avg": 60,
+                "red_pct": 9,
+                "green_pct": 9
+              },
+              {
+                "niche": "physio",
+                "label": "Physiotherapy",
+                "n": 9,
+                "avg": 56.6,
+                "red_pct": 22,
+                "green_pct": 0
+              }
+            ],
+            "best": {
+              "url": "https://ehodontologia.com/",
+              "country": "Argentina",
+              "city": "Buenos Aires",
+              "city_source": "harvest",
+              "niche": "dental",
+              "platform": "unknown",
+              "perf": "99",
+              "a11y": "91",
+              "best_practices": "100",
+              "seo": "100",
+              "LCP_ms": "1516",
+              "CLS": "0",
+              "TBT_ms": "110",
+              "FCP_ms": "937",
+              "bytes": "702480",
+              "render_blocking": "",
+              "load_category": "FAST",
+              "error": "",
+              "perf_i": 99
+            },
+            "worst": {
+              "url": "https://www.scorpios.com.ar/",
+              "country": "Argentina",
+              "city": "Buenos Aires",
+              "city_source": "harvest",
+              "niche": "realtor",
+              "platform": "unknown",
+              "perf": "30",
+              "a11y": "84",
+              "best_practices": "73",
+              "seo": "92",
+              "LCP_ms": "29312",
+              "CLS": "0",
+              "TBT_ms": "627",
+              "FCP_ms": "3482",
+              "bytes": "6101261",
+              "render_blocking": "",
+              "load_category": "",
+              "error": "",
+              "perf_i": 30
+            },
+            "commentary": [
+              "Average mobile performance score across 52 measured sites: 64.1/100.",
+              "Fastest industry measured here: Dental at 68.8/100 (n=13). Slowest: Physiotherapy at 56.6/100 (n=9).",
+              "Fastest site measured: https://ehodontologia.com/ at 99/100. Slowest: https://www.scorpios.com.ar/ at 30/100.",
+              "12% of measured sites score below 50/100; 4% reach 90 or better."
+            ]
+          }
+        ],
+        "sampling": [],
+        "unmapped": 0,
+        "measurements": 60,
+        "multi_city": [],
+        "commentary": [
+          "Average mobile performance score across 52 measured sites: 64.1/100.",
+          "Fastest industry measured here: Dental at 68.8/100 (n=13). Slowest: Physiotherapy at 56.6/100 (n=9).",
+          "Fastest site measured: https://ehodontologia.com/ at 99/100. Slowest: https://www.scorpios.com.ar/ at 30/100.",
+          "12% of measured sites score below 50/100; 4% reach 90 or better."
+        ]
+      },
+      {
+        "country": "Brazil",
+        "slug": "brazil",
+        "label": "Brazil",
+        "attempted": 65,
+        "scored": 61,
+        "failed": 4,
+        "avg": 63.3,
+        "median": 60,
+        "red": 16,
+        "green": 8,
+        "red_pct": 26,
+        "green_pct": 13,
+        "fail_pct": 6,
+        "best": {
+          "url": "https://imoveisvillar.com.br/",
+          "country": "Brazil",
+          "city": "Sao Paulo",
+          "city_source": "harvest",
+          "niche": "realtor",
+          "platform": "unknown",
+          "perf": "100",
+          "a11y": "100",
+          "best_practices": "100",
+          "seo": "100",
+          "LCP_ms": "1622",
+          "CLS": "0",
+          "TBT_ms": "0",
+          "FCP_ms": "769",
+          "bytes": "13660",
+          "render_blocking": "",
+          "load_category": "",
+          "error": "",
+          "perf_i": 100
+        },
+        "worst": {
+          "url": "https://www.carbonorefrigeracao.com/",
+          "country": "Brazil",
+          "city": "Sao Paulo",
+          "city_source": "harvest",
+          "niche": "hvac",
+          "platform": "",
+          "perf": "17",
+          "a11y": "95",
+          "best_practices": "96",
+          "seo": "92",
+          "LCP_ms": "3945",
+          "CLS": "1",
+          "TBT_ms": "9187",
+          "FCP_ms": "3211",
+          "bytes": "683319",
+          "render_blocking": "",
+          "load_category": "",
+          "error": "",
+          "perf_i": 17
+        },
+        "niches": [
+          {
+            "niche": "realtor",
+            "label": "Real estate",
+            "n": 17,
+            "avg": 67.7,
+            "red_pct": 24,
+            "green_pct": 24
+          },
+          {
+            "niche": "physio",
+            "label": "Physiotherapy",
+            "n": 14,
+            "avg": 64.8,
+            "red_pct": 14,
+            "green_pct": 14
+          },
+          {
+            "niche": "optometrist",
+            "label": "Optometry",
+            "n": 8,
+            "avg": 63.9,
+            "red_pct": 38,
+            "green_pct": 12
+          },
+          {
+            "niche": "hvac",
+            "label": "HVAC",
+            "n": 9,
+            "avg": 62.8,
+            "red_pct": 33,
+            "green_pct": 0
+          },
+          {
+            "niche": "dental",
+            "label": "Dental",
+            "n": 13,
+            "avg": 56.1,
+            "red_pct": 31,
+            "green_pct": 8
+          }
+        ],
+        "cities": [
+          {
+            "city": "Sao Paulo",
+            "slug": "sao-paulo",
+            "n": 61,
+            "attempted": 65,
+            "avg": 63.3,
+            "median": 60,
+            "red": 16,
+            "red_pct": 26,
+            "green_pct": 13,
+            "fail_pct": 6,
+            "rankable": true,
+            "niches": [
+              {
+                "niche": "realtor",
+                "label": "Real estate",
+                "n": 17,
+                "avg": 67.7,
+                "red_pct": 24,
+                "green_pct": 24
+              },
+              {
+                "niche": "physio",
+                "label": "Physiotherapy",
+                "n": 14,
+                "avg": 64.8,
+                "red_pct": 14,
+                "green_pct": 14
+              },
+              {
+                "niche": "optometrist",
+                "label": "Optometry",
+                "n": 8,
+                "avg": 63.9,
+                "red_pct": 38,
+                "green_pct": 12
+              },
+              {
+                "niche": "hvac",
+                "label": "HVAC",
+                "n": 9,
+                "avg": 62.8,
+                "red_pct": 33,
+                "green_pct": 0
+              },
+              {
+                "niche": "dental",
+                "label": "Dental",
+                "n": 13,
+                "avg": 56.1,
+                "red_pct": 31,
+                "green_pct": 8
+              }
+            ],
+            "best": {
+              "url": "https://imoveisvillar.com.br/",
+              "country": "Brazil",
+              "city": "Sao Paulo",
+              "city_source": "harvest",
+              "niche": "realtor",
+              "platform": "unknown",
+              "perf": "100",
+              "a11y": "100",
+              "best_practices": "100",
+              "seo": "100",
+              "LCP_ms": "1622",
+              "CLS": "0",
+              "TBT_ms": "0",
+              "FCP_ms": "769",
+              "bytes": "13660",
+              "render_blocking": "",
+              "load_category": "",
+              "error": "",
+              "perf_i": 100
+            },
+            "worst": {
+              "url": "https://www.carbonorefrigeracao.com/",
+              "country": "Brazil",
+              "city": "Sao Paulo",
+              "city_source": "harvest",
+              "niche": "hvac",
+              "platform": "",
+              "perf": "17",
+              "a11y": "95",
+              "best_practices": "96",
+              "seo": "92",
+              "LCP_ms": "3945",
+              "CLS": "1",
+              "TBT_ms": "9187",
+              "FCP_ms": "3211",
+              "bytes": "683319",
+              "render_blocking": "",
+              "load_category": "",
+              "error": "",
+              "perf_i": 17
+            },
+            "commentary": [
+              "Average mobile performance score across 61 measured sites: 63.3/100.",
+              "Fastest industry measured here: Real estate at 67.7/100 (n=17). Slowest: Dental at 56.1/100 (n=13).",
+              "Fastest site measured: https://imoveisvillar.com.br/ at 100/100. Slowest: https://www.carbonorefrigeracao.com/ at 17/100.",
+              "26% of measured sites score below 50/100; 13% reach 90 or better."
+            ]
+          }
+        ],
+        "ranked": [
+          {
+            "city": "Sao Paulo",
+            "slug": "sao-paulo",
+            "n": 61,
+            "attempted": 65,
+            "avg": 63.3,
+            "median": 60,
+            "red": 16,
+            "red_pct": 26,
+            "green_pct": 13,
+            "fail_pct": 6,
+            "rankable": true,
+            "niches": [
+              {
+                "niche": "realtor",
+                "label": "Real estate",
+                "n": 17,
+                "avg": 67.7,
+                "red_pct": 24,
+                "green_pct": 24
+              },
+              {
+                "niche": "physio",
+                "label": "Physiotherapy",
+                "n": 14,
+                "avg": 64.8,
+                "red_pct": 14,
+                "green_pct": 14
+              },
+              {
+                "niche": "optometrist",
+                "label": "Optometry",
+                "n": 8,
+                "avg": 63.9,
+                "red_pct": 38,
+                "green_pct": 12
+              },
+              {
+                "niche": "hvac",
+                "label": "HVAC",
+                "n": 9,
+                "avg": 62.8,
+                "red_pct": 33,
+                "green_pct": 0
+              },
+              {
+                "niche": "dental",
+                "label": "Dental",
+                "n": 13,
+                "avg": 56.1,
+                "red_pct": 31,
+                "green_pct": 8
+              }
+            ],
+            "best": {
+              "url": "https://imoveisvillar.com.br/",
+              "country": "Brazil",
+              "city": "Sao Paulo",
+              "city_source": "harvest",
+              "niche": "realtor",
+              "platform": "unknown",
+              "perf": "100",
+              "a11y": "100",
+              "best_practices": "100",
+              "seo": "100",
+              "LCP_ms": "1622",
+              "CLS": "0",
+              "TBT_ms": "0",
+              "FCP_ms": "769",
+              "bytes": "13660",
+              "render_blocking": "",
+              "load_category": "",
+              "error": "",
+              "perf_i": 100
+            },
+            "worst": {
+              "url": "https://www.carbonorefrigeracao.com/",
+              "country": "Brazil",
+              "city": "Sao Paulo",
+              "city_source": "harvest",
+              "niche": "hvac",
+              "platform": "",
+              "perf": "17",
+              "a11y": "95",
+              "best_practices": "96",
+              "seo": "92",
+              "LCP_ms": "3945",
+              "CLS": "1",
+              "TBT_ms": "9187",
+              "FCP_ms": "3211",
+              "bytes": "683319",
+              "render_blocking": "",
+              "load_category": "",
+              "error": "",
+              "perf_i": 17
+            },
+            "commentary": [
+              "Average mobile performance score across 61 measured sites: 63.3/100.",
+              "Fastest industry measured here: Real estate at 67.7/100 (n=17). Slowest: Dental at 56.1/100 (n=13).",
+              "Fastest site measured: https://imoveisvillar.com.br/ at 100/100. Slowest: https://www.carbonorefrigeracao.com/ at 17/100.",
+              "26% of measured sites score below 50/100; 13% reach 90 or better."
+            ]
+          }
+        ],
+        "sampling": [],
+        "unmapped": 0,
+        "measurements": 65,
+        "multi_city": [],
+        "commentary": [
+          "Average mobile performance score across 61 measured sites: 63.3/100.",
+          "Fastest industry measured here: Real estate at 67.7/100 (n=17). Slowest: Dental at 56.1/100 (n=13).",
+          "Fastest site measured: https://imoveisvillar.com.br/ at 100/100. Slowest: https://www.carbonorefrigeracao.com/ at 17/100.",
+          "26% of measured sites score below 50/100; 13% reach 90 or better."
+        ]
+      },
+      {
+        "country": "Saudi Arabia",
+        "slug": "saudi-arabia",
+        "label": "Saudi Arabia",
+        "attempted": 52,
+        "scored": 51,
+        "failed": 1,
+        "avg": 62.8,
+        "median": 64,
+        "red": 11,
+        "green": 4,
+        "red_pct": 22,
+        "green_pct": 8,
+        "fail_pct": 2,
+        "best": {
+          "url": "https://el-riyadh.com/",
+          "country": "Saudi Arabia",
+          "city": "Riyadh",
+          "city_source": "harvest",
+          "niche": "hvac",
+          "platform": "WordPress",
+          "perf": "99",
+          "a11y": "100",
+          "best_practices": "100",
+          "seo": "100",
+          "LCP_ms": "1095",
+          "CLS": "0",
+          "TBT_ms": "2",
+          "FCP_ms": "1068",
+          "bytes": "36694",
+          "render_blocking": "",
+          "load_category": "",
+          "error": "",
+          "perf_i": 99
+        },
+        "worst": {
+          "url": "https://fayunited.com.sa/",
+          "country": "Saudi Arabia",
+          "city": "Riyadh",
+          "city_source": "harvest",
+          "niche": "realtor",
+          "platform": "WordPress",
+          "perf": "27",
+          "a11y": "93",
+          "best_practices": "100",
+          "seo": "100",
+          "LCP_ms": "20479",
+          "CLS": "0",
+          "TBT_ms": "10689",
+          "FCP_ms": "4206",
+          "bytes": "4721241",
+          "render_blocking": "",
+          "load_category": "AVERAGE",
+          "error": "",
+          "perf_i": 27
+        },
+        "niches": [
+          {
+            "niche": "hvac",
+            "label": "HVAC",
+            "n": 10,
+            "avg": 69.3,
+            "red_pct": 0,
+            "green_pct": 10
+          },
+          {
+            "niche": "physio",
+            "label": "Physiotherapy",
+            "n": 10,
+            "avg": 63.8,
+            "red_pct": 10,
+            "green_pct": 0
+          },
+          {
+            "niche": "realtor",
+            "label": "Real estate",
+            "n": 11,
+            "avg": 61.6,
+            "red_pct": 27,
+            "green_pct": 9
+          },
+          {
+            "niche": "dental",
+            "label": "Dental",
+            "n": 9,
+            "avg": 60.1,
+            "red_pct": 33,
+            "green_pct": 0
+          },
+          {
+            "niche": "optometrist",
+            "label": "Optometry",
+            "n": 11,
+            "avg": 59.3,
+            "red_pct": 36,
+            "green_pct": 18
+          }
+        ],
+        "cities": [
+          {
+            "city": "Riyadh",
+            "slug": "riyadh",
+            "n": 51,
+            "attempted": 52,
+            "avg": 62.8,
+            "median": 64,
+            "red": 11,
+            "red_pct": 22,
+            "green_pct": 8,
+            "fail_pct": 2,
+            "rankable": true,
+            "niches": [
+              {
+                "niche": "hvac",
+                "label": "HVAC",
+                "n": 10,
+                "avg": 69.3,
+                "red_pct": 0,
+                "green_pct": 10
+              },
+              {
+                "niche": "physio",
+                "label": "Physiotherapy",
+                "n": 10,
+                "avg": 63.8,
+                "red_pct": 10,
+                "green_pct": 0
+              },
+              {
+                "niche": "realtor",
+                "label": "Real estate",
+                "n": 11,
+                "avg": 61.6,
+                "red_pct": 27,
+                "green_pct": 9
+              },
+              {
+                "niche": "dental",
+                "label": "Dental",
+                "n": 9,
+                "avg": 60.1,
+                "red_pct": 33,
+                "green_pct": 0
+              },
+              {
+                "niche": "optometrist",
+                "label": "Optometry",
+                "n": 11,
+                "avg": 59.3,
+                "red_pct": 36,
+                "green_pct": 18
+              }
+            ],
+            "best": {
+              "url": "https://el-riyadh.com/",
+              "country": "Saudi Arabia",
+              "city": "Riyadh",
+              "city_source": "harvest",
+              "niche": "hvac",
+              "platform": "WordPress",
+              "perf": "99",
+              "a11y": "100",
+              "best_practices": "100",
+              "seo": "100",
+              "LCP_ms": "1095",
+              "CLS": "0",
+              "TBT_ms": "2",
+              "FCP_ms": "1068",
+              "bytes": "36694",
+              "render_blocking": "",
+              "load_category": "",
+              "error": "",
+              "perf_i": 99
+            },
+            "worst": {
+              "url": "https://fayunited.com.sa/",
+              "country": "Saudi Arabia",
+              "city": "Riyadh",
+              "city_source": "harvest",
+              "niche": "realtor",
+              "platform": "WordPress",
+              "perf": "27",
+              "a11y": "93",
+              "best_practices": "100",
+              "seo": "100",
+              "LCP_ms": "20479",
+              "CLS": "0",
+              "TBT_ms": "10689",
+              "FCP_ms": "4206",
+              "bytes": "4721241",
+              "render_blocking": "",
+              "load_category": "AVERAGE",
+              "error": "",
+              "perf_i": 27
+            },
+            "commentary": [
+              "Average mobile performance score across 51 measured sites: 62.8/100.",
+              "Fastest industry measured here: HVAC at 69.3/100 (n=10). Slowest: Optometry at 59.3/100 (n=11).",
+              "Fastest site measured: https://el-riyadh.com/ at 99/100. Slowest: https://fayunited.com.sa/ at 27/100.",
+              "22% of measured sites score below 50/100; 8% reach 90 or better."
+            ]
+          }
+        ],
+        "ranked": [
+          {
+            "city": "Riyadh",
+            "slug": "riyadh",
+            "n": 51,
+            "attempted": 52,
+            "avg": 62.8,
+            "median": 64,
+            "red": 11,
+            "red_pct": 22,
+            "green_pct": 8,
+            "fail_pct": 2,
+            "rankable": true,
+            "niches": [
+              {
+                "niche": "hvac",
+                "label": "HVAC",
+                "n": 10,
+                "avg": 69.3,
+                "red_pct": 0,
+                "green_pct": 10
+              },
+              {
+                "niche": "physio",
+                "label": "Physiotherapy",
+                "n": 10,
+                "avg": 63.8,
+                "red_pct": 10,
+                "green_pct": 0
+              },
+              {
+                "niche": "realtor",
+                "label": "Real estate",
+                "n": 11,
+                "avg": 61.6,
+                "red_pct": 27,
+                "green_pct": 9
+              },
+              {
+                "niche": "dental",
+                "label": "Dental",
+                "n": 9,
+                "avg": 60.1,
+                "red_pct": 33,
+                "green_pct": 0
+              },
+              {
+                "niche": "optometrist",
+                "label": "Optometry",
+                "n": 11,
+                "avg": 59.3,
+                "red_pct": 36,
+                "green_pct": 18
+              }
+            ],
+            "best": {
+              "url": "https://el-riyadh.com/",
+              "country": "Saudi Arabia",
+              "city": "Riyadh",
+              "city_source": "harvest",
+              "niche": "hvac",
+              "platform": "WordPress",
+              "perf": "99",
+              "a11y": "100",
+              "best_practices": "100",
+              "seo": "100",
+              "LCP_ms": "1095",
+              "CLS": "0",
+              "TBT_ms": "2",
+              "FCP_ms": "1068",
+              "bytes": "36694",
+              "render_blocking": "",
+              "load_category": "",
+              "error": "",
+              "perf_i": 99
+            },
+            "worst": {
+              "url": "https://fayunited.com.sa/",
+              "country": "Saudi Arabia",
+              "city": "Riyadh",
+              "city_source": "harvest",
+              "niche": "realtor",
+              "platform": "WordPress",
+              "perf": "27",
+              "a11y": "93",
+              "best_practices": "100",
+              "seo": "100",
+              "LCP_ms": "20479",
+              "CLS": "0",
+              "TBT_ms": "10689",
+              "FCP_ms": "4206",
+              "bytes": "4721241",
+              "render_blocking": "",
+              "load_category": "AVERAGE",
+              "error": "",
+              "perf_i": 27
+            },
+            "commentary": [
+              "Average mobile performance score across 51 measured sites: 62.8/100.",
+              "Fastest industry measured here: HVAC at 69.3/100 (n=10). Slowest: Optometry at 59.3/100 (n=11).",
+              "Fastest site measured: https://el-riyadh.com/ at 99/100. Slowest: https://fayunited.com.sa/ at 27/100.",
+              "22% of measured sites score below 50/100; 8% reach 90 or better."
+            ]
+          }
+        ],
+        "sampling": [],
+        "unmapped": 0,
+        "measurements": 52,
+        "multi_city": [],
+        "commentary": [
+          "Average mobile performance score across 51 measured sites: 62.8/100.",
+          "Fastest industry measured here: HVAC at 69.3/100 (n=10). Slowest: Optometry at 59.3/100 (n=11).",
+          "Fastest site measured: https://el-riyadh.com/ at 99/100. Slowest: https://fayunited.com.sa/ at 27/100.",
+          "22% of measured sites score below 50/100; 8% reach 90 or better."
+        ]
+      },
+      {
+        "country": "Singapore",
+        "slug": "singapore",
+        "label": "Singapore",
+        "attempted": 54,
+        "scored": 53,
+        "failed": 1,
+        "avg": 63.5,
+        "median": 61,
+        "red": 12,
+        "green": 5,
+        "red_pct": 23,
+        "green_pct": 9,
+        "fail_pct": 2,
+        "best": {
+          "url": "https://www.freezyaircon.com/",
+          "country": "Singapore",
+          "city": "Singapore",
+          "city_source": "harvest",
+          "niche": "hvac",
+          "platform": "",
+          "perf": "100",
+          "a11y": "73",
+          "best_practices": "96",
+          "seo": "36",
+          "LCP_ms": "760",
+          "CLS": "0",
+          "TBT_ms": "0",
+          "FCP_ms": "760",
+          "bytes": "13616",
+          "render_blocking": "",
+          "load_category": "",
+          "error": "",
+          "perf_i": 100
+        },
+        "worst": {
+          "url": "https://letscoolaircon.com.sg/",
+          "country": "Singapore",
+          "city": "Singapore",
+          "city_source": "harvest",
+          "niche": "hvac",
+          "platform": "WordPress",
+          "perf": "26",
+          "a11y": "77",
+          "best_practices": "88",
+          "seo": "92",
+          "LCP_ms": "10817",
+          "CLS": "0",
+          "TBT_ms": "1207",
+          "FCP_ms": "4870",
+          "bytes": "6427636",
+          "render_blocking": "",
+          "load_category": "SLOW",
+          "error": "",
+          "perf_i": 26
+        },
+        "niches": [
+          {
+            "niche": "realtor",
+            "label": "Real estate",
+            "n": 11,
+            "avg": 70.5,
+            "red_pct": 0,
+            "green_pct": 18
+          },
+          {
+            "niche": "hvac",
+            "label": "HVAC",
+            "n": 10,
+            "avg": 64.9,
+            "red_pct": 30,
+            "green_pct": 20
+          },
+          {
+            "niche": "physio",
+            "label": "Physiotherapy",
+            "n": 10,
+            "avg": 64.5,
+            "red_pct": 30,
+            "green_pct": 10
+          },
+          {
+            "niche": "dental",
+            "label": "Dental",
+            "n": 11,
+            "avg": 59.7,
+            "red_pct": 27,
+            "green_pct": 0
+          },
+          {
+            "niche": "optometrist",
+            "label": "Optometry",
+            "n": 11,
+            "avg": 58,
+            "red_pct": 27,
+            "green_pct": 0
+          }
+        ],
+        "cities": [
+          {
+            "city": "Singapore",
+            "slug": "singapore",
+            "n": 53,
+            "attempted": 54,
+            "avg": 63.5,
+            "median": 61,
+            "red": 12,
+            "red_pct": 23,
+            "green_pct": 9,
+            "fail_pct": 2,
+            "rankable": true,
+            "niches": [
+              {
+                "niche": "realtor",
+                "label": "Real estate",
+                "n": 11,
+                "avg": 70.5,
+                "red_pct": 0,
+                "green_pct": 18
+              },
+              {
+                "niche": "hvac",
+                "label": "HVAC",
+                "n": 10,
+                "avg": 64.9,
+                "red_pct": 30,
+                "green_pct": 20
+              },
+              {
+                "niche": "physio",
+                "label": "Physiotherapy",
+                "n": 10,
+                "avg": 64.5,
+                "red_pct": 30,
+                "green_pct": 10
+              },
+              {
+                "niche": "dental",
+                "label": "Dental",
+                "n": 11,
+                "avg": 59.7,
+                "red_pct": 27,
+                "green_pct": 0
+              },
+              {
+                "niche": "optometrist",
+                "label": "Optometry",
+                "n": 11,
+                "avg": 58,
+                "red_pct": 27,
+                "green_pct": 0
+              }
+            ],
+            "best": {
+              "url": "https://www.freezyaircon.com/",
+              "country": "Singapore",
+              "city": "Singapore",
+              "city_source": "harvest",
+              "niche": "hvac",
+              "platform": "",
+              "perf": "100",
+              "a11y": "73",
+              "best_practices": "96",
+              "seo": "36",
+              "LCP_ms": "760",
+              "CLS": "0",
+              "TBT_ms": "0",
+              "FCP_ms": "760",
+              "bytes": "13616",
+              "render_blocking": "",
+              "load_category": "",
+              "error": "",
+              "perf_i": 100
+            },
+            "worst": {
+              "url": "https://letscoolaircon.com.sg/",
+              "country": "Singapore",
+              "city": "Singapore",
+              "city_source": "harvest",
+              "niche": "hvac",
+              "platform": "WordPress",
+              "perf": "26",
+              "a11y": "77",
+              "best_practices": "88",
+              "seo": "92",
+              "LCP_ms": "10817",
+              "CLS": "0",
+              "TBT_ms": "1207",
+              "FCP_ms": "4870",
+              "bytes": "6427636",
+              "render_blocking": "",
+              "load_category": "SLOW",
+              "error": "",
+              "perf_i": 26
+            },
+            "commentary": [
+              "Average mobile performance score across 53 measured sites: 63.5/100.",
+              "Fastest industry measured here: Real estate at 70.5/100 (n=11). Slowest: Optometry at 58/100 (n=11).",
+              "Fastest site measured: https://www.freezyaircon.com/ at 100/100. Slowest: https://letscoolaircon.com.sg/ at 26/100.",
+              "23% of measured sites score below 50/100; 9% reach 90 or better."
+            ]
+          }
+        ],
+        "ranked": [
+          {
+            "city": "Singapore",
+            "slug": "singapore",
+            "n": 53,
+            "attempted": 54,
+            "avg": 63.5,
+            "median": 61,
+            "red": 12,
+            "red_pct": 23,
+            "green_pct": 9,
+            "fail_pct": 2,
+            "rankable": true,
+            "niches": [
+              {
+                "niche": "realtor",
+                "label": "Real estate",
+                "n": 11,
+                "avg": 70.5,
+                "red_pct": 0,
+                "green_pct": 18
+              },
+              {
+                "niche": "hvac",
+                "label": "HVAC",
+                "n": 10,
+                "avg": 64.9,
+                "red_pct": 30,
+                "green_pct": 20
+              },
+              {
+                "niche": "physio",
+                "label": "Physiotherapy",
+                "n": 10,
+                "avg": 64.5,
+                "red_pct": 30,
+                "green_pct": 10
+              },
+              {
+                "niche": "dental",
+                "label": "Dental",
+                "n": 11,
+                "avg": 59.7,
+                "red_pct": 27,
+                "green_pct": 0
+              },
+              {
+                "niche": "optometrist",
+                "label": "Optometry",
+                "n": 11,
+                "avg": 58,
+                "red_pct": 27,
+                "green_pct": 0
+              }
+            ],
+            "best": {
+              "url": "https://www.freezyaircon.com/",
+              "country": "Singapore",
+              "city": "Singapore",
+              "city_source": "harvest",
+              "niche": "hvac",
+              "platform": "",
+              "perf": "100",
+              "a11y": "73",
+              "best_practices": "96",
+              "seo": "36",
+              "LCP_ms": "760",
+              "CLS": "0",
+              "TBT_ms": "0",
+              "FCP_ms": "760",
+              "bytes": "13616",
+              "render_blocking": "",
+              "load_category": "",
+              "error": "",
+              "perf_i": 100
+            },
+            "worst": {
+              "url": "https://letscoolaircon.com.sg/",
+              "country": "Singapore",
+              "city": "Singapore",
+              "city_source": "harvest",
+              "niche": "hvac",
+              "platform": "WordPress",
+              "perf": "26",
+              "a11y": "77",
+              "best_practices": "88",
+              "seo": "92",
+              "LCP_ms": "10817",
+              "CLS": "0",
+              "TBT_ms": "1207",
+              "FCP_ms": "4870",
+              "bytes": "6427636",
+              "render_blocking": "",
+              "load_category": "SLOW",
+              "error": "",
+              "perf_i": 26
+            },
+            "commentary": [
+              "Average mobile performance score across 53 measured sites: 63.5/100.",
+              "Fastest industry measured here: Real estate at 70.5/100 (n=11). Slowest: Optometry at 58/100 (n=11).",
+              "Fastest site measured: https://www.freezyaircon.com/ at 100/100. Slowest: https://letscoolaircon.com.sg/ at 26/100.",
+              "23% of measured sites score below 50/100; 9% reach 90 or better."
+            ]
+          }
+        ],
+        "sampling": [],
+        "unmapped": 0,
+        "measurements": 54,
+        "multi_city": [],
+        "commentary": [
+          "Average mobile performance score across 53 measured sites: 63.5/100.",
+          "Fastest industry measured here: Real estate at 70.5/100 (n=11). Slowest: Optometry at 58/100 (n=11).",
+          "Fastest site measured: https://www.freezyaircon.com/ at 100/100. Slowest: https://letscoolaircon.com.sg/ at 26/100.",
+          "23% of measured sites score below 50/100; 9% reach 90 or better."
+        ]
       }
     ],
-    "country_count": 2,
-    "city_count": 80,
-    "ranked_city_count": 44,
+    "country_count": 6,
+    "city_count": 84,
+    "ranked_city_count": 48,
     "best_city": {
       "city": "Surrey",
       "slug": "surrey",
@@ -14104,10 +15380,10 @@
       "clareo.ca"
     ],
     "commentary": [
-      "Average mobile performance score across 1906 measured sites: 57.6/100.",
-      "Fastest industry measured here: HVAC at 60.0/100 (n=391). Slowest: Dental at 55.8/100 (n=545).",
+      "Average mobile performance score across 2123 measured sites: 58.2/100.",
+      "Fastest industry measured here: HVAC at 60.6/100 (n=430). Slowest: Dental at 56.2/100 (n=591).",
       "Fastest site measured: drdentalclinics.ca at 100/100. Slowest: smiledentalclinics.com at 4/100.",
-      "35% of measured sites score below 50/100; 7% reach 90 or better."
+      "34% of measured sites score below 50/100; 7% reach 90 or better."
     ]
   }
 }
