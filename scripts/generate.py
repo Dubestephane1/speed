@@ -632,13 +632,23 @@ STATIC_URLS = ["/", "/audit", "/how-it-works", "/blog", "/contact",
 
 
 def render_sitemap(agg: dict) -> str:
+    """Extensionless URLs, matching what the Worker actually serves.
+
+    Changed 2026-09-30: these were emitted as .html, so every one of the 50 URLs in the
+    sitemap returned a 307 to the extensionless form. Measured with HEAD against the live
+    site: /cities/charlotte.html -> 307, /cities/charlotte -> 200. Google was being handed
+    50 bouncing addresses and never introduced to the 50 real ones, and `site:` on the
+    domain returned zero indexed pages. Do not put .html back here.
+    """
     urls = list(STATIC_URLS)
     for c in agg["global"]["countries"]:
-        urls.append(f"/countries/{c['slug']}.html")
+        urls.append(f"/countries/{c['slug']}")
         for city in c["ranked"]:
-            urls.append(f"/cities/{city['slug']}.html")
+            urls.append(f"/cities/{city['slug']}")
+    lastmod = date.today().isoformat()
     body = "\n".join(
-        f"  <url><loc>{SITE}{u}</loc></url>" for u in dict.fromkeys(urls))
+        f"  <url><loc>{SITE}{u}</loc><lastmod>{lastmod}</lastmod></url>"
+        for u in dict.fromkeys(urls))
     return ('<?xml version="1.0" encoding="UTF-8"?>\n'
             '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
             f"{body}\n</urlset>\n")
